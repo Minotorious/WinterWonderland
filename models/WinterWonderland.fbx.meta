@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta id="1ff3f35f-4255-4789-9a19-5f0952260b5e">
+	<meta id="98c87758-82d2-4eb2-bb6e-7dfcb3be9c07" type="group" folder="true" name="Materials">
+		<meta id="121db5d5-0350-4aad-b073-d76972c6708b" name="Material.Transparent"/>
+	</meta>
+	<meta id="411f0a86-8d79-49a7-8a0c-d3f3aa71b2fb" type="group" folder="true" name="Meshes">
+		<meta id="176b3c44-72a3-4705-8988-6fdfab6e12a0" name="SnowflakeEmitterLargePart_Material.Transparent"/>
+	</meta>
+	<meta id="532ea8b8-f4e1-4c10-b22e-2cf6e2643c1d" name="Prefab">
+		<meta id="79e9b250-650c-4de6-818e-1eb601f876ae" name="Light"/>
+		<meta id="6273f49e-efed-41f0-aafc-0ec6efe12ba6" name="Camera"/>
+		<meta id="20a64ab9-0014-435a-97e3-5256ddc74771" name="SnowflakeEmitterLargePart">
+			<meta id="f8aea4fa-aed1-47da-ac21-32afc21052cd" name="SnowflakeEmitterLargeBlue"/>
+			<meta id="240df7b8-8951-411d-ae7a-ff1d837ce9f2" name="SnowflakeEmitterLargeWhite"/>
+		</meta>
+		<meta id="3599dff1-7e44-4fdc-a4a3-e032f60a8ff2" name="SnowflakeEmitterMediumPart">
+			<meta id="60fceeea-f554-46e0-8fb8-cbaeb10e86e4" name="SnowflakeEmitterMediumBlue"/>
+			<meta id="44aec509-9ac4-4ae2-9295-115dd5c79670" name="SnowflakeEmitterMediumWhite"/>
+		</meta>
+		<meta id="373575d8-183b-434e-9e41-61996794d4d7" name="SnowflakeEmitterSmallPart">
+			<meta id="f7287ff8-0c6e-426e-a844-5281d9fed4cf" name="SnowflakeEmitterSmallBlue"/>
+			<meta id="7d0b601f-23fc-49d4-8e8f-a044bb20b132" name="SnowflakeEmitterSmallWhite"/>
+		</meta>
+		<meta id="d9d0617d-e008-4ec8-b897-8b6a4dbe60d6" name="SnowfallEmitterLargePart">
+			<meta id="2b70d364-0765-4374-9678-227894096a24" name="SnowfallEmitterLarge"/>
+		</meta>
+		<meta id="618888bb-2c91-49a0-b806-a0cc046decc3" name="SnowfallEmitterMediumPart">
+			<meta id="4f57f4c4-6c60-41d8-ba24-558902a9363f" name="SnowfallEmitterMedium"/>
+		</meta>
+		<meta id="dab2c888-24ea-41b6-b809-d761a3e7623e" name="SnowfallEmitterSmallPart">
+			<meta id="d94aec12-0eb5-4309-85ba-9e445da03ac9" name="SnowfallEmitterSmall"/>
+		</meta>
+	</meta>
+</meta>
+<importer type="GamCFbxImporterConfiguration">
+	<Md5Checksum value="8aa4c38e4f8cd7d772e0251fbf81ab99"/>
+	<Scale value="0.01"/>
+	<PatchMeshOffset value="true"/>
+	<UniqueNodeName value="false"/>
+	<ImportAnimation value="false"/>
+	<IgnoreRootAnimation value="false"/>
+	<FlipXAxis value="true"/>
+	<MergeDuplicateMeshes value="true"/>
+	<GenerateLod value="false"/>
+	<OverrideExistingLod value="false"/>
+	<NodeConfig type="GenCFbxNodeConfig">
+		<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+		<ChildList>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Light"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Camera"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowflakeEmitterLargeBlue"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowflakeEmitterLargeWhite"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SnowflakeEmitterLargePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowflakeEmitterMediumBlue"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowflakeEmitterMediumWhite"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SnowflakeEmitterMediumPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowflakeEmitterSmallBlue"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowflakeEmitterSmallWhite"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SnowflakeEmitterSmallPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowfallEmitterLarge"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SnowfallEmitterLargePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowfallEmitterMedium"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SnowfallEmitterMediumPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowfallEmitterSmall"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SnowfallEmitterSmallPart"/>
+			</Item>
+		</ChildList>
+		<NodeName value="Prefab"/>
+	</NodeConfig>
+	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="121db5d5-0350-4aad-b073-d76972c6708b"/>
+			<MaterialName value="Material.Transparent"/>
+		</Item>
+	</MaterialList>
+</importer>
+

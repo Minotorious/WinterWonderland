@@ -1,0 +1,13 @@
+{
+	"": {
+        "SNOWFLAKE_EMITTER_LARGE_NAME": "Snowflake Emitter Large",
+        "SNOWFLAKE_EMITTER_LARGE_DESC": "A Large Snowflake Emitter, high CPU stress!",
+        "SNOWFLAKE_EMITTER_LARGE_PART_DESC": "A Large Snowflake Emitter, high CPU stress!",
+        "SNOWFLAKE_EMITTER_MEDIUM_NAME": "Snowflake Emitter Medium",
+        "SNOWFLAKE_EMITTER_MEDIUM_DESC": "A Medium Snowflake Emitter, average CPU stress!",
+        "SNOWFLAKE_EMITTER_MEDIUM_PART_DESC": "A Medium Snowflake Emitter, average CPU stress!",
+        "SNOWFLAKE_EMITTER_SMALL_NAME": "Snowflake Emitter Small",
+        "SNOWFLAKE_EMITTER_SMALL_DESC": "A Small Snowflake Emitter, low CPU stress!",
+        "SNOWFLAKE_EMITTER_SMALL_PART_DESC": "A Small Snowflake Emitter, low CPU stress!"
+	}
+}

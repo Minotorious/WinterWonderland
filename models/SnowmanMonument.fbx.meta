@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta id="ce6206e5-4745-4f1e-a74d-1f038bfa2560">
+	<meta id="9f996ddf-238e-458f-9d20-70ebc6f33e39" type="group" folder="true" name="Materials">
+		<meta id="1d7a2efc-8ddf-49d1-b698-a2c24d039a18" name="Material.Carrot"/>
+		<meta id="710b7a3d-1438-4607-be89-499c8b11ad77" name="Material.ButtonBlack"/>
+		<meta id="5a4817cb-4c72-48d5-89a4-c21a2b20829a" name="Material.Cigar"/>
+		<meta id="ce1a324c-e6fa-443a-af95-e71c2a40787b" name="Material.HatBlack"/>
+		<meta id="9a273f80-3e2a-4115-bd6f-9a716c253e3f" name="Material.Bark"/>
+		<meta id="d60b0730-d696-4ff1-8aab-a9e3dd104c64" name="Material.HatRibbonRed"/>
+		<meta id="c1848721-044c-4cdb-9dc4-221c46371d4b" name="Material.ButtonRed"/>
+		<meta id="fb7633b6-de40-456d-bbd4-1cd700552f20" name="Material.ButtonPurple"/>
+		<meta id="ebc7b0c3-e97d-4bb1-b76a-a09e6f6b6b54" name="Material.ButtonBlue"/>
+		<meta id="28a42297-118c-485a-9e23-4f1963c97b47" name="Material.ButtonOrange"/>
+		<meta id="a91ce7f9-a574-414e-97cb-ad9dbde88421" name="Material.ButtonCyan"/>
+		<meta id="1a925bb8-cd32-489a-97c9-4b15a575bbf0" name="Material.ButtonGreen"/>
+		<meta id="62c307e5-b064-4ea9-be27-6ef1d9b50592" name="MaterialHatRibbonBlue"/>
+		<meta id="736a4265-93f1-42e9-8fcc-e116488a755f" name="Material.HatRibbonYellow"/>
+		<meta id="dcb373d6-b27e-4880-b4cd-db590873a64f" name="Material.HatRibbonPurple"/>
+		<meta id="f59c2ebb-dc3f-466d-ab72-8595f2d4f084" name="Material.SnowWhite"/>
+		<meta id="62b8bc6a-b997-4b42-8c61-3ae2d4fb0b57" name="Material.SnowBlue"/>
+		<meta id="34290537-896d-4127-91ce-9762ffa1be54" name="Material.SnowOrange"/>
+	</meta>
+	<meta id="19e8a25f-a33d-406e-a7d4-cc819ab02f3a" type="group" folder="true" name="Meshes">
+		<meta id="949c6894-7c45-4478-9205-8605faa852b3" name="SnowBaseBluePart_Material.SnowBlue"/>
+		<meta id="bbbc153c-2d3d-4e73-ab13-0a6e8c4f473c" name="SnowBaseOrangePart_Material.SnowOrange"/>
+		<meta id="3a94f55b-5f99-4524-8520-1866fd0ccca0" name="SnowmanBaseBluePart_Material.SnowBlue"/>
+		<meta id="7f9a2a98-4dae-4774-bbe8-8ade489ebfac" name="SnowmanBaseOrangePart_Material.SnowOrange"/>
+		<meta id="3e1cc727-ddfa-4e09-a1c3-e2e649233b0e" name="HatRibbonRed_Material.HatBlack"/>
+		<meta id="da85507d-a46d-42ab-af08-1f48db95ce72" name="HatRibbonRed_Material.HatRibbonRed"/>
+		<meta id="89b94013-350f-48cf-bcd9-192665445fed" name="SnowmanBaseWhite_Material.SnowWhite"/>
+		<meta id="18a482b1-8337-4893-a353-d94fe8fbdb61" name="SnowBaseWhite_Material.SnowWhite"/>
+		<meta id="09092aea-c345-4b6f-a7f3-44e6d5093155" name="HatRibbonBlue_Material.HatBlack"/>
+		<meta id="4cd08716-34f4-4c0c-9bf2-035652ded375" name="HatRibbonBlue_MaterialHatRibbonBlue"/>
+		<meta id="908c3247-0026-42b1-994f-4d47f72671bb" name="HatRibbonPurple_Material.HatBlack"/>
+		<meta id="62c7748f-e880-4399-91fc-3cc4a69eb050" name="HatRibbonPurple_Material.HatRibbonPurple"/>
+		<meta id="cff96cec-9c52-46f6-ae37-9c711192aeb0" name="HatRibbonYellow_Material.HatBlack"/>
+		<meta id="9862d869-f290-44d1-896c-fdc62ecc85a3" name="HatRibbonYellow_Material.HatRibbonYellow"/>
+		<meta id="5adc4661-2697-49c2-9787-ba6cddba4f18" name="ExampleSnowballBot_Material.SnowOrange"/>
+		<meta id="6d55ec80-148c-4e3f-a95c-b88467ac4165" name="ExampleSnowballMid_Material.SnowOrange"/>
+		<meta id="b42b9ae8-0b6e-4364-a1c2-97a3088eac1d" name="ExampleSnowballTop_Material.SnowOrange"/>
+		<meta id="04d37f4f-9ce4-41b1-aa9c-cf814c1e5c15" name="ExampleCarrot_Material.Carrot"/>
+		<meta id="7edc27a4-5f95-446d-b24d-9c404458dbb3" name="ExampleButtonEyeR_Material.ButtonRed"/>
+		<meta id="7fae35b3-ff64-4f3f-b618-47c3997697a3" name="ExampleButtonEyeL_Material.ButtonBlack"/>
+		<meta id="da7d70c5-b352-4189-8615-ed28ea07cb19" name="ExampleCigar_Material.Cigar"/>
+		<meta id="6dfee6fc-8e45-4eb2-803c-4db2aad253ae" name="ExampleHat_Material.HatBlack"/>
+		<meta id="0c1bc3b4-0bb9-4aa0-857c-e78261729a10" name="ExampleBranchRight_Material.Bark"/>
+		<meta id="20da79c4-8d07-4dbb-a7c8-76a7e87c9faa" name="ExampleBranchLeft_Material.Bark"/>
+		<meta id="5c1188ed-c0fd-441c-ba20-a8a050af030f" name="ExampleButtonTop_Material.ButtonGreen"/>
+		<meta id="fab57112-22c6-400c-9f7c-1d239a534158" name="ExampleButtonMid_Material.ButtonCyan"/>
+		<meta id="f5c0d4f5-d45e-431a-9442-5414ec9afc78" name="ExampleButtonBot_Material.ButtonPurple"/>
+		<meta id="2f0f430e-cc0d-4b06-9f20-7ce8e3f0fcb0" name="ExampleHatRibbon_MaterialHatRibbonBlue"/>
+		<meta id="ac10253b-1a96-48cb-b9da-f5d1539a1568" name="ExampleSnowBase_Material.SnowWhite"/>
+		<meta id="aa307559-55a5-4df0-8149-7be15ce591fd" name="ButtonBlack_Material.ButtonBlack"/>
+		<meta id="cc123020-ed13-4274-a638-41a871bfaaa7" name="ButtonRed_Material.ButtonRed"/>
+		<meta id="17b34ed3-9397-41c5-8b4c-70e8896abf12" name="ButtonPurple_Material.ButtonPurple"/>
+		<meta id="03d97462-7baf-4d32-918b-078c5df3bfa3" name="ButtonBlue_Material.ButtonBlue"/>
+		<meta id="c3bc1697-1a14-4127-aab3-6275a1ff2eca" name="ButtonOrange_Material.ButtonOrange"/>
+		<meta id="1f97dd20-d101-4ac4-9733-67ad9e4c441d" name="ButtonCyan_Material.ButtonCyan"/>
+		<meta id="08abccdf-2271-4858-bcf0-bbfa209b16d7" name="ButtonGreen_Material.ButtonGreen"/>
+	</meta>
+	<meta id="7a7db191-bfa8-44fb-9818-09a99b101b07" name="Prefab">
+		<meta id="aad40e58-a031-4d8d-abeb-34961b43a7b0" name="Light"/>
+		<meta id="a17466f4-eacc-4cb1-8293-bfe1f615787f" name="Camera"/>
+		<meta id="966c4b2c-392f-4427-bed7-988342d978e2" name="Camera.001"/>
+		<meta id="2604997c-b709-4211-b0e5-5e34ec08bc5b" name="ButtonBlackPart">
+			<meta id="d551e6f6-d140-446c-890c-291d2b157839" name="ButtonBlack"/>
+			<meta id="65c0acf4-9781-401e-9397-c100b6edd5aa" name="Attach_Minor.007"/>
+		</meta>
+		<meta id="60480196-9170-4cc0-8533-22f2307b7cc7" name="ButtonRedPart">
+			<meta id="31dd071f-5a12-4da3-bbae-59184a42581a" name="ButtonRed"/>
+			<meta id="53572d75-3ac0-4ceb-ba26-5949e4e1561f" name="Attach_Minor.006"/>
+		</meta>
+		<meta id="c0b727a8-677a-478c-8a17-b129728d5d1e" name="ButtonPurplePart">
+			<meta id="d8183fef-487f-44c7-9431-9586bbc7bd4a" name="ButtonPurple"/>
+			<meta id="0832da70-81d2-4d29-982e-eb6693577830" name="Attach_Minor.005"/>
+		</meta>
+		<meta id="d228b00b-5981-4c3c-b11f-570f5392d530" name="ButtonBluePart">
+			<meta id="b6a4bd98-9fac-4098-8cb3-09a4b77ece9e" name="ButtonBlue"/>
+			<meta id="4a968e8d-27f0-4b94-a918-def1419c23e9" name="Attach_Minor.001"/>
+		</meta>
+		<meta id="18594852-62ee-4f5d-b30b-a0c09a854652" name="ButtonOrangePart">
+			<meta id="dc46f178-f4fc-419b-b6d3-a0fb182a0d99" name="ButtonOrange"/>
+			<meta id="efec2b47-d828-4054-add4-da01e316f3c2" name="Attach_Minor.004"/>
+		</meta>
+		<meta id="801904bf-98cb-4c8a-8d15-41e970e3f9ff" name="ButtonCyanPart">
+			<meta id="93be36db-271f-4e67-a52b-989b342f2c3f" name="ButtonCyan"/>
+			<meta id="a2cb1984-a611-442f-9aaf-e68af4c36c43" name="Attach_Minor.002"/>
+		</meta>
+		<meta id="c0c4f407-70bf-4609-bfb3-dd403bc34e6f" name="ButtonGreenPart">
+			<meta id="bb111738-474d-45d5-a74c-81cbbf4fc004" name="ButtonGreen"/>
+			<meta id="0d124b38-dc17-4b62-9cec-b9c15ae764f0" name="Attach_Minor.003"/>
+		</meta>
+		<meta id="748efd92-c2ca-4bf9-bc8c-d5f33fcb381c" name="HatRibbonBluePart">
+			<meta id="ece26ecf-3ca7-4d14-815e-8982228033eb" name="HatRibbonBlue">
+				<meta id="335aba5c-f9d7-48a8-bb02-bef65351b7c5" name="HatRibbonBlue_0"/>
+				<meta id="c095a384-4d1f-443a-8355-864fecb2c36c" name="HatRibbonBlue_1"/>
+			</meta>
+			<meta id="dc7468ca-9dd2-4850-93da-1a4de3183b7f" name="Attach_Top.003"/>
+		</meta>
+		<meta id="bb880fef-371d-49ee-824d-422def8f4f71" name="HatRibbonYellowPart">
+			<meta id="3f72594c-2512-4a9e-b3e0-8b5f618dd274" name="HatRibbonYellow">
+				<meta id="b821175f-12fa-400e-8e67-9b251bf50f6e" name="HatRibbonYellow_0"/>
+				<meta id="8f56424f-4d02-49e8-a4f1-ecbef88805e1" name="HatRibbonYellow_1"/>
+			</meta>
+			<meta id="fdf0aebd-fbe4-4a17-9182-bd0f336cc6ab" name="Attach_Top"/>
+		</meta>
+		<meta id="94cf4529-7f1b-48b4-9984-2c7b07303ac5" name="HatRibbonPurplePart">
+			<meta id="146e3e90-0005-497e-ac33-591a6d93bf3e" name="HatRibbonPurple">
+				<meta id="2bc63436-6dba-4e9e-a459-f2d9b666352f" name="HatRibbonPurple_0"/>
+				<meta id="bc99f3e1-c82f-4f4b-855e-1c76217e0b1d" name="HatRibbonPurple_1"/>
+			</meta>
+			<meta id="a3d17fff-7d67-46e0-9db7-406941fbb744" name="Attach_Top.004"/>
+		</meta>
+		<meta id="f089bca8-209b-494f-a33a-1726ec493806" name="SnowBaseWhitePart">
+			<meta id="a1354c3e-3d1b-47c7-a405-9e08c009ab11" name="SnowBaseWhite"/>
+			<meta id="0bb2c6b6-fb58-45dd-801c-231ee090209f" name="Attach_Major.001"/>
+		</meta>
+		<meta id="1b569422-f4d5-400c-acc5-7cfb9195a4da" name="SnowBaseBluePart"/>
+		<meta id="4d9fdf6b-b044-4be4-840d-c3e1ca844db3" name="SnowBaseOrangePart"/>
+		<meta id="ae6c1c9a-9c09-4e6a-b50b-ce3647d605ee" name="SnowmanBaseBluePart"/>
+		<meta id="6aebb9ea-1a0e-4a00-a65d-60a33c665dc1" name="SnowmanBaseOrangePart"/>
+		<meta id="164b715e-6e79-4c32-ae96-1e34c8681ff1" name="HatRibbonRedPart">
+			<meta id="106c9e19-a8ab-4ea7-9476-aa8b98dfa5e5" name="HatRibbonRed">
+				<meta id="5f58e882-0149-4fa9-b4ee-278a3feda89b" name="HatRibbonRed_0"/>
+				<meta id="bb01768e-e6e5-4d7f-97c5-43ad94c57b19" name="HatRibbonRed_1"/>
+			</meta>
+			<meta id="22a4f091-71f9-468f-ba88-d9705c3f72ba" name="Attach_Top.002"/>
+		</meta>
+		<meta id="b1c49f77-0e08-44e9-a071-4256a1c5ca4e" name="SnowmanBaseWhitePart">
+			<meta id="e5350e34-050b-41fe-8517-1c67271c7738" name="SnowmanBaseWhite"/>
+			<meta id="a479a5c5-b20a-452c-af34-47dabe8c8a75" name="Attach_Top.001"/>
+			<meta id="f333a5b1-16ef-45a6-a7e9-02223787cbca" name="Attach_Major"/>
+			<meta id="df8258b8-c083-412b-99d8-1b6de2f70507" name="Attach_Minor"/>
+		</meta>
+		<meta id="a68b2a7f-9612-4c30-9e5c-66ae9ed51aa3" name="ExampleSnowballBot"/>
+		<meta id="902f9d78-2eb2-41f3-921b-0fd99b8fec80" name="ExampleSnowballMid"/>
+		<meta id="9f42cbd6-94ee-499e-9ea4-2ed2581ca750" name="ExampleSnowballTop"/>
+		<meta id="50dabf1c-b987-4b9a-8689-edb5ae6c81ef" name="ExampleCarrot"/>
+		<meta id="a441a95f-cc5a-499c-b43d-b50799fbb55e" name="ExampleButtonEyeR"/>
+		<meta id="a1f5d069-e2b0-41e7-9d72-6d9f1ceeab69" name="ExampleButtonEyeL"/>
+		<meta id="1f82a255-0c44-4c6c-b3bc-e3a01b2ef8d0" name="ExampleCigar">
+			<meta id="75c96ad5-3695-454b-8c24-7702ee4f0967" name="CigarSmokeEmitter"/>
+		</meta>
+		<meta id="0f82ed61-4e50-47b6-876d-1b25079395f7" name="ExampleHat"/>
+		<meta id="bf336843-90d5-4372-bf22-a27691ac39ae" name="ExampleBranchRight"/>
+		<meta id="cd9ce8d1-656d-4b0b-b04b-2049c1166e45" name="ExampleBranchLeft"/>
+		<meta id="3323645a-bff2-4189-a867-cd975aa4e126" name="ExampleButtonTop"/>
+		<meta id="411dc736-fcf7-45eb-a521-b834ca44a488" name="ExampleButtonMid"/>
+		<meta id="00a42af2-da2a-4d0b-a1a0-313ee185077c" name="ExampleButtonBot"/>
+		<meta id="458a7172-c310-4302-99f0-60227fc9193b" name="ExampleHatRibbon"/>
+		<meta id="29649607-1bea-4560-a7d1-0461913a4356" name="ExampleSnowBase"/>
+		<meta id="9a3d43dc-881d-44e5-b7dd-6e61bc7d945e" name="Attach_Minor.008"/>
+		<meta id="4cfda875-b368-4559-928e-97e314990b9c" name="Attach_Minor.009"/>
+		<meta id="17a4ab99-5b2b-4abe-ad4a-d81ca04c631b" name="Attach_Minor.010"/>
+		<meta id="f0a76450-3811-4b4e-a016-85721d46bfd7" name="Attach_Minor.011"/>
+	</meta>
+</meta>
+<importer type="GamCFbxImporterConfiguration">
+	<Md5Checksum value="f0d0c7008a2277171858fb28f6ed02c6"/>
+	<Scale value="0.01"/>
+	<PatchMeshOffset value="true"/>
+	<UniqueNodeName value="false"/>
+	<ImportAnimation value="false"/>
+	<IgnoreRootAnimation value="false"/>
+	<FlipXAxis value="true"/>
+	<MergeDuplicateMeshes value="true"/>
+	<GenerateLod value="false"/>
+	<OverrideExistingLod value="false"/>
+	<NodeConfig type="GenCFbxNodeConfig">
+		<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+		<ChildList>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Light"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Camera"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Camera.001"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="ButtonBlack"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Minor.007"/>
+					</Item>
+				</ChildList>
+				<NodeName value="ButtonBlackPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="ButtonRed"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Minor.006"/>
+					</Item>
+				</ChildList>
+				<NodeName value="ButtonRedPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="ButtonPurple"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Minor.005"/>
+					</Item>
+				</ChildList>
+				<NodeName value="ButtonPurplePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="ButtonBlue"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Minor.001"/>
+					</Item>
+				</ChildList>
+				<NodeName value="ButtonBluePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="ButtonOrange"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Minor.004"/>
+					</Item>
+				</ChildList>
+				<NodeName value="ButtonOrangePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="ButtonCyan"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Minor.002"/>
+					</Item>
+				</ChildList>
+				<NodeName value="ButtonCyanPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="ButtonGreen"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Minor.003"/>
+					</Item>
+				</ChildList>
+				<NodeName value="ButtonGreenPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="HatRibbonBlue_0"/>
+							</Item>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="HatRibbonBlue_1"/>
+							</Item>
+						</ChildList>
+						<NodeName value="HatRibbonBlue"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Top.003"/>
+					</Item>
+				</ChildList>
+				<NodeName value="HatRibbonBluePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="HatRibbonYellow_0"/>
+							</Item>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="HatRibbonYellow_1"/>
+							</Item>
+						</ChildList>
+						<NodeName value="HatRibbonYellow"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Top"/>
+					</Item>
+				</ChildList>
+				<NodeName value="HatRibbonYellowPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="HatRibbonPurple_0"/>
+							</Item>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="HatRibbonPurple_1"/>
+							</Item>
+						</ChildList>
+						<NodeName value="HatRibbonPurple"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Top.004"/>
+					</Item>
+				</ChildList>
+				<NodeName value="HatRibbonPurplePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowBaseWhite"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major.001"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SnowBaseWhitePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="SnowBaseBluePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="SnowBaseOrangePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="SnowmanBaseBluePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="SnowmanBaseOrangePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="HatRibbonRed_0"/>
+							</Item>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="HatRibbonRed_1"/>
+							</Item>
+						</ChildList>
+						<NodeName value="HatRibbonRed"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Top.002"/>
+					</Item>
+				</ChildList>
+				<NodeName value="HatRibbonRedPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowmanBaseWhite"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Top.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Major"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Attach_Minor"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SnowmanBaseWhitePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="ExampleSnowballBot"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="ExampleSnowballMid"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="ExampleSnowballTop"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="ExampleCarrot"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="ExampleButtonEyeR"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="ExampleButtonEyeL"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="CigarSmokeEmitter"/>
+					</Item>
+				</ChildList>
+				<NodeName value="ExampleCigar"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="ExampleHat"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="ExampleBranchRight"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="ExampleBranchLeft"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="ExampleButtonTop"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="ExampleButtonMid"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="ExampleButtonBot"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="ExampleHatRibbon"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="ExampleSnowBase"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Attach_Minor.008"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Attach_Minor.009"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Attach_Minor.010"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Attach_Minor.011"/>
+			</Item>
+		</ChildList>
+		<NodeName value="Prefab"/>
+	</NodeConfig>
+	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="9a273f80-3e2a-4115-bd6f-9a716c253e3f"/>
+			<MaterialName value="Material.Bark"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="710b7a3d-1438-4607-be89-499c8b11ad77"/>
+			<MaterialName value="Material.ButtonBlack"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="ebc7b0c3-e97d-4bb1-b76a-a09e6f6b6b54"/>
+			<MaterialName value="Material.ButtonBlue"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="a91ce7f9-a574-414e-97cb-ad9dbde88421"/>
+			<MaterialName value="Material.ButtonCyan"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="1a925bb8-cd32-489a-97c9-4b15a575bbf0"/>
+			<MaterialName value="Material.ButtonGreen"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="28a42297-118c-485a-9e23-4f1963c97b47"/>
+			<MaterialName value="Material.ButtonOrange"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="fb7633b6-de40-456d-bbd4-1cd700552f20"/>
+			<MaterialName value="Material.ButtonPurple"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="c1848721-044c-4cdb-9dc4-221c46371d4b"/>
+			<MaterialName value="Material.ButtonRed"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="1d7a2efc-8ddf-49d1-b698-a2c24d039a18"/>
+			<MaterialName value="Material.Carrot"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="5a4817cb-4c72-48d5-89a4-c21a2b20829a"/>
+			<MaterialName value="Material.Cigar"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="ce1a324c-e6fa-443a-af95-e71c2a40787b"/>
+			<MaterialName value="Material.HatBlack"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="dcb373d6-b27e-4880-b4cd-db590873a64f"/>
+			<MaterialName value="Material.HatRibbonPurple"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="d60b0730-d696-4ff1-8aab-a9e3dd104c64"/>
+			<MaterialName value="Material.HatRibbonRed"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="736a4265-93f1-42e9-8fcc-e116488a755f"/>
+			<MaterialName value="Material.HatRibbonYellow"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="62b8bc6a-b997-4b42-8c61-3ae2d4fb0b57"/>
+			<MaterialName value="Material.SnowBlue"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="34290537-896d-4127-91ce-9762ffa1be54"/>
+			<MaterialName value="Material.SnowOrange"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="f59c2ebb-dc3f-466d-ab72-8595f2d4f084"/>
+			<MaterialName value="Material.SnowWhite"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="62c307e5-b064-4ea9-be27-6ef1d9b50592"/>
+			<MaterialName value="MaterialHatRibbonBlue"/>
+		</Item>
+	</MaterialList>
+</importer>
+

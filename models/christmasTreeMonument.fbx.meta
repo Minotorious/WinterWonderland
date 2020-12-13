@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta id="798f961f-1064-4cd8-a5d4-3148a60b485d">
+	<meta id="1bdba5e3-b336-4e52-8329-d4a787972172" type="group" folder="true" name="Materials">
+		<meta id="ed066d25-d2e6-4653-96cb-a9aa21e1a8b0" name="Material.Branches"/>
+		<meta id="8e74e526-20bf-4bb7-ad21-e929bfb7cfc7" name="Material.Bark"/>
+	</meta>
+	<meta id="23c918df-b714-424e-ae62-0589a7773d22" type="group" folder="true" name="Meshes">
+		<meta id="acca5436-0a81-4c85-a888-feea73d4e412" name="ChristmasTreePart_Material.Branches"/>
+		<meta id="c891dd54-2054-484c-8bb2-69136410ad83" name="ChristmasTreePart_Material.Bark"/>
+	</meta>
+	<meta id="1c0a98fa-91b4-4457-afe7-86157cdf3b42" name="Prefab">
+		<meta id="2196fd25-be42-4eb4-abc5-7aea4935570a" name="ChristmasTreePart">
+			<meta id="5147ccb2-30c5-4218-88e8-8885948d2236" name="ChristmasTreePart_0"/>
+			<meta id="5c1b3567-f59e-4a49-9914-5be4100c429a" name="ChristmasTreePart_1"/>
+		</meta>
+	</meta>
+</meta>
+<importer type="GamCFbxImporterConfiguration">
+	<Md5Checksum value="9b65a7af08403944c4cb844afa19dce2"/>
+	<Scale value="0.01"/>
+	<PatchMeshOffset value="true"/>
+	<UniqueNodeName value="false"/>
+	<ImportAnimation value="false"/>
+	<IgnoreRootAnimation value="false"/>
+	<FlipXAxis value="true"/>
+	<MergeDuplicateMeshes value="true"/>
+	<GenerateLod value="false"/>
+	<OverrideExistingLod value="false"/>
+	<NodeConfig type="GenCFbxNodeConfig">
+		<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+		<ChildList>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="ChristmasTreePart_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="ChristmasTreePart_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="ChristmasTreePart"/>
+			</Item>
+		</ChildList>
+		<NodeName value="Prefab"/>
+	</NodeConfig>
+	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="8e74e526-20bf-4bb7-ad21-e929bfb7cfc7"/>
+			<MaterialName value="Material.Bark"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="ed066d25-d2e6-4653-96cb-a9aa21e1a8b0"/>
+			<MaterialName value="Material.Branches"/>
+		</Item>
+	</MaterialList>
+</importer>
+
