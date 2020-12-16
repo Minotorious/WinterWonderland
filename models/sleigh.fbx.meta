@@ -1,100 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <meta id="471e2d98-2491-4141-9690-f7a8c05c12c9">
-	<meta id="10d76578-639e-4e09-9f8f-76dc92cef607" type="group" folder="true" name="Materials">
-		<meta id="dc6aef4a-7a3d-4386-a7d2-cd3d88ed9c1f" name="wood"/>
-		<meta id="04542432-1901-404c-b4dc-63073496d7b9" name="wood_light"/>
-		<meta id="7885527c-b9ef-4bdd-bb16-c800bdb4cc80" name="paper1"/>
-		<meta id="f01ce59f-bccf-4550-ad7f-f6e116bcc68d" name="paper2"/>
-		<meta id="dcdd90e9-892d-47db-a86d-f8b3fa0be511" name="paper3"/>
-		<meta id="ce10f718-6a8b-439c-9c7f-3a2cfc23c38b" name="paper4"/>
-		<meta id="fff3fb38-cbb4-4141-8874-900baa894f1f" name="paper5"/>
-		<meta id="48757c58-8375-4ae4-b49f-bd423bb66adb" name="paper6"/>
+	<meta id="6652cc2d-3d2a-4665-86ba-be0a6fcfd564" type="group" folder="true" name="Materials">
+		<meta id="2b208a5f-6c6e-4355-8682-bc1393558d28" name="wood"/>
+		<meta id="1bc00637-f17b-456c-ba6a-df15f189105c" name="wood_light"/>
+		<meta id="242fd5e1-538a-450e-a2f3-f0a31533a93d" name="paper1"/>
+		<meta id="92161c67-4e64-457e-a835-24f23e60d950" name="paper2"/>
+		<meta id="dc9b6ef7-f39f-4fa0-b261-250df6869351" name="paper3"/>
+		<meta id="8b466258-d59c-42f6-9c2a-501f143fa50e" name="paper4"/>
+		<meta id="fda78fc2-638a-4b06-9f22-d3da3e83488c" name="paper5"/>
+		<meta id="a5a09452-1945-4d8d-834d-f2f2399b04d6" name="paper6"/>
 	</meta>
-	<meta id="ba0efa5a-bcbb-4b83-8e0c-8370b32cdaba" type="group" folder="true" name="Meshes">
-		<meta id="0273c91f-c8c5-4aa3-81ff-a9cde814c144" name="Cube_paper1"/>
-		<meta id="29050bf6-0d98-4ae5-9b7d-6b91fab7d7e6" name="Cube.001_paper2"/>
-		<meta id="1f45a619-8fa0-46f3-9353-38d5369f4dcd" name="Cube.002_paper3"/>
-		<meta id="dd50ebbb-554f-4615-9e41-239a78cf40d9" name="Cube.004_paper5"/>
-		<meta id="c84e84cd-7951-47c3-a5b5-69528ab0d196" name="Cube.005_paper5"/>
-		<meta id="2846a9c2-6162-4dc7-b377-c5d1563fc9cf" name="sticks.001_wood"/>
-		<meta id="dfafac17-abb2-47b9-83a6-768e0e8bbe7b" name="side_part.001_wood"/>
-		<meta id="738dc0bc-1598-40f9-ba07-f60489852946" name="plank.002_wood_light"/>
-		<meta id="cf678579-3e9c-4bd4-95f7-b4ef74d8d1af" name="side_part_wood"/>
-		<meta id="f4126a26-cfd3-4df2-afed-3278b8bd86df" name="sticks.003_wood"/>
-		<meta id="bb11405d-93e3-4745-85b1-832a6e8639d3" name="sticks.004_wood"/>
-		<meta id="652aec35-25ea-461c-b6e9-ca19cf844dc7" name="sticks.005_wood"/>
-		<meta id="78a9a5f0-5c4c-467b-a829-6a0fdc00d1fa" name="sticks.007_wood"/>
-		<meta id="a130c996-101f-4dfc-87b9-e13e4f4d98ce" name="sticks.008_wood"/>
-		<meta id="db6256a8-7724-4111-bdc4-2fd699ae54e9" name="plank_wood_light"/>
-		<meta id="9309cfb2-4abf-49c8-866b-4500d29aaf61" name="sticks.011_wood"/>
-		<meta id="20614261-aa1a-4ea1-af31-f876703bec98" name="sticks.012_wood"/>
-		<meta id="554bc58c-50dc-4afa-b28f-7bb16260c390" name="Cube.003_paper4"/>
-		<meta id="ff9100c8-6bda-4bbd-9f9f-b45e8165557b" name="Cube.006_paper1"/>
-		<meta id="72364535-2254-40ca-a5f7-e994de3cc326" name="Cube.007_paper2"/>
-		<meta id="09a66e6b-10f0-4d4c-9ca2-215dd19b61ac" name="Cube.008_paper3"/>
-		<meta id="3ea5ebc9-ea35-4650-877e-cca389192d5a" name="Cube.009_paper4"/>
-		<meta id="0d4646ef-5388-439a-96a1-60867736be61" name="Cube.010_paper5"/>
-		<meta id="535b3a41-a54a-43b6-83e8-114cb269cbfc" name="Cube.011_paper5"/>
-		<meta id="438e9f69-9db7-47ad-b0c4-b9a622d99422" name="Cube.012_paper1"/>
-		<meta id="215d1324-a974-462d-bf1d-df84cc3e1651" name="Cube.013_paper2"/>
-		<meta id="a0dc5213-11be-43d0-877c-b2f83acf6abc" name="Cube.014_paper3"/>
-		<meta id="80625fb8-33d8-4d85-93bd-b5e52d7275e9" name="Cube.015_paper4"/>
-		<meta id="c2eeb631-db89-4bc8-805e-ea0f00ddfc58" name="Cube.016_paper5"/>
-		<meta id="35145379-a5da-41af-8288-e985a2548d5c" name="Cube.017_paper5"/>
-		<meta id="6e88f580-7411-4528-8a22-8738c8f18a99" name="Cube.021_paper4"/>
-		<meta id="06375ca0-690c-40cd-8f2a-85610a90b7c1" name="Cube.022_paper5"/>
-		<meta id="625e7c2c-7982-48d7-afd8-d600d7c942fc" name="Cube.023_paper5"/>
+	<meta id="01bc3fcd-0321-4be1-bd35-c3cc132009d5" type="group" folder="true" name="Meshes">
+		<meta id="30f3ac18-133c-4b6d-a788-b2976d58d7e9" name="sticks.001_wood"/>
+		<meta id="347a9dd0-7dbf-4290-bb5a-1c266bb04f55" name="side_part.001_wood"/>
+		<meta id="c3317e74-84fc-437d-a4ef-581fd5e2eac4" name="plank.002_wood_light"/>
+		<meta id="017b7a3d-5db6-41a3-8cb6-04380424ccdf" name="side_part_wood"/>
+		<meta id="5609cf80-e927-415c-bed3-a6802337e310" name="sticks.003_wood"/>
+		<meta id="c0360468-002f-4ede-9ce2-3bdf64dd7d8c" name="sticks.004_wood"/>
+		<meta id="1a967022-e61c-4765-9eee-55e2e7480fa6" name="sticks.005_wood"/>
+		<meta id="9cd45f81-66ee-4a52-ab7e-ded3edd7a6f9" name="sticks.007_wood"/>
+		<meta id="85fb343a-4fb1-4f34-9531-842485439ed4" name="sticks.008_wood"/>
+		<meta id="3d6f8961-6477-43fe-8145-d1650e21f110" name="plank_wood_light"/>
+		<meta id="76c1698f-c183-4381-b412-feb89f44ccaa" name="sticks.011_wood"/>
+		<meta id="b6b04018-164d-497c-9b48-81da87f8e2c5" name="sticks.012_wood"/>
+		<meta id="1a54fc3c-d22c-4191-9f2a-8d2b6fe301a8" name="Cube_paper1"/>
+		<meta id="c9c39885-57ff-4a9b-91e6-68d8694edb0b" name="Cube.001_paper2"/>
+		<meta id="f4576c8b-c001-4751-a2c3-c340e69ff3ce" name="Cube.002_paper3"/>
+		<meta id="fd1ead32-8024-4319-a9c6-ecc67b8c0eb7" name="Cube.003_paper4"/>
+		<meta id="d7704f99-3d41-4969-9e15-9f67718709be" name="Cube.004_paper5"/>
+		<meta id="e10b45cc-6430-4989-a1bc-2418e5469b3d" name="Cube.005_paper5"/>
+		<meta id="640ae67c-ee7a-49ba-995e-7b2eb9a9b38a" name="Cube.006_paper1"/>
+		<meta id="cd861a5f-b012-4a2b-b7ce-78c0161ced76" name="Cube.007_paper2"/>
+		<meta id="8dc13849-3b53-4e8e-ac84-1a51002f4a06" name="Cube.008_paper3"/>
+		<meta id="b3396069-3484-41ef-b3eb-8fae2115a4c1" name="Cube.009_paper4"/>
+		<meta id="8b1d08c9-63a0-494a-9ae2-4b9eeceaff95" name="Cube.010_paper5"/>
+		<meta id="42cbef05-97b6-42f8-a337-52dd106b8896" name="Cube.011_paper5"/>
+		<meta id="e197e2e0-4bb0-430b-88a3-b0c4c9160591" name="Cube.012_paper1"/>
+		<meta id="84f3677a-d3c8-4503-8ce2-3809579c85ba" name="Cube.013_paper2"/>
+		<meta id="24ca45e9-093b-4a08-9726-57567aa0d314" name="Cube.014_paper3"/>
+		<meta id="1e67cffd-1975-487a-b501-3a28b096387f" name="Cube.015_paper4"/>
+		<meta id="47275249-0930-469f-9194-1175eb00b867" name="Cube.016_paper5"/>
+		<meta id="28f49254-cd65-4952-8a69-eba065044287" name="Cube.017_paper5"/>
+		<meta id="2ace03fa-f2fe-46bc-9aa8-cb5dcf8c67cf" name="Cube.021_paper4"/>
+		<meta id="5c774039-fdd1-44c9-9052-b6483dbcf6aa" name="Cube.022_paper5"/>
+		<meta id="a753f715-6254-48db-96d0-0aa2d35cb7e8" name="Cube.023_paper5"/>
+		<meta id="00f7add2-93fe-46c0-b580-44f32accdac3" name="sticks.002_wood"/>
+		<meta id="8455183c-5b08-4afb-a3c7-9dabc31c6387" name="sticks.006_wood"/>
+		<meta id="e223ce64-3811-4343-a46c-642e6686bc4c" name="sticks.009_wood"/>
+		<meta id="e5b8dd01-7c7f-4a5f-a256-d81fe1837695" name="sticks.010_wood"/>
+		<meta id="b36c2e4e-0e38-4edb-9567-32d7b2dd2703" name="plank.001_wood_light"/>
+		<meta id="c2e8a102-6d2e-4806-8cb6-dc302aaeb04e" name="plank.003_wood_light"/>
+		<meta id="c4334a5b-87d7-421c-bb23-72668d409d20" name="plank.004_wood_light"/>
+		<meta id="39a73b0a-b10a-484e-9325-59ccfd999f36" name="plank.005_wood_light"/>
+		<meta id="70ee8ee3-4ce9-4873-a899-3571b682ba18" name="plank.006_wood_light"/>
+		<meta id="a3652e23-68bc-4de5-84ce-99f92a2ba54f" name="sticks.013_wood"/>
 	</meta>
-	<meta id="a5112383-971e-4d5c-9db5-a453520ac822" name="Prefab">
-		<meta id="a4d8fabd-3839-4996-8a3f-c75b8b1fb74e" name="christmas_sleigh">
-			<meta id="e4d9757e-783b-4de9-b177-333a192a3c8d" name="sticks.001"/>
-			<meta id="43cded80-a587-4110-89f4-04ec2c90007d" name="side_part.001"/>
-			<meta id="745109f3-2f2d-48fd-a5ae-ed51ee7022d4" name="plank.002"/>
-			<meta id="12e7b55b-f3ac-40bb-8d7d-5965278e6f73" name="side_part"/>
-			<meta id="201caee7-04f0-4eb8-abe4-73f9ee9042c9" name="sticks.002"/>
-			<meta id="c4dc841e-d5fb-4156-a1bf-6d61af878d84" name="sticks.003"/>
-			<meta id="0c23ebd0-713c-43ef-a446-a4d30ec7a5ef" name="sticks.004"/>
-			<meta id="68266f0e-a7d7-42df-b7dc-4c1d9b2dd440" name="sticks.005"/>
-			<meta id="be6be0b2-51b4-4a59-b25c-7a688b6f5833" name="sticks.006"/>
-			<meta id="13a1369d-2609-4cfd-abb5-1795f97698f5" name="sticks.007"/>
-			<meta id="97cba43d-4162-4ddc-9eb9-dd903d1e0eb7" name="sticks.008"/>
-			<meta id="de4c9364-9f25-4322-8d19-84e587616f6b" name="sticks.009"/>
-			<meta id="1d8775d5-3544-41e9-a158-5be3356640de" name="sticks.010"/>
-			<meta id="72828688-a836-42aa-a9e3-d1f20d37f67d" name="plank.001"/>
-			<meta id="77b17541-a3e2-45e7-9a74-4fbdbd7c1cc9" name="plank.003"/>
-			<meta id="4fa6b173-bd5b-4656-8c56-8b9d96f43076" name="plank.004"/>
-			<meta id="00b72506-f141-4827-8b13-9511f1a9a20d" name="plank.005"/>
-			<meta id="a050fa99-faa1-41b6-ba38-5f6d979a1227" name="plank.006"/>
-			<meta id="d32e3869-062b-4234-8635-b660a69e43bb" name="plank"/>
-			<meta id="9d3181f7-ebfd-49c2-b05c-571d965622b4" name="sticks.011"/>
-			<meta id="d2437406-b436-4c10-89c2-c0cb34fb0113" name="sticks.012"/>
-			<meta id="ae901e9b-c522-46eb-b6db-c59952d4743b" name="sticks.013"/>
-			<meta id="226ca5f9-e6c4-4074-a6d0-25b89848e27c" name="Cube"/>
-			<meta id="0f3de4fb-f401-4edf-8833-a03928a70bc2" name="Cube.001"/>
-			<meta id="2009dbb5-a061-42c1-baa8-c526fe8c3232" name="Cube.002"/>
-			<meta id="62df0803-7546-478c-bb5e-9ca2081f19c6" name="Cube.003"/>
-			<meta id="1213e808-a768-4c28-a4d3-a7bc6131986f" name="Cube.004"/>
-			<meta id="8444f7a8-0693-437a-9e54-81e92b318c51" name="Cube.005"/>
-			<meta id="99ce939a-9bd6-4c83-9384-7221ebe8d996" name="Cube.006"/>
-			<meta id="aa4efbd7-bf6a-4d1f-b44b-693d2e1031c3" name="Cube.007"/>
-			<meta id="ddd396bc-20f4-433b-9d5b-9fb0ff9a2912" name="Cube.008"/>
-			<meta id="8de9501f-3338-4d79-b235-4018d693591d" name="Cube.009"/>
-			<meta id="354af262-2c78-45c3-931c-1be1ce6fe411" name="Cube.010"/>
-			<meta id="3012a73d-ce2b-454f-b7ee-774e95eb05cd" name="Cube.011"/>
-			<meta id="6931d6e6-30d3-4cab-8465-bf26cb5b2534" name="Cube.012"/>
-			<meta id="54ae1aad-d8e3-4982-92ee-5fc3f9d69596" name="Cube.013"/>
-			<meta id="fb1886c5-8147-455a-ad67-c2d434e90d19" name="Cube.014"/>
-			<meta id="a3145d0c-0f3c-47c1-aac9-8859c6b0801f" name="Cube.015"/>
-			<meta id="d666f67c-55c3-486c-8a9d-72b9a64ee22e" name="Cube.016"/>
-			<meta id="191da97c-96a8-44f8-85f0-f41bef6393a0" name="Cube.017"/>
-			<meta id="8621a913-cc87-4ab0-85f5-e04ed35a5be4" name="Cube.021"/>
-			<meta id="8a320805-ac8e-4f66-80c3-2aa9d4286103" name="Cube.022"/>
-			<meta id="0a89687d-b0b9-4ec9-b717-6d618b009d92" name="Cube.023"/>
+	<meta id="a084b0cf-2e00-4e37-b86b-f9636fcd6237" name="Prefab">
+		<meta id="c8eb97c7-2e48-4a0c-a021-3a8823cd888c" name="christmas_sleighPart">
+			<meta id="ee18ec7b-ef34-42af-b62e-94e90216e692" name="sticks.001"/>
+			<meta id="fee4b868-79a2-4591-bf05-c192bc8ee501" name="side_part.001"/>
+			<meta id="6b320676-2aad-4230-855c-2b9bee9f7e80" name="plank.002"/>
+			<meta id="eb407dba-f2c6-4ebb-9b94-6207a2d1ece6" name="side_part"/>
+			<meta id="e2310e02-9761-4a6f-a5d2-c485d52af8c9" name="sticks.002"/>
+			<meta id="c1962de2-9757-480d-8beb-671e3c315bd5" name="sticks.003"/>
+			<meta id="fd210f33-2c91-43e1-aefd-8686c7bb8671" name="sticks.004"/>
+			<meta id="3e6586e3-4d89-4780-9036-7425bb2fe9e3" name="sticks.005"/>
+			<meta id="111a5c05-bbbc-45dc-8bb1-a12420c13ee6" name="sticks.006"/>
+			<meta id="fc0e8f30-4dfe-4283-9ebc-76580a52a283" name="sticks.007"/>
+			<meta id="951efd24-eebd-4a62-99f0-db61ac35dd59" name="sticks.008"/>
+			<meta id="aef18ed9-4154-4e02-a269-29c4d4b3ddb3" name="sticks.009"/>
+			<meta id="82d7cc02-290e-4300-a59f-9754301da1a2" name="sticks.010"/>
+			<meta id="d485fa68-a9d1-45a3-a09e-9a2370c87fbd" name="plank.001"/>
+			<meta id="b55367fc-c427-4c86-8004-902b4c98e0c6" name="plank.003"/>
+			<meta id="1f2868fd-0360-4630-898b-19bf5f92158b" name="plank.004"/>
+			<meta id="854b7870-ffbf-4e30-8ee8-cbdc88a2c182" name="plank.005"/>
+			<meta id="adc33589-1434-4a42-b38d-b015537784c6" name="plank.006"/>
+			<meta id="8bd31916-707e-441c-9740-1f236ad63b20" name="plank"/>
+			<meta id="700ffa9b-e986-4c91-a6a4-16c4becfe7b4" name="sticks.011"/>
+			<meta id="52baeec7-f2b0-4ae6-a890-02801fccc925" name="sticks.012"/>
+			<meta id="40364626-9fb2-4e54-b52b-3793e7c4757a" name="sticks.013"/>
+			<meta id="9bcf5152-63ec-4a5d-93d1-4ef5e430f881" name="Cube"/>
+			<meta id="09e3f5d6-80bc-4f1a-8ba3-791f1c9d350e" name="Cube.001"/>
+			<meta id="8f008d3d-b913-4930-ab2c-ff20e72c9253" name="Cube.002"/>
+			<meta id="ef45720e-83dc-464f-9f28-4a60ba2d17fd" name="Cube.003"/>
+			<meta id="7c867ecb-6344-4cad-a944-ab8925e9efe1" name="Cube.004"/>
+			<meta id="c4cb0f6f-a82e-4b57-919e-230ddb2cb44e" name="Cube.005"/>
+			<meta id="80e1b272-a366-42ac-8a52-23ecf4677497" name="Cube.006"/>
+			<meta id="2ebda7d8-258d-49c7-b5fc-b5c0073e5391" name="Cube.007"/>
+			<meta id="b4f62165-e0c8-4025-adf8-954ecf33bfa2" name="Cube.008"/>
+			<meta id="8f12c1b0-7b08-4a17-804a-8e7d922a5737" name="Cube.009"/>
+			<meta id="5acbf048-a003-476a-84ac-63136610a53a" name="Cube.010"/>
+			<meta id="ccc9312b-3086-44fd-8d9f-4ee73ce57563" name="Cube.011"/>
+			<meta id="986bef1e-afaf-45e0-a3e1-589014b12ac4" name="Cube.012"/>
+			<meta id="424de59e-56dd-417d-b2e6-44b9b920e7d1" name="Cube.013"/>
+			<meta id="3155dce3-f1e5-4fb4-8f2a-31cd9ed2d46e" name="Cube.014"/>
+			<meta id="0c44261f-5eed-403d-b79d-098c970b6f86" name="Cube.015"/>
+			<meta id="17237844-f1ff-4377-9ec4-58ea0840517c" name="Cube.016"/>
+			<meta id="3a789fbe-ddef-4a33-abf5-0e7343f03346" name="Cube.017"/>
+			<meta id="0a9dc051-af68-4bfb-ab84-1cdf85b91af3" name="Cube.021"/>
+			<meta id="69c18289-fbc2-4fc6-9e04-38a418779f00" name="Cube.022"/>
+			<meta id="9a9ad228-732b-46bd-a704-4bd54f8b9c6e" name="Cube.023"/>
 		</meta>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="1e002de9839b6b1e39cf8d61d8c09d58"/>
+	<Md5Checksum value="850268f25ac1c4db14fa391949a63fbd"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -326,42 +336,42 @@
 						<NodeName value="Cube.023"/>
 					</Item>
 				</ChildList>
-				<NodeName value="christmas_sleigh"/>
+				<NodeName value="christmas_sleighPart"/>
 			</Item>
 		</ChildList>
 		<NodeName value="Prefab"/>
 	</NodeConfig>
 	<MaterialList>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="7885527c-b9ef-4bdd-bb16-c800bdb4cc80"/>
+			<MaterialGuid value="242fd5e1-538a-450e-a2f3-f0a31533a93d"/>
 			<MaterialName value="paper1"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="f01ce59f-bccf-4550-ad7f-f6e116bcc68d"/>
+			<MaterialGuid value="92161c67-4e64-457e-a835-24f23e60d950"/>
 			<MaterialName value="paper2"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="dcdd90e9-892d-47db-a86d-f8b3fa0be511"/>
+			<MaterialGuid value="dc9b6ef7-f39f-4fa0-b261-250df6869351"/>
 			<MaterialName value="paper3"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="ce10f718-6a8b-439c-9c7f-3a2cfc23c38b"/>
+			<MaterialGuid value="8b466258-d59c-42f6-9c2a-501f143fa50e"/>
 			<MaterialName value="paper4"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="fff3fb38-cbb4-4141-8874-900baa894f1f"/>
+			<MaterialGuid value="fda78fc2-638a-4b06-9f22-d3da3e83488c"/>
 			<MaterialName value="paper5"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="48757c58-8375-4ae4-b49f-bd423bb66adb"/>
+			<MaterialGuid value="a5a09452-1945-4d8d-834d-f2f2399b04d6"/>
 			<MaterialName value="paper6"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="dc6aef4a-7a3d-4386-a7d2-cd3d88ed9c1f"/>
+			<MaterialGuid value="2b208a5f-6c6e-4355-8682-bc1393558d28"/>
 			<MaterialName value="wood"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="04542432-1901-404c-b4dc-63073496d7b9"/>
+			<MaterialGuid value="1bc00637-f17b-456c-ba6a-df15f189105c"/>
 			<MaterialName value="wood_light"/>
 		</Item>
 	</MaterialList>

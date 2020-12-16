@@ -8,6 +8,9 @@
         "SNOWFLAKE_EMITTER_MEDIUM_PART_DESC": "A Medium Snowflake Emitter, average CPU stress!",
         "SNOWFLAKE_EMITTER_SMALL_NAME": "Snowflake Emitter Small",
         "SNOWFLAKE_EMITTER_SMALL_DESC": "A Small Snowflake Emitter, low CPU stress!",
-        "SNOWFLAKE_EMITTER_SMALL_PART_DESC": "A Small Snowflake Emitter, low CPU stress!"
+        "SNOWFLAKE_EMITTER_SMALL_PART_DESC": "A Small Snowflake Emitter, low CPU stress!",
+		"CHRISTMAS_SLEIGH_NAME": "Sleigh with gifts",
+		"CHRISTMAS_SLEIGH_DESC": "A sleigh with some nice Christmas gifts",
+		"CHRISTMAS_SLEIGH_PART_DESC": "A sleigh with some nice Christmas gifts"
 	}
 }
