@@ -10,7 +10,7 @@ local winterWonderland = ...
 
 --[[--------------------------- PREFABS & MATERIALS ---------------------------]]--
 
-winterWonderland:registerAssetId("models/sleigh.fbx/Prefab/christmas_sleigh", "PREFAB_CHRISTMAS_SLEIGH_PART")
+winterWonderland:registerAssetId("models/sleigh.fbx/Prefab/christmas_sleighPart", "PREFAB_CHRISTMAS_SLEIGH_PART")
 
 --[[winterWonderland:registerAssetId("models/ChristmasTreeMonument.fbx/Materials/Material.Branches", "MATERIAL_BRANCHES")
 
