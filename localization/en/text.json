@@ -11,6 +11,16 @@
         "SNOWFLAKE_EMITTER_SMALL_PART_DESC": "A Small Snowflake Emitter, low CPU stress!",
 		"CHRISTMAS_SLEIGH_NAME": "Sleigh with gifts",
 		"CHRISTMAS_SLEIGH_DESC": "A sleigh with some nice Christmas gifts",
-		"CHRISTMAS_SLEIGH_PART_DESC": "A sleigh with some nice Christmas gifts"
+		"CHRISTMAS_SLEIGH_PART_DESC": "A sleigh with some nice Christmas gifts",
+		"CHRISTMAS_GIFTS_NAME": "A lot of gifts",
+		"CHRISTMAS_GIFTS_DESC": "A lot of nice Christmas gifts",
+		"CHRISTMAS_GIFTS_PART_DESC": "A lot of nice Christmas gifts",
+		"CHRISTMAS_GIFT1_NAME": "A variation of gifts",
+		"CHRISTMAS_GIFT1_DESC": "A variation of nice Christmas gifts",
+		"CHRISTMAS_GIFT1_PART_DESC": "A variation of nice Christmas gifts",
+		"CHRISTMAS_GIFT2_NAME": "Another variation of gifts",
+		"CHRISTMAS_GIFT2_DESC": "Another variation of nice Christmas gifts",
+		"CHRISTMAS_GIFT2_PART_DESC": "Another variation of nice Christmas gifts"
+		
 	}
 }
