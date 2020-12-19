@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta id="29f69723-087e-4310-9af0-2e33bdebae02">
+	<meta id="c07b1247-54c4-4df2-98e5-a6d5e873c371" type="group" folder="true" name="Materials">
+		<meta id="35dfdc82-a227-47e2-acdf-e4925e9b5d91" name="Material"/>
+		<meta id="4de13d28-3ce5-4d21-8943-960b431b855d" name="Material.Snowflake"/>
+	</meta>
+	<meta id="68b211dc-339d-43b0-b073-3eac9c9b929a" type="group" folder="true" name="Meshes">
+		<meta id="f3ce99f9-3b50-49cc-b29b-742e70615095" name="Plane_Material"/>
+		<meta id="3f281cb3-f639-437a-b962-86ab724d2762" name="SnowflakeCombined_Material.Snowflake"/>
+		<meta id="c10c14e2-020f-4dad-b246-5e9e53cf3a22" name="SnowflakePartOld_Material.Snowflake"/>
+		<meta id="ce02e969-6d5a-4f63-891b-1430a9413588" name="SnowflakePart_Material.Snowflake"/>
+	</meta>
+	<meta id="50e5995f-8030-4e2e-9fe0-13898a9d3a31" name="Prefab">
+		<meta id="dee70804-d1c6-4bdf-b708-01f9ea030e97" name="Light"/>
+		<meta id="70399861-d6ed-4042-9ef7-eba2905fc755" name="Camera"/>
+		<meta id="a87426ae-f3f5-4802-866e-22c8e7ff0f5b" name="Plane"/>
+		<meta id="076d1852-0235-4cdb-921e-818a04b4b3ac" name="BezierCurve"/>
+		<meta id="e64c4587-2ce0-48c4-9646-734465ca3415" name="BezierCurve.001"/>
+		<meta id="e08b4b28-1f5d-4bd7-95de-0f53865bd26c" name="BezierCurve.002"/>
+		<meta id="5f5614e5-6883-4d63-9860-c95a862d6b02" name="BezierCurve.003"/>
+		<meta id="a9b22880-e832-47b6-a410-f5b07bea7a30" name="BezierCurve.004"/>
+		<meta id="aa0af1c9-c2c1-4912-94bd-f7c080c7b391" name="BezierCurve.005"/>
+		<meta id="6f36a9ca-2c8d-4234-8b06-31768c2a4c38" name="BezierCurve.006"/>
+		<meta id="a8f16fbb-4d9b-4d69-bab8-3db35c241ad2" name="BezierCurve.007"/>
+		<meta id="70c53bf7-0fc9-44ef-a576-1f3400190a51" name="BezierCurve.008"/>
+		<meta id="1d355f34-160a-4275-bdc8-a46fddee9d6c" name="BezierCurve.009"/>
+		<meta id="6a9a9356-e7e5-4cd7-878f-538d4e7a3816" name="BezierCurve.010"/>
+		<meta id="9ccd9017-a7fc-48f3-99d8-d6c0cec27360" name="BezierCurve.011"/>
+		<meta id="3e42cfff-2767-47fa-b82c-3731f3510e86" name="BezierCurve.012"/>
+		<meta id="8705be39-0052-4883-92c2-3ec82e07eabe" name="SnowflakeCombined"/>
+		<meta id="326bd21a-e488-4907-8438-21c0d93dddbb" name="SnowflakePart"/>
+		<meta id="b66c1766-db0d-438f-a176-872216989111" name="SnowflakePartOld"/>
+	</meta>
+</meta>
+<importer type="GamCFbxImporterConfiguration">
+	<Md5Checksum value="11420f381f4c933be72bafca896c7749"/>
+	<Scale value="0.01"/>
+	<PatchMeshOffset value="true"/>
+	<UniqueNodeName value="false"/>
+	<ImportAnimation value="false"/>
+	<IgnoreRootAnimation value="false"/>
+	<FlipXAxis value="true"/>
+	<MergeDuplicateMeshes value="true"/>
+	<GenerateLod value="false"/>
+	<OverrideExistingLod value="false"/>
+	<NodeConfig type="GenCFbxNodeConfig">
+		<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+		<ChildList>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Light"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Camera"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Plane"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="BezierCurve"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="BezierCurve.001"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="BezierCurve.002"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="BezierCurve.003"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="BezierCurve.004"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="BezierCurve.005"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="BezierCurve.006"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="BezierCurve.007"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="BezierCurve.008"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="BezierCurve.009"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="BezierCurve.010"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="BezierCurve.011"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="BezierCurve.012"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="SnowflakeCombined"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="SnowflakePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="SnowflakePartOld"/>
+			</Item>
+		</ChildList>
+		<NodeName value="Prefab"/>
+	</NodeConfig>
+	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="35dfdc82-a227-47e2-acdf-e4925e9b5d91"/>
+			<MaterialName value="Material"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="4de13d28-3ce5-4d21-8943-960b431b855d"/>
+			<MaterialName value="Material.Snowflake"/>
+		</Item>
+	</MaterialList>
+</importer>
+

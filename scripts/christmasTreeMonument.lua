@@ -10,13 +10,14 @@ local winterWonderland = ...
 
 --[[--------------------------- PREFABS & MATERIALS ---------------------------]]--
 
-winterWonderland:registerAssetId("models/ChristmasTreeMonument.fbx/Prefab/ChristmasTreePart", "PREFAB_CHRISTMAS_TREE_PART")
+winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/ChristmasTreePart", "PREFAB_CHRISTMAS_TREE_PART")
 
-winterWonderland:registerAssetId("models/ChristmasTreeMonument.fbx/Materials/Material.Branches", "MATERIAL_BRANCHES")
+winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Materials/Material.Branches", "MATERIAL_BRANCHES")
 
 winterWonderland:override({
     Id = "MATERIAL_BRANCHES",
-    HasAlphaTest = true
+    HasAlphaTest = true,
+    BackFaceVisible = true
 })
 
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--

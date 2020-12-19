@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta id="e8be5ec0-54a7-4cf0-b799-1a2c9bede7cc">
+	<meta id="1bdba5e3-b336-4e52-8329-d4a787972172" type="group" folder="true" name="Materials">
+		<meta id="ed066d25-d2e6-4653-96cb-a9aa21e1a8b0" name="Material.Branches"/>
+		<meta id="488d542a-163e-4e84-b258-99b09ec940d3" name="light-camera"/>
+		<meta id="21201261-3586-4818-b9be-a8ba743ea584" name="lighside"/>
+		<meta id="583419d3-8911-48b0-ad1f-aa7c8df063ce" name="Material"/>
+		<meta id="5a3b1617-1603-49a6-bcf9-d6fa27419214" name="Material.Bark.001"/>
+		<meta id="5bd3bc91-41f8-47cf-9ee1-5a02bfa9d8fc" name="silver"/>
+		<meta id="d758d417-c25e-45ff-855b-6de712c8ada1" name="red-ball"/>
+		<meta id="2fc0736f-286b-4343-a015-afefca3373db" name="white-handle"/>
+		<meta id="4d13045f-a397-4212-9a51-acc52cae154f" name="gold"/>
+	</meta>
+	<meta id="23c918df-b714-424e-ae62-0589a7773d22" type="group" folder="true" name="Meshes">
+		<meta id="806dba77-90cd-438f-8cbb-ab3dd20ddb48" name="cameralight_light-camera"/>
+		<meta id="4e3fb088-e602-483a-be5c-51d12f0e9595" name="Light-side_lighside"/>
+		<meta id="4f3eea55-7464-4093-8e10-13239c6ccaf9" name="floor_Material"/>
+		<meta id="b9d91604-b403-4b51-9ea6-c7cb3f91cba4" name="ChristmasTreePart_Material.Branches"/>
+		<meta id="ac2369a3-bacf-43c5-8ab1-4488ea7bcdca" name="ChristmasTreePart_Material.Bark.001"/>
+		<meta id="9782b95d-ec87-4a81-8278-b056f3a2093c" name="Sphere.001_silver"/>
+		<meta id="12ad1f40-5dbe-46f7-b227-c5dfc78baf3a" name="Sphere.009_red-ball"/>
+		<meta id="d7eabe6b-adbd-4733-aba8-c364b7f08910" name="Sphere.009_white-handle"/>
+		<meta id="462f2033-2001-4e7d-a294-6be5f978136e" name="Sphere.017_red-ball"/>
+		<meta id="7fa98fa2-0b55-42e5-8262-43f3273b5821" name="Sphere.017_white-handle"/>
+		<meta id="28bdcf74-4a90-4ae4-beb5-af508d354d31" name="star.001_gold"/>
+		<meta id="358996f5-77b0-4239-8b13-4d2b94c4d9fa" name="star.002_gold"/>
+		<meta id="a5c90de1-1ea9-4369-9318-d67d5870e12d" name="star.003_gold"/>
+		<meta id="667d362e-1259-462a-920a-cb247fe49e51" name="star.004_gold"/>
+		<meta id="5a3e7ad4-e4c7-446b-a6a7-847b8daefb5b" name="star.005_gold"/>
+		<meta id="a29a65fa-368c-4416-9ced-2c1b0fe45d07" name="star.006_gold"/>
+		<meta id="05d66fe4-4b31-4ad1-96d8-5b7fcf79b874" name="star.007_gold"/>
+		<meta id="6ebba38b-d91c-4666-aec5-c11bfb95665c" name="star.008_gold"/>
+		<meta id="185511ff-735a-41b9-ab2b-5b93b9c7d47b" name="star_gold"/>
+	</meta>
+	<meta id="1c0a98fa-91b4-4457-afe7-86157cdf3b42" name="Prefab">
+		<meta id="5b804e3b-d4ba-4a6b-b033-5b0a64b8808a" name="cameralight"/>
+		<meta id="18ea65f0-233b-4e22-a185-7cc744b8e836" name="Light-side"/>
+		<meta id="9896d970-f644-4dd8-92ca-92a82930c110" name="floor"/>
+		<meta id="bc0e1b13-4b84-466a-873e-899a3ed5ab58" name="Lamp"/>
+		<meta id="328877fd-c126-4322-b702-7092a68ec5c8" name="Camera"/>
+		<meta id="37b0e81f-2952-420c-aa17-cf35d31d19c6" name="ChristmasTreePart">
+			<meta id="279f507d-b0a0-44ff-89d9-8ba8c960d25e" name="ChristmasTreePart_0"/>
+			<meta id="85924aa8-0986-40a0-a201-af1e66bd7abb" name="ChristmasTreePart_1"/>
+		</meta>
+		<meta id="6b21d70b-47eb-48d3-acd1-b4a2ee9fb94e" name="Sphere.001"/>
+		<meta id="6755fdf8-97f2-4e96-ac99-ece72695f2d3" name="Sphere.002"/>
+		<meta id="03e09b35-1215-4a8c-b84c-2c95069b284a" name="Sphere.003"/>
+		<meta id="cd45c457-9480-438b-90c1-029ec6edbc5d" name="Sphere.004"/>
+		<meta id="abf8cae1-7633-44ed-a8ea-1fdde35fef19" name="Sphere.005"/>
+		<meta id="c843b5e0-dff4-4ee0-8c84-260592c00b89" name="Sphere.006"/>
+		<meta id="61e86d39-6b62-4f9f-9197-9fe347ffc99b" name="Sphere.007"/>
+		<meta id="4f2df21c-8290-4e88-b2ba-12e756e0506d" name="Sphere.008"/>
+		<meta id="0ed0a76c-92d9-40c5-8b1d-a91565ff1586" name="Sphere.009">
+			<meta id="bcc4decd-bb81-4119-b701-5d5661cdb795" name="Sphere.009_0"/>
+			<meta id="5ba31258-09c9-4b20-976b-e23ed624ec22" name="Sphere.009_1"/>
+		</meta>
+		<meta id="6ecf89ee-afb1-45eb-9813-7bb02a5d74ec" name="Sphere.010">
+			<meta id="d2fa6407-305b-4120-a520-bae8d77832aa" name="Sphere.010_0"/>
+			<meta id="2c5edb79-86fc-45a0-857a-f255bf87a3c6" name="Sphere.010_1"/>
+		</meta>
+		<meta id="c2d3d845-4be5-41ed-b76e-488d8c03ffd5" name="Sphere.011">
+			<meta id="ada32375-2893-4f1f-ad9e-66e7bc7a550c" name="Sphere.011_0"/>
+			<meta id="3b1cc1f8-275f-4835-94a8-3e39a1c64b1a" name="Sphere.011_1"/>
+		</meta>
+		<meta id="20b0214d-07e2-4c72-9b4f-4f77236495d2" name="Sphere.012">
+			<meta id="0c0d9a51-ca6e-4148-ad83-152a50081683" name="Sphere.012_0"/>
+			<meta id="8a86929f-1db9-4bc0-85d4-093f70c3e216" name="Sphere.012_1"/>
+		</meta>
+		<meta id="ae4c3841-59c6-430c-88e4-b38b4a0bf3eb" name="Sphere.013">
+			<meta id="85c0e4ab-6008-4d39-8d52-cee2b73a5ea8" name="Sphere.013_0"/>
+			<meta id="a751428f-efa5-4840-9c95-9123a201beef" name="Sphere.013_1"/>
+		</meta>
+		<meta id="b8c40f6d-659a-4296-88fd-6961736675d8" name="Sphere.014">
+			<meta id="59e65a40-6e51-496e-88b9-c5cc9f3c8c88" name="Sphere.014_0"/>
+			<meta id="e434474a-8f4a-48ac-b723-9b891a036686" name="Sphere.014_1"/>
+		</meta>
+		<meta id="9600c7fc-91e3-4ed5-bf57-10ac77e3a46e" name="Sphere.015">
+			<meta id="fb5ce7c4-05e6-4054-bbf2-a8d2753b93c3" name="Sphere.015_0"/>
+			<meta id="23f2f1df-c842-44fb-b640-d3ab8e362d51" name="Sphere.015_1"/>
+		</meta>
+		<meta id="8e9e9c14-e67c-42f6-9dda-4f67ed29ad3f" name="Sphere.016">
+			<meta id="914d0040-624d-4d60-8a43-bbed3875888c" name="Sphere.016_0"/>
+			<meta id="0bc6be75-c767-4ebe-8210-ebc965494ee0" name="Sphere.016_1"/>
+		</meta>
+		<meta id="986895dd-0786-4a22-8df1-34e377985d5a" name="Sphere.017">
+			<meta id="3165eaa4-421f-466f-9c94-13eccb1ba566" name="Sphere.017_0"/>
+			<meta id="348b38a8-f46f-46c3-be01-50e47a8adc62" name="Sphere.017_1"/>
+		</meta>
+		<meta id="322bbbcf-bacc-4fc0-9669-b6d807f91122" name="Sphere.018">
+			<meta id="c75eb5c7-1cfd-4583-8e47-8649a9b6bf01" name="Sphere.018_0"/>
+			<meta id="d72f3f56-582b-4dd0-a12d-9e7219708799" name="Sphere.018_1"/>
+		</meta>
+		<meta id="c912476f-03aa-4c40-b871-43e55009ef4b" name="Sphere.019">
+			<meta id="86e6601f-f479-46b8-bf8d-f5dd49cafff6" name="Sphere.019_0"/>
+			<meta id="442db783-1493-414d-a6df-ffc055fc2622" name="Sphere.019_1"/>
+		</meta>
+		<meta id="8a943bd6-b600-4741-9b66-9e4c902b115d" name="Sphere.020">
+			<meta id="11e46ca8-6c3a-4b7a-bfd4-30106535b51f" name="Sphere.020_0"/>
+			<meta id="662d0446-750f-4ae5-a34b-18e0014b03cf" name="Sphere.020_1"/>
+		</meta>
+		<meta id="6a9c2e15-7ae6-4978-b87e-6248c68b5d62" name="Sphere.021">
+			<meta id="6622c6bc-7bf0-4f14-925c-5335e2554ce8" name="Sphere.021_0"/>
+			<meta id="41bc6d67-b996-407b-8393-c8ba61c342a5" name="Sphere.021_1"/>
+		</meta>
+		<meta id="d17a2943-fde8-44ef-808b-329e52bda99e" name="Sphere.022">
+			<meta id="3d827b63-e13b-4d5e-a06b-b8c35555d43f" name="Sphere.022_0"/>
+			<meta id="a99aba1b-2e13-465d-97df-14287178ae57" name="Sphere.022_1"/>
+		</meta>
+		<meta id="7de4d44c-5c68-4517-90d3-3cc40ab1ccdd" name="Sphere.023">
+			<meta id="1cc4da9d-5235-4008-aa06-72dd1fb62fe1" name="Sphere.023_0"/>
+			<meta id="d57c04ba-283c-4752-809a-c3ba993a0c76" name="Sphere.023_1"/>
+		</meta>
+		<meta id="9b164673-7485-4267-a97d-84d24d716591" name="Sphere.024">
+			<meta id="0d6eaec9-5563-48c3-8236-07311d878598" name="Sphere.024_0"/>
+			<meta id="aea3a829-d329-44ef-9d67-7c6a770a20a6" name="Sphere.024_1"/>
+		</meta>
+		<meta id="4129257a-252d-4b75-9229-9b5fb6530434" name="Sphere.025">
+			<meta id="e9e2ff93-f3f3-4728-95a6-bdab4f2b8fef" name="Sphere.025_0"/>
+			<meta id="23a156ee-195b-4a5c-8102-e2fa402af1af" name="Sphere.025_1"/>
+		</meta>
+		<meta id="b42920b3-cd2c-422f-b3a4-ac594488d6ed" name="Sphere.026">
+			<meta id="a5f71a85-9912-4768-b571-acb0f5295316" name="Sphere.026_0"/>
+			<meta id="96139069-4c2e-44da-9879-659dbc4d9378" name="Sphere.026_1"/>
+		</meta>
+		<meta id="cfd58426-c69f-4597-a095-5ef8498221db" name="Sphere.027">
+			<meta id="8369f63a-8e44-4b73-b093-f762aef5db85" name="Sphere.027_0"/>
+			<meta id="f40cc70f-68f4-4f1e-aa93-99a7c554b17a" name="Sphere.027_1"/>
+		</meta>
+		<meta id="58904321-67bd-4d43-810c-80895388f5fa" name="Sphere.028">
+			<meta id="ab646034-7869-41f1-aafc-aa6c5dc200d5" name="Sphere.028_0"/>
+			<meta id="3b7de721-4651-4908-b7b5-4cffd7a2594e" name="Sphere.028_1"/>
+		</meta>
+		<meta id="d9c3dd1c-201f-4aee-8417-4998b2a7ec1a" name="Sphere.029">
+			<meta id="6bac69ba-1428-4823-8d5f-fe323c7c88fe" name="Sphere.029_0"/>
+			<meta id="012e8a11-8460-4f31-bc12-5e10fc749045" name="Sphere.029_1"/>
+		</meta>
+		<meta id="885aa35c-dc2e-4a99-a9f8-aba3b4e2b799" name="Sphere.030">
+			<meta id="93a8f540-6594-4d06-8c30-09096e938b64" name="Sphere.030_0"/>
+			<meta id="42326b64-4599-4763-b85b-1e847eaa8f23" name="Sphere.030_1"/>
+		</meta>
+		<meta id="712ab2a9-7eb4-4a38-a025-da880e0c7bd8" name="Sphere.031">
+			<meta id="9aa6f938-d9d2-41a9-ae44-f513e540d8c3" name="Sphere.031_0"/>
+			<meta id="cc79a701-5dd3-4aab-b8ed-3f0a7ff3a8dc" name="Sphere.031_1"/>
+		</meta>
+		<meta id="703bb8a8-5f20-4d82-b5da-deb884c15042" name="Sphere.032">
+			<meta id="e5975b34-c90e-42f9-8074-c1eca0ece665" name="Sphere.032_0"/>
+			<meta id="80e543d0-bcd9-4720-8f52-414a4b8a6b5f" name="Sphere.032_1"/>
+		</meta>
+		<meta id="551b57ee-47a3-4aa1-a051-65855937b518" name="Sphere.033">
+			<meta id="5c7d4f57-fef8-4fef-b736-8fd5e9c43e7d" name="Sphere.033_0"/>
+			<meta id="65cc2cd1-b83f-4dd7-809d-1bae18884bf0" name="Sphere.033_1"/>
+		</meta>
+		<meta id="7a58d302-ea11-48b7-8ae2-9c04c25d5a3f" name="Sphere.034">
+			<meta id="ebc69e24-4624-498e-a49e-aebbb4ebf510" name="Sphere.034_0"/>
+			<meta id="4ec9b1d6-019a-4a45-9fcf-48d9511b417e" name="Sphere.034_1"/>
+		</meta>
+		<meta id="f6d92b3f-c9fb-49cc-92d7-e5fc6db19117" name="Sphere.035">
+			<meta id="7ef4304f-1b8e-4294-8d3f-bd7c761f69d9" name="Sphere.035_0"/>
+			<meta id="53baf232-a43f-4790-b8c0-7757db461502" name="Sphere.035_1"/>
+		</meta>
+		<meta id="14a851cd-3df3-4b72-b930-40ac85babc3a" name="Sphere.036">
+			<meta id="8cf1469f-20fe-4c2f-88b9-951a249c4ff0" name="Sphere.036_0"/>
+			<meta id="c0aaad7c-eace-43e7-8ba6-e8c03a854e9b" name="Sphere.036_1"/>
+		</meta>
+		<meta id="c557ae22-37f0-4f36-8961-a29b69353008" name="Sphere.037">
+			<meta id="c0ab1b90-1623-4647-bec4-f932003e59f0" name="Sphere.037_0"/>
+			<meta id="83a339ff-184a-41a5-adb9-96af244853ad" name="Sphere.037_1"/>
+		</meta>
+		<meta id="d5353d81-2704-40ee-972c-003830191b00" name="Sphere.038">
+			<meta id="25eb452c-9aa7-413e-8494-fa4a1b46c43e" name="Sphere.038_0"/>
+			<meta id="8e150be7-afb9-421c-a7ed-0cca690cc06e" name="Sphere.038_1"/>
+		</meta>
+		<meta id="2b70d085-6f24-40d4-8a41-632fc4bf3eb9" name="Sphere.039">
+			<meta id="6edd8255-c5e8-482f-bc28-a5f351c5a2d4" name="Sphere.039_0"/>
+			<meta id="c18b6ce8-8a4b-4280-a38b-103ae1ee67f4" name="Sphere.039_1"/>
+		</meta>
+		<meta id="cabc4da0-5c94-4263-890d-70de3bba1e05" name="Sphere.040">
+			<meta id="23ca6b2e-a8fc-4185-b027-886b41b512d8" name="Sphere.040_0"/>
+			<meta id="f529fa3b-fc19-492f-9863-cb8768e32608" name="Sphere.040_1"/>
+		</meta>
+		<meta id="580c10a6-7382-4d99-a764-c9d3dd177457" name="Sphere.041">
+			<meta id="99141d08-d1be-43cb-ac53-64b28e943138" name="Sphere.041_0"/>
+			<meta id="c8484c24-98f4-44a8-802f-bbb7dbbec522" name="Sphere.041_1"/>
+		</meta>
+		<meta id="154bd319-342a-4a81-a9f7-dc78d91a3ca7" name="Sphere.042">
+			<meta id="c5491b35-1db1-4088-91a8-a513cf60b825" name="Sphere.042_0"/>
+			<meta id="3c961cfd-31dd-47f1-af47-fc78ed138d34" name="Sphere.042_1"/>
+		</meta>
+		<meta id="96c70f5a-aa83-4acc-8b0a-3ee97f0678ec" name="Sphere"/>
+		<meta id="2961c5e0-f8bd-4beb-b39f-abc70445e99d" name="star.001"/>
+		<meta id="af321f1d-6bd7-40d8-9a2e-5a236697c56d" name="star.002"/>
+		<meta id="68d2d81b-5273-41a0-979e-7b140b98366b" name="star.003"/>
+		<meta id="01c50e4d-3c76-4721-9055-23bfaad7153c" name="star.004"/>
+		<meta id="e4f4786f-8ade-489c-88d3-35ac59328c43" name="star.005"/>
+		<meta id="36ff6e31-2156-4c9d-912a-1f9119e20370" name="star.006"/>
+		<meta id="3b236ac1-4a81-4903-8d5a-f14626fece36" name="star.007"/>
+		<meta id="13acee78-5b1c-416f-9a4e-670bd7207c0a" name="star.008"/>
+		<meta id="d13804e4-6229-4fff-aaaa-bf9bfd7bb402" name="star"/>
+	</meta>
+</meta>
+<importer type="GamCFbxImporterConfiguration">
+	<Md5Checksum value="abd37532959a239d6434cad6c3180650"/>
+	<Scale value="0.01"/>
+	<PatchMeshOffset value="true"/>
+	<UniqueNodeName value="false"/>
+	<ImportAnimation value="false"/>
+	<IgnoreRootAnimation value="false"/>
+	<FlipXAxis value="true"/>
+	<MergeDuplicateMeshes value="true"/>
+	<GenerateLod value="false"/>
+	<OverrideExistingLod value="false"/>
+	<NodeConfig type="GenCFbxNodeConfig">
+		<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+		<ChildList>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="cameralight"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Light-side"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="floor"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Lamp"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Camera"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="ChristmasTreePart_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="ChristmasTreePart_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="ChristmasTreePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Sphere.001"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Sphere.002"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Sphere.003"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Sphere.004"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Sphere.005"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Sphere.006"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Sphere.007"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Sphere.008"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.009_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.009_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.009"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.010_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.010_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.010"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.011_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.011_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.011"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.012_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.012_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.012"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.013_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.013_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.013"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.014_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.014_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.014"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.015_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.015_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.015"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.016_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.016_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.016"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.017_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.017_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.017"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.018_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.018_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.018"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.019_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.019_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.019"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.020_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.020_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.020"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.021_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.021_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.021"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.022_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.022_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.022"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.023_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.023_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.023"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.024_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.024_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.024"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.025_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.025_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.025"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.026_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.026_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.026"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.027_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.027_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.027"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.028_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.028_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.028"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.029_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.029_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.029"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.030_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.030_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.030"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.031_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.031_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.031"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.032_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.032_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.032"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.033_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.033_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.033"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.034_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.034_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.034"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.035_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.035_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.035"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.036_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.036_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.036"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.037_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.037_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.037"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.038_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.038_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.038"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.039_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.039_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.039"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.040_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.040_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.040"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.041_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.041_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.041"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.042_0"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Sphere.042_1"/>
+					</Item>
+				</ChildList>
+				<NodeName value="Sphere.042"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Sphere"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="star.001"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="star.002"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="star.003"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="star.004"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="star.005"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="star.006"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="star.007"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="star.008"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="star"/>
+			</Item>
+		</ChildList>
+		<NodeName value="Prefab"/>
+	</NodeConfig>
+	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="583419d3-8911-48b0-ad1f-aa7c8df063ce"/>
+			<MaterialName value="Material"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="5a3b1617-1603-49a6-bcf9-d6fa27419214"/>
+			<MaterialName value="Material.Bark.001"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="ed066d25-d2e6-4653-96cb-a9aa21e1a8b0"/>
+			<MaterialName value="Material.Branches"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="4d13045f-a397-4212-9a51-acc52cae154f"/>
+			<MaterialName value="gold"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="21201261-3586-4818-b9be-a8ba743ea584"/>
+			<MaterialName value="lighside"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="488d542a-163e-4e84-b258-99b09ec940d3"/>
+			<MaterialName value="light-camera"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="d758d417-c25e-45ff-855b-6de712c8ada1"/>
+			<MaterialName value="red-ball"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="5bd3bc91-41f8-47cf-9ee1-5a02bfa9d8fc"/>
+			<MaterialName value="silver"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="2fc0736f-286b-4343-a015-afefca3373db"/>
+			<MaterialName value="white-handle"/>
+		</Item>
+	</MaterialList>
+</importer>
+
