@@ -72,18 +72,17 @@
 		<meta id="c6b78ef5-176f-42bc-b762-71d1fc0e4487" name="HatRibbonGreen_Material.HatRibbonGreen"/>
 		<meta id="44779084-311d-46eb-905b-a791326e730f" name="ButtonGrey_Material.ButtonGrey"/>
 		<meta id="e37a8700-a2b4-41cd-a3ff-0d9ae445badb" name="ButtonBrown_Material.ButtonBrown"/>
-		<meta id="c7891ee5-b379-4b95-96cf-60835235259b" name="HatRibbonGrey_Material.HatRibbonGrey"/>
 		<meta id="3f6ea810-c6a0-4878-888c-828dc8c1e9f0" name="SnowmanMonumentPolePart_Material.SnowmanMonumentPole"/>
 		<meta id="73850698-e331-4433-bf5a-2f25770476a6" name="Cylinder.006_Material.Bark"/>
 		<meta id="e52e9aca-57be-4d7f-bbb5-e2876bfc0518" name="Cylinder.007_Material.Bark"/>
 		<meta id="a1996ff1-cf49-43d4-b55b-9df9ba2bf331" name="Cylinder.009_Material.Bark"/>
 		<meta id="a2347f26-40f9-4afe-aaa8-7670a5284d20" name="Cylinder.010_Material.Bark"/>
 		<meta id="c61c4ab0-9299-4520-9990-01085d7ce0eb" name="Cylinder.011_Material.Bark"/>
+		<meta id="dfd1d0c6-ef2e-4d87-8580-ab8d0068e038" name="HatRibbonGrey_Material.HatRibbonGrey"/>
 	</meta>
 	<meta id="7a7db191-bfa8-44fb-9818-09a99b101b07" name="Prefab">
 		<meta id="aad40e58-a031-4d8d-abeb-34961b43a7b0" name="Light"/>
 		<meta id="a17466f4-eacc-4cb1-8293-bfe1f615787f" name="Camera"/>
-		<meta id="966c4b2c-392f-4427-bed7-988342d978e2" name="Camera.001"/>
 		<meta id="2604997c-b709-4211-b0e5-5e34ec08bc5b" name="ButtonBlackPart">
 			<meta id="d551e6f6-d140-446c-890c-291d2b157839" name="ButtonBlack"/>
 			<meta id="e705208d-2cb7-453a-8fa7-22419ad37429" name="AttachMinor.007"/>
@@ -270,11 +269,12 @@
 			<meta id="97b73067-4056-414d-9258-47a9d99f73a6" name="AttachMinor.023"/>
 		</meta>
 		<meta id="e84e6198-5cdf-4e78-bf2b-bfa4cdd63136" name="SnowmanMonumentPolePart"/>
-		<meta id="fb81cf09-1c87-4475-8525-b29a93ab1a7d" name="Camera.002"/>
+		<meta id="ae7116b9-d627-42f2-81a0-d64893a50f32" name="CameraOverview"/>
+		<meta id="13bef506-63d6-4cbd-bc69-fcd6e13dd689" name="CameraExampleSnowman"/>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="626355ba4557c67362c0d26c8edbb82a"/>
+	<Md5Checksum value="5dc6bff4cf8143177eb618fa114c86e7"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -296,11 +296,6 @@
 				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 				<ChildList/>
 				<NodeName value="Camera"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Camera.001"/>
 			</Item>
 			<Item type="GenCFbxNodeConfig">
 				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
@@ -1105,7 +1100,12 @@
 			<Item type="GenCFbxNodeConfig">
 				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 				<ChildList/>
-				<NodeName value="Camera.002"/>
+				<NodeName value="CameraOverview"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="CameraExampleSnowman"/>
 			</Item>
 		</ChildList>
 		<NodeName value="Prefab"/>
