@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<meta id="29f69723-087e-4310-9af0-2e33bdebae02">
-	<meta id="c07b1247-54c4-4df2-98e5-a6d5e873c371" type="group" folder="true" name="Materials">
-		<meta id="35dfdc82-a227-47e2-acdf-e4925e9b5d91" name="Material"/>
-		<meta id="4de13d28-3ce5-4d21-8943-960b431b855d" name="Material.Snowflake"/>
+<meta id="d6db30e5-37da-4c9d-ac21-99ccec6b0001">
+	<meta id="4caa888d-96cb-4288-8329-d777a74e824a" type="group" folder="true" name="Materials">
+		<meta id="98807dae-e3ef-45cd-b69e-f6d169cff883" name="Material"/>
+		<meta id="9ce440ef-9e01-423d-a57d-f31bac97c184" name="Material.Snowflake"/>
 	</meta>
-	<meta id="68b211dc-339d-43b0-b073-3eac9c9b929a" type="group" folder="true" name="Meshes">
-		<meta id="f3ce99f9-3b50-49cc-b29b-742e70615095" name="Plane_Material"/>
-		<meta id="3f281cb3-f639-437a-b962-86ab724d2762" name="SnowflakeCombined_Material.Snowflake"/>
-		<meta id="c10c14e2-020f-4dad-b246-5e9e53cf3a22" name="SnowflakePartOld_Material.Snowflake"/>
-		<meta id="ce02e969-6d5a-4f63-891b-1430a9413588" name="SnowflakePart_Material.Snowflake"/>
+	<meta id="aba431da-7a55-4d76-b283-1386867f636f" type="group" folder="true" name="Meshes">
+		<meta id="92fe4367-9558-42d5-a4f4-1813793ef93c" name="Plane_Material"/>
+		<meta id="5303e8c6-2fa8-4c78-9670-7e095cd43e70" name="SnowflakeCombined_Material.Snowflake"/>
+		<meta id="3e02e7ac-d5b6-4aa2-b297-f53a8f64061c" name="SnowflakePartOld_Material.Snowflake"/>
+		<meta id="8efe011d-611f-43e0-991a-7fb3b720c4de" name="SnowflakePart_Material.Snowflake"/>
 	</meta>
-	<meta id="50e5995f-8030-4e2e-9fe0-13898a9d3a31" name="Prefab">
-		<meta id="dee70804-d1c6-4bdf-b708-01f9ea030e97" name="Light"/>
-		<meta id="70399861-d6ed-4042-9ef7-eba2905fc755" name="Camera"/>
-		<meta id="a87426ae-f3f5-4802-866e-22c8e7ff0f5b" name="Plane"/>
-		<meta id="076d1852-0235-4cdb-921e-818a04b4b3ac" name="BezierCurve"/>
-		<meta id="e64c4587-2ce0-48c4-9646-734465ca3415" name="BezierCurve.001"/>
-		<meta id="e08b4b28-1f5d-4bd7-95de-0f53865bd26c" name="BezierCurve.002"/>
-		<meta id="5f5614e5-6883-4d63-9860-c95a862d6b02" name="BezierCurve.003"/>
-		<meta id="a9b22880-e832-47b6-a410-f5b07bea7a30" name="BezierCurve.004"/>
-		<meta id="aa0af1c9-c2c1-4912-94bd-f7c080c7b391" name="BezierCurve.005"/>
-		<meta id="6f36a9ca-2c8d-4234-8b06-31768c2a4c38" name="BezierCurve.006"/>
-		<meta id="a8f16fbb-4d9b-4d69-bab8-3db35c241ad2" name="BezierCurve.007"/>
-		<meta id="70c53bf7-0fc9-44ef-a576-1f3400190a51" name="BezierCurve.008"/>
-		<meta id="1d355f34-160a-4275-bdc8-a46fddee9d6c" name="BezierCurve.009"/>
-		<meta id="6a9a9356-e7e5-4cd7-878f-538d4e7a3816" name="BezierCurve.010"/>
-		<meta id="9ccd9017-a7fc-48f3-99d8-d6c0cec27360" name="BezierCurve.011"/>
-		<meta id="3e42cfff-2767-47fa-b82c-3731f3510e86" name="BezierCurve.012"/>
-		<meta id="8705be39-0052-4883-92c2-3ec82e07eabe" name="SnowflakeCombined"/>
-		<meta id="326bd21a-e488-4907-8438-21c0d93dddbb" name="SnowflakePart"/>
-		<meta id="b66c1766-db0d-438f-a176-872216989111" name="SnowflakePartOld"/>
+	<meta id="17a1841b-2568-43b8-99d2-366db44fc336" name="Prefab">
+		<meta id="1df81daf-1e08-4717-956a-3daf03ce8470" name="Light"/>
+		<meta id="ea7f5258-92b0-4556-b2de-fa5043bf53fe" name="Camera"/>
+		<meta id="0160dd40-284a-4af2-941b-f66356600200" name="Plane"/>
+		<meta id="5848158c-355b-426b-a45d-d28dff759ef9" name="BezierCurve"/>
+		<meta id="f32ff2b4-ef85-417a-9dbb-063d9c6655f9" name="BezierCurve.001"/>
+		<meta id="a8a5315c-5af1-4a11-86d3-76ee8b43b96f" name="BezierCurve.002"/>
+		<meta id="53248f0c-7cc5-4a1c-ac1a-23fe34fc8392" name="BezierCurve.003"/>
+		<meta id="13690154-042e-44d8-9b3b-791e47ce81b9" name="BezierCurve.004"/>
+		<meta id="7a71d813-8ae0-4d18-8296-93d261bc3555" name="BezierCurve.005"/>
+		<meta id="ba9c4868-be13-487e-b2cc-1eeead562a85" name="BezierCurve.006"/>
+		<meta id="90f21d89-977d-47f9-9851-4ffa055887c6" name="BezierCurve.007"/>
+		<meta id="e3f3c473-fec1-4845-8145-4a8f20bd1e1f" name="BezierCurve.008"/>
+		<meta id="1281129e-00e3-439c-8850-e692b7b69c35" name="BezierCurve.009"/>
+		<meta id="2d8d975d-9949-4697-87fe-8823cdd333b8" name="BezierCurve.010"/>
+		<meta id="5f79da50-281f-4e3b-b48b-9f828d363ef2" name="BezierCurve.011"/>
+		<meta id="73b794f4-cd93-4383-8a80-23521d8a4cfd" name="BezierCurve.012"/>
+		<meta id="6eaecfdc-b5cd-4489-bc86-b4eff9260f82" name="SnowflakeCombined"/>
+		<meta id="f5fd5950-9ccc-44b1-944a-42ddbba7f44c" name="SnowflakePartOld"/>
+		<meta id="e1b4b966-fae2-4752-92f6-2274cccc1e7a" name="SnowflakePart"/>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
@@ -134,23 +134,23 @@
 			<Item type="GenCFbxNodeConfig">
 				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 				<ChildList/>
-				<NodeName value="SnowflakePart"/>
+				<NodeName value="SnowflakePartOld"/>
 			</Item>
 			<Item type="GenCFbxNodeConfig">
 				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 				<ChildList/>
-				<NodeName value="SnowflakePartOld"/>
+				<NodeName value="SnowflakePart"/>
 			</Item>
 		</ChildList>
 		<NodeName value="Prefab"/>
 	</NodeConfig>
 	<MaterialList>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="35dfdc82-a227-47e2-acdf-e4925e9b5d91"/>
+			<MaterialGuid value="98807dae-e3ef-45cd-b69e-f6d169cff883"/>
 			<MaterialName value="Material"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="4de13d28-3ce5-4d21-8943-960b431b855d"/>
+			<MaterialGuid value="9ce440ef-9e01-423d-a57d-f31bac97c184"/>
 			<MaterialName value="Material.Snowflake"/>
 		</Item>
 	</MaterialList>

@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<meta id="a99e8a72-5a2e-4963-990d-6d4c92b454a7">
-	<meta id="02c14a27-bbf0-4ce5-8e4a-60832aef2f8e" type="group" folder="true" name="Materials">
-		<meta id="c88ac969-6472-42b9-85fc-bce568afc483" name="stone"/>
-		<meta id="46bdb642-27d7-4a1d-a327-daa4f3338c99" name="wood"/>
+<meta id="9cb3e07d-8940-412b-88a9-28a742ac283b">
+	<meta id="342d87c1-c077-4ebe-85a6-f88509a743aa" type="group" folder="true" name="Materials">
+		<meta id="36c74a69-606d-4b5f-949e-7f333a0f6f92" name="stone"/>
+		<meta id="7b1aaffe-fa57-4efb-99df-1b67369923e0" name="wood"/>
 	</meta>
-	<meta id="91ff4155-f760-48fd-b325-1c108629fa6d" type="group" folder="true" name="Meshes">
-		<meta id="6d309afe-3bbe-4de3-9144-c33591a3c1f3" name="stone.001_stone"/>
-		<meta id="7fffe7ad-cae5-4148-a926-079d45be8be9" name="stone.002_stone"/>
-		<meta id="8dc8e312-3533-4dbd-9e59-af2e5c6b7302" name="stone.003_stone"/>
-		<meta id="6271ce19-4c4a-4ae6-9f9b-4a4661a44f38" name="stone.004_stone"/>
-		<meta id="1c036332-6122-43c2-91fb-5ec98fbba942" name="stone.008_stone"/>
-		<meta id="106b2531-828f-410f-9a92-1ecd25bc99ef" name="stick_wood"/>
+	<meta id="3a145dd6-c3ea-4249-82ef-32f9187b8cfa" type="group" folder="true" name="Meshes">
+		<meta id="1ab2cda8-eea0-4f42-b9aa-0386671993e4" name="stone.001_stone"/>
+		<meta id="8f13ef04-b26c-42ab-922d-5521a90cc794" name="stone.002_stone"/>
+		<meta id="59473361-8d40-4c79-96f0-012bf47b8ebe" name="stone.003_stone"/>
+		<meta id="8396625e-96a7-450d-b72c-36f3cbc33ce0" name="stone.004_stone"/>
+		<meta id="73e34961-a4a6-434f-abf8-7c8fcf70ba74" name="stone.008_stone"/>
+		<meta id="48247989-e503-416f-80db-c302363c63de" name="stick_wood"/>
 	</meta>
-	<meta id="46cb62b8-6943-4f3d-9af2-483a99462fbf" name="Prefab">
-		<meta id="67f3a4f6-ce2e-4f0e-8cf6-a4f47bf38a25" name="fire_place_Part">
-			<meta id="f73717b1-df68-4c5e-9f0b-33a11d0f5c0a" name="stone.001"/>
-			<meta id="5a04bb64-b5dc-4c90-abc7-c444b89014c6" name="stone.002"/>
-			<meta id="ee86ccde-2842-47f6-b646-556a21123b8b" name="stone.003"/>
-			<meta id="559877bb-e99e-4a19-aece-545359b71cc1" name="stone.004"/>
-			<meta id="6b72f5e9-337b-4774-9b23-d6b75d1d62a0" name="stone.005"/>
-			<meta id="06c6545b-2afc-49da-a9e2-c8619eeec143" name="stone.006"/>
-			<meta id="c1c6dd2c-544d-4175-b902-963a0a19c9c7" name="stone.007"/>
-			<meta id="adcc4298-7958-4e29-8e9f-93dd893813fc" name="stone.008"/>
-			<meta id="99ae5dcf-8491-40e1-8788-80c6dca8079f" name="stone.009"/>
-			<meta id="eb9ccc69-00b1-493b-aec3-3feb454e2020" name="stone.010"/>
-			<meta id="8c87faea-af0d-4fc5-973c-7a48db7066f1" name="stone"/>
-			<meta id="ab06e514-f71a-4d33-b717-2628418cf57e" name="stick"/>
-			<meta id="6b669f7f-fe57-47b7-873f-de59fee8952c" name="stick.001"/>
-			<meta id="457021ef-db3f-4763-8314-ca137a61fa48" name="stick.002"/>
-			<meta id="9c097548-1acd-4964-8530-228bd47dfa35" name="stick.003"/>
-			<meta id="14e0a1d6-8c05-463e-9d56-02cbc7f33a03" name="stick.004"/>
-			<meta id="929bb37e-55b9-4126-987e-a0c1c9b85d5e" name="stick.005"/>
-			<meta id="8b372bb2-0825-420b-9e5e-581662709c07" name="stick.006"/>
-			<meta id="8850a5bb-6659-4f39-ab24-4960e46daa6f" name="stick.007"/>
-			<meta id="dab2a550-3831-4a6f-99be-1f4593ecf5dc" name="stone.011"/>
-			<meta id="5653b8ac-e761-4ac3-bb9c-7c295538c1b3" name="stone.012"/>
-			<meta id="70cd5d3d-bba1-4e17-a50b-5a8675729d8c" name="fireEmitter"/>
-			<meta id="35367210-0134-4c6b-a18e-a81ae4a62ba1" name="smokeEmitter"/>
-			<meta id="6c0276e4-e88f-453b-a69c-f5ee3beb0026" name="firesparklesEmitter"/>
+	<meta id="339fad6c-7ab9-47fa-8f2a-d9ae38583879" name="Prefab">
+		<meta id="3acc9ed1-0ed8-4c55-8df9-5f4fba759a40" name="fire_place_Part">
+			<meta id="676db325-c4de-4531-96e6-65baeb66be5a" name="stone.001"/>
+			<meta id="83ded161-1f2b-45f5-a561-477e423fefc3" name="stone.002"/>
+			<meta id="bc5a3f4a-8c44-47ab-8d3d-9769ebedc2b2" name="stone.003"/>
+			<meta id="d7bde2ce-a2a8-494b-b92c-8938eabb5c76" name="stone.004"/>
+			<meta id="505f1ad1-f445-4617-8844-73c47c8f66c1" name="stone.005"/>
+			<meta id="1633f46a-8572-47f1-a0c3-2b41b5da10ef" name="stone.006"/>
+			<meta id="a0ae0bea-5603-4ff9-a4f5-45cc4b0503d7" name="stone.007"/>
+			<meta id="2d4e5ca9-5f45-4616-89aa-af011a269a28" name="stone.008"/>
+			<meta id="22153d62-d28f-4484-a4da-48d5134b2ec3" name="stone.009"/>
+			<meta id="238f9191-a5af-44a1-aa88-70b59f625287" name="stone.010"/>
+			<meta id="747c5a80-86e2-4c5c-ae15-4ac94b1d431d" name="stone"/>
+			<meta id="4bb8e56d-ebb5-4048-a659-94b79cba1532" name="stick"/>
+			<meta id="3cb153d0-282e-4055-a324-6940b56f79b8" name="stick.001"/>
+			<meta id="183797fa-f1c4-4e27-9e86-14d950599d61" name="stick.002"/>
+			<meta id="288387d2-38ab-4cb0-bcbe-00c13fe1e09e" name="stick.003"/>
+			<meta id="860a168f-25c8-4005-a480-8dd7b2d4c922" name="stick.004"/>
+			<meta id="eb10a5eb-1ed2-4152-b4fb-5083c9488835" name="stick.005"/>
+			<meta id="9041f83f-f15e-487b-8095-06a2ff60a96e" name="stick.006"/>
+			<meta id="4c08cd45-7b02-42fc-810e-aefece02c706" name="stick.007"/>
+			<meta id="9666a1e7-4ddf-4b50-9e70-ad9adc13dd2b" name="stone.011"/>
+			<meta id="c4cf7bae-fe4d-4e6b-ba77-ca038f15e85e" name="stone.012"/>
+			<meta id="26fb1338-ad87-42e8-9bf0-d6f0e21b4205" name="fireEmitter"/>
+			<meta id="c01b03cf-52dc-458f-b3d5-f5f1a1da1e13" name="smokeEmitter"/>
+			<meta id="b1f8e8fe-7453-4990-b39e-4bf1ed1004fa" name="firesparklesEmitter"/>
 		</meta>
 	</meta>
 </meta>
@@ -186,11 +186,11 @@
 	</NodeConfig>
 	<MaterialList>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="c88ac969-6472-42b9-85fc-bce568afc483"/>
+			<MaterialGuid value="36c74a69-606d-4b5f-949e-7f333a0f6f92"/>
 			<MaterialName value="stone"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="46bdb642-27d7-4a1d-a327-daa4f3338c99"/>
+			<MaterialGuid value="7b1aaffe-fa57-4efb-99df-1b67369923e0"/>
 			<MaterialName value="wood"/>
 		</Item>
 	</MaterialList>
