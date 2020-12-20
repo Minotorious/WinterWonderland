@@ -47,11 +47,17 @@ winterWonderland:register({
             }
 		},
         {
+            Name = "CHRISTMAS_TREE_MONUMENT_TOPPERS_CATEGORY_NAME",
+            BuildingPartList = {
+                
+            }
+		},
+        {
             Name = "CHRISTMAS_TREE_MONUMENT_SPHERE_ORNAMENTS_CATEGORY_NAME",
             BuildingPartList = {
                 "SPHERE_ORNAMENT_GOLD_PART", "SPHERE_ORNAMENT_RED_PART"
             }
-		},
+		}
     }
 })
 
