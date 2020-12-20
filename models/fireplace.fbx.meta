@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta id="db504c2b-3bb4-4027-a935-d4d00b31428b">
+	<meta id="02c14a27-bbf0-4ce5-8e4a-60832aef2f8e" type="group" folder="true" name="Materials">
+		<meta id="c88ac969-6472-42b9-85fc-bce568afc483" name="stone"/>
+		<meta id="46bdb642-27d7-4a1d-a327-daa4f3338c99" name="wood"/>
+	</meta>
+	<meta id="91ff4155-f760-48fd-b325-1c108629fa6d" type="group" folder="true" name="Meshes">
+		<meta id="6d309afe-3bbe-4de3-9144-c33591a3c1f3" name="stone.001_stone"/>
+		<meta id="7fffe7ad-cae5-4148-a926-079d45be8be9" name="stone.002_stone"/>
+		<meta id="8dc8e312-3533-4dbd-9e59-af2e5c6b7302" name="stone.003_stone"/>
+		<meta id="6271ce19-4c4a-4ae6-9f9b-4a4661a44f38" name="stone.004_stone"/>
+		<meta id="1c036332-6122-43c2-91fb-5ec98fbba942" name="stone.008_stone"/>
+		<meta id="106b2531-828f-410f-9a92-1ecd25bc99ef" name="stick_wood"/>
+	</meta>
+	<meta id="46cb62b8-6943-4f3d-9af2-483a99462fbf" name="Prefab">
+		<meta id="67f3a4f6-ce2e-4f0e-8cf6-a4f47bf38a25" name="fire_place_Part">
+			<meta id="f73717b1-df68-4c5e-9f0b-33a11d0f5c0a" name="stone.001"/>
+			<meta id="5a04bb64-b5dc-4c90-abc7-c444b89014c6" name="stone.002"/>
+			<meta id="ee86ccde-2842-47f6-b646-556a21123b8b" name="stone.003"/>
+			<meta id="559877bb-e99e-4a19-aece-545359b71cc1" name="stone.004"/>
+			<meta id="6b72f5e9-337b-4774-9b23-d6b75d1d62a0" name="stone.005"/>
+			<meta id="06c6545b-2afc-49da-a9e2-c8619eeec143" name="stone.006"/>
+			<meta id="c1c6dd2c-544d-4175-b902-963a0a19c9c7" name="stone.007"/>
+			<meta id="adcc4298-7958-4e29-8e9f-93dd893813fc" name="stone.008"/>
+			<meta id="99ae5dcf-8491-40e1-8788-80c6dca8079f" name="stone.009"/>
+			<meta id="eb9ccc69-00b1-493b-aec3-3feb454e2020" name="stone.010"/>
+			<meta id="8c87faea-af0d-4fc5-973c-7a48db7066f1" name="stone"/>
+			<meta id="ab06e514-f71a-4d33-b717-2628418cf57e" name="stick"/>
+			<meta id="6b669f7f-fe57-47b7-873f-de59fee8952c" name="stick.001"/>
+			<meta id="457021ef-db3f-4763-8314-ca137a61fa48" name="stick.002"/>
+			<meta id="9c097548-1acd-4964-8530-228bd47dfa35" name="stick.003"/>
+			<meta id="14e0a1d6-8c05-463e-9d56-02cbc7f33a03" name="stick.004"/>
+			<meta id="929bb37e-55b9-4126-987e-a0c1c9b85d5e" name="stick.005"/>
+			<meta id="8b372bb2-0825-420b-9e5e-581662709c07" name="stick.006"/>
+			<meta id="8850a5bb-6659-4f39-ab24-4960e46daa6f" name="stick.007"/>
+			<meta id="dab2a550-3831-4a6f-99be-1f4593ecf5dc" name="stone.011"/>
+			<meta id="5653b8ac-e761-4ac3-bb9c-7c295538c1b3" name="stone.012"/>
+			<meta id="70cd5d3d-bba1-4e17-a50b-5a8675729d8c" name="fireEmitter"/>
+			<meta id="35367210-0134-4c6b-a18e-a81ae4a62ba1" name="smokeEmitter"/>
+			<meta id="6c0276e4-e88f-453b-a69c-f5ee3beb0026" name="firesparklesEmitter"/>
+		</meta>
+	</meta>
+</meta>
+<importer type="GamCFbxImporterConfiguration">
+	<Md5Checksum value="7db734e6bd42c3e0cb1b413b1f8cebcb"/>
+	<Scale value="0.01"/>
+	<PatchMeshOffset value="true"/>
+	<UniqueNodeName value="false"/>
+	<ImportAnimation value="false"/>
+	<IgnoreRootAnimation value="false"/>
+	<FlipXAxis value="true"/>
+	<MergeDuplicateMeshes value="true"/>
+	<GenerateLod value="false"/>
+	<OverrideExistingLod value="false"/>
+	<NodeConfig type="GenCFbxNodeConfig">
+		<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+		<ChildList>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stone.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stone.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stone.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stone.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stone.005"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stone.006"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stone.007"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stone.008"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stone.009"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stone.010"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stone"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stick"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stick.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stick.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stick.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stick.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stick.005"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stick.006"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stick.007"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stone.011"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="stone.012"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="fireEmitter"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="smokeEmitter"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="firesparklesEmitter"/>
+					</Item>
+				</ChildList>
+				<NodeName value="fire_place_Part"/>
+			</Item>
+		</ChildList>
+		<NodeName value="Prefab"/>
+	</NodeConfig>
+	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="c88ac969-6472-42b9-85fc-bce568afc483"/>
+			<MaterialName value="stone"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="46bdb642-27d7-4a1d-a327-daa4f3338c99"/>
+			<MaterialName value="wood"/>
+		</Item>
+	</MaterialList>
+</importer>
+
