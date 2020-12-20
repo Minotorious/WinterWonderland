@@ -59,6 +59,9 @@
 		"CHRISTMAS_GIFT1_PART_DESC": "A variation of nice Christmas gifts",
 		"CHRISTMAS_GIFT2_NAME": "Another variation of gifts",
 		"CHRISTMAS_GIFT2_DESC": "Another variation of nice Christmas gifts",
-		"CHRISTMAS_GIFT2_PART_DESC": "Another variation of nice Christmas gifts"
+		"CHRISTMAS_GIFT2_PART_DESC": "Another variation of nice Christmas gifts",
+		"FIREPLACE_NAME": "Fireplace",
+		"FIREPLACE_DESC": "A warm fire place for cold days",
+		"FIREPLACE_PART_DESC": "A warm fire place for cold days"
     }
 }
