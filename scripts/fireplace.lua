@@ -106,8 +106,8 @@ winterWonderland:register({
 	BurstList = {},
 	Shape = {
 		DataType = "PARTICLE_EMITTER_SHAPE_CONE",
-		Angle = 2.46,
-		Radius = 0.0001,
+		Angle = 90,
+		Radius = 0.8,
 	},
 	LinearVelocity = {
 		DataType = "PARTICLE_FLOAT3_VALUE_CURVE_RANDOM",
