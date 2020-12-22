@@ -9,6 +9,8 @@
 		<meta id="717e33f2-f791-46c0-9f59-76dc5c2b96c1" name="paper4"/>
 		<meta id="4b147ee2-7b05-40fd-8d4c-a14f760abf6c" name="paper5"/>
 		<meta id="22cde1cd-07a6-4874-892a-be1ae334fb99" name="paper6"/>
+		<meta id="2a82eb2d-e348-4452-b693-a78c720a8a57" name="Elk_mat.003"/>
+		<meta id="2c02db7f-eafa-425b-b47d-ba45f7f9df94" name="Elk_mat.002"/>
 	</meta>
 	<meta id="65c7ef30-0c11-421c-949b-8403b4783c78" type="group" folder="true" name="Meshes">
 		<meta id="a6c1c836-be06-4f1e-93de-2272f28e1bf1" name="sticks.001_wood"/>
@@ -54,6 +56,8 @@
 		<meta id="166e0d37-dd88-4b34-b547-ec4c3a8417b5" name="Cube.021_paper4"/>
 		<meta id="bc8dfc75-2865-421f-b3b3-d3606212c272" name="Cube.022_paper5"/>
 		<meta id="e4e5db74-0a57-411f-8c46-98daf69fc9fc" name="Cube.023_paper5"/>
+		<meta id="1618a348-47f6-47d6-a9b4-b8b634248f50" name="Elk.001_Elk_mat.003"/>
+		<meta id="0c52eeaa-1012-4592-b252-daca1559258e" name="Elk_Elk_mat.002"/>
 	</meta>
 	<meta id="9924ccf9-a618-4e5b-b506-cd2f4ffa37e7" name="Prefab">
 		<meta id="f3bbccc6-cc67-4483-b642-4ffbd2320d72" name="christmas_sleighPart">
@@ -100,11 +104,15 @@
 			<meta id="793718a9-f87d-4adb-b1af-4fc9dcd2fe9b" name="Cube.021"/>
 			<meta id="5a4a5ad2-3d90-4b7a-a34e-b9f120abc5e4" name="Cube.022"/>
 			<meta id="545e3512-23f5-4993-b548-a59c1938eaf7" name="Cube.023"/>
+			<meta id="009f2dab-7660-4b4e-8d09-4ecde21a84b4" name="Elk.001"/>
+		</meta>
+		<meta id="1941c1af-1eab-4e65-9b7a-8395fec473ec" name="elkPart">
+			<meta id="f8b6efc4-3f2d-43b6-915a-2aad3a1dfdea" name="Elk"/>
 		</meta>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="850268f25ac1c4db14fa391949a63fbd"/>
+	<Md5Checksum value="e4fb923ca55e7607a4be0ef99e41da06"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -335,13 +343,37 @@
 						<ChildList/>
 						<NodeName value="Cube.023"/>
 					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Elk.001"/>
+					</Item>
 				</ChildList>
 				<NodeName value="christmas_sleighPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Elk"/>
+					</Item>
+				</ChildList>
+				<NodeName value="elkPart"/>
 			</Item>
 		</ChildList>
 		<NodeName value="Prefab"/>
 	</NodeConfig>
 	<MaterialList>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="2c02db7f-eafa-425b-b47d-ba45f7f9df94"/>
+			<MaterialName value="Elk_mat.002"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="2a82eb2d-e348-4452-b693-a78c720a8a57"/>
+			<MaterialName value="Elk_mat.003"/>
+		</Item>
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="fcdf985c-ae69-49b6-b1ae-1b64d9783672"/>
 			<MaterialName value="paper1"/>
