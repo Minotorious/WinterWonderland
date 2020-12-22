@@ -49,7 +49,7 @@ winterWonderland:register({
 	BuildingZone = {
 		ZoneEntryList = {
             {
-			Polygon = polygon.createCircle( 0.5 , { 0, 0 } , 36 ),
+			Polygon = polygon.createCircle( 0.6 , { 0, 0 } , 36 ),
 			Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
 			}
         }
