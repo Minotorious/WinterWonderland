@@ -62,6 +62,9 @@
 		"CHRISTMAS_GIFT2_PART_DESC": "Another variation of nice Christmas gifts",
 		"FIREPLACE_NAME": "Fireplace",
 		"FIREPLACE_DESC": "A warm fire place for cold days",
-		"FIREPLACE_PART_DESC": "A warm fire place for cold days"
+		"FIREPLACE_PART_DESC": "A warm fire place for cold days",
+		"ELK_NAME": "Elk",
+		"ELK_DESC": "Place the elk where you want",
+		"ELK_PART_DESC": "Place the elk where you want"
     }
 }
