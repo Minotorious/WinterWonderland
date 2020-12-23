@@ -15,6 +15,7 @@
 		<meta id="42e5ef00-ca0f-4a11-a724-e82ad93fd6b9" name="Material.Green"/>
 		<meta id="f2227ef6-228d-4855-95bc-a7a49cd2512d" name="Material.Pink"/>
 		<meta id="544e40c2-6fb3-46c8-ab03-d8ce41426b51" name="Material.Grey"/>
+		<meta id="d81b9ad6-f9c1-4ba7-8080-74f191d436bc" name="Material.Snowflake"/>
 	</meta>
 	<meta id="c2d0520f-0b5f-48a4-9505-d148b0c3a150" type="group" folder="true" name="Meshes">
 		<meta id="14892a52-c761-43e2-9b03-7d257503b4ee" name="star_Material.Gold"/>
@@ -33,6 +34,19 @@
 		<meta id="6c7a346a-a4cb-4ebc-9d3d-7cb4d7b20bc3" name="Cube.009_Material.Green"/>
 		<meta id="531ab28d-68d7-48fc-91ca-7eff9b37af33" name="Cube.010_Material.Pink"/>
 		<meta id="21ae8fa3-3e32-44c2-b9fa-7ec5f01f950f" name="Cube.011_Material.Grey"/>
+		<meta id="f0fc6667-ae85-447d-b80e-60211ecb8fa5" name="Cone_Material.Snowflake"/>
+		<meta id="707b553c-9073-4600-9cdf-7a6b33e5fa53" name="SnowflakePart.001_Material.Snowflake"/>
+		<meta id="2987677e-c4e2-43b1-a510-046f31eb1ae2" name="SnowflakePart.002_Material.Snowflake"/>
+		<meta id="bb87d684-4c5f-4984-8e77-636b67a2e58c" name="SnowflakePart.003_Material.Snowflake"/>
+		<meta id="22fa1f47-67e5-4d13-8b76-29c1bd0425c1" name="SnowflakePart.004_Material.Snowflake"/>
+		<meta id="76707193-15a2-4178-b5cb-4b7df88d43d6" name="Cube.012_Material.Snowflake"/>
+		<meta id="5e1d278c-6e58-4721-82cf-1510cb701825" name="Cone.001_Material.Gold"/>
+		<meta id="fe46848a-3c56-4df8-8e1a-3d982e0d88f7" name="Cube.014_Material.Burgundy"/>
+		<meta id="2ca0d16e-b44a-4c7b-9226-e41d0042157f" name="Cube.016_Material.Burgundy"/>
+		<meta id="1ab5b023-8fa3-4d54-b71a-dd371a9221b6" name="SphereDecimate0.7_Material.Burgundy"/>
+		<meta id="67e0cb34-855c-405a-be97-d2b8b5b50947" name="TopperSpikeSphereOrig_Material.Burgundy"/>
+		<meta id="26284c83-83e0-461b-90e2-9199e2b95edf" name="Cone.002_Material.Burgundy"/>
+		<meta id="52e54b46-72fb-420c-9edd-3b8c2a05008c" name="Circle_Material.Gold"/>
 	</meta>
 	<meta id="3882f36b-40be-4321-b8e0-6dd780f3db0d" name="Prefab">
 		<meta id="7229af15-bd01-4b21-bd32-80d36376beb4" name="Camera"/>
@@ -42,7 +56,6 @@
 				<meta id="5651d263-be3c-4c74-9622-fac571ec9790" name="ChristmasTree_0"/>
 				<meta id="c2aaf99a-08da-4981-b980-1485cffb7574" name="ChristmasTree_1"/>
 			</meta>
-			<meta id="89f66651-43c9-41ae-a4f5-ccdc20a2c56a" name="AttachTop"/>
 			<meta id="f0424437-9e7d-43ce-a43f-9d57f274a4fa" name="AttachMinor.010"/>
 			<meta id="07deb6a9-9baf-468d-b1db-5bcd1cd60331" name="AttachMinor.001"/>
 			<meta id="9139392c-172a-4824-b969-980599a90ebd" name="AttachMinor.002"/>
@@ -145,6 +158,7 @@
 			<meta id="37fd42de-17ff-4abb-a9ab-c0b88b199da7" name="AttachMinor.101"/>
 			<meta id="b18301d3-d6ed-4312-9012-525ee0a54cfd" name="AttachMinor.102"/>
 			<meta id="866e782b-b4d0-4f3a-95d3-5ae4465dbb35" name="AttachMinor.103"/>
+			<meta id="d509c323-cab1-469b-a3a4-e1f94e64912e" name="AttachTop.001"/>
 		</meta>
 		<meta id="ef0247ca-d003-4d49-937d-74cd3073e56b" name="Sun"/>
 		<meta id="c1c8e2e8-cff5-48b0-a9ee-f7e67fe7217a" name="SphereOrnamentRedPart">
@@ -207,10 +221,34 @@
 			<meta id="677225fc-5cf2-4bb1-8f17-8aed054f1c10" name="Cylinder.011"/>
 			<meta id="014f09cc-8f94-4c0a-a15b-3e9a26128d0f" name="AttachMinor.113"/>
 		</meta>
+		<meta id="855eb243-b29b-47de-86d2-67263167ae0c" name="TopperSnowflakePart">
+			<meta id="48a62c5c-badd-4aeb-9ac8-51e85b5f4e18" name="Cone"/>
+			<meta id="55cbc95c-f7d7-4a73-bd4f-79f3f7a0e9c8" name="AttachTop.002"/>
+			<meta id="4e0b2c82-fb0a-450e-87f1-abb7067d7473" name="SnowflakePart.001"/>
+			<meta id="6e886334-7bbd-4213-b5a3-353e3f756f24" name="SnowflakePart.002"/>
+			<meta id="47405330-024f-4b3d-ac89-474e5e3912a5" name="SnowflakePart.003"/>
+			<meta id="3ec6e7ba-d32a-48b8-b023-d3f6f77dd527" name="SnowflakePart.004"/>
+			<meta id="9f1c93eb-756a-4dfe-ba68-31d577da82f7" name="SnowflakePart"/>
+			<meta id="51391e16-e571-42d4-9459-a272838fc320" name="Cube.012"/>
+		</meta>
+		<meta id="cbdbaa16-4e85-4f49-828f-693043498255" name="TopperStarPart">
+			<meta id="70491628-39bd-4106-95e4-dce179215710" name="Cone.001"/>
+			<meta id="05936438-99d8-4eeb-8533-fb8252a4dc36" name="AttachTop"/>
+			<meta id="ef35de94-0dee-483d-9bf1-fc4445830b75" name="Circle"/>
+		</meta>
+		<meta id="85d6a45e-0cb5-4c92-bc82-04cf6bfdeba5" name="TopperSpikePart">
+			<meta id="8a66a0c2-7c8a-4807-a524-2cdb04345a88" name="Cone.002"/>
+			<meta id="0208cc41-0ea1-4c41-a8b8-3c23a05d481f" name="Cube.014"/>
+			<meta id="1fa1edae-e959-4a32-9f93-2787f08d901e" name="Cube.015"/>
+			<meta id="b436cc01-eadd-4320-80a8-b901b3aacaa2" name="Cube.016"/>
+			<meta id="6536fd34-0eb4-4dcd-ba41-fb6071cc0dd8" name="SphereDecimate0.7"/>
+			<meta id="5a63b87d-91ec-461b-89c1-d7414b5ded4d" name="AttachTop.003"/>
+		</meta>
+		<meta id="3641afc3-7167-4388-87c7-47a568243503" name="TopperSpikeSphereOrig"/>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="2a6a010b6bc481f88080b47c57ad01df"/>
+	<Md5Checksum value="7e82e5bcdc35e66585bc50ab937e18c9"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -251,11 +289,6 @@
 							</Item>
 						</ChildList>
 						<NodeName value="ChristmasTree"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachTop"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
@@ -767,6 +800,11 @@
 						<ChildList/>
 						<NodeName value="AttachMinor.103"/>
 					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachTop.001"/>
+					</Item>
 				</ChildList>
 				<NodeName value="ChristmasTreePart"/>
 			</Item>
@@ -1027,6 +1065,114 @@
 				</ChildList>
 				<NodeName value="SphereOrnamentGreyPart"/>
 			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cone"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachTop.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowflakePart.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowflakePart.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowflakePart.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowflakePart.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowflakePart"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.012"/>
+					</Item>
+				</ChildList>
+				<NodeName value="TopperSnowflakePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cone.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachTop"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Circle"/>
+					</Item>
+				</ChildList>
+				<NodeName value="TopperStarPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cone.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.014"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.015"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.016"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SphereDecimate0.7"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachTop.003"/>
+					</Item>
+				</ChildList>
+				<NodeName value="TopperSpikePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="TopperSpikeSphereOrig"/>
+			</Item>
 		</ChildList>
 		<NodeName value="Prefab"/>
 	</NodeConfig>
@@ -1082,6 +1228,10 @@
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="0aea1a92-7fee-42dc-b11b-1ee04a2d368d"/>
 			<MaterialName value="Material.Silver"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="d81b9ad6-f9c1-4ba7-8080-74f191d436bc"/>
+			<MaterialName value="Material.Snowflake"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="7cda04dd-c60e-4a4a-86ee-983402d8ea80"/>

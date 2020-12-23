@@ -12,6 +12,10 @@ local winterWonderland = ...
 
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/ChristmasTreePart", "PREFAB_CHRISTMAS_TREE_PART")
 
+winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/TopperSnowflakePart", "PREFAB_TOPPER_SNOWFLAKE_PART")
+winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/TopperSpikePart", "PREFAB_TOPPER_SPIKE_PART")
+winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/TopperStarPart", "PREFAB_TOPPER_STAR_PART")
+
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/SphereOrnamentBluePart", "PREFAB_SPHERE_ORNAMENT_BLUE_PART")
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/SphereOrnamentBurgundyPart", "PREFAB_SPHERE_ORNAMENT_BURGUNDY_PART")
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/SphereOrnamentCyanPart", "PREFAB_SPHERE_ORNAMENT_CYAN_PART")
@@ -36,6 +40,10 @@ winterWonderland:override({
 --[[--------------------- ASSET PROCESSOR & NODE HANDLING ---------------------]]--
 
 winterWonderland:registerAssetProcessor("models/christmasTreeMonument/christmasTreeMonument.fbx", {	DataType = "BUILDING_ASSET_PROCESSOR" })
+
+winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/TopperSnowflakePart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "INNER_TOP" })
+winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/TopperSpikePart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "INNER_TOP" })
+winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/TopperStarPart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "INNER_TOP" })
 
 winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/SphereOrnamentBluePart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "MINOR" })
 winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/SphereOrnamentBurgundyPart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "MINOR" })
@@ -69,7 +77,7 @@ winterWonderland:register({
         {
             Name = "CHRISTMAS_TREE_MONUMENT_TOPPERS_CATEGORY_NAME",
             BuildingPartList = {
-                
+                "TOPPER_SNOWFLAKE_PART", "TOPPER_SPIKE_PART", "TOPPER_STAR_PART"
             }
 		},
         {
@@ -100,6 +108,63 @@ winterWonderland:register({
 			Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
 			}
         }
+	},
+	ConstructionVisual = nil,
+	Cost = {
+		RessourcesNeeded = {}
+	},
+    IsVisibleWhenBuilt = true
+})
+
+winterWonderland:register({
+	DataType = "BUILDING_PART",
+	Id = "TOPPER_SNOWFLAKE_PART",
+    Name = "TOPPER_SNOWFLAKE_PART_NAME",
+	--Description = "TOPPER_SNOWFLAKE_PART_DESC",
+	ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+		CoreObjectPrefab = "PREFAB_TOPPER_SNOWFLAKE_PART"
+	},
+	BuildingZone = {
+		ZoneEntryList = {}
+	},
+	ConstructionVisual = nil,
+	Cost = {
+		RessourcesNeeded = {}
+	},
+    IsVisibleWhenBuilt = true
+})
+
+winterWonderland:register({
+	DataType = "BUILDING_PART",
+	Id = "TOPPER_SPIKE_PART",
+    Name = "TOPPER_SPIKE_PART_NAME",
+	--Description = "TOPPER_SPIKE_PART_DESC",
+	ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+		CoreObjectPrefab = "PREFAB_TOPPER_SPIKE_PART"
+	},
+	BuildingZone = {
+		ZoneEntryList = {}
+	},
+	ConstructionVisual = nil,
+	Cost = {
+		RessourcesNeeded = {}
+	},
+    IsVisibleWhenBuilt = true
+})
+
+winterWonderland:register({
+	DataType = "BUILDING_PART",
+	Id = "TOPPER_STAR_PART",
+    Name = "TOPPER_STAR_PART_NAME",
+	--Description = "TOPPER_STAR_PART_DESC",
+	ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+		CoreObjectPrefab = "PREFAB_TOPPER_STAR_PART"
+	},
+	BuildingZone = {
+		ZoneEntryList = {}
 	},
 	ConstructionVisual = nil,
 	Cost = {
