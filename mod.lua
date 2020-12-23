@@ -65,4 +65,3 @@ winterWonderland:dofile("scripts/snowflakesGlobal.lua")
 winterWonderland:dofile("scripts/christmasSleigh.lua")
 winterWonderland:dofile("scripts/christmasGifts.lua")
 winterWonderland:dofile("scripts/fireplace.lua")
-
