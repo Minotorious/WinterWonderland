@@ -14,9 +14,9 @@ winterWonderland:registerAssetId("models/gifts1.fbx/Prefab/christmas_giftsPart",
 winterWonderland:registerAssetId("models/gifts1.fbx/Prefab/christmas_gift1Part", "PREFAB_CHRISTMAS_GIFT1_PART")
 winterWonderland:registerAssetId("models/gifts1.fbx/Prefab/christmas_gift2Part", "PREFAB_CHRISTMAS_GIFT2_PART")
 
-
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
+--[[
 winterWonderland:register({
 	DataType = "BUILDING",
 	Id = "CHRISTMAS_GIFTS",
@@ -25,11 +25,13 @@ winterWonderland:register({
 	BuildingType = "DECORATION",
 	AssetCoreBuildingPart = "CHRISTMAS_GIFTS_PART"
 })
+]]--
 
 winterWonderland:register({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_GIFTS_PART",
-	Description = "CHRISTMAS_GIFTS_PART_DESC",
+    Name = "CHRISTMAS_GIFTS_PART_NAME",
+	--Description = "CHRISTMAS_GIFTS_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_CHRISTMAS_GIFTS_PART"
@@ -49,6 +51,7 @@ winterWonderland:register({
     IsVisibleWhenBuilt = true
 })
 
+--[[
 winterWonderland:register({
 	DataType = "BUILDING",
 	Id = "CHRISTMAS_GIFT1",
@@ -57,11 +60,13 @@ winterWonderland:register({
 	BuildingType = "DECORATION",
 	AssetCoreBuildingPart = "CHRISTMAS_GIFT1_PART"
 })
+]]--
 
 winterWonderland:register({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_GIFT1_PART",
-	Description = "CHRISTMAS_GIFT1_PART_DESC",
+    Name = "CHRISTMAS_GIFT1_PART_NAME",
+	--Description = "CHRISTMAS_GIFT1_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_CHRISTMAS_GIFT1_PART"
@@ -81,6 +86,8 @@ winterWonderland:register({
     IsVisibleWhenBuilt = true
 })
 
+
+--[[
 winterWonderland:register({
 	DataType = "BUILDING",
 	Id = "CHRISTMAS_GIFT2",
@@ -89,11 +96,13 @@ winterWonderland:register({
 	BuildingType = "DECORATION",
 	AssetCoreBuildingPart = "CHRISTMAS_GIFT2_PART"
 })
+]]--
 
 winterWonderland:register({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_GIFT2_PART",
-	Description = "CHRISTMAS_GIFT2_PART_DESC",
+    Name = "CHRISTMAS_GIFT2_PART_NAME",
+	--Description = "CHRISTMAS_GIFT2_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_CHRISTMAS_GIFT2_PART"

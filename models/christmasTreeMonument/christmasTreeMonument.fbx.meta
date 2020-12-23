@@ -17,9 +17,9 @@
 		<meta id="d81b9ad6-f9c1-4ba7-8080-74f191d436bc" name="Material.Snowflake"/>
 		<meta id="0a48e651-7f2b-441a-a563-f0d5149b18ff" name="Material.BranchesGreen"/>
 		<meta id="23974df0-1ef1-4cc2-9b3d-e3034f3e3a58" name="Material.BranchesWhite"/>
+		<meta id="d1bbf014-665a-41c1-bd73-863737c42b55" name="Material.ChristmasTreeMonumentPole"/>
 	</meta>
 	<meta id="c2d0520f-0b5f-48a4-9505-d148b0c3a150" type="group" folder="true" name="Meshes">
-		<meta id="14892a52-c761-43e2-9b03-7d257503b4ee" name="star_Material.Gold"/>
 		<meta id="3f2788c9-cd6f-4d3a-9ffd-c54eccc8e45b" name="Cube_Material.Red"/>
 		<meta id="58c2e75b-0316-46af-ab2d-d41f4585a3d1" name="Cylinder_Material.Gold"/>
 		<meta id="bd873dce-4404-4d1b-9155-ddfe4b9a8351" name="Cube.001_Material.Silver"/>
@@ -49,15 +49,18 @@
 		<meta id="52e54b46-72fb-420c-9edd-3b8c2a05008c" name="Circle_Material.Gold"/>
 		<meta id="fb710554-d5b0-4a30-a610-5b9dc49ee4fc" name="ChristmasTree_Material.BranchesGreen"/>
 		<meta id="6ea8c66c-5cba-4e8a-8a47-eccc4268d146" name="ChristmasTree.001_Material.BranchesWhite"/>
+		<meta id="74ff0350-665c-4064-a5cd-cc89b3c0bedb" name="Circle.001_Material.Gold"/>
+		<meta id="c57d2a27-7ff9-47ad-94d9-d53b3f88c20f" name="Circle.003_Material.Silver"/>
+		<meta id="fee9b63b-0a36-4763-80e1-ce26b6b96491" name="Circle.005_Material.Burgundy"/>
+		<meta id="41620060-e3bf-46c2-bb36-1244738cc570" name="ChristmasTreeMonumentPolePart_Material.ChristmasTreeMonumentPole"/>
 	</meta>
 	<meta id="3882f36b-40be-4321-b8e0-6dd780f3db0d" name="Prefab">
 		<meta id="7229af15-bd01-4b21-bd32-80d36376beb4" name="Camera"/>
-		<meta id="11f37481-369c-4170-bc95-4ddd8452cce7" name="star"/>
 		<meta id="ef0247ca-d003-4d49-937d-74cd3073e56b" name="Sun"/>
 		<meta id="c1c8e2e8-cff5-48b0-a9ee-f7e67fe7217a" name="SphereOrnamentRedPart">
-			<meta id="6539370d-514c-4fc1-815e-a2b89f2b0c86" name="AttachMinor"/>
 			<meta id="23da404f-d7d4-417e-82d7-3683153171ef" name="Cube"/>
 			<meta id="2ad66e32-9310-4bfd-93b8-c7ab60fb7a96" name="Cylinder"/>
+			<meta id="512b43fd-e89e-448e-a304-12ec63e845f9" name="AttachMinor.216"/>
 		</meta>
 		<meta id="bfbd4916-ea12-4d2f-8a17-df9c3612474a" name="SphereOrnamentGoldPart">
 			<meta id="c63ee0cf-e9c6-4ef9-9d6d-69a24752fa5e" name="Cube.002"/>
@@ -356,10 +359,23 @@
 			<meta id="c7efc3a3-90e8-4c41-a60a-8b3015cafd9e" name="AttachMinor.214"/>
 			<meta id="200c3ec5-d89f-42d1-89d8-1cf0e7180b72" name="AttachMinor.215"/>
 		</meta>
+		<meta id="55e18497-6eca-4ee4-b476-9ac912b015ab" name="StarOrnamentGoldPart">
+			<meta id="b124805e-64ee-4a21-b991-365a9ec6bfbb" name="Circle.001"/>
+			<meta id="92a93f03-e6c7-4cd1-947a-a22819fcfe6b" name="AttachMinor"/>
+		</meta>
+		<meta id="5b12f776-a47a-47f6-82ce-e1dee8ea0725" name="StarOrnamentSilverPart">
+			<meta id="83cf3c1f-ffc0-40c2-bb9e-4a01fbfb2cb4" name="Circle.003"/>
+			<meta id="7d67e60b-706b-4115-92fd-2701ceb1c01a" name="AttachMinor.217"/>
+		</meta>
+		<meta id="19c3cbb4-dc40-4063-994a-5a3bccf8b5fc" name="StarOrnamentBurgundyPart">
+			<meta id="34a8d191-3469-4511-a7cf-3d77981cdac9" name="Circle.005"/>
+			<meta id="5db5f1de-d7cc-48fa-940e-6f5269068805" name="AttachMinor.218"/>
+		</meta>
+		<meta id="a40b01fa-2e50-4539-9316-daf8d40bfc16" name="ChristmasTreeMonumentPolePart"/>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="d765a469679f6ac949aca6821fc2b853"/>
+	<Md5Checksum value="929a26232c6dd2ac034a343d7f67251f"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -380,21 +396,11 @@
 			<Item type="GenCFbxNodeConfig">
 				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 				<ChildList/>
-				<NodeName value="star"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
 				<NodeName value="Sun"/>
 			</Item>
 			<Item type="GenCFbxNodeConfig">
 				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachMinor"/>
-					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
@@ -404,6 +410,11 @@
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
 						<NodeName value="Cylinder"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.216"/>
 					</Item>
 				</ChildList>
 				<NodeName value="SphereOrnamentRedPart"/>
@@ -1821,6 +1832,59 @@
 				</ChildList>
 				<NodeName value="ChristmasTreeWhitePart"/>
 			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Circle.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor"/>
+					</Item>
+				</ChildList>
+				<NodeName value="StarOrnamentGoldPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Circle.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.217"/>
+					</Item>
+				</ChildList>
+				<NodeName value="StarOrnamentSilverPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Circle.005"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.218"/>
+					</Item>
+				</ChildList>
+				<NodeName value="StarOrnamentBurgundyPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="ChristmasTreeMonumentPolePart"/>
+			</Item>
 		</ChildList>
 		<NodeName value="Prefab"/>
 	</NodeConfig>
@@ -1844,6 +1908,10 @@
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="2116fbe9-7840-450c-af02-10261f7a0b9b"/>
 			<MaterialName value="Material.Burgundy"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="d1bbf014-665a-41c1-bd73-863737c42b55"/>
+			<MaterialName value="Material.ChristmasTreeMonumentPole"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="873ebed2-ce0c-43b3-a688-5f681016654f"/>

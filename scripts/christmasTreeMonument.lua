@@ -10,6 +10,8 @@ local winterWonderland = ...
 
 --[[--------------------------- PREFABS & MATERIALS ---------------------------]]--
 
+winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/ChristmasTreeMonumentPolePart", "PREFAB_CHRISTMAS_TREE_MONUMENT_POLE_PART")
+
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/ChristmasTreeGreenPart", "PREFAB_CHRISTMAS_TREE_GREEN_PART")
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/ChristmasTreeWhitePart", "PREFAB_CHRISTMAS_TREE_WHITE_PART")
 
@@ -29,6 +31,10 @@ winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonu
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/SphereOrnamentRedPart", "PREFAB_SPHERE_ORNAMENT_RED_PART")
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/SphereOrnamentSilverPart", "PREFAB_SPHERE_ORNAMENT_SILVER_PART")
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/SphereOrnamentYellowPart", "PREFAB_SPHERE_ORNAMENT_YELLOW_PART")
+
+winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/StarOrnamentBurgundyPart", "PREFAB_STAR_ORNAMENT_BURGUNDY_PART")
+winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/StarOrnamentGoldPart", "PREFAB_STAR_ORNAMENT_GOLD_PART")
+winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/StarOrnamentSilverPart", "PREFAB_STAR_ORNAMENT_SILVER_PART")
 
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Materials/Material.BranchesGreen", "MATERIAL_BRANCHES_GREEN")
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Materials/Material.BranchesWhite", "MATERIAL_BRANCHES_WHITE")
@@ -66,6 +72,13 @@ winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmas
 winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/SphereOrnamentSilverPart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "MINOR" })
 winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/SphereOrnamentYellowPart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "MINOR" })
 
+winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/StarOrnamentBurgundyPart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "MINOR" })
+winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/StarOrnamentGoldPart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "MINOR" })
+winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/StarOrnamentSilverPart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "MINOR" })
+
+winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/ChristmasTreeGreenPart/AttachTop.001", { DataType = "COMP_BUILDING_ATTACH_NODE", AttachNodeTypeList = { "INNER_TOP" }, AllowedAngles = {-180, 180} })
+winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/ChristmasTreeWhitePart/AttachTop.004", { DataType = "COMP_BUILDING_ATTACH_NODE", AttachNodeTypeList = { "INNER_TOP" }, AllowedAngles = {-180, 180} })
+
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
 winterWonderland:register({
@@ -74,7 +87,7 @@ winterWonderland:register({
 	Name = "CHRISTMAS_TREE_MONUMENT_NAME",
 	Description = "CHRISTMAS_TREE_MONUMENT_DESC",
 	BuildingType = "DECORATION",
-	AssetCoreBuildingPart = "BUILDING_PART_MONUMENT_POLE",
+	AssetCoreBuildingPart = "CHRISTMAS_TREE_MONUMENT_POLE_PART",
     BuildingPartSetList = {
         {
             Name = "CHRISTMAS_TREE_MONUMENT_TREES_CATEGORY_NAME",
@@ -89,6 +102,12 @@ winterWonderland:register({
             }
 		},
         {
+            Name = "CHRISTMAS_TREE_MONUMENT_STAR_ORNAMENTS_CATEGORY_NAME",
+            BuildingPartList = {
+                "STAR_ORNAMENT_BURGUNDY_PART", "STAR_ORNAMENT_GOLD_PART", "STAR_ORNAMENT_SILVER_PART"
+            }
+		},
+        {
             Name = "CHRISTMAS_TREE_MONUMENT_SPHERE_ORNAMENTS_CATEGORY_NAME",
             BuildingPartList = {
                 "SPHERE_ORNAMENT_BLUE_PART", "SPHERE_ORNAMENT_BURGUNDY_PART", "SPHERE_ORNAMENT_CYAN_PART",
@@ -98,6 +117,28 @@ winterWonderland:register({
             }
 		}
     }
+})
+
+winterWonderland:register({
+	DataType = "BUILDING_PART",
+	Id = "CHRISTMAS_TREE_MONUMENT_POLE_PART",
+    Name = "CHRISTMAS_TREE_MONUMENT_POLE_PART_NAME",
+	Description = "CHRISTMAS_TREE_MONUMENT_POLE_PART_DESC",
+	ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+		CoreObjectPrefab = "PREFAB_CHRISTMAS_TREE_MONUMENT_POLE_PART"
+	},
+	BuildingZone = {
+		ZoneEntryList = {}
+	},
+	ConstructionVisual = nil,
+	Cost = {
+		RessourcesNeeded = {}
+	},
+    IsMonumentCore = true,
+    IsMoveBuildingInsteadOfPart = true,
+    IsVisibleWhenBuilt = false,
+    IsShowInUi = false
 })
 
 winterWonderland:register({
@@ -432,4 +473,62 @@ winterWonderland:register({
 	},
     IsVisibleWhenBuilt = true
 })
+
+winterWonderland:register({
+	DataType = "BUILDING_PART",
+	Id = "STAR_ORNAMENT_BURGUNDY_PART",
+    Name = "STAR_ORNAMENT_BURGUNDY_PART_NAME",
+	--Description = "STAR_ORNAMENT_BURGUNDY_PART_DESC",
+	ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+		CoreObjectPrefab = "PREFAB_STAR_ORNAMENT_BURGUNDY_PART"
+	},
+	BuildingZone = {
+		ZoneEntryList = {}
+	},
+	ConstructionVisual = nil,
+	Cost = {
+		RessourcesNeeded = {}
+	},
+    IsVisibleWhenBuilt = true
+})
+
+winterWonderland:register({
+	DataType = "BUILDING_PART",
+	Id = "STAR_ORNAMENT_GOLD_PART",
+    Name = "STAR_ORNAMENT_GOLD_PART_NAME",
+	--Description = "STAR_ORNAMENT_GOLD_PART_DESC",
+	ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+		CoreObjectPrefab = "PREFAB_STAR_ORNAMENT_GOLD_PART"
+	},
+	BuildingZone = {
+		ZoneEntryList = {}
+	},
+	ConstructionVisual = nil,
+	Cost = {
+		RessourcesNeeded = {}
+	},
+    IsVisibleWhenBuilt = true
+})
+
+winterWonderland:register({
+	DataType = "BUILDING_PART",
+	Id = "STAR_ORNAMENT_SILVER_PART",
+    Name = "STAR_ORNAMENT_SILVER_PART_NAME",
+	--Description = "STAR_ORNAMENT_SILVER_PART_DESC",
+	ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+		CoreObjectPrefab = "PREFAB_STAR_ORNAMENT_SILVER_PART"
+	},
+	BuildingZone = {
+		ZoneEntryList = {}
+	},
+	ConstructionVisual = nil,
+	Cost = {
+		RessourcesNeeded = {}
+	},
+    IsVisibleWhenBuilt = true
+})
+
 --[[----------------------------- PARTICLE SYSTEMS ----------------------------]]--

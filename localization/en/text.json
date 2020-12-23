@@ -1,9 +1,13 @@
 {
 	"": {
+        "WINTER_WONDERLAND_MONUMENT_NAME": "Winter Wonderland",
+        "WINTER_WONDERLAND_MONUMENT_SNOWFLAKE_EMITTER_CATEGORY_NAME": "Snowflake Emitter",
+        "WINTER_WONDERLAND_MONUMENT_GIFTS_CATEGORY_NAME": "Sets of Gifts",
+        "WINTER_WONDERLAND_MONUMENT_SLEIGH_CATEGORY_NAME": "Christmas Sleigh",
+        
         "SNOWFLAKE_EMITTER_NAME": "Snowflake Emitter",
         "SNOWFLAKE_EMITTER_DESC": "Let It Snow! Let It Snow! Let It Snow!",
         "SNOWFLAKE_EMITTER_PART_NAME": "Let It Snow! Let It Snow! Let It Snow!",
-        "SNOWFLAKE_EMITTER_PART_DESC": "Let It Snow! Let It Snow! Let It Snow!",
 
         "SNOWMAN_MONUMENT_NAME": "Snowman Monument",
         "SNOWMAN_MONUMENT_DESC": "Do you wanna build a Snowman?",
@@ -48,23 +52,45 @@
         "BRANCH_RIGHT_2_PART_NAME": "Right Hand Branch 2", 
         "BRANCH_RIGHT_3_PART_NAME": "Right Hand Branch 3",
         
-        "CHRISTMAS_SLEIGH_NAME": "Sleigh with gifts",
-		"CHRISTMAS_SLEIGH_DESC": "A sleigh with some nice Christmas gifts",
-		"CHRISTMAS_SLEIGH_PART_DESC": "A sleigh with some nice Christmas gifts",
-		"CHRISTMAS_GIFTS_NAME": "A lot of gifts",
-		"CHRISTMAS_GIFTS_DESC": "A lot of nice Christmas gifts",
-		"CHRISTMAS_GIFTS_PART_DESC": "A lot of nice Christmas gifts",
-		"CHRISTMAS_GIFT1_NAME": "A variation of gifts",
-		"CHRISTMAS_GIFT1_DESC": "A variation of nice Christmas gifts",
-		"CHRISTMAS_GIFT1_PART_DESC": "A variation of nice Christmas gifts",
-		"CHRISTMAS_GIFT2_NAME": "Another variation of gifts",
-		"CHRISTMAS_GIFT2_DESC": "Another variation of nice Christmas gifts",
-		"CHRISTMAS_GIFT2_PART_DESC": "Another variation of nice Christmas gifts",
-		"FIREPLACE_NAME": "Fireplace",
-		"FIREPLACE_DESC": "A warm fire place for cold days",
-		"FIREPLACE_PART_DESC": "A warm fire place for cold days",
-		"ELK_NAME": "Elk",
-		"ELK_DESC": "Place the elk where you want",
-		"ELK_PART_DESC": "Place the elk where you want"
+        "CHRISTMAS_TREE_MONUMENT_NAME": "Christmas Tree Monument",
+        "CHRISTMAS_TREE_MONUMENT_DESC": "Rockin' around the Christmas Tree",
+        "CHRISTMAS_TREE_MONUMENT_TREES_CATEGORY_NAME": "Trees",
+        "CHRISTMAS_TREE_MONUMENT_TOPPERS_CATEGORY_NAME": "Toppers",
+        "CHRISTMAS_TREE_MONUMENT_STAR_ORNAMENTS_CATEGORY_NAME": "Star Ornaments",
+        "CHRISTMAS_TREE_MONUMENT_SPHERE_ORNAMENTS_CATEGORY_NAME": "Baubles",
+        
+        "CHRISTMAS_TREE_MONUMENT_POLE_PART_NAME": "Rockin' around the Christmas Tree",
+        "CHRISTMAS_TREE_MONUMENT_POLE_PART_DESC": "Rockin' around the Christmas Tree",
+        
+        "CHRISTMAS_TREE_GREEN_PART_NAME": "Green Christmas Tree",
+        "CHRISTMAS_TREE_WHITE_PART_NAME": "White Christmas Tree",
+        "TOPPER_SNOWFLAKE_PART_NAME": "Blue Snowflake Topper",
+        "TOPPER_SPIKE_PART_NAME": "Burgundy Spike Topper",
+        "TOPPER_STAR_PART_NAME": "Gold Star Topper",
+        "SPHERE_ORNAMENT_BLUE_PART_NAME": "Blue Bauble",
+        "SPHERE_ORNAMENT_BURGUNDY_PART_NAME": "Burgundy Bauble",
+        "SPHERE_ORNAMENT_CYAN_PART_NAME": "Cyan Bauble",
+        "SPHERE_ORNAMENT_GOLD_PART_NAME": "Gold Bauble",
+        "SPHERE_ORNAMENT_GREEN_PART_NAME": "Green Bauble",
+        "SPHERE_ORNAMENT_GREY_PART_NAME": "Grey Bauble",
+        "SPHERE_ORNAMENT_ORANGE_PART_NAME": "Orange Bauble",
+        "SPHERE_ORNAMENT_PINK_PART_NAME": "Pink Bauble",
+        "SPHERE_ORNAMENT_PURPLE_PART_NAME": "Purple Bauble",
+        "SPHERE_ORNAMENT_RED_PART_NAME": "Red Bauble",
+        "SPHERE_ORNAMENT_SILVER_PART_NAME": "Silver Bauble",
+        "SPHERE_ORNAMENT_YELLOW_PART_NAME": "Yellow Bauble",
+        "STAR_ORNAMENT_BURGUNDY_PART_NAME": "Burgundy Star",
+        "STAR_ORNAMENT_GOLD_PART_NAME": "Gold Star",
+        "STAR_ORNAMENT_SILVER_PART_NAME": "Silver Star",
+        
+		"CHRISTMAS_GIFTS_PART_NAME": "Large set of Christmas Gifts",
+		"CHRISTMAS_GIFT1_PART_NAME": "A variation of Christmas gifts",
+		"CHRISTMAS_GIFT2_PART_NAME": "Another variation of Christmas gifts",
+        
+        "FIREPLACE_PART_NAME": "Fireplace",
+		"FIREPLACE_PART_DESC": "A warm fireplace for cold days",
+        
+        "CHRISTMAS_SLEIGH_PART_NAME": "Reindeer sleigh with gifts",
+		"ELK_PART_NAME": "Reindeer"
     }
 }

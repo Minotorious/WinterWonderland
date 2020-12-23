@@ -13,15 +13,9 @@ local winterWonderland = ...
 winterWonderland:registerAssetId("models/sleigh.fbx/Prefab/christmas_sleighPart", "PREFAB_CHRISTMAS_SLEIGH_PART")
 winterWonderland:registerAssetId("models/sleigh.fbx/Prefab/elkPart", "PREFAB_ELK_PART")
 
---[[winterWonderland:registerAssetId("models/ChristmasTreeMonument.fbx/Materials/Material.Branches", "MATERIAL_BRANCHES")
-
-winterWonderland:override({
-    Id = "MATERIAL_BRANCHES",
-    HasAlphaTest = true
-})]]--
-
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
+--[[
 winterWonderland:register({
 	DataType = "BUILDING",
 	Id = "CHRISTMAS_SLEIGH",
@@ -30,11 +24,13 @@ winterWonderland:register({
 	BuildingType = "DECORATION",
 	AssetCoreBuildingPart = "CHRISTMAS_SLEIGH_PART"
 })
+]]--
 
 winterWonderland:register({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_SLEIGH_PART",
-	Description = "CHRISTMAS_SLEIGH_PART_DESC",
+	Name = "CHRISTMAS_SLEIGH_PART_NAME",
+	--Description = "CHRISTMAS_SLEIGH_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_CHRISTMAS_SLEIGH_PART"
@@ -54,6 +50,7 @@ winterWonderland:register({
     IsVisibleWhenBuilt = true
 })
 
+--[[
 winterWonderland:register({
 	DataType = "BUILDING",
 	Id = "ELK",
@@ -61,12 +58,15 @@ winterWonderland:register({
 	Description = "ELK_DESC",
 	BuildingType = "DECORATION",
 	AssetCoreBuildingPart = "ELK_PART"
+
 })
+]]--
 
 winterWonderland:register({
 	DataType = "BUILDING_PART",
 	Id = "ELK_PART",
-	Description = "ELK_PART_DESC",
+	Name = "ELK_PART_NAME",
+	--Description = "ELK_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_ELK_PART"
