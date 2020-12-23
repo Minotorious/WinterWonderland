@@ -27,7 +27,7 @@ winterWonderland:register({
 	DataType = "BUILDING",
 	Id = "WINTER_WONDERLAND_MONUMENT",
 	Name = "WINTER_WONDERLAND_MONUMENT_NAME",
-	Description = "WINTER_WONDERLAND_MONUMENT_DESC",
+	--Description = "WINTER_WONDERLAND_MONUMENT_DESC",
 	BuildingType = "DECORATION",
 	AssetCoreBuildingPart = "BUILDING_PART_MONUMENT_POLE",
     BuildingPartSetList = {
