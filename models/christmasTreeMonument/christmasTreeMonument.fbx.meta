@@ -3,7 +3,6 @@
 	<meta id="43d1b61b-2451-48fa-a8ef-e9027f148370" type="group" folder="true" name="Materials">
 		<meta id="e3e1b510-b3d8-4db4-8d0a-e2880ab07e88" name="Material.Red"/>
 		<meta id="3057d453-b83c-49eb-84f6-e6196a6f96dd" name="Material.Gold"/>
-		<meta id="ccef5e09-f7c1-420c-962f-89212daed649" name="Material.Branches"/>
 		<meta id="0aea1a92-7fee-42dc-b11b-1ee04a2d368d" name="Material.Silver"/>
 		<meta id="cb2c8455-c4ba-41f8-b496-ee2cbf5fef02" name="Material.Bark"/>
 		<meta id="183287a5-d83e-4cc8-aa90-f68931b76bc2" name="Material.Blue"/>
@@ -16,10 +15,11 @@
 		<meta id="f2227ef6-228d-4855-95bc-a7a49cd2512d" name="Material.Pink"/>
 		<meta id="544e40c2-6fb3-46c8-ab03-d8ce41426b51" name="Material.Grey"/>
 		<meta id="d81b9ad6-f9c1-4ba7-8080-74f191d436bc" name="Material.Snowflake"/>
+		<meta id="0a48e651-7f2b-441a-a563-f0d5149b18ff" name="Material.BranchesGreen"/>
+		<meta id="23974df0-1ef1-4cc2-9b3d-e3034f3e3a58" name="Material.BranchesWhite"/>
 	</meta>
 	<meta id="c2d0520f-0b5f-48a4-9505-d148b0c3a150" type="group" folder="true" name="Meshes">
 		<meta id="14892a52-c761-43e2-9b03-7d257503b4ee" name="star_Material.Gold"/>
-		<meta id="0958174b-60b0-4fe0-809a-0a421b485ade" name="ChristmasTree_Material.Branches"/>
 		<meta id="3f2788c9-cd6f-4d3a-9ffd-c54eccc8e45b" name="Cube_Material.Red"/>
 		<meta id="58c2e75b-0316-46af-ab2d-d41f4585a3d1" name="Cylinder_Material.Gold"/>
 		<meta id="bd873dce-4404-4d1b-9155-ddfe4b9a8351" name="Cube.001_Material.Silver"/>
@@ -47,119 +47,12 @@
 		<meta id="67e0cb34-855c-405a-be97-d2b8b5b50947" name="TopperSpikeSphereOrig_Material.Burgundy"/>
 		<meta id="26284c83-83e0-461b-90e2-9199e2b95edf" name="Cone.002_Material.Burgundy"/>
 		<meta id="52e54b46-72fb-420c-9edd-3b8c2a05008c" name="Circle_Material.Gold"/>
+		<meta id="fb710554-d5b0-4a30-a610-5b9dc49ee4fc" name="ChristmasTree_Material.BranchesGreen"/>
+		<meta id="6ea8c66c-5cba-4e8a-8a47-eccc4268d146" name="ChristmasTree.001_Material.BranchesWhite"/>
 	</meta>
 	<meta id="3882f36b-40be-4321-b8e0-6dd780f3db0d" name="Prefab">
 		<meta id="7229af15-bd01-4b21-bd32-80d36376beb4" name="Camera"/>
 		<meta id="11f37481-369c-4170-bc95-4ddd8452cce7" name="star"/>
-		<meta id="843ff8fc-e900-4702-9975-42f469d414bd" name="ChristmasTreePart">
-			<meta id="51dd4af9-1a20-4403-b8f2-d17b7a2a5ba2" name="ChristmasTree">
-				<meta id="5651d263-be3c-4c74-9622-fac571ec9790" name="ChristmasTree_0"/>
-				<meta id="c2aaf99a-08da-4981-b980-1485cffb7574" name="ChristmasTree_1"/>
-			</meta>
-			<meta id="f0424437-9e7d-43ce-a43f-9d57f274a4fa" name="AttachMinor.010"/>
-			<meta id="07deb6a9-9baf-468d-b1db-5bcd1cd60331" name="AttachMinor.001"/>
-			<meta id="9139392c-172a-4824-b969-980599a90ebd" name="AttachMinor.002"/>
-			<meta id="f64af542-36f1-47e2-8b14-78fcde4d65e5" name="AttachMinor.003"/>
-			<meta id="28cb95c8-cb17-4c05-8688-13d146912daf" name="AttachMinor.004"/>
-			<meta id="a3d0c93e-f833-4e3b-a655-49bf739f918e" name="AttachMinor.005"/>
-			<meta id="76bac9e6-e8c0-4dad-888b-ba123058a4b4" name="AttachMinor.006"/>
-			<meta id="b178dc8d-336a-4451-bbb7-bce54f5db3fd" name="AttachMinor.007"/>
-			<meta id="8b6238e1-cfab-451d-aad3-48a23f615e73" name="AttachMinor.008"/>
-			<meta id="f381dac6-0185-4901-a024-f5eceb184918" name="AttachMinor.009"/>
-			<meta id="6823d878-4243-4bac-ae48-3cb73700bf70" name="AttachMinor.012"/>
-			<meta id="41b243d4-3488-4044-8efb-a5e26753368c" name="AttachMinor.013"/>
-			<meta id="750e84ab-9298-4d51-a3b3-a212c738763d" name="AttachMinor.014"/>
-			<meta id="20ef73b6-6db5-4415-a4ad-97f94e013703" name="AttachMinor.015"/>
-			<meta id="ed3a47ac-468f-4982-8ed7-2ea1ef58bf4c" name="AttachMinor.016"/>
-			<meta id="01e025fd-f571-4f2a-9965-7e121a69b703" name="AttachMinor.017"/>
-			<meta id="33b6d390-5bd6-49d5-9452-5ef2054816b1" name="AttachMinor.018"/>
-			<meta id="471a9992-91b6-4ea4-a471-31b126451cf6" name="AttachMinor.019"/>
-			<meta id="da315aa9-5751-473a-8a94-68d4f426af56" name="AttachMinor.020"/>
-			<meta id="d787f972-ffbf-4487-a5a7-bd8fc025283b" name="AttachMinor.021"/>
-			<meta id="bc3a77b8-b901-4cc4-ab78-1c00a9e90bb8" name="AttachMinor.022"/>
-			<meta id="1cddf22f-656c-4e76-825c-c68ba8ff1fbc" name="AttachMinor.023"/>
-			<meta id="113190d6-3e16-48e1-a4dd-0f6bf46a4ff3" name="AttachMinor.024"/>
-			<meta id="73c8f082-305c-468b-8658-33addb6cf9ee" name="AttachMinor.025"/>
-			<meta id="2fc9ce81-ea3f-4445-85a2-580577eef682" name="AttachMinor.026"/>
-			<meta id="c8005070-c8ec-437a-bc58-8bd9c26c6bed" name="AttachMinor.027"/>
-			<meta id="8496196a-c24c-4087-90f8-ef160a4e101b" name="AttachMinor.028"/>
-			<meta id="220e420e-149f-446f-9dcb-cf227f985360" name="AttachMinor.029"/>
-			<meta id="6376ed74-cf75-4c15-9459-0b8bf1635b0b" name="AttachMinor.030"/>
-			<meta id="3f8d1d9b-067a-43b2-9961-8749fdd984a5" name="AttachMinor.031"/>
-			<meta id="c778edc1-8f85-4a30-859e-207040001584" name="AttachMinor.032"/>
-			<meta id="0e0d8d72-93ce-435e-8f25-f9302b18debd" name="AttachMinor.033"/>
-			<meta id="2cf19d1f-52d3-4d47-9633-be434def0269" name="AttachMinor.034"/>
-			<meta id="458b62bc-7a12-4132-ba48-93ea90bdc195" name="AttachMinor.035"/>
-			<meta id="2c211342-285e-400c-ba68-d1fbc8ff25f4" name="AttachMinor.036"/>
-			<meta id="90b23811-f104-4a94-9278-a65cb2bcde0a" name="AttachMinor.037"/>
-			<meta id="49dad045-9a7a-4ac9-b01f-c5fad9411382" name="AttachMinor.038"/>
-			<meta id="e2125925-2af9-4168-80a9-a7773b51571e" name="AttachMinor.039"/>
-			<meta id="a7ce0a18-05c7-4d28-a56b-7b0b45371e0b" name="AttachMinor.040"/>
-			<meta id="f1930a69-edc1-412a-a3dd-3119615b5a22" name="AttachMinor.041"/>
-			<meta id="2fa5a645-c229-45dd-9341-b091c1784585" name="AttachMinor.042"/>
-			<meta id="63794c9f-0635-480d-986a-be516942665d" name="AttachMinor.043"/>
-			<meta id="943cec2f-3fb1-4fe9-b165-95f0af836f43" name="AttachMinor.044"/>
-			<meta id="260120a7-ccf6-4bb1-a281-25bf08af4977" name="AttachMinor.045"/>
-			<meta id="8d7703fe-6695-4d80-8d3b-45e41efd4d22" name="AttachMinor.046"/>
-			<meta id="a0072165-9071-4c26-9702-5c0cb18cf8db" name="AttachMinor.047"/>
-			<meta id="1b45b510-2db4-4b14-8a78-42d3a68df6ae" name="AttachMinor.048"/>
-			<meta id="363df371-7640-4e13-b14d-975f8c1a217b" name="AttachMinor.049"/>
-			<meta id="036986e1-2db4-4cd7-802d-dc15621b4632" name="AttachMinor.050"/>
-			<meta id="80c733f5-9cc5-4274-bff4-f427d983cac6" name="AttachMinor.051"/>
-			<meta id="34aa1072-1406-42ad-93bc-70b7eccfd4ca" name="AttachMinor.052"/>
-			<meta id="9eed8dc7-95ab-47ba-956f-2ce921cde605" name="AttachMinor.053"/>
-			<meta id="1a14d824-8dde-47af-8cc8-ff07084d9618" name="AttachMinor.054"/>
-			<meta id="80faf540-8caa-43a7-99a2-c0635fd4b162" name="AttachMinor.055"/>
-			<meta id="9e8f7053-6d4e-477b-bdb1-94aef32aad0a" name="AttachMinor.056"/>
-			<meta id="db11c8a8-1cfd-4858-ae14-ae4c5efa53b2" name="AttachMinor.057"/>
-			<meta id="65046a80-be24-4da3-a855-5c32d7b08cb8" name="AttachMinor.058"/>
-			<meta id="166d8614-7d1b-4e91-9cfc-2372aa98e91b" name="AttachMinor.059"/>
-			<meta id="8d7c4e6f-9755-4535-9d3d-0df30c634ecb" name="AttachMinor.060"/>
-			<meta id="5523e7ad-20d9-4291-a106-6fdf2f0d039f" name="AttachMinor.061"/>
-			<meta id="401c1330-6d2c-4205-b997-3b9217c199a8" name="AttachMinor.062"/>
-			<meta id="85adffde-7306-461d-9f82-97b7b5e1dc19" name="AttachMinor.063"/>
-			<meta id="90ea72c7-7ec2-4da7-8145-94206dbd97f5" name="AttachMinor.064"/>
-			<meta id="327b5599-bfc1-4d67-bccd-c41252409ba4" name="AttachMinor.065"/>
-			<meta id="2a82caeb-9a02-4f5d-af38-789fb04d9484" name="AttachMinor.066"/>
-			<meta id="bf8e4002-28f0-46b7-9489-ea2bdd2b1404" name="AttachMinor.067"/>
-			<meta id="d8beced2-efd0-4933-893d-d6402310ae9f" name="AttachMinor.068"/>
-			<meta id="60c4ffc9-4849-41aa-acbf-541447292bf4" name="AttachMinor.069"/>
-			<meta id="d89b92e7-345f-481d-8348-6fd32e37817e" name="AttachMinor.070"/>
-			<meta id="f3c42a6b-c8b1-49cf-b5b7-740e68dddf28" name="AttachMinor.071"/>
-			<meta id="227675c8-6735-4754-b1a2-07e8b8120d86" name="AttachMinor.072"/>
-			<meta id="82fb46d2-1785-4a8a-894e-ef71ac571e31" name="AttachMinor.073"/>
-			<meta id="8a7fd738-9d23-44fe-a32c-f4c17975ccc3" name="AttachMinor.074"/>
-			<meta id="3af1bd85-482b-4c36-bf12-2ae8cd0db1d7" name="AttachMinor.075"/>
-			<meta id="8d559ceb-3245-4b4f-b0f5-ba81555bccbf" name="AttachMinor.076"/>
-			<meta id="f6eebbe3-5a77-4667-aaf7-bebadef5b711" name="AttachMinor.077"/>
-			<meta id="13a2f9c5-4731-4d82-8699-b3ef68dc295c" name="AttachMinor.078"/>
-			<meta id="ed6db47d-83d5-4ee5-81ca-4a86ed8e966d" name="AttachMinor.079"/>
-			<meta id="df7fbd8e-cac1-43dc-8d23-d9f427b5b8fc" name="AttachMinor.080"/>
-			<meta id="2d54011c-f7de-4d46-b9e2-7e08b88d05af" name="AttachMinor.081"/>
-			<meta id="055f22c2-ef3b-4b69-8bda-ddfdc371ba3d" name="AttachMinor.082"/>
-			<meta id="c97e2fbf-f97f-4929-be27-b0c04ac00090" name="AttachMinor.083"/>
-			<meta id="2e042c3f-c658-44bf-a09b-65cf114fbd08" name="AttachMinor.084"/>
-			<meta id="e651df1c-6ce9-44a3-bb7a-9a1cc2b0b5c4" name="AttachMinor.085"/>
-			<meta id="0f3b654f-74d6-49b3-8b61-fcbe79478d30" name="AttachMinor.086"/>
-			<meta id="de7b078f-4eee-4676-9b28-67349d58271b" name="AttachMinor.087"/>
-			<meta id="ccd7376d-f828-41a8-bd4e-022b7f304acb" name="AttachMinor.088"/>
-			<meta id="dc1c6b41-0908-4e64-925a-0bff77963038" name="AttachMinor.089"/>
-			<meta id="7824805e-34c2-46a1-8754-1354ef5d8552" name="AttachMinor.090"/>
-			<meta id="18f08f95-8486-48e9-978d-d8af47b50ffc" name="AttachMinor.091"/>
-			<meta id="35bb080d-a707-461a-b1cc-f5153ec24caa" name="AttachMinor.092"/>
-			<meta id="110c5872-ef8b-4f3e-a3d1-f9ffbbfd4168" name="AttachMinor.093"/>
-			<meta id="ed2e5dbc-3f7f-4272-96f5-7286d1d88add" name="AttachMinor.094"/>
-			<meta id="7db44ca4-2134-456a-85a8-f333b34e8b5a" name="AttachMinor.095"/>
-			<meta id="746ad2fa-9a60-4150-8213-f52366308d12" name="AttachMinor.096"/>
-			<meta id="1a995a3a-5726-4daf-8de5-c1ee47499bac" name="AttachMinor.097"/>
-			<meta id="2230aad1-2eba-481b-8b97-2e5a07147ff5" name="AttachMinor.098"/>
-			<meta id="093eca6d-ae0a-4604-b6ae-54e1e48624a2" name="AttachMinor.099"/>
-			<meta id="7bb5cf6c-d643-4239-94a9-58f9512b27f9" name="AttachMinor.100"/>
-			<meta id="37fd42de-17ff-4abb-a9ab-c0b88b199da7" name="AttachMinor.101"/>
-			<meta id="b18301d3-d6ed-4312-9012-525ee0a54cfd" name="AttachMinor.102"/>
-			<meta id="866e782b-b4d0-4f3a-95d3-5ae4465dbb35" name="AttachMinor.103"/>
-			<meta id="d509c323-cab1-469b-a3a4-e1f94e64912e" name="AttachTop.001"/>
-		</meta>
 		<meta id="ef0247ca-d003-4d49-937d-74cd3073e56b" name="Sun"/>
 		<meta id="c1c8e2e8-cff5-48b0-a9ee-f7e67fe7217a" name="SphereOrnamentRedPart">
 			<meta id="6539370d-514c-4fc1-815e-a2b89f2b0c86" name="AttachMinor"/>
@@ -245,10 +138,228 @@
 			<meta id="5a63b87d-91ec-461b-89c1-d7414b5ded4d" name="AttachTop.003"/>
 		</meta>
 		<meta id="3641afc3-7167-4388-87c7-47a568243503" name="TopperSpikeSphereOrig"/>
+		<meta id="fcca01d8-0f4e-4b1e-a120-51a139cd0163" name="ChristmasTreeGreenPart">
+			<meta id="9d66dda8-d727-4501-aab1-96b7107e4243" name="ChristmasTree">
+				<meta id="b269d2ae-3282-405e-92d0-1099b5ad0c12" name="ChristmasTree_0"/>
+				<meta id="b10da2db-43bb-47f8-b7a1-a624822c4b9b" name="ChristmasTree_1"/>
+			</meta>
+			<meta id="e07fb9cd-d79c-490e-8848-df2743597785" name="AttachTop.001"/>
+			<meta id="9e20f2eb-f324-432c-8286-e21ac2d2c34b" name="AttachMinor.010"/>
+			<meta id="888db3a2-6ec3-461d-ab93-c0e361de16ae" name="AttachMinor.001"/>
+			<meta id="37991256-175c-44b8-a97a-327a4c573471" name="AttachMinor.002"/>
+			<meta id="4dcc66e9-0f8e-4ab8-9810-2833fa709d04" name="AttachMinor.003"/>
+			<meta id="3da0eb7a-885f-46df-a9ef-06cf320a2654" name="AttachMinor.004"/>
+			<meta id="7f56d704-a215-4da2-b7e7-0561595660df" name="AttachMinor.005"/>
+			<meta id="e4002a3e-855e-4068-bde7-a211e722ac12" name="AttachMinor.006"/>
+			<meta id="62af7939-6ee0-4379-918e-fb7a1cad7476" name="AttachMinor.007"/>
+			<meta id="4f98a0fa-c596-4be2-a958-ebe45e1562d5" name="AttachMinor.008"/>
+			<meta id="22d4b26a-3895-49d3-a120-0fb1af31f64f" name="AttachMinor.009"/>
+			<meta id="09200ef2-dfec-4583-a171-903ede7852b4" name="AttachMinor.012"/>
+			<meta id="19ed6841-497c-4d94-934c-43a21e60cc67" name="AttachMinor.013"/>
+			<meta id="cacbc951-35c4-4fd6-99cf-ce195bde41d1" name="AttachMinor.014"/>
+			<meta id="8dc39188-f53b-40af-a4d3-2eb4be78cd36" name="AttachMinor.015"/>
+			<meta id="50f31c28-6b99-4f4f-a8a3-7165ec51568e" name="AttachMinor.016"/>
+			<meta id="9bcaa127-9dad-4c6e-927f-d9e8b2a942ae" name="AttachMinor.017"/>
+			<meta id="21256ac0-d77a-404e-bebd-85d877aa2ca8" name="AttachMinor.018"/>
+			<meta id="821ebdaa-8424-4066-8e23-f50e233c977a" name="AttachMinor.019"/>
+			<meta id="3ba084c8-2f8f-4eb7-a5bb-728c2c08d4f8" name="AttachMinor.020"/>
+			<meta id="6493e5b8-0ca1-4bb4-835c-f020dc11f815" name="AttachMinor.021"/>
+			<meta id="d8b20667-e683-4a61-8d53-5eca69feead5" name="AttachMinor.022"/>
+			<meta id="a589321a-0471-4a53-a211-324d49a5906e" name="AttachMinor.023"/>
+			<meta id="148aa4f0-b2fb-4309-9b75-7b3f8351cabf" name="AttachMinor.024"/>
+			<meta id="0886487e-aed6-4c07-8ddb-3ae1b3d97d81" name="AttachMinor.025"/>
+			<meta id="7d30dfdd-6669-4e61-80d2-577156c0d3ee" name="AttachMinor.026"/>
+			<meta id="ca677cd9-7326-4666-9cc4-be4865b5c998" name="AttachMinor.027"/>
+			<meta id="7ff8cc64-3a09-43fd-9f88-84952404e04b" name="AttachMinor.028"/>
+			<meta id="d5a54d55-d52b-4873-8f58-880c4741d820" name="AttachMinor.029"/>
+			<meta id="17e0916d-3bf1-4c70-b8db-0a6eb56cb139" name="AttachMinor.030"/>
+			<meta id="f25a283e-c13f-4a57-93d8-dc784785ae34" name="AttachMinor.031"/>
+			<meta id="60cd08a2-b145-4a64-a1b2-b29dd4bd6f07" name="AttachMinor.032"/>
+			<meta id="ccb229dc-8352-42b5-8eed-1d276a6b7595" name="AttachMinor.033"/>
+			<meta id="05e18a3e-8bb7-447a-8041-7af064f190aa" name="AttachMinor.034"/>
+			<meta id="5c9df07b-3c1b-459f-a9ea-dff9cfa4f813" name="AttachMinor.035"/>
+			<meta id="816aeb92-c0a6-4753-bf66-154a4487ef6c" name="AttachMinor.036"/>
+			<meta id="5ddf74cc-5ea0-41ea-b33a-7bae8977a82d" name="AttachMinor.037"/>
+			<meta id="33b33db5-599f-4d4e-8459-b6d54e15f5c7" name="AttachMinor.038"/>
+			<meta id="4ffacfff-681d-4144-953c-0f88daed465c" name="AttachMinor.039"/>
+			<meta id="4ef0dd59-e001-4259-8eb5-bf2ddf0cafa7" name="AttachMinor.040"/>
+			<meta id="a8fac69c-08d7-4ea9-b7dd-fb1d3c2dbdad" name="AttachMinor.041"/>
+			<meta id="7628c361-b06a-4f25-92e2-72d5e2a26a06" name="AttachMinor.042"/>
+			<meta id="acd11d5a-3088-4067-872a-19950fee0722" name="AttachMinor.043"/>
+			<meta id="24cb8172-54e9-4154-8b1b-1c74dcb4b3d7" name="AttachMinor.044"/>
+			<meta id="420122df-3a56-4ade-a7ed-0519e4dd6679" name="AttachMinor.045"/>
+			<meta id="8e301673-85c7-43b5-8ec0-0b1f30953251" name="AttachMinor.046"/>
+			<meta id="c71d713f-9830-48f5-96bc-c816461c3048" name="AttachMinor.047"/>
+			<meta id="b09954ff-e458-4f80-94fb-54ed90740041" name="AttachMinor.048"/>
+			<meta id="fb8375e8-db06-40e0-b5a8-4b2effc4aab6" name="AttachMinor.049"/>
+			<meta id="c2dd8b5e-fdd5-4fed-999c-d4f8d95d1d20" name="AttachMinor.050"/>
+			<meta id="5a228228-03e4-4dbd-9be4-b9711acffe3e" name="AttachMinor.051"/>
+			<meta id="cb4c9e81-f6d7-48de-aa48-c355e2315f3d" name="AttachMinor.052"/>
+			<meta id="ed6099e6-1705-4871-a3b3-f7e531a9d739" name="AttachMinor.053"/>
+			<meta id="a39ee307-df77-48de-8274-11827b5f5714" name="AttachMinor.054"/>
+			<meta id="10f4a2ff-fa9e-4465-80e4-5dff25bfa7c7" name="AttachMinor.055"/>
+			<meta id="ba6b9369-6230-4251-bf13-0cca7d06f941" name="AttachMinor.056"/>
+			<meta id="cc85af2f-5c20-4bc0-94c2-680474d9ea86" name="AttachMinor.057"/>
+			<meta id="7097bac1-61ff-4783-81fd-b1132668edb8" name="AttachMinor.058"/>
+			<meta id="efd8a027-5739-44bf-b5e0-91eddd3a9951" name="AttachMinor.059"/>
+			<meta id="f5d20182-6628-483e-8743-f295d69a01c5" name="AttachMinor.060"/>
+			<meta id="7c08b35d-9afb-4527-bdc4-98ee4d8a1d15" name="AttachMinor.061"/>
+			<meta id="680f8e03-2152-42fc-a5ef-ddc36dc8dfed" name="AttachMinor.062"/>
+			<meta id="6725bd1e-43a1-49f8-8f13-053c33156d3a" name="AttachMinor.063"/>
+			<meta id="9d29d20b-139e-4921-bc80-3803e8271814" name="AttachMinor.064"/>
+			<meta id="f24f1d77-51e1-47f0-bf64-7e61ee779bcb" name="AttachMinor.065"/>
+			<meta id="5d797227-ac9b-4745-a2ec-ccb2902ba855" name="AttachMinor.066"/>
+			<meta id="964bb4b2-6d04-41f6-8bd4-d6742869b0aa" name="AttachMinor.067"/>
+			<meta id="c8b4fe95-0b46-46af-aca1-bd4e352230eb" name="AttachMinor.068"/>
+			<meta id="33637ad8-31d2-4d64-80ad-57bb3141102c" name="AttachMinor.069"/>
+			<meta id="bc72fd01-dd16-4a62-b98a-cec09d742ae3" name="AttachMinor.070"/>
+			<meta id="19cdc41c-bac4-43d3-871c-619dfe39703c" name="AttachMinor.071"/>
+			<meta id="318acc93-f15a-46c5-91a9-ac64d9637cae" name="AttachMinor.072"/>
+			<meta id="6aa2d5dc-1c63-4b25-aa30-87ce044aa191" name="AttachMinor.073"/>
+			<meta id="cbf4017b-e462-462d-a11a-6750805dc973" name="AttachMinor.074"/>
+			<meta id="a5b5811a-b1fc-4610-8a56-eade020e475a" name="AttachMinor.075"/>
+			<meta id="a98a8fe3-ab5c-4742-96b3-dc3056c49aff" name="AttachMinor.076"/>
+			<meta id="4ed97562-9776-47c0-8d4f-b88bd821041d" name="AttachMinor.077"/>
+			<meta id="96222b2f-181e-4760-9e45-6c2fe04ad97a" name="AttachMinor.078"/>
+			<meta id="72e233a8-e6ae-4119-906f-294df33f3952" name="AttachMinor.079"/>
+			<meta id="2c8c53f9-9f28-46e4-8020-28a2aec96f30" name="AttachMinor.080"/>
+			<meta id="cc5f7856-c205-442c-9d4e-d49ce5540eb5" name="AttachMinor.081"/>
+			<meta id="2e0671b5-6343-45b3-bec5-fcfa3017d535" name="AttachMinor.082"/>
+			<meta id="864b1107-9e97-4326-b1b6-0bd3d8c11eb1" name="AttachMinor.083"/>
+			<meta id="4971b3c4-cff4-4db8-93e4-df8711c792f5" name="AttachMinor.084"/>
+			<meta id="e6c11375-dbd0-4d1c-a68d-df43bc799523" name="AttachMinor.085"/>
+			<meta id="b7724b34-ae2e-43dd-be91-34ee9cc5ced0" name="AttachMinor.086"/>
+			<meta id="e8f8700a-a5cb-4de3-a968-985e57dc3605" name="AttachMinor.087"/>
+			<meta id="b1b1b8c9-eab1-4c6e-a486-48fcbce9fc64" name="AttachMinor.088"/>
+			<meta id="c6b18150-3b0e-4119-b878-c330d3f38e05" name="AttachMinor.089"/>
+			<meta id="c00eb95d-8858-4008-8234-bfaf70779cd6" name="AttachMinor.090"/>
+			<meta id="2b99ba07-7941-4756-9baf-7fc9713149c8" name="AttachMinor.091"/>
+			<meta id="788e27da-65ed-4dd7-b5f9-4c83f577586a" name="AttachMinor.092"/>
+			<meta id="38245c91-210a-48e5-9e53-113755b9157c" name="AttachMinor.093"/>
+			<meta id="9958f219-0028-4b31-8230-bd6a0a385565" name="AttachMinor.094"/>
+			<meta id="65fcccdd-8af6-48b6-a8ed-559e15cb1714" name="AttachMinor.095"/>
+			<meta id="019b445e-75d1-43a2-b98b-894dc93091b8" name="AttachMinor.096"/>
+			<meta id="580cee2f-23a9-4e6c-8bc3-f933eeb11e46" name="AttachMinor.097"/>
+			<meta id="b9a92473-cf66-42ca-954d-30077de1daab" name="AttachMinor.098"/>
+			<meta id="86f0f600-a1ea-4f62-bbd3-9a6e309a1c2e" name="AttachMinor.099"/>
+			<meta id="dd7f3904-bf1b-40ed-99af-dabdc7cad6cb" name="AttachMinor.100"/>
+			<meta id="b3f573ea-cd85-4a32-aa18-a00584733b46" name="AttachMinor.101"/>
+			<meta id="8074c313-1db3-4e1d-8154-0465bdde4114" name="AttachMinor.102"/>
+			<meta id="d86eb5c8-0e49-4b54-a227-9cfde27de1da" name="AttachMinor.103"/>
+		</meta>
+		<meta id="1a53babc-559a-4c98-8d4c-3dc297e68995" name="ChristmasTreeWhitePart">
+			<meta id="d93c701a-3d39-4656-b0cc-d4c4d5fc9928" name="ChristmasTree.001">
+				<meta id="ef58d653-53fa-411c-9f4b-a868ccb228eb" name="ChristmasTree.001_0"/>
+				<meta id="5b64e0a0-0b08-4e13-956f-bc0b9bcb893e" name="ChristmasTree.001_1"/>
+			</meta>
+			<meta id="e618c65e-1f5c-4c65-b783-3042cde5f483" name="AttachTop.004"/>
+			<meta id="7a504895-da98-4261-a56d-1dabd29e56db" name="AttachMinor.114"/>
+			<meta id="de38212f-56f0-404e-8db7-99453f6dfc7b" name="AttachMinor.115"/>
+			<meta id="186e10e6-5b68-4b42-b93d-c8888d1a25c9" name="AttachMinor.116"/>
+			<meta id="4a9f6e3a-ccb7-42c5-8122-12ff82704b39" name="AttachMinor.117"/>
+			<meta id="75e60b77-a48f-43d9-9046-9e617a102b1b" name="AttachMinor.118"/>
+			<meta id="971b3cfc-b29c-4633-887b-aac7016520ee" name="AttachMinor.119"/>
+			<meta id="ea47e894-192b-4024-97c5-9f0d46694d72" name="AttachMinor.120"/>
+			<meta id="5561d8f4-3c59-4e22-bb26-86f585438606" name="AttachMinor.121"/>
+			<meta id="94248ed7-974b-4094-bd9a-3d384efc9521" name="AttachMinor.122"/>
+			<meta id="96b215af-a644-4a7f-ba9c-9f1576eca6a9" name="AttachMinor.123"/>
+			<meta id="be08f37d-b740-41b2-8608-47df1814c362" name="AttachMinor.124"/>
+			<meta id="b592eea6-251a-4729-837a-9fe7f09894e2" name="AttachMinor.125"/>
+			<meta id="d586ecd6-f2f9-4726-8e96-3f520a34fb88" name="AttachMinor.126"/>
+			<meta id="7e7102bb-38bc-46a8-9c79-33a577d93315" name="AttachMinor.127"/>
+			<meta id="5f668147-60af-489f-b717-999879c2f6d6" name="AttachMinor.128"/>
+			<meta id="6a4541b3-1a06-44cc-b3b6-c9a9203d51e6" name="AttachMinor.129"/>
+			<meta id="af39d04b-bb16-45c0-83f2-7498b61ee9e1" name="AttachMinor.130"/>
+			<meta id="8daa2b32-ece9-4416-877e-06be90fc383d" name="AttachMinor.131"/>
+			<meta id="ca5473bd-22c9-4883-a181-1d1b79bc1dad" name="AttachMinor.132"/>
+			<meta id="edb57508-ad6c-4b97-bb99-31ca4cb9796d" name="AttachMinor.133"/>
+			<meta id="af661aed-609c-4b64-8b79-7cd80fb47433" name="AttachMinor.134"/>
+			<meta id="95c7e053-5ee7-48bf-9828-9a3616f9794b" name="AttachMinor.135"/>
+			<meta id="865b8e26-d2b4-4e8c-87e8-e1aea27a5845" name="AttachMinor.136"/>
+			<meta id="8a277e1d-63e4-4b50-83ab-1f41f5b930c3" name="AttachMinor.137"/>
+			<meta id="2b80d049-b306-4b46-aa1d-6c8e9df98ef2" name="AttachMinor.138"/>
+			<meta id="eaf6e05c-c215-4178-8e6c-e35b37715af3" name="AttachMinor.139"/>
+			<meta id="5eb440dd-00d5-417b-b2ba-cf1b7aed5850" name="AttachMinor.140"/>
+			<meta id="58a986d0-30db-4772-afdb-c6046e535529" name="AttachMinor.141"/>
+			<meta id="bfe3f95d-0158-4d65-92e5-fe6ca20aa09a" name="AttachMinor.142"/>
+			<meta id="df0e7e3d-044f-4566-bfed-8bb7840bb329" name="AttachMinor.143"/>
+			<meta id="c22b1fe0-a100-4cbf-970f-03861d16ffdd" name="AttachMinor.144"/>
+			<meta id="c955059e-645a-4002-9c25-0600ca4276a9" name="AttachMinor.145"/>
+			<meta id="486b9bd3-d008-4358-a76a-6f8e919eb956" name="AttachMinor.146"/>
+			<meta id="1a59b053-2469-43c7-98c0-d40daa4fadf2" name="AttachMinor.147"/>
+			<meta id="a823d4be-8160-4127-9b37-7db8ddf6824d" name="AttachMinor.148"/>
+			<meta id="e93c8c00-38b7-4b6a-989e-7f98dfaad960" name="AttachMinor.149"/>
+			<meta id="492b3dbc-981c-45f7-9874-87e2610436ca" name="AttachMinor.150"/>
+			<meta id="f0f62351-c9a3-4ab7-8152-e507f475a345" name="AttachMinor.151"/>
+			<meta id="2881344f-ed44-4cb9-b8f1-222461afd293" name="AttachMinor.152"/>
+			<meta id="3adb7070-ef77-4387-9621-f9f18459bea0" name="AttachMinor.153"/>
+			<meta id="9d27084e-60b6-43b2-a556-9aa43e8a8505" name="AttachMinor.154"/>
+			<meta id="2ac2f4c4-4a97-4f04-97f2-1fe32ca6e529" name="AttachMinor.155"/>
+			<meta id="f15e8567-2055-469a-b1f5-79fb944b6e7c" name="AttachMinor.156"/>
+			<meta id="84f6d807-eca9-40bc-9d5a-de825754ab25" name="AttachMinor.157"/>
+			<meta id="46624f0e-a540-43d7-b528-30f55e38f31b" name="AttachMinor.158"/>
+			<meta id="4f07fc97-dff5-4610-bade-393af626ce01" name="AttachMinor.159"/>
+			<meta id="e9e9de87-1ceb-41fc-b090-39bb018f9a05" name="AttachMinor.160"/>
+			<meta id="1bfd2028-cc86-4f3e-8e71-7f1304737fc0" name="AttachMinor.161"/>
+			<meta id="05ece16b-eeb7-4e9a-8750-40e14cf1165e" name="AttachMinor.162"/>
+			<meta id="1955b52e-324a-4d25-af11-d6283426d4cb" name="AttachMinor.163"/>
+			<meta id="5e0ef0c1-282e-4c30-8230-624b92975562" name="AttachMinor.164"/>
+			<meta id="6a03c4d5-1f0e-4642-a171-fdd358de7bfd" name="AttachMinor.165"/>
+			<meta id="4d75cabf-ab5d-45a3-be4b-eca66ad25704" name="AttachMinor.166"/>
+			<meta id="1573ddab-73fa-4d1e-a4b7-d337582a6a54" name="AttachMinor.167"/>
+			<meta id="2992d2ff-0eb5-41d0-9ba0-4932d0e59a95" name="AttachMinor.168"/>
+			<meta id="81a60511-4269-48ca-bf39-00d6aa912897" name="AttachMinor.169"/>
+			<meta id="2c65495c-7e90-4778-b689-6f03b67cc47d" name="AttachMinor.170"/>
+			<meta id="76439c1a-9365-4db6-8fa5-5a8218df0814" name="AttachMinor.171"/>
+			<meta id="d0acaeed-1b37-4840-ad27-93abd3989008" name="AttachMinor.172"/>
+			<meta id="49c766f3-24ce-4686-a58d-7369254a4523" name="AttachMinor.173"/>
+			<meta id="8208ab72-c4f0-4ba3-9213-67910adaac90" name="AttachMinor.174"/>
+			<meta id="c2208a56-0683-486f-aac8-5bae9a8a06ca" name="AttachMinor.175"/>
+			<meta id="d740a09f-5f0a-4503-a33b-75448e675177" name="AttachMinor.176"/>
+			<meta id="d5f6c868-e730-4fed-a50e-60807f1b2e2e" name="AttachMinor.177"/>
+			<meta id="3b6fe045-5fdd-430b-aa85-65ed546a9b99" name="AttachMinor.178"/>
+			<meta id="30da32bb-1536-4edd-a304-ac742d810cbe" name="AttachMinor.179"/>
+			<meta id="c2a1976e-d633-49dd-a2f7-eac5375b1ec3" name="AttachMinor.180"/>
+			<meta id="cd8afd4f-a5dd-4fc4-a9ea-c00af35b7314" name="AttachMinor.181"/>
+			<meta id="b5d21d54-52d8-4628-b616-581d5ca3a593" name="AttachMinor.182"/>
+			<meta id="07af37f6-142e-469d-8513-fd7565c2ba7a" name="AttachMinor.183"/>
+			<meta id="f43969eb-7845-406a-b873-ad2f815be69a" name="AttachMinor.184"/>
+			<meta id="8ca28988-8b02-43e1-9338-7ef66dce1c1b" name="AttachMinor.185"/>
+			<meta id="1dec20fb-4dea-490c-af5e-01c4dffcde6d" name="AttachMinor.186"/>
+			<meta id="961bf15f-74b1-439b-bddc-ec3da298d81e" name="AttachMinor.187"/>
+			<meta id="e1a0b639-8785-447f-89ac-26d0fdfdd8ce" name="AttachMinor.188"/>
+			<meta id="842b926e-ad25-4110-aa95-1c2820e21935" name="AttachMinor.189"/>
+			<meta id="cb1a3174-77b9-4d2d-8814-f44c5124188a" name="AttachMinor.190"/>
+			<meta id="3112a71e-7c18-45ee-8ac7-3887fb591232" name="AttachMinor.191"/>
+			<meta id="6c291879-7488-4f1d-82aa-a7b81117100c" name="AttachMinor.192"/>
+			<meta id="23f3dde0-6e60-4ad5-8a59-1e19f1c800d7" name="AttachMinor.193"/>
+			<meta id="6cad36e2-bc9c-408c-a941-fec16496feae" name="AttachMinor.194"/>
+			<meta id="faadbe18-b541-4472-9189-de8a28a3b2ef" name="AttachMinor.195"/>
+			<meta id="645d182d-3460-4204-af4d-26f05591397f" name="AttachMinor.196"/>
+			<meta id="b29fe368-7521-4357-94e4-a7d57a2798aa" name="AttachMinor.197"/>
+			<meta id="fd61917b-ed42-4570-afe3-2ba0fd38b015" name="AttachMinor.198"/>
+			<meta id="2e3a26c6-67a1-4669-b46b-a51aaf0a408b" name="AttachMinor.199"/>
+			<meta id="2479b846-ded0-4c53-b4ee-af8bd44a16bb" name="AttachMinor.200"/>
+			<meta id="86124a4a-3ba2-4dfe-9c44-866f42d8c65f" name="AttachMinor.201"/>
+			<meta id="e4972434-9f0c-434c-a641-70d903819780" name="AttachMinor.202"/>
+			<meta id="058f5e63-60ed-48a0-9aec-2c713ed0ebde" name="AttachMinor.203"/>
+			<meta id="5e9bf391-add5-4a82-be22-7bac1b3f6db1" name="AttachMinor.204"/>
+			<meta id="7ff5f6e6-f6d0-433a-a123-18e5c782d25f" name="AttachMinor.205"/>
+			<meta id="c3234d44-6dd9-4795-8617-43c6c6350f6f" name="AttachMinor.206"/>
+			<meta id="bfd9ed17-d1c6-4c56-abb8-7e154faf2359" name="AttachMinor.207"/>
+			<meta id="420aa1bb-4675-4fcc-824c-93db5750ccf6" name="AttachMinor.208"/>
+			<meta id="98dd9c8f-e9ef-4f2f-a5a7-17363c10597d" name="AttachMinor.209"/>
+			<meta id="cc882567-2aa4-4a81-8032-1b75af806b87" name="AttachMinor.210"/>
+			<meta id="a819654f-c9f6-477f-badb-384e633e4385" name="AttachMinor.211"/>
+			<meta id="7ff5d301-4379-492d-bcda-4be3efa62f1f" name="AttachMinor.212"/>
+			<meta id="12963fcd-0406-408b-80a6-a3703d9c78cd" name="AttachMinor.213"/>
+			<meta id="c7efc3a3-90e8-4c41-a60a-8b3015cafd9e" name="AttachMinor.214"/>
+			<meta id="200c3ec5-d89f-42d1-89d8-1cf0e7180b72" name="AttachMinor.215"/>
+		</meta>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="7e82e5bcdc35e66585bc50ab937e18c9"/>
+	<Md5Checksum value="d765a469679f6ac949aca6821fc2b853"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -273,6 +384,371 @@
 			</Item>
 			<Item type="GenCFbxNodeConfig">
 				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Sun"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SphereOrnamentRedPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.104"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SphereOrnamentGoldPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.011"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SphereOrnamentSilverPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.105"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SphereOrnamentBluePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.106"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SphereOrnamentPurplePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.005"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.005"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.107"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SphereOrnamentBurgundyPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.006"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.006"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.108"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SphereOrnamentOrangePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.007"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.007"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.109"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SphereOrnamentCyanPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.008"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.008"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.110"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SphereOrnamentYellowPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.009"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.009"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.111"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SphereOrnamentGreenPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.010"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.010"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.112"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SphereOrnamentPinkPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.011"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.011"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.113"/>
+					</Item>
+				</ChildList>
+				<NodeName value="SphereOrnamentGreyPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cone"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachTop.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowflakePart.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowflakePart.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowflakePart.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowflakePart.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowflakePart"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.012"/>
+					</Item>
+				</ChildList>
+				<NodeName value="TopperSnowflakePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cone.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachTop"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Circle"/>
+					</Item>
+				</ChildList>
+				<NodeName value="TopperStarPart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cone.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.014"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.015"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.016"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SphereDecimate0.7"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachTop.003"/>
+					</Item>
+				</ChildList>
+				<NodeName value="TopperSpikePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="TopperSpikeSphereOrig"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 				<ChildList>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
@@ -289,6 +765,11 @@
 							</Item>
 						</ChildList>
 						<NodeName value="ChristmasTree"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachTop.001"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
@@ -800,378 +1281,545 @@
 						<ChildList/>
 						<NodeName value="AttachMinor.103"/>
 					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachTop.001"/>
-					</Item>
 				</ChildList>
-				<NodeName value="ChristmasTreePart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Sun"/>
+				<NodeName value="ChristmasTreeGreenPart"/>
 			</Item>
 			<Item type="GenCFbxNodeConfig">
 				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 				<ChildList>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachMinor"/>
+						<ChildList>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="ChristmasTree.001_0"/>
+							</Item>
+							<Item type="GenCFbxNodeConfig">
+								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+								<ChildList/>
+								<NodeName value="ChristmasTree.001_1"/>
+							</Item>
+						</ChildList>
+						<NodeName value="ChristmasTree.001"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Cube"/>
+						<NodeName value="AttachTop.004"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Cylinder"/>
+						<NodeName value="AttachMinor.114"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.115"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.116"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.117"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.118"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.119"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.120"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.121"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.122"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.123"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.124"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.125"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.126"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.127"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.128"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.129"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.130"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.131"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.132"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.133"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.134"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.135"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.136"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.137"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.138"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.139"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.140"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.141"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.142"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.143"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.144"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.145"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.146"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.147"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.148"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.149"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.150"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.151"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.152"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.153"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.154"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.155"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.156"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.157"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.158"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.159"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.160"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.161"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.162"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.163"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.164"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.165"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.166"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.167"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.168"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.169"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.170"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.171"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.172"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.173"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.174"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.175"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.176"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.177"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.178"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.179"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.180"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.181"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.182"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.183"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.184"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.185"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.186"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.187"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.188"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.189"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.190"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.191"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.192"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.193"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.194"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.195"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.196"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.197"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.198"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.199"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.200"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.201"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.202"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.203"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.204"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.205"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.206"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.207"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.208"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.209"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.210"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.211"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.212"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.213"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.214"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMinor.215"/>
 					</Item>
 				</ChildList>
-				<NodeName value="SphereOrnamentRedPart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.002"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cylinder.002"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachMinor.104"/>
-					</Item>
-				</ChildList>
-				<NodeName value="SphereOrnamentGoldPart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.001"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cylinder.001"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachMinor.011"/>
-					</Item>
-				</ChildList>
-				<NodeName value="SphereOrnamentSilverPart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.003"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cylinder.003"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachMinor.105"/>
-					</Item>
-				</ChildList>
-				<NodeName value="SphereOrnamentBluePart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.004"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cylinder.004"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachMinor.106"/>
-					</Item>
-				</ChildList>
-				<NodeName value="SphereOrnamentPurplePart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.005"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cylinder.005"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachMinor.107"/>
-					</Item>
-				</ChildList>
-				<NodeName value="SphereOrnamentBurgundyPart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.006"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cylinder.006"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachMinor.108"/>
-					</Item>
-				</ChildList>
-				<NodeName value="SphereOrnamentOrangePart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.007"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cylinder.007"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachMinor.109"/>
-					</Item>
-				</ChildList>
-				<NodeName value="SphereOrnamentCyanPart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.008"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cylinder.008"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachMinor.110"/>
-					</Item>
-				</ChildList>
-				<NodeName value="SphereOrnamentYellowPart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.009"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cylinder.009"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachMinor.111"/>
-					</Item>
-				</ChildList>
-				<NodeName value="SphereOrnamentGreenPart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.010"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cylinder.010"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachMinor.112"/>
-					</Item>
-				</ChildList>
-				<NodeName value="SphereOrnamentPinkPart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.011"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cylinder.011"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachMinor.113"/>
-					</Item>
-				</ChildList>
-				<NodeName value="SphereOrnamentGreyPart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cone"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachTop.002"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="SnowflakePart.001"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="SnowflakePart.002"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="SnowflakePart.003"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="SnowflakePart.004"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="SnowflakePart"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.012"/>
-					</Item>
-				</ChildList>
-				<NodeName value="TopperSnowflakePart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cone.001"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachTop"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Circle"/>
-					</Item>
-				</ChildList>
-				<NodeName value="TopperStarPart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cone.002"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.014"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.015"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.016"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="SphereDecimate0.7"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachTop.003"/>
-					</Item>
-				</ChildList>
-				<NodeName value="TopperSpikePart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="TopperSpikeSphereOrig"/>
+				<NodeName value="ChristmasTreeWhitePart"/>
 			</Item>
 		</ChildList>
 		<NodeName value="Prefab"/>
@@ -1186,8 +1834,12 @@
 			<MaterialName value="Material.Blue"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="ccef5e09-f7c1-420c-962f-89212daed649"/>
-			<MaterialName value="Material.Branches"/>
+			<MaterialGuid value="0a48e651-7f2b-441a-a563-f0d5149b18ff"/>
+			<MaterialName value="Material.BranchesGreen"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="23974df0-1ef1-4cc2-9b3d-e3034f3e3a58"/>
+			<MaterialName value="Material.BranchesWhite"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="2116fbe9-7840-450c-af02-10261f7a0b9b"/>

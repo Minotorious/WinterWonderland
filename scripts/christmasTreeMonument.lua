@@ -10,7 +10,8 @@ local winterWonderland = ...
 
 --[[--------------------------- PREFABS & MATERIALS ---------------------------]]--
 
-winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/ChristmasTreePart", "PREFAB_CHRISTMAS_TREE_PART")
+winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/ChristmasTreeGreenPart", "PREFAB_CHRISTMAS_TREE_GREEN_PART")
+winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/ChristmasTreeWhitePart", "PREFAB_CHRISTMAS_TREE_WHITE_PART")
 
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/TopperSnowflakePart", "PREFAB_TOPPER_SNOWFLAKE_PART")
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/TopperSpikePart", "PREFAB_TOPPER_SPIKE_PART")
@@ -29,10 +30,17 @@ winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonu
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/SphereOrnamentSilverPart", "PREFAB_SPHERE_ORNAMENT_SILVER_PART")
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/SphereOrnamentYellowPart", "PREFAB_SPHERE_ORNAMENT_YELLOW_PART")
 
-winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Materials/Material.Branches", "MATERIAL_BRANCHES")
+winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Materials/Material.BranchesGreen", "MATERIAL_BRANCHES_GREEN")
+winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Materials/Material.BranchesWhite", "MATERIAL_BRANCHES_WHITE")
 
 winterWonderland:override({
-    Id = "MATERIAL_BRANCHES",
+    Id = "MATERIAL_BRANCHES_GREEN",
+    HasAlphaTest = true,
+    BackFaceVisible = true
+})
+
+winterWonderland:override({
+    Id = "MATERIAL_BRANCHES_WHITE",
     HasAlphaTest = true,
     BackFaceVisible = true
 })
@@ -71,7 +79,7 @@ winterWonderland:register({
         {
             Name = "CHRISTMAS_TREE_MONUMENT_TREES_CATEGORY_NAME",
             BuildingPartList = {
-                "CHRISTMAS_TREE_PART"
+                "CHRISTMAS_TREE_GREEN_PART", "CHRISTMAS_TREE_WHITE_PART"
             }
 		},
         {
@@ -94,12 +102,36 @@ winterWonderland:register({
 
 winterWonderland:register({
 	DataType = "BUILDING_PART",
-	Id = "CHRISTMAS_TREE_PART",
-    Name = "CHRISTMAS_TREE_PART_NAME",
-	--Description = "CHRISTMAS_TREE_PART_DESC",
+	Id = "CHRISTMAS_TREE_GREEN_PART",
+    Name = "CHRISTMAS_TREE_GREEN_PART_NAME",
+	--Description = "CHRISTMAS_TREE_GREEN_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_CHRISTMAS_TREE_PART"
+		CoreObjectPrefab = "PREFAB_CHRISTMAS_TREE_GREEN_PART"
+	},
+	BuildingZone = {
+		ZoneEntryList = {
+            {
+			Polygon = polygon.createCircle( 8.5 , { 0, 0 } , 36 ),
+			Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
+			}
+        }
+	},
+	ConstructionVisual = nil,
+	Cost = {
+		RessourcesNeeded = {}
+	},
+    IsVisibleWhenBuilt = true
+})
+
+winterWonderland:register({
+	DataType = "BUILDING_PART",
+	Id = "CHRISTMAS_TREE_WHITE_PART",
+    Name = "CHRISTMAS_TREE_WHITE_PART_NAME",
+	--Description = "CHRISTMAS_TREE_WHITE_PART_DESC",
+	ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+		CoreObjectPrefab = "PREFAB_CHRISTMAS_TREE_WHITE_PART"
 	},
 	BuildingZone = {
 		ZoneEntryList = {

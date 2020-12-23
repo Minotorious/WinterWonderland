@@ -181,4 +181,7 @@ IdMap = {
 	{ "TOPPER_SNOWFLAKE_PART", "BUILDING_PART", "0a4f4740-4cf8-4725-831f-a468a2368215" },
 	{ "TOPPER_STAR_PART", "BUILDING_PART", "fbc2a6d8-692f-481b-aa94-87cc250c4a2e" },
 	{ "models/Elk_BaseColor.png", "", "79a69275-ff08-4497-b610-ce6a72a19c16" },
+	{ "CHRISTMAS_TREE_GREEN_PART", "BUILDING_PART", "60fd1dfb-118e-437b-b500-36819b36a837" },
+	{ "CHRISTMAS_TREE_WHITE_PART", "BUILDING_PART", "92eb8870-065c-4df7-977a-a42b6bd44026" },
+	{ "models/christmasTreeMonument/branchWhite.png", "", "8bd9befa-4614-4d66-beee-bdb007f7a952" },
 }
