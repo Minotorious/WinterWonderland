@@ -10,7 +10,7 @@
         "SNOWFLAKE_EMITTER_PART_NAME": "Let It Snow! Let It Snow! Let It Snow!",
 
         "SNOWMAN_MONUMENT_NAME": "Monument du bonhomme de neige",
-        "SNOWMAN_MONUMENT_DESC": "Do you wanna build a Snowman?",
+        "SNOWMAN_MONUMENT_DESC": "Je voudrais un bonhomme de neige",
         "SNOWMAN_MONUMENT_EXAMPLE_CATEGORY_NAME": "Exemple de bonhomme de neige",
         "SNOWMAN_MONUMENT_SNOW_BASES_CATEGORY_NAME": "Bases de la neige",
         "SNOWMAN_MONUMENT_SNOWMAN_BASE_PARTS_CATEGORY_NAME": "Bases du bonhomme de neige",
@@ -19,8 +19,8 @@
         "SNOWMAN_MONUMENT_BRANCHES_LEFT_CATEGORY_NAME": "Branches du bras gauche",
         "SNOWMAN_MONUMENT_BRANCHES_RIGHT_CATEGORY_NAME": "Branches du bras droit",
         
-        "SNOWMAN_MONUMENT_POLE_PART_NAME": "Do you wanna build a Snowman?",
-        "SNOWMAN_MONUMENT_POLE_PART_DESC": "Do you wanna build a Snowman?",
+        "SNOWMAN_MONUMENT_POLE_PART_NAME": "Je voudrais un bonhomme de neige",
+        "SNOWMAN_MONUMENT_POLE_PART_DESC": "Je voudrais un bonhomme de neige",
         
         "SNOWMAN_EXAMPLE_PART_NAME":"Exemple de bonhomme de neige",
         "SNOWMAN_EXAMPLE_PART_DESC":"Exemple de bonhomme de neige prédéfini",
