@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<meta id="9afb1537-c8f7-4cfc-a4e3-7c3c7dff68bf">
-	<meta id="752aed9c-fb36-4535-8995-157ea9ff8975" type="group" folder="true" name="Materials">
-		<meta id="e6331df0-da8e-4a00-8c3e-ba2e1a84bc2e" name="paper1"/>
-		<meta id="d128b5d8-9bde-4e2e-a526-080d57602ff4" name="paper2"/>
-		<meta id="d57b6279-131c-44ec-bdb7-d74fb2e65f1a" name="paper3"/>
-		<meta id="b26596a9-ea83-4671-9300-fd3296f9d764" name="paper4"/>
-		<meta id="c79ba73d-b914-48b7-a3ce-e8a9449d9590" name="paper5"/>
-		<meta id="2c61f241-cd2f-46d3-8864-15fb9d0d623d" name="paper6"/>
-		<meta id="0682209d-13ac-42ba-9f9b-4e0f3b6e8ede" name="paper1.001"/>
-		<meta id="7fc45f7c-d8cc-4061-8d3c-60017b44e141" name="paper2.001"/>
-		<meta id="a461c33c-a0e4-494d-96bf-d7ed16262df4" name="paper3.001"/>
-		<meta id="7f28239a-92cc-4117-8b9e-6c1fddd1fedb" name="paper4.001"/>
-		<meta id="07fbfd33-ed46-4de2-9992-80cef89e578f" name="paper1.002"/>
-		<meta id="7748233a-fc95-4102-b9c4-d5c22a6f7c65" name="paper2.002"/>
-		<meta id="8a6f1c99-c6ad-4394-a539-d3ba4efcacae" name="paper3.002"/>
-		<meta id="06a8e184-8138-4b83-b19f-cb0f691df4b9" name="paper4.002"/>
-		<meta id="9b01c22b-3042-4ffa-8416-a9ee36a2e060" name="paper5.002"/>
-		<meta id="184c2b74-683b-4794-b05b-6598ab4cfe95" name="paper6.002"/>
+<meta id="09dcf36f-929f-4f3a-b5d0-d2ea84db9e71">
+	<meta id="291108f8-517d-432d-8cf3-8ba61aaeb5f0" type="group" folder="true" name="Materials">
+		<meta id="7843eee5-f541-4d5c-bc42-5863a1570bd3" name="paper1"/>
+		<meta id="80d42629-3301-4037-8c59-ba33a203f101" name="paper2"/>
+		<meta id="7e31ef68-9a24-448e-9704-3d34c830c1cb" name="paper3"/>
+		<meta id="8162a4e8-0ffc-46c1-a0ed-d4cdc6d13d9e" name="paper4"/>
+		<meta id="b6b5e553-c1c3-4358-b5bc-01fc46e5d614" name="paper5"/>
+		<meta id="66987c4a-e7ed-4323-a9e6-5347846abba3" name="paper6"/>
+		<meta id="5e182165-60a8-4991-b046-3e019cc4af76" name="paper1.001"/>
+		<meta id="3d498903-fdef-4ae0-a334-0c7548938cb5" name="paper2.001"/>
+		<meta id="8a755d2a-4825-4339-9c6d-7e9680f91b99" name="paper3.001"/>
+		<meta id="4aa2daf1-3fdd-49ee-8cea-c93a8f42af5e" name="paper4.001"/>
+		<meta id="b5790f7f-0730-4aff-93df-59e22acc8fe3" name="paper1.002"/>
+		<meta id="e1ea67e9-0e96-4770-bbda-062098a39c14" name="paper2.002"/>
+		<meta id="7196ba25-738e-45a7-abec-60d0af774a93" name="paper3.002"/>
+		<meta id="2b977b3a-df1d-4aa6-981b-c323ab70ada1" name="paper4.002"/>
+		<meta id="f9a598e1-6041-48e3-9cb1-f08e53accbbf" name="paper5.002"/>
+		<meta id="11ba4fa5-99fb-403f-aa9a-37f999abfb6a" name="paper6.002"/>
 	</meta>
-	<meta id="c4bbbad7-7000-4234-ae58-7b5bc4a43f11" type="group" folder="true" name="Meshes">
-		<meta id="4157a7c1-9254-4c5e-b7ca-c4d996597558" name="Cube_paper1"/>
-		<meta id="c87ad4d1-104d-4024-8fe9-6c2b1fd74d50" name="Cube.001_paper2"/>
-		<meta id="4c0a3c19-b04b-41e9-a7f4-0c082bd07220" name="Cube.002_paper3"/>
-		<meta id="908e8cd0-5311-4e24-a147-cfad668c00e2" name="Cube.003_paper4"/>
-		<meta id="8ce3358b-e99b-431b-b467-03f3401ad98e" name="Cube.004_paper5"/>
-		<meta id="b2658085-c62e-4d22-b75a-8ea79bb9999f" name="Cube.005_paper5"/>
-		<meta id="88b6ba43-9995-4fa8-bfc6-f01964954cd8" name="Cube.006_paper1"/>
-		<meta id="169b165a-9f7c-4fa0-a698-7bd7a183b6f9" name="Cube.007_paper2"/>
-		<meta id="ab655038-c413-42f4-943b-2690d7da806a" name="Cube.008_paper3"/>
-		<meta id="e5d725cb-5119-44d8-b4b5-ebc2370ef93b" name="Cube.009_paper4"/>
-		<meta id="83497ea6-a535-4d54-ae2f-ea520c7386f9" name="Cube.010_paper5"/>
-		<meta id="121d1bb5-9c32-407f-976d-dbab6abb0fab" name="Cube.011_paper5"/>
-		<meta id="74c95259-8527-4a45-b157-fa0c59a97b39" name="Cube.012_paper1"/>
-		<meta id="8269b997-ecc9-4867-b01c-0d5fc732fe6f" name="Cube.013_paper2"/>
-		<meta id="8ca44d6a-795d-4451-ad40-887a00069332" name="Cube.014_paper3"/>
-		<meta id="49e35ffb-bf05-471e-b340-c98454343d06" name="Cube.015_paper4"/>
-		<meta id="5cb5befc-0b6f-49fa-8539-697099cb52ec" name="Cube.016_paper5"/>
-		<meta id="69ca1db1-54e4-49e5-af2d-c4c2631e84cc" name="Cube.017_paper5"/>
-		<meta id="d6186c17-57d9-4e73-8b31-e861dc9aaf33" name="Cube.021_paper4"/>
-		<meta id="2adcfe9a-48e7-471a-8839-d5b9c7afc5a6" name="Cube.022_paper5"/>
-		<meta id="2e9d2f96-9870-4c04-ac77-07a65abaee7a" name="Cube.023_paper5"/>
-		<meta id="a77bb5d4-81e8-4c8d-8cb6-2c179ca9081a" name="Cube.041_paper1.001"/>
-		<meta id="f9bb5373-147e-4eed-b2d3-ad290941d760" name="Cube.033_paper3.001"/>
-		<meta id="b2668dfe-77e4-4202-b21f-61fc784b944d" name="Cube.032_paper4.001"/>
-		<meta id="451aac71-0c93-4376-b349-1fb0edb139c6" name="Cube.028_paper2.001"/>
-		<meta id="1552889d-5310-4ecc-ba08-2b0ff2fa4781" name="Cube.027_paper3.001"/>
-		<meta id="0a854912-3da1-4b59-96b9-60b8299bc293" name="Cube.042_paper1.002"/>
-		<meta id="5648470d-a567-493c-8005-81a7ee8df390" name="Cube.043_paper2.002"/>
-		<meta id="fb66894d-9df1-427b-853d-3aaad648a639" name="Cube.045_paper4.002"/>
-		<meta id="370b7e9a-9f66-41e7-98c7-41e49e568c3c" name="Cube.047_paper5.002"/>
-		<meta id="a3048a06-041c-49e6-a362-a46036fa1cce" name="Cube.052_paper5.002"/>
-		<meta id="5a8e7ba3-7daa-4d37-9f15-f5b2c78dba96" name="Cube.056_paper3.002"/>
+	<meta id="87d89aba-956b-4982-8715-0ff338ec6a2e" type="group" folder="true" name="Meshes">
+		<meta id="1005c547-b6f2-464f-bf93-db65e4e61ec3" name="Cube_paper1"/>
+		<meta id="72c5de48-705e-40a7-b7df-93c2571578a7" name="Cube.001_paper2"/>
+		<meta id="578c7550-bcce-4f6e-9d84-424d037254d1" name="Cube.002_paper3"/>
+		<meta id="356941cf-fdca-4917-9cd2-9c36a93c56f8" name="Cube.003_paper4"/>
+		<meta id="b399663f-7c65-4e5d-b717-4bd1f23cb1cd" name="Cube.004_paper5"/>
+		<meta id="c48ce5f5-7ee7-44eb-b43f-abfe671c1a60" name="Cube.005_paper5"/>
+		<meta id="e14caac0-46bf-46f2-9fb3-abf66c4bdde3" name="Cube.006_paper1"/>
+		<meta id="2411a886-7ad4-4cc0-83e2-9b05dbdffc82" name="Cube.007_paper2"/>
+		<meta id="945f46cc-b619-4947-92b8-b252569e3be5" name="Cube.008_paper3"/>
+		<meta id="f34f4e81-5118-400f-8aa9-e6a2315e106f" name="Cube.009_paper4"/>
+		<meta id="bcfdf06c-3b9e-4c4a-a72c-faafef960201" name="Cube.010_paper5"/>
+		<meta id="58a9d580-68e8-4794-88ea-fd421b1d9158" name="Cube.011_paper5"/>
+		<meta id="4480a82c-bde5-433c-a7a3-e20c67ffc985" name="Cube.012_paper1"/>
+		<meta id="b0c63e67-dc74-4764-ac32-fb2b5de0cd50" name="Cube.013_paper2"/>
+		<meta id="62352203-b046-42aa-8ab0-4d364d804f19" name="Cube.014_paper3"/>
+		<meta id="ee4f65b0-707f-49ef-8cba-4bab2a60b8de" name="Cube.015_paper4"/>
+		<meta id="afb0e68e-b8ea-424b-ae9c-a3ff155a13bd" name="Cube.016_paper5"/>
+		<meta id="a1f5a828-acfe-45f7-84ae-73e5588f4fec" name="Cube.017_paper5"/>
+		<meta id="db367e4c-01f2-422a-8433-31bd20224d96" name="Cube.021_paper4"/>
+		<meta id="ea54720f-45e0-4dad-8385-cffd677750a1" name="Cube.022_paper5"/>
+		<meta id="7326116e-bd55-43bb-a965-727ef50cb650" name="Cube.023_paper5"/>
+		<meta id="135ad60b-6ba3-4131-bfef-63209f492b5e" name="Cube.041_paper1.001"/>
+		<meta id="919a703b-3b71-4c45-bdb8-1c07e251a5d2" name="Cube.033_paper3.001"/>
+		<meta id="337dd0e9-449d-46ee-8083-68c198ccadce" name="Cube.032_paper4.001"/>
+		<meta id="342a42de-1614-455b-b981-ebdc7ac0eebc" name="Cube.028_paper2.001"/>
+		<meta id="67b15e1f-dffd-468d-887b-17bed6b00201" name="Cube.027_paper3.001"/>
+		<meta id="52503f0a-ed5d-4d12-b0d6-fa40be3bdeb6" name="Cube.042_paper1.002"/>
+		<meta id="95ed4cd0-b931-4f8f-b939-45c6dec63169" name="Cube.043_paper2.002"/>
+		<meta id="925592d6-f1a1-45c4-ad6c-fc0cca04f148" name="Cube.045_paper4.002"/>
+		<meta id="d285a7d4-a93d-4ac3-965c-164df63cb763" name="Cube.047_paper5.002"/>
+		<meta id="0728df05-68fb-4167-9ea1-241d84f53fd4" name="Cube.052_paper5.002"/>
+		<meta id="74b6f12e-c492-4ee1-ab2d-f3fa58a7123e" name="Cube.056_paper3.002"/>
 	</meta>
-	<meta id="7a7c9acd-6aec-4e73-8ec0-1543b34bc87e" name="Prefab">
-		<meta id="866e8d53-d9ef-4f25-82ce-e70b0bdd3635" name="christmas_giftsPart">
-			<meta id="cab65fe1-fd90-4f9e-ba1a-3e61c1c8d20c" name="Cube"/>
-			<meta id="47ad9dcd-4908-4f0c-a996-a0a184178071" name="Cube.001"/>
-			<meta id="94124dc1-3efc-4083-8041-3e8596f50770" name="Cube.002"/>
-			<meta id="098abe2f-6a46-4c7e-a101-78164edeea6a" name="Cube.003"/>
-			<meta id="be3bbae0-d1c4-497c-805a-59bd908e5ec8" name="Cube.004"/>
-			<meta id="df5a2878-8a22-4301-9464-091a7d45ea87" name="Cube.005"/>
-			<meta id="90377506-d6a9-4ceb-8687-2e88a15d8ee2" name="Cube.006"/>
-			<meta id="f607e750-ed08-4a1d-8eca-d94f3d837e2d" name="Cube.007"/>
-			<meta id="7e2db37e-1dbf-4f1b-8d50-69b52f469694" name="Cube.008"/>
-			<meta id="51f35e96-d31c-4e90-800f-f13915afeaab" name="Cube.009"/>
-			<meta id="ef150fa4-3317-4350-9502-090c11d766fd" name="Cube.010"/>
-			<meta id="197244d6-6f36-4876-a402-0991ec6c734a" name="Cube.011"/>
-			<meta id="8a4d60ba-6aac-41a5-8d82-f073daae68c3" name="Cube.012"/>
-			<meta id="00cb3a99-6440-4ba2-a8b3-8dfcf2dafcbb" name="Cube.013"/>
-			<meta id="db7ab2aa-70ef-4cee-bc0f-3116c04b089e" name="Cube.014"/>
-			<meta id="eaa0844d-657f-4a2c-92c3-5f25d4448cbe" name="Cube.015"/>
-			<meta id="0dc75a67-147a-4cfe-ad02-9377f0058c2e" name="Cube.016"/>
-			<meta id="d1203046-976f-41fb-b535-28b696c47542" name="Cube.017"/>
-			<meta id="c379eb38-92d8-4885-81d8-ae1a30c73c42" name="Cube.021"/>
-			<meta id="484f83b1-c52b-401d-af19-64d126b6bf36" name="Cube.022"/>
-			<meta id="7c2b55fa-34fb-4074-812e-297c36c43970" name="Cube.023"/>
+	<meta id="8ed02796-05a7-4a9d-a8c8-44f29353528d" name="Prefab">
+		<meta id="360b88df-5743-4045-8d87-d317785d8b78" name="christmas_giftsPart">
+			<meta id="f1812103-fb51-4395-80c6-307e3e466d93" name="Cube"/>
+			<meta id="5105d1b8-1e14-47d3-a7ca-50d4560f4b05" name="Cube.001"/>
+			<meta id="195fc0be-7fa9-4c9b-b936-64482a557e63" name="Cube.002"/>
+			<meta id="662e10c2-d2ce-4b05-b651-029565823918" name="Cube.003"/>
+			<meta id="812920af-78c6-4d44-abb4-745bdea37507" name="Cube.004"/>
+			<meta id="2c729965-aafb-41a3-96e7-850bada914f2" name="Cube.005"/>
+			<meta id="166a6d47-2c7b-4593-8b2a-c85fb7d6be73" name="Cube.006"/>
+			<meta id="3c04cbd5-aecd-4a1d-8c33-e6474f509b0b" name="Cube.007"/>
+			<meta id="631a2730-3ffa-4367-8db8-8fd5328760b9" name="Cube.008"/>
+			<meta id="9732f091-ca5b-4e12-9a57-96eebe0a8330" name="Cube.009"/>
+			<meta id="0567348f-0ff2-4942-be86-f41c7db99bcf" name="Cube.010"/>
+			<meta id="cbf1ec24-791f-4d9a-91cf-08aeb5494329" name="Cube.011"/>
+			<meta id="a1dcbaab-20cc-4133-85ac-c1ceaaed717b" name="Cube.012"/>
+			<meta id="506ebda4-c51d-4f9d-8700-e70483170191" name="Cube.013"/>
+			<meta id="7354ed03-6ba2-40b4-8ca7-4b11440557c0" name="Cube.014"/>
+			<meta id="23555d1c-32c8-4f2d-8cb9-3c5a3d40d3e3" name="Cube.015"/>
+			<meta id="eb1bad47-4153-4a7e-b627-8650cc83eaf5" name="Cube.016"/>
+			<meta id="83837d70-4d15-4965-b660-fd4633f2d5d8" name="Cube.017"/>
+			<meta id="f7ce170a-726f-4b99-bf33-e7a6b625baf5" name="Cube.021"/>
+			<meta id="912434cd-1fe9-408f-8196-f72d2e9a5dcf" name="Cube.022"/>
+			<meta id="2be664c3-f2d2-4f92-8855-65bfd7561dfa" name="Cube.023"/>
 		</meta>
-		<meta id="c8fdbd51-8a20-44fe-9006-708f63528ad4" name="christmas_gift1Part">
-			<meta id="6e09208a-b68b-4e44-9d2b-ad61d4137b76" name="Cube.041"/>
-			<meta id="620e268d-8c16-41c2-aafa-77986d33ffdb" name="Cube.033"/>
-			<meta id="3b2b5859-348f-4259-89a9-03d581a9a949" name="Cube.032"/>
-			<meta id="8d802996-7658-471a-aed4-b1b28b71eca4" name="Cube.028"/>
-			<meta id="58e74284-e2be-41f1-b8ff-4fd07d0c8905" name="Cube.027"/>
+		<meta id="0d2febc9-ae3f-4e0c-a7d1-13faad8143f4" name="christmas_gift1Part">
+			<meta id="a4defb53-778c-43d1-9255-481a5426eaf5" name="Cube.041"/>
+			<meta id="6b030e45-ad51-45d4-9ff8-0ef6d65db63d" name="Cube.033"/>
+			<meta id="986ae25e-340a-45a7-bdea-24ce2b90d7c6" name="Cube.032"/>
+			<meta id="8ce1c56f-6a9c-44e9-ab6e-f1ba113cb996" name="Cube.028"/>
+			<meta id="cd3dc089-db84-439b-85df-9a27e63e22c7" name="Cube.027"/>
 		</meta>
-		<meta id="3a10d335-8412-47d6-9fd6-a2be6b9f1eb9" name="christmas_gift2Part">
-			<meta id="8c7e80b9-5ab0-45a1-844f-6413aac3853c" name="Cube.042"/>
-			<meta id="d76472d9-ebb8-4ee7-baaf-ffc371648604" name="Cube.043"/>
-			<meta id="17066848-b048-419e-85b3-a5b0ee0fa1d8" name="Cube.045"/>
-			<meta id="fb007211-8c0d-4386-a639-2361c84cac41" name="Cube.047"/>
-			<meta id="01cfc8e8-f480-4bc4-942b-ec484827a79f" name="Cube.052"/>
-			<meta id="c2560cc3-86fd-4c13-90f0-c7f48a621f16" name="Cube.056"/>
+		<meta id="cf57e92e-1ad0-4bbc-94b1-2fae4f07f6ae" name="christmas_gift2Part">
+			<meta id="a8066258-6ad5-4bfc-849b-154cf25e90b8" name="Cube.042"/>
+			<meta id="6d845630-2dcc-44bf-af61-b0e55240f552" name="Cube.043"/>
+			<meta id="f5e2d9ec-f0fa-4678-812a-7994982ec004" name="Cube.045"/>
+			<meta id="7a2d753a-f10b-465b-add6-81f92a004025" name="Cube.047"/>
+			<meta id="11915cb3-dcdd-4481-b15e-942cf449e926" name="Cube.052"/>
+			<meta id="c66a9cac-49fb-417d-9145-bae5d811f1a5" name="Cube.056"/>
 		</meta>
 	</meta>
 </meta>
@@ -290,67 +290,67 @@
 	</NodeConfig>
 	<MaterialList>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="e6331df0-da8e-4a00-8c3e-ba2e1a84bc2e"/>
+			<MaterialGuid value="7843eee5-f541-4d5c-bc42-5863a1570bd3"/>
 			<MaterialName value="paper1"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="0682209d-13ac-42ba-9f9b-4e0f3b6e8ede"/>
+			<MaterialGuid value="5e182165-60a8-4991-b046-3e019cc4af76"/>
 			<MaterialName value="paper1.001"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="07fbfd33-ed46-4de2-9992-80cef89e578f"/>
+			<MaterialGuid value="b5790f7f-0730-4aff-93df-59e22acc8fe3"/>
 			<MaterialName value="paper1.002"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="d128b5d8-9bde-4e2e-a526-080d57602ff4"/>
+			<MaterialGuid value="80d42629-3301-4037-8c59-ba33a203f101"/>
 			<MaterialName value="paper2"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="7fc45f7c-d8cc-4061-8d3c-60017b44e141"/>
+			<MaterialGuid value="3d498903-fdef-4ae0-a334-0c7548938cb5"/>
 			<MaterialName value="paper2.001"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="7748233a-fc95-4102-b9c4-d5c22a6f7c65"/>
+			<MaterialGuid value="e1ea67e9-0e96-4770-bbda-062098a39c14"/>
 			<MaterialName value="paper2.002"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="d57b6279-131c-44ec-bdb7-d74fb2e65f1a"/>
+			<MaterialGuid value="7e31ef68-9a24-448e-9704-3d34c830c1cb"/>
 			<MaterialName value="paper3"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="a461c33c-a0e4-494d-96bf-d7ed16262df4"/>
+			<MaterialGuid value="8a755d2a-4825-4339-9c6d-7e9680f91b99"/>
 			<MaterialName value="paper3.001"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="8a6f1c99-c6ad-4394-a539-d3ba4efcacae"/>
+			<MaterialGuid value="7196ba25-738e-45a7-abec-60d0af774a93"/>
 			<MaterialName value="paper3.002"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="b26596a9-ea83-4671-9300-fd3296f9d764"/>
+			<MaterialGuid value="8162a4e8-0ffc-46c1-a0ed-d4cdc6d13d9e"/>
 			<MaterialName value="paper4"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="7f28239a-92cc-4117-8b9e-6c1fddd1fedb"/>
+			<MaterialGuid value="4aa2daf1-3fdd-49ee-8cea-c93a8f42af5e"/>
 			<MaterialName value="paper4.001"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="06a8e184-8138-4b83-b19f-cb0f691df4b9"/>
+			<MaterialGuid value="2b977b3a-df1d-4aa6-981b-c323ab70ada1"/>
 			<MaterialName value="paper4.002"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="c79ba73d-b914-48b7-a3ce-e8a9449d9590"/>
+			<MaterialGuid value="b6b5e553-c1c3-4358-b5bc-01fc46e5d614"/>
 			<MaterialName value="paper5"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="9b01c22b-3042-4ffa-8416-a9ee36a2e060"/>
+			<MaterialGuid value="f9a598e1-6041-48e3-9cb1-f08e53accbbf"/>
 			<MaterialName value="paper5.002"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="2c61f241-cd2f-46d3-8864-15fb9d0d623d"/>
+			<MaterialGuid value="66987c4a-e7ed-4323-a9e6-5347846abba3"/>
 			<MaterialName value="paper6"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="184c2b74-683b-4794-b05b-6598ab4cfe95"/>
+			<MaterialGuid value="11ba4fa5-99fb-403f-aa9a-37f999abfb6a"/>
 			<MaterialName value="paper6.002"/>
 		</Item>
 	</MaterialList>

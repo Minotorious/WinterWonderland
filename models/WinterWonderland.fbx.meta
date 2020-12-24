@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<meta id="75a82ba7-ec12-43df-af4b-5a3e53466321">
-	<meta id="dc157758-43d4-46ad-ab0a-8e13410c2152" type="group" folder="true" name="Materials">
-		<meta id="3bf33a59-5ac9-4db5-81f4-864f6bced0e2" name="Material.SnowWhite"/>
-		<meta id="fc7da208-5ce6-4a7e-8cb8-e1e5b1607f68" name="Material.Wood"/>
-		<meta id="04c51fcd-f27a-4090-8460-722411591264" name="Material.SnowflakePoleFlag"/>
-		<meta id="11c9481f-087b-4fcf-9b38-678685c0beaf" name="Material.BlueIce"/>
+<meta id="cd9d0330-1461-424e-9459-3dfa8975794a">
+	<meta id="deb5b4c3-afe2-4648-b0e5-31ec86338e36" type="group" folder="true" name="Materials">
+		<meta id="e21a12d8-e37e-4752-890d-8ea84f698f18" name="Material.SnowWhite"/>
+		<meta id="bde2e2a8-35e0-4c88-b0a9-62d3d2c156cc" name="Material.Wood"/>
+		<meta id="e87188d4-dee6-48aa-82fb-fd6b64235f7a" name="Material.SnowflakePoleFlag"/>
+		<meta id="e7f4e2ad-df6b-495f-a160-071c41925450" name="Material.BlueIce"/>
 	</meta>
-	<meta id="c6afa049-9397-429e-a5f4-4c90a64c5eeb" type="group" folder="true" name="Meshes">
-		<meta id="f43baf94-2bef-465b-8a41-45eac187b154" name="SnowBase_Material.SnowWhite"/>
-		<meta id="6483a04c-66e2-4870-b359-0708cd3aaf7f" name="Pole_Material.Wood"/>
-		<meta id="d29b710b-4101-4d2a-b301-6ab1cbf42f69" name="SnowflakeFlag_Material.SnowflakePoleFlag"/>
-		<meta id="a44ec6b0-d369-413a-8cd6-8901309d110e" name="Cylinder_Material.BlueIce"/>
-		<meta id="4a8f8aa7-da78-47aa-b1d5-6890b3f675f8" name="Cylinder.001_Material.BlueIce"/>
-		<meta id="ea47b174-fba7-4054-96c9-b09738273a19" name="Cylinder.002_Material.BlueIce"/>
+	<meta id="0cca6384-f72d-4e94-b572-8f71447cbc07" type="group" folder="true" name="Meshes">
+		<meta id="23d76042-6426-406f-a021-64f2b376b752" name="SnowBase_Material.SnowWhite"/>
+		<meta id="c6fd5726-460e-4f5b-9890-7ffdf37f2306" name="Pole_Material.Wood"/>
+		<meta id="2c5bc1b6-16b3-48e3-bb0a-f9f7b0621627" name="SnowflakeFlag_Material.SnowflakePoleFlag"/>
+		<meta id="4ded681b-ea54-4c34-9640-42f46d707368" name="Cylinder_Material.BlueIce"/>
+		<meta id="275f8f3d-13de-4ff9-a413-52199e48042f" name="Cylinder.001_Material.BlueIce"/>
+		<meta id="655b49af-00f2-4044-9791-cde8d25d3d67" name="Cylinder.002_Material.BlueIce"/>
 	</meta>
-	<meta id="01662d20-0009-46a9-aaef-264aa4ffb272" name="Prefab">
-		<meta id="9236eb6f-633d-468a-b869-6270f0397668" name="Light"/>
-		<meta id="fbc2fcaa-81e9-493d-ac2d-3380f84bfeb6" name="Camera"/>
-		<meta id="ebf1be86-fd7c-4ece-b4e3-0fe234f2ca24" name="SnowflakeEmitterPart">
-			<meta id="c69d3283-45f7-444d-a5ac-790853878352" name="SnowBase"/>
-			<meta id="3c2799cb-d6a3-4b70-8c1e-b37bf3ce7dfe" name="Pole"/>
-			<meta id="13036bf0-edf1-426c-940d-c4a75f43a5f5" name="SnowflakeFlag"/>
-			<meta id="887ae8af-8087-42df-89d1-5d58a3619ba6" name="SnowflakeEmitterLowWhite"/>
-			<meta id="658bef65-e575-443f-a85d-6617b7c68b92" name="SnowflakeEmitterMediumWhite"/>
-			<meta id="10f702b2-e32e-40f6-bc04-cb7e5843d0b9" name="SnowflakeEmitterHighWhite"/>
-			<meta id="06df1985-2077-408e-adce-382ce7f36001" name="SnowflakeEmitterFullWhite"/>
-			<meta id="52636292-f996-48de-bc0f-38661753f120" name="SnowflakeEmitterFullBlue"/>
-			<meta id="fe77bd8a-5115-40c7-ab10-6216c4a2ac1f" name="SnowflakeEmitterHighBlue"/>
-			<meta id="234dcd6e-3da1-43e5-b6de-7622bac85520" name="SnowflakeEmitterLowBlue"/>
-			<meta id="7b6724a1-fc16-4f42-a22d-59e55d48c316" name="SnowflakeEmitterMediumBlue"/>
+	<meta id="9e25b5f3-6f62-4ef0-8f40-cd7c7f9f2144" name="Prefab">
+		<meta id="7e62acec-d8e1-4255-ba57-f80d9e0b30ef" name="Light"/>
+		<meta id="0b47dd2f-9bbe-4e6a-918e-cfff10630630" name="Camera"/>
+		<meta id="24cd5f13-8a0c-4f0f-91ca-702c55d26553" name="SnowflakeEmitterPart">
+			<meta id="f5bedf8d-85fa-44ad-b799-01b5ee02bf4d" name="SnowBase"/>
+			<meta id="47ae0ffc-0eb4-4752-930c-a75bcca12723" name="Pole"/>
+			<meta id="cbbbc4c0-1f7b-40f3-935d-2f9311988a93" name="SnowflakeFlag"/>
+			<meta id="54d0118b-27bd-4533-a5e9-df38318a37eb" name="SnowflakeEmitterLowWhite"/>
+			<meta id="8388ccaa-02ab-4ee2-b6e9-2cddece6dbe9" name="SnowflakeEmitterMediumWhite"/>
+			<meta id="0397f8df-e380-4497-b517-8336f806c48d" name="SnowflakeEmitterHighWhite"/>
+			<meta id="45540892-9f35-4fc7-9f0d-7568eca47f0e" name="SnowflakeEmitterFullWhite"/>
+			<meta id="a7feeec0-f243-4fb3-a416-c877601d6075" name="SnowflakeEmitterFullBlue"/>
+			<meta id="56556639-cdfe-42c5-a797-373bab7686e7" name="SnowflakeEmitterHighBlue"/>
+			<meta id="97aeb27e-df8e-44d0-b24b-2b1ee26ee923" name="SnowflakeEmitterLowBlue"/>
+			<meta id="996e70e7-4b93-4103-9d22-ff4f2f7c507d" name="SnowflakeEmitterMediumBlue"/>
 		</meta>
-		<meta id="1595b031-2668-4237-b9a7-ded5b02af59c" name="SnowflakePostPart">
-			<meta id="3e5b1f15-0f6a-4cbf-b0b0-a4cf2ae40a93" name="Cylinder"/>
-			<meta id="9ff54ee8-89a4-4ed4-9de8-a7b88b24ed4b" name="Cylinder.001"/>
-			<meta id="7452e2a3-5f50-4cdf-bb4e-f2514c6791d1" name="Cylinder.002"/>
-			<meta id="64050603-b751-4f64-bde2-22c0d7eb3d11" name="SnowflakePostEmitterBlue"/>
-			<meta id="7d97a59c-cc70-4cf7-9fa5-aa2518daee53" name="SnowflakePostEmitterWhite"/>
+		<meta id="7f14a3b9-21f7-49c7-bbaa-bf752de1629e" name="SnowflakePostPart">
+			<meta id="3d1aa854-f39b-4d3c-914f-128e3cec729a" name="Cylinder"/>
+			<meta id="b90f8ce4-59c5-4d4f-9e8f-0c82b945f74e" name="Cylinder.001"/>
+			<meta id="79d2dadc-26c3-493b-a084-6c07eda5a657" name="Cylinder.002"/>
+			<meta id="679fedf1-815c-4257-b07f-ac77cef9c502" name="SnowflakePostEmitterBlue"/>
+			<meta id="cf4e9f3e-33e1-4875-aa0c-fa4b86d08f7c" name="SnowflakePostEmitterWhite"/>
 		</meta>
 	</meta>
 </meta>
@@ -160,19 +160,19 @@
 	</NodeConfig>
 	<MaterialList>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="11c9481f-087b-4fcf-9b38-678685c0beaf"/>
+			<MaterialGuid value="e7f4e2ad-df6b-495f-a160-071c41925450"/>
 			<MaterialName value="Material.BlueIce"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="3bf33a59-5ac9-4db5-81f4-864f6bced0e2"/>
+			<MaterialGuid value="e21a12d8-e37e-4752-890d-8ea84f698f18"/>
 			<MaterialName value="Material.SnowWhite"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="04c51fcd-f27a-4090-8460-722411591264"/>
+			<MaterialGuid value="e87188d4-dee6-48aa-82fb-fd6b64235f7a"/>
 			<MaterialName value="Material.SnowflakePoleFlag"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="fc7da208-5ce6-4a7e-8cb8-e1e5b1607f68"/>
+			<MaterialGuid value="bde2e2a8-35e0-4c88-b0a9-62d3d2c156cc"/>
 			<MaterialName value="Material.Wood"/>
 		</Item>
 	</MaterialList>
