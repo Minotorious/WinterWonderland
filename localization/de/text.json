@@ -91,6 +91,10 @@
 		"FIREPLACE_PART_DESC": "Eine warme Feuerstelle für die kalten Tage",
         
         "CHRISTMAS_SLEIGH_PART_NAME": "Rentierschlitten mit Geschenken",
-		"ELK_PART_NAME": "Rentier"
+		"ELK_PART_NAME": "Rentier",
+        
+        "WINTER_WONDERLAND_EVENT_PANEL_TITLE": "Winterwunderland",
+        "WINTER_WONDERLAND_EVENT_PANEL_DESC": "Willkommen im Winterwunderland!\nHoffentlich genießt Ihr bereits die Landschaft!\n\Nun findet Ihr im Gebäudemenü unter Dekoration folgendes:\n- Einen anpassbaren Schneemann!\n- Einen anpassbaren Weihnachtsbaum, den Ihr schmücken könnt!\n- Einen Winterwunderland-Container mit Dekorationsartikeln und dem Schneeflocken-Emitter!\n\nPlatziert den Schneeflocken-Emitter an einer beliebigen Stelle in deinem Dorf, damit es zu schneien beginnt! \n\nHinweis: Ihr solltet nur einen Emitter platzieren, da diese einen großen Einfluss auf die Leistung haben und die FPS senken können. Wenn der Standard-Emitter dazu führt, dass das Spiel zu kämpfen hat, senkt die Partikelqualität unter Grafik im Einstellungsmenü!\n\nWir, Minotorious & der_sebi, hoffen wirklich, dass euch dieser Mod gefällt!\nFür jegliche Vorschläge oder Wünsche sprecht uns auf Discord an!\n\nFür zukünftige Updates und andere Mod-Neuigkeiten von uns folgt:\nTwitter: @theOneTrueMino & @dersebi1\nInstagram: @Minotorious\n\nSchöne Feiertage!",
+        "WINTER_WONDERLAND_EVENT_PANEL_ACCEPT": "All I want for Christmas is you..."
     }
 }

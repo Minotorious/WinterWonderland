@@ -91,6 +91,10 @@
 		"FIREPLACE_PART_DESC": "La chaleur dune cheminée pour les jours de froid",
         
         "CHRISTMAS_SLEIGH_PART_NAME": "Traineau tiré par des rennes avec des cadeaux",
-		"ELK_PART_NAME": "Renne"
+		"ELK_PART_NAME": "Renne",
+        
+        "WINTER_WONDERLAND_EVENT_PANEL_TITLE": "Winter Wonderland",
+        "WINTER_WONDERLAND_EVENT_PANEL_DESC": "Welcome to Winter Wonderland!\nHope you are already enjoying the scenery!\n\nYou will now find in your Buildings Menu under Decoration the following:\n- A Customisable Snowman!\n- A Customisable Christmas Tree for you to decorate!\n- A Winter Wonderland container with Decoratives and the Snowflake Emitter!\n\nPlace the Snowflake Emitter anywhere in your village for it to start snowing!\n\nNote: You should only place one emitter as more can have a big impact on performance and lower your fps, if the default emitter is causing your game to struggle lower the Particle Quality under Graphics in the Settings Menu!\n\nWe, Minotorious & der_sebi, truly hope you enjoy this mod!\nFor any suggestions or requests talk to us on discord!\n\nFor future updates and other mod news from us follow:\nTwitter: @theOneTrueMino & @dersebi1\nInstagram: @minotorious\n\nHappy Holidays!",
+        "WINTER_WONDERLAND_EVENT_PANEL_ACCEPT": "All I want for Christmas is you..."
     }
 }
