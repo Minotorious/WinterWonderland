@@ -195,4 +195,5 @@ IdMap = {
 	{ "models/christmasTreeMonument/christmasTreeRender.png", "", "34137c40-7db3-49e4-877f-2ca3fdb838d9" },
 	{ "WINTER_WONDERLAND_MONUMENT", "BUILDING", "6ec53d01-0f0a-4c59-ab9b-11c86ea90b20" },
 	{ "WINTER_WONDERLAND_EVENT", "EVENT", "3effae1d-a741-44d8-aaa6-1202a25aba71" },
+	{ "models/snowmanMonument/snowWhite.png", "", "d591cb1d-1901-4dc1-95ba-a96281c6e418" },
 }
