@@ -54,7 +54,55 @@ winterWonderland:register({
 
 --[[------------------------------- MAIN EVENT --------------------------------]]--
 
+winterWonderland:override({
+    Id = "DEFAULT_BALANCING",
+    EventList = {
+        Action = "APPEND",
+        "WINTER_WONDERLAND_EVENT",
+    },
+})
 
+winterWonderland:register({
+    DataType = "EVENT",
+	Id = "WINTER_WONDERLAND_EVENT",
+	--Title = "WINTER_WONDERLAND_EVENT_TITLE",
+	--Description = "WINTER_WONDERLAND_EVENT_DESC",
+    IsInMainPool = false,
+    IsRecurrent = false,
+    DaysBetweenOccurences = nil,
+    DaysToFirst = 0,
+	Delay = 0,
+	ConditionList = {
+		{
+			DataType = "GAME_CONDITION_BUILDING_BUILT",
+			ResBuilding = "BUILDING_VILLAGE_CENTER"
+		}
+	},
+	ActionList = {
+		{
+			DataType = "ACTION_SHOW_NARRATIVE_PANEL",
+            NarrativePanelData = {
+                DataType = "DATA_NARRATIVE_PANEL",
+                Title = "WINTER_WONDERLAND_EVENT_PANEL_TITLE",
+                Description = "WINTER_WONDERLAND_EVENT_PANEL_DESC",
+                PanelVisual = "SNOWFLAKE_BLUE_TEXTURE"
+            },
+            ChoiceList = {
+                {
+                    DataType = "EVENT_CHOICE",
+                    ShortName = "WINTER_WONDERLAND_EVENT_PANEL_ACCEPT",
+                    EventActionList = {
+                        {
+                            DataType = "EVENT_ACTION_IGNORE"
+                        },
+                    },
+                    OnClickCallbackList = nil
+                }
+            },
+            OnClickCallback = nil
+		}
+	}
+})
 
 --[[-------------------------------- DO FILES ---------------------------------]]--
 
