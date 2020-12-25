@@ -9,9 +9,9 @@ IdMap = {
 	{ "CHRISTMAS_TREE_MONUMENT_POLE_PART", "BUILDING_PART", "8a79909a-3f0e-43e3-8bd9-544df82c4dbc" },
 	{ "SNOW_BASE_BLUE_PART", "BUILDING_PART", "44755021-11c3-4907-8bd5-622dfc441447" },
 	{ "WINTER_WONDERLAND_MONUMENT", "BUILDING", "20ff5fa9-b3ce-4b7a-9012-8aeb822b928d" },
-	{ "CHRISTMAS_TREE_GREEN_PART", "BUILDING_PART", "0132cab5-4c1d-453b-bf96-f22d9fba1377" },
 	{ "BUTTON_BLUE_PART", "BUILDING_PART", "8ff1d761-38fa-4030-894a-4d75f2e41ad3" },
 	{ "CHRISTMAS_TREE_MONUMENT", "BUILDING", "9ed9d1ae-1b24-4bd3-8b52-e072802a4005" },
+	{ "CHRISTMAS_TREE_GREEN_PART", "BUILDING_PART", "0132cab5-4c1d-453b-bf96-f22d9fba1377" },
 	{ "TOPPER_SPIKE_PART", "BUILDING_PART", "ddc69207-0e18-4d36-b08b-ed8a36da8813" },
 	{ "SNOW_BASE_WHITE_PART", "BUILDING_PART", "6bf66058-a1b9-420f-98e3-eacca3c32538" },
 	{ "textures/roofs/whiteWoodRooftop2.png", "", "b1cec076-8240-45b5-a1a4-389aed6965ce" },
@@ -182,4 +182,5 @@ IdMap = {
 	{ "textures/tree_LOD1/Textures/Diffuse.png", "", "b537cfb8-4d2e-49f3-a0c1-f66175eb379d" },
 	{ "textures/tree_LOD3/Textures/Diffuse.png", "", "1e813b1b-2eb8-4918-a08c-104d4373dd5e" },
 	{ "textures/tree_LOD4/Textures/Diffuse.png", "", "00ee2d6e-18d6-4ea7-ac53-ae5cd346df44" },
+	{ "textures/roofs/whiteBuildingRoofTriangle.png", "", "ba34a151-67bf-4a83-92ed-b45696ecf099" },
 }

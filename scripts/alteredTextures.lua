@@ -20,6 +20,7 @@ winterWonderland:overrideTexture("UlrickCartoonMedievalPack01_512_Soil2.png", "t
 winterWonderland:overrideTexture("Color_Grass_and_Herbs.tif", "textures/Color_Grass_and_Herbs.png", "REPLACE")
 
 --Roofs
+winterWonderland:overrideTexture("BuildingRoofTriangle.png", "textures/roofs/whiteBuildingRoofTriangle.png", "REPLACE")
 winterWonderland:overrideTexture("StrawRoof.tif", "textures/roofs/whiteStrawRoof.png", "REPLACE")
 winterWonderland:overrideTexture("StrawRoofBranches.tif", "textures/roofs/whiteStrawRoofBranches.png", "REPLACE")
 winterWonderland:overrideTexture("RoofBlue.tif", "textures/roofs/whiteRoofBlue.png", "REPLACE")
