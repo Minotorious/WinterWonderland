@@ -60,7 +60,7 @@ winterWonderland:register({
 
 --[[--------------------- ASSET PROCESSOR & NODE HANDLING ---------------------]]--
 
-winterWonderland:registerAssetProcessor("models/snowmanMonument/snowmanMonument.fbx", {	DataType = "BUILDING_ASSET_PROCESSOR" })
+winterWonderland:registerAssetProcessor("models/snowmanMonument/snowmanMonument.fbx", { DataType = "BUILDING_ASSET_PROCESSOR" })
 
 winterWonderland:registerPrefabComponent("models/snowmanMonument/snowmanMonument.fbx/Prefab/HatRibbonBluePart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "INNER_TOP" })
 winterWonderland:registerPrefabComponent("models/snowmanMonument/snowmanMonument.fbx/Prefab/HatRibbonGreenPart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "INNER_TOP" })
