@@ -2,7 +2,7 @@
 | ||\\    //||       /|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯\ |
 | || \\  // ||  (o_ / |                  SUPPLEMENTARY FILE                  | |
 | ||  \\//  ||  //\/  |                         ----                         | |
-| ||   \/   ||  V_/_  |                     IGLOO HOUSING                    | |
+| ||   \/   ||  V_/_  |                     IGLOO winterHousing                    | |
 | ||        ||        |‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗/ |
 \---------------------------------------------------------------------------]]--
 
@@ -10,12 +10,13 @@ local winterWonderland = ...
 
 --[[--------------------------- PREFABS & MATERIALS ---------------------------]]--
 
-winterWonderland:registerAssetId("models/iglooHousing.fbx/Prefab/iglooLevel1Density1Part", "IGLOO_LEVEL_1_DENSITY_1_PREFAB")
-winterWonderland:registerAssetId("models/iglooHousing.fbx/Prefab/iglooLevel1Density2Part", "IGLOO_LEVEL_1_DENSITY_2_PREFAB")
+winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Prefab/iglooLevel1Density1Part", "IGLOO_LEVEL_1_DENSITY_1_PREFAB")
+winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Prefab/iglooLevel1Density2Part", "IGLOO_LEVEL_1_DENSITY_2_PREFAB")
 
-winterWonderland:registerAssetId("models/iglooHousing.fbx/Materials/Material.StonebrickWhite", "MATERIAL_STONEBRICK_WHITE")
-winterWonderland:registerAssetId("models/iglooHousing.fbx/Materials/Material.SnowWhite", "MATERIAL_SNOW_WHITE")
-winterWonderland:registerAssetId("models/iglooHousing.fbx/Materials/Material.Black", "MATERIAL_BLACK")
+winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Materials/Material.StonebrickWhite", "MATERIAL_STONEBRICK_WHITE")
+winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Materials/Material.SnowWhite", "MATERIAL_SNOW_WHITE")
+winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Materials/Material.Black", "MATERIAL_BLACK")
+winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Materials/Material.Transparent", "MATERIAL_TRANSPARENT")
 
 winterWonderland:override({
     Id = "MATERIAL_STONEBRICK_WHITE",
@@ -32,9 +33,14 @@ winterWonderland:override({
     BackFaceVisible = true
 })
 
+winterWonderland:override({
+    Id = "MATERIAL_TRANSPARENT",
+    HasAlphaTest = true
+})
+
 --[[--------------------- ASSET PROCESSOR & NODE HANDLING ---------------------]]--
 
-winterWonderland:registerAssetProcessor("models/iglooHousing.fbx", { DataType = "BUILDING_ASSET_PROCESSOR" })
+winterWonderland:registerAssetProcessor("models/winterHousing/winterHousing.fbx", { DataType = "BUILDING_ASSET_PROCESSOR" })
 
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
@@ -86,12 +92,12 @@ winterWonderland:register({
     IsVisibleWhenBuilt = true
 })
 
-winterWonderland:registerPrefabComponent("models/iglooHousing.fbx/Prefab/iglooLevel1Density1Part", { DataType = "COMP_GROUNDED" })
-winterWonderland:registerPrefabComponent("models/iglooHousing.fbx/Prefab/iglooLevel1Density2Part", { DataType = "COMP_GROUNDED" })
+winterWonderland:registerPrefabComponent("models/winterHousing/winterHousing.fbx/Prefab/iglooLevel1Density1Part", { DataType = "COMP_GROUNDED" })
+winterWonderland:registerPrefabComponent("models/winterHousing/winterHousing.fbx/Prefab/iglooLevel1Density2Part", { DataType = "COMP_GROUNDED" })
 
---[[---------------------------- HOUSING ESSENTIALS ---------------------------]]--
+--[[---------------------------- winterHousing ESSENTIALS ---------------------------]]--
 
-winterWonderland:registerAssetId("models/iglooHousing.fbx/Prefab/housePart", "HOUSE_CUBE_PREFAB")
+winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Prefab/housePart", "HOUSE_CUBE_PREFAB")
 
 winterWonderland:register({
 	DataType = "BUILDING_PART",
@@ -144,14 +150,14 @@ winterWonderland:override({
     StartColor = {0.1, 0.1, 0.1, 0.25}
 })
 
-winterWonderland:registerPrefabComponent("models/iglooHousing.fbx/Prefab/iglooLevel1Density1Part/SmokeEmitterL1D1", {
+winterWonderland:registerPrefabComponent("models/winterHousing/winterHousing.fbx/Prefab/iglooLevel1Density1Part/SmokeEmitterL1D1", {
 	DataType = "COMP_PARTICLE_EMITTER",
 	ParticleSystem = "PARTICLE_SYSTEM_HOUSING_SMOKE",
 	IsPlaying = true,
 	IsEmitting = true
 })
 
-winterWonderland:registerPrefabComponent("models/iglooHousing.fbx/Prefab/iglooLevel1Density2Part/SmokeEmitterL1D2", {
+winterWonderland:registerPrefabComponent("models/winterHousing/winterHousing.fbx/Prefab/iglooLevel1Density2Part/SmokeEmitterL1D2", {
 	DataType = "COMP_PARTICLE_EMITTER",
 	ParticleSystem = "PARTICLE_SYSTEM_HOUSING_SMOKE",
 	IsPlaying = true,

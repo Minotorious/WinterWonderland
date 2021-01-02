@@ -12,14 +12,6 @@ winterWonderland:log("Winter Wonderland Mod Loading")
 
 --[[---------------------------- GENERAL MATERIALS ----------------------------]]--
 
-
-winterWonderland:registerAssetId("models/igloos.fbx/Materials/Material.Transparent", "MATERIAL_TRANSPARENT")
-
-winterWonderland:override({
-    Id = "MATERIAL_TRANSPARENT",
-    HasAlphaTest = true
-})
-
 --[[------------------------------ MAIN MONUMENT ------------------------------]]--
 
 winterWonderland:register({
