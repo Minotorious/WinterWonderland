@@ -1,60 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<meta id="7ac68ddc-c7e0-41bd-9417-fdf299af86cd">
-	<meta id="87194beb-bc57-4252-8f58-f3debb56d8ec" type="group" folder="true" name="Materials">
-		<meta id="7eb5de2d-e65d-47c2-8d31-90b9251feefc" name="Material.StonebrickWhite"/>
-		<meta id="fb81e945-624f-4d1c-a581-cff68ddaa2ca" name="Material.SnowWhite"/>
-		<meta id="9944dc3b-a4f1-49ff-a4a1-e1f138eeaf1b" name="Material.Black"/>
-		<meta id="963dd967-9bb2-43a1-a1aa-e44293fdc926" name="Material.Transparent"/>
+<meta id="f990dc22-8389-4c8d-aacd-99c4ce68c3a8">
+	<meta id="8884aa3e-f1f1-44c2-8ffd-387ecf867e5c" type="group" folder="true" name="Materials">
+		<meta id="a0e471b1-4e39-44af-9cc8-1de708facd52" name="Material.SnowWhite"/>
+		<meta id="fff7e420-c3b7-40eb-8ac3-8ea97ce25f3a" name="Material.Black"/>
+		<meta id="422082d2-3bba-4ae1-b034-7701e422cf65" name="Material.StonebrickWhite"/>
+		<meta id="7b8ed201-231e-47ef-8734-351c15316009" name="Material.Transparent"/>
 	</meta>
-	<meta id="8df8e889-2690-497c-a836-d7a1662f6d51" type="group" folder="true" name="Meshes">
-		<meta id="e7e39bf1-3d93-4d03-9bd7-b34995a84981" name="igloo_Material.StonebrickWhite"/>
-		<meta id="e29e8867-f539-4656-b63d-5f52ec7344e9" name="iglooDoor_Material.Black"/>
-		<meta id="90b67d62-4197-419b-8fa0-5cdd8af9a196" name="iglooChimney_Material.Black"/>
-		<meta id="41d332f3-0835-46ef-b77a-493e7622282d" name="iglooChimney_Material.SnowWhite"/>
-		<meta id="511f1fbb-29f6-4b29-a788-94d79da03451" name="iglooDoor_Material.SnowWhite"/>
-		<meta id="9503c8bb-6ccb-465b-b318-8574c1f825b5" name="iglooDoor.001_Material.SnowWhite"/>
-		<meta id="de8cc460-1b63-44f5-9473-0715552d98cf" name="iglooDoor.001_Material.Black"/>
-		<meta id="1e5cd56e-395f-4aed-9bcc-8632fbfbeffe" name="igloo.001_Material.StonebrickWhite"/>
-		<meta id="7afad8fa-4850-44ce-b598-bbea22cff836" name="Cube_Material.Transparent"/>
+	<meta id="f6ced2ee-7424-46be-9bfd-b4ae4e27d4ce" type="group" folder="true" name="Meshes">
+		<meta id="16491352-d816-4d72-a8fe-74bd81191505" name="iglooChimney_Material.SnowWhite"/>
+		<meta id="7b7f95ed-73cf-4a8e-832a-348e9bfff835" name="iglooChimney_Material.Black"/>
+		<meta id="1c2e80ff-e261-4134-a26a-6bca1b01c992" name="iglooDoor_Material.SnowWhite"/>
+		<meta id="50f6c32c-8f45-4007-aae6-a6216a72c0f2" name="iglooDoor_Material.Black"/>
+		<meta id="23d5c9fe-f60b-436b-8900-2bf2c5ec263a" name="igloo_Material.StonebrickWhite"/>
+		<meta id="6cc70a49-62df-4553-8aa3-fb144e7cf466" name="iglooDoor.001_Material.SnowWhite"/>
+		<meta id="29723c50-5347-4cad-ba5f-61286c32204b" name="iglooDoor.001_Material.Black"/>
+		<meta id="4ffad8b4-c813-4a3c-9346-cc1cb94b935c" name="igloo.001_Material.StonebrickWhite"/>
+		<meta id="93cb2660-6685-4d27-bd0e-21b57f9bf5d6" name="Cylinder"/>
+		<meta id="347eaa68-7121-4714-9684-4d4304a8c02c" name="Cube_Material.Transparent"/>
 	</meta>
-	<meta id="da9a8bf7-4ae3-406e-bef8-b68da7be7154" name="Prefab">
-		<meta id="6617d955-7d7c-4172-a00a-de14cd8852dd" name="Light"/>
-		<meta id="6005e032-8589-485e-a896-41e9d2b6baad" name="Camera"/>
-		<meta id="117713fa-3749-40bc-8f92-79d95cd2e356" name="iglooLevel1Density2Part">
-			<meta id="c95b4ab0-705f-4c85-b56b-372e97134026" name="SmokeEmitterL1D2"/>
-			<meta id="ae9e4e14-3fb3-4517-a3c8-ef0330cc87ed" name="PATH_A_0"/>
-			<meta id="9a992b2e-a891-4809-9963-515744f910e5" name="PATH_A_1"/>
-			<meta id="411ca6aa-d050-4179-9d1c-d262f5520e22" name="iglooChimney">
-				<meta id="560dc426-b57e-4900-94dd-4674bba92f59" name="iglooChimney_0"/>
-				<meta id="1ed80ad7-3bd7-4716-b019-fd5627dcc344" name="iglooChimney_1"/>
+	<meta id="29252d2b-686a-4fbc-8e1c-317a911a307e" name="Prefab">
+		<meta id="999b524e-8e38-45eb-b5f3-77c00f3a2c91" name="Light"/>
+		<meta id="5b0e50a4-4b49-48fd-a975-8963974deff0" name="Camera"/>
+		<meta id="8d0fe452-1533-4e33-b503-e337e5b754da" name="iglooLevel1Density2Part">
+			<meta id="9040aa2e-4b2f-4e9d-990c-2f11f723df49" name="SmokeEmitterL1D2"/>
+			<meta id="5f9dda07-f302-421c-b235-e3b959e12628" name="PATH_A_0"/>
+			<meta id="d67002a3-1f61-4d38-a90a-0790ca56744c" name="PATH_A_1"/>
+			<meta id="7140fadb-5714-4066-845a-6feffcc33114" name="iglooChimney">
+				<meta id="c804f5c9-2862-4a50-89b5-8775366fdcdc" name="iglooChimney_0"/>
+				<meta id="12617307-73aa-4291-855e-ef66211b6be4" name="iglooChimney_1"/>
 			</meta>
-			<meta id="1cfda7c4-5ec4-48cc-8166-b3ac81810c82" name="iglooDoor">
-				<meta id="a5cd4786-9916-4fda-879d-c5c98614f916" name="iglooDoor_0"/>
-				<meta id="2c28c420-fc5d-459c-baf1-e303dedcb05a" name="iglooDoor_1"/>
+			<meta id="e06bf3c0-9cb4-4e0b-ad36-a16403d9256e" name="iglooDoor">
+				<meta id="209ffb8f-9b0a-4f1d-a989-bb0d5136aead" name="iglooDoor_0"/>
+				<meta id="5b716d43-90b5-48cb-bc97-67e9435e949a" name="iglooDoor_1"/>
 			</meta>
-			<meta id="79f23d4d-13ab-4629-89e3-bf435ab5d776" name="igloo"/>
+			<meta id="ac7e3c70-ddbd-4077-9165-5f1a73a1a675" name="igloo"/>
 		</meta>
-		<meta id="286bc464-3693-4061-a8ff-418ede7351e7" name="housePart">
-			<meta id="97ffe9d8-34f4-4db5-85f5-0bca26df224d" name="Cube"/>
+		<meta id="801b882e-eebb-4fca-8902-db213aa50f2d" name="housePart">
+			<meta id="abae3e24-baa6-4aa0-bce8-843b89d56093" name="Cube"/>
 		</meta>
-		<meta id="f6649e6b-7e93-45fe-b3f5-1fa4e95ea329" name="iglooLevel1Density1Part">
-			<meta id="6e11aa70-7517-4367-80c0-1b8bbaa173d6" name="PATH_A_0.001"/>
-			<meta id="16816008-a66b-4196-99e9-19be443cf554" name="PATH_A_1.001"/>
-			<meta id="e57f05a2-d18c-4819-8802-9a998f1a3cd7" name="iglooChimney.001">
-				<meta id="905cb913-9c2f-45ac-a31c-e314bb434a4d" name="iglooChimney.001_0"/>
-				<meta id="15854e8a-6ee1-4d17-ad12-9a3792d50629" name="iglooChimney.001_1"/>
+		<meta id="199e812c-e261-4cae-b7aa-1973f51cae55" name="iglooLevel1Density1Part">
+			<meta id="68921035-3fe0-4211-aca4-3742b49578b7" name="SmokeEmitterL1D1"/>
+			<meta id="11c613f8-0550-4ed8-a3d4-7105259f887b" name="PATH_A_0.001"/>
+			<meta id="69debf41-fe5a-4273-849b-0fa11f2c2f59" name="PATH_A_1.001"/>
+			<meta id="8fe7c047-867d-4a31-8aac-868f39d0796c" name="iglooChimney.001">
+				<meta id="416dd27e-46c0-48c7-8240-3856569a1773" name="iglooChimney.001_0"/>
+				<meta id="ec342e5c-2846-4404-b71e-5492e6c00bce" name="iglooChimney.001_1"/>
 			</meta>
-			<meta id="a4c1d90b-6c3a-455d-82d7-7ef3891737b4" name="iglooDoor.001">
-				<meta id="0d1191bf-3c80-4471-b772-ff1b43da6d5f" name="iglooDoor.001_0"/>
-				<meta id="f1653d90-7aed-44d2-ab3c-3da69758bd95" name="iglooDoor.001_1"/>
+			<meta id="2fd834db-e328-4299-b9e6-7b5cf0ba870d" name="iglooDoor.001">
+				<meta id="cff50207-e582-48ed-adbf-bdcfbab69015" name="iglooDoor.001_0"/>
+				<meta id="d10e687e-da5e-4e63-8d54-14c5fb9fbe49" name="iglooDoor.001_1"/>
 			</meta>
-			<meta id="5c991a9b-a298-4a50-aab0-102f25922253" name="igloo.001"/>
-			<meta id="79c8afcd-1cbf-433f-8c9c-5f2401379319" name="SmokeEmitterL1D1"/>
+			<meta id="580ad975-7e14-40c4-ac73-019ac8d337af" name="igloo.001"/>
 		</meta>
+		<meta id="a06fb178-4e11-44fa-9cb8-7d194f20c1a0" name="Cylinder"/>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="23e004b6dbff57190eeda9da2728866f"/>
+	<Md5Checksum value="35654864c725b6441fe5a660d3db57e6"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -152,6 +154,11 @@
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
+						<NodeName value="SmokeEmitterL1D1"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
 						<NodeName value="PATH_A_0.001"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
@@ -196,32 +203,32 @@
 						<ChildList/>
 						<NodeName value="igloo.001"/>
 					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="SmokeEmitterL1D1"/>
-					</Item>
 				</ChildList>
 				<NodeName value="iglooLevel1Density1Part"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="Cylinder"/>
 			</Item>
 		</ChildList>
 		<NodeName value="Prefab"/>
 	</NodeConfig>
 	<MaterialList>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="9944dc3b-a4f1-49ff-a4a1-e1f138eeaf1b"/>
+			<MaterialGuid value="fff7e420-c3b7-40eb-8ac3-8ea97ce25f3a"/>
 			<MaterialName value="Material.Black"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="fb81e945-624f-4d1c-a581-cff68ddaa2ca"/>
+			<MaterialGuid value="a0e471b1-4e39-44af-9cc8-1de708facd52"/>
 			<MaterialName value="Material.SnowWhite"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="7eb5de2d-e65d-47c2-8d31-90b9251feefc"/>
+			<MaterialGuid value="422082d2-3bba-4ae1-b034-7701e422cf65"/>
 			<MaterialName value="Material.StonebrickWhite"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="963dd967-9bb2-43a1-a1aa-e44293fdc926"/>
+			<MaterialGuid value="7b8ed201-231e-47ef-8734-351c15316009"/>
 			<MaterialName value="Material.Transparent"/>
 		</Item>
 	</MaterialList>
