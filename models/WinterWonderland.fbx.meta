@@ -4,15 +4,13 @@
 		<meta id="e21a12d8-e37e-4752-890d-8ea84f698f18" name="Material.SnowWhite"/>
 		<meta id="bde2e2a8-35e0-4c88-b0a9-62d3d2c156cc" name="Material.Wood"/>
 		<meta id="e87188d4-dee6-48aa-82fb-fd6b64235f7a" name="Material.SnowflakePoleFlag"/>
-		<meta id="e7f4e2ad-df6b-495f-a160-071c41925450" name="Material.BlueIce"/>
+		<meta id="4b9e7155-a41c-4719-aafa-8081efeba915" name="Material"/>
 	</meta>
 	<meta id="0cca6384-f72d-4e94-b572-8f71447cbc07" type="group" folder="true" name="Meshes">
 		<meta id="23d76042-6426-406f-a021-64f2b376b752" name="SnowBase_Material.SnowWhite"/>
 		<meta id="c6fd5726-460e-4f5b-9890-7ffdf37f2306" name="Pole_Material.Wood"/>
 		<meta id="2c5bc1b6-16b3-48e3-bb0a-f9f7b0621627" name="SnowflakeFlag_Material.SnowflakePoleFlag"/>
-		<meta id="4ded681b-ea54-4c34-9640-42f46d707368" name="Cylinder_Material.BlueIce"/>
-		<meta id="275f8f3d-13de-4ff9-a413-52199e48042f" name="Cylinder.001_Material.BlueIce"/>
-		<meta id="655b49af-00f2-4044-9791-cde8d25d3d67" name="Cylinder.002_Material.BlueIce"/>
+		<meta id="0fe7a9ed-4af0-4ce4-9ca8-206e5c202edc" name="Cube_Material"/>
 	</meta>
 	<meta id="9e25b5f3-6f62-4ef0-8f40-cd7c7f9f2144" name="Prefab">
 		<meta id="7e62acec-d8e1-4255-ba57-f80d9e0b30ef" name="Light"/>
@@ -30,17 +28,17 @@
 			<meta id="97aeb27e-df8e-44d0-b24b-2b1ee26ee923" name="SnowflakeEmitterLowBlue"/>
 			<meta id="996e70e7-4b93-4103-9d22-ff4f2f7c507d" name="SnowflakeEmitterMediumBlue"/>
 		</meta>
-		<meta id="7f14a3b9-21f7-49c7-bbaa-bf752de1629e" name="SnowflakePostPart">
-			<meta id="3d1aa854-f39b-4d3c-914f-128e3cec729a" name="Cylinder"/>
-			<meta id="b90f8ce4-59c5-4d4f-9e8f-0c82b945f74e" name="Cylinder.001"/>
-			<meta id="79d2dadc-26c3-493b-a084-6c07eda5a657" name="Cylinder.002"/>
-			<meta id="679fedf1-815c-4257-b07f-ac77cef9c502" name="SnowflakePostEmitterBlue"/>
-			<meta id="cf4e9f3e-33e1-4875-aa0c-fa4b86d08f7c" name="SnowflakePostEmitterWhite"/>
+		<meta id="a5866d89-f36f-4a80-8680-ff003f59a6d2" name="FireworksEmitterPart">
+			<meta id="b8085e86-7b3c-44ec-9711-d865809f90fd" name="Cube"/>
+			<meta id="21292d2b-a2a6-4697-a256-637532c7bb8a" name="FireworksEmitterBlue"/>
+			<meta id="a05ae254-8fcc-4379-a068-40d8f56a409f" name="FireworksEmitterPurple"/>
+			<meta id="b41fa538-2ab1-4a6d-9576-78fcee90811e" name="FireworksEmitterRed"/>
+			<meta id="1ce42d15-11c7-473c-963f-6801ed20bbab" name="FireworksEmitterYellow"/>
 		</meta>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="8268fc8ccfdee7828e2c0607d2ed428f"/>
+	<Md5Checksum value="8318b0847c0b7af88612bd4ad8dd10a4"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -130,38 +128,38 @@
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Cylinder"/>
+						<NodeName value="Cube"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Cylinder.001"/>
+						<NodeName value="FireworksEmitterBlue"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Cylinder.002"/>
+						<NodeName value="FireworksEmitterPurple"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="SnowflakePostEmitterBlue"/>
+						<NodeName value="FireworksEmitterRed"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="SnowflakePostEmitterWhite"/>
+						<NodeName value="FireworksEmitterYellow"/>
 					</Item>
 				</ChildList>
-				<NodeName value="SnowflakePostPart"/>
+				<NodeName value="FireworksEmitterPart"/>
 			</Item>
 		</ChildList>
 		<NodeName value="Prefab"/>
 	</NodeConfig>
 	<MaterialList>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="e7f4e2ad-df6b-495f-a160-071c41925450"/>
-			<MaterialName value="Material.BlueIce"/>
+			<MaterialGuid value="4b9e7155-a41c-4719-aafa-8081efeba915"/>
+			<MaterialName value="Material"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="e21a12d8-e37e-4752-890d-8ea84f698f18"/>

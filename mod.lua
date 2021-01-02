@@ -12,14 +12,13 @@ winterWonderland:log("Winter Wonderland Mod Loading")
 
 --[[---------------------------- GENERAL MATERIALS ----------------------------]]--
 
---[[
-winterWonderland:registerAssetId("models/WinterWonderland.fbx/Materials/Material.Transparent", "MATERIAL_TRANSPARENT")
+
+winterWonderland:registerAssetId("models/igloos.fbx/Materials/Material.Transparent", "MATERIAL_TRANSPARENT")
 
 winterWonderland:override({
     Id = "MATERIAL_TRANSPARENT",
     HasAlphaTest = true
 })
-]]--
 
 --[[------------------------------ MAIN MONUMENT ------------------------------]]--
 
@@ -32,9 +31,9 @@ winterWonderland:register({
 	AssetCoreBuildingPart = "BUILDING_PART_MONUMENT_POLE",
     BuildingPartSetList = {
         {
-            Name = "WINTER_WONDERLAND_MONUMENT_SNOWFLAKE_EMITTER_CATEGORY_NAME",
+            Name = "WINTER_WONDERLAND_MONUMENT_EMITTER_CATEGORY_NAME",
             BuildingPartList = {
-                "SNOWFLAKE_EMITTER_PART"
+                "SNOWFLAKE_EMITTER_PART", "FIREWORKS_EMITTER_PART"
             }
 		},
         {
@@ -113,3 +112,5 @@ winterWonderland:dofile("scripts/snowflakesGlobal.lua")
 winterWonderland:dofile("scripts/christmasSleigh.lua")
 winterWonderland:dofile("scripts/christmasGifts.lua")
 winterWonderland:dofile("scripts/fireplace.lua")
+winterWonderland:dofile("scripts/fireworks.lua")
+winterWonderland:dofile("scripts/iglooHousing.lua")
