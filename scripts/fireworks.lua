@@ -96,19 +96,10 @@ winterWonderland:register({
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
 winterWonderland:register({
-	DataType = "BUILDING",
-	Id = "FIREWORKS_EMITTER",
-	Name = "FIREWORKS_EMITTER_NAME",
-	Description = "FIREWORKS_EMITTER_DESC",
-	BuildingType = "DECORATION",
-	AssetCoreBuildingPart = "FIREWORKS_EMITTER_PART"
-})
-
-winterWonderland:register({
 	DataType = "BUILDING_PART",
 	Id = "FIREWORKS_EMITTER_PART",
     Name = "FIREWORKS_EMITTER_PART_NAME",
-	Description = "FIREWORKS_EMITTER_PART_DESC",
+	--Description = "FIREWORKS_EMITTER_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_FIREWORKS_EMITTER_PART"

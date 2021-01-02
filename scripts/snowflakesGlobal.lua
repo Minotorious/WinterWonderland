@@ -35,17 +35,6 @@ winterWonderland:register({
 
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
---[[
-winterWonderland:register({
-	DataType = "BUILDING",
-	Id = "SNOWFLAKE_EMITTER",
-	Name = "SNOWFLAKE_EMITTER_NAME",
-	Description = "SNOWFLAKE_EMITTER_DESC",
-	BuildingType = "DECORATION",
-	AssetCoreBuildingPart = "SNOWFLAKE_EMITTER_PART"
-})
-]]--
-
 winterWonderland:register({
 	DataType = "BUILDING_PART",
 	Id = "SNOWFLAKE_EMITTER_PART",

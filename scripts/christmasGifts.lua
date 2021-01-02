@@ -16,17 +16,6 @@ winterWonderland:registerAssetId("models/gifts1.fbx/Prefab/christmas_gift2Part",
 
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
---[[
-winterWonderland:register({
-	DataType = "BUILDING",
-	Id = "CHRISTMAS_GIFTS",
-	Name = "CHRISTMAS_GIFTS_NAME",
-	Description = "CHRISTMAS_GIFTS_DESC",
-	BuildingType = "DECORATION",
-	AssetCoreBuildingPart = "CHRISTMAS_GIFTS_PART"
-})
-]]--
-
 winterWonderland:register({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_GIFTS_PART",
@@ -50,17 +39,6 @@ winterWonderland:register({
 	},
     IsVisibleWhenBuilt = true
 })
-
---[[
-winterWonderland:register({
-	DataType = "BUILDING",
-	Id = "CHRISTMAS_GIFT1",
-	Name = "CHRISTMAS_GIFT1_NAME",
-	Description = "CHRISTMAS_GIFT1_DESC",
-	BuildingType = "DECORATION",
-	AssetCoreBuildingPart = "CHRISTMAS_GIFT1_PART"
-})
-]]--
 
 winterWonderland:register({
 	DataType = "BUILDING_PART",
@@ -86,18 +64,6 @@ winterWonderland:register({
     IsVisibleWhenBuilt = true
 })
 
-
---[[
-winterWonderland:register({
-	DataType = "BUILDING",
-	Id = "CHRISTMAS_GIFT2",
-	Name = "CHRISTMAS_GIFT2_NAME",
-	Description = "CHRISTMAS_GIFT2_DESC",
-	BuildingType = "DECORATION",
-	AssetCoreBuildingPart = "CHRISTMAS_GIFT2_PART"
-})
-]]--
-
 winterWonderland:register({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_GIFT2_PART",
@@ -121,5 +87,3 @@ winterWonderland:register({
 	},
     IsVisibleWhenBuilt = true
 })
-
---[[----------------------------- PARTICLE SYSTEMS ----------------------------]]--

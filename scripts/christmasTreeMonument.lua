@@ -530,5 +530,3 @@ winterWonderland:register({
 	},
     IsVisibleWhenBuilt = true
 })
-
---[[----------------------------- PARTICLE SYSTEMS ----------------------------]]--

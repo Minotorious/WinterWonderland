@@ -29,17 +29,6 @@ winterWonderland:register({
 
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
---[[
-winterWonderland:register({
-	DataType = "BUILDING",
-	Id = "FIREPLACE",
-	Name = "FIREPLACE_NAME",
-	Description = "FIREPLACE_DESC",
-	BuildingType = "DECORATION",
-	AssetCoreBuildingPart = "FIREPLACE_PART"
-})
-]]--
-
 winterWonderland:register({
 	DataType = "BUILDING_PART",
 	Id = "FIREPLACE_PART",

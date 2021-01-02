@@ -84,6 +84,7 @@ IdMap = {
 	{ "MATERIAL_SNOWFLAKE_PARTICLE_WHITE", "MATERIAL", "1780f477-1be6-4c21-b57c-ae578846299a" },
 	{ "SNOWFLAKE_PARTICLE_SYSTEM_MEDIUM_BLUE", "PARTICLE_SYSTEM", "c29a8a4e-ed5e-4394-8188-8ff4ba6b33ea" },
 	{ "SNOWFLAKE_PARTICLE_SYSTEM_FULL_BLUE", "PARTICLE_SYSTEM", "1b368f50-c6a1-4b09-b038-2261a6e2cdaa" },
+	{ "models/fireworksPoleFlag.png", "", "b6396f04-ed4c-449e-baad-aa4cc3d8b383" },
 	{ "models/snowmanMonument/pipeSmoke.png", "", "9d13261a-b4d0-4f27-ad25-9ef295008dab" },
 	{ "FIREWORKS_TRAIL_PARTICLE_SYSTEM_BLUE", "PARTICLE_SYSTEM", "c09eac55-e8a0-42d4-84f0-15bc06103111" },
 	{ "SNOWFLAKE_PARTICLE_SYSTEM_FULL_WHITE", "PARTICLE_SYSTEM", "20b36889-1d40-4ea1-81ab-9f7d16f38730" },
@@ -216,4 +217,5 @@ IdMap = {
 	{ "models/fireworksTrailYellow.png", "", "a646047c-4e2f-4c28-86fc-dce4588247b1" },
 	{ "models/stonebrickWhite.png", "", "e2cafc57-28e5-46f5-ae01-bc7b868222a1" },
 	{ "models/transparent.png", "", "558ebc39-21f3-4127-a392-a45c28a90227" },
+	{ "models/snowflakePoleFlag.png", "", "859fed95-1049-420b-bbdb-f2989b43d232" },
 }

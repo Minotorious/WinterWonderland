@@ -5,10 +5,9 @@
         "WINTER_WONDERLAND_MONUMENT_GIFTS_CATEGORY_NAME": "Sets of Gifts",
         "WINTER_WONDERLAND_MONUMENT_SLEIGH_CATEGORY_NAME": "Christmas Sleigh",
         
-        "SNOWFLAKE_EMITTER_NAME": "Snowflake Emitter",
-        "SNOWFLAKE_EMITTER_DESC": "Let It Snow! Let It Snow! Let It Snow!",
         "SNOWFLAKE_EMITTER_PART_NAME": "Let It Snow! Let It Snow! Let It Snow!",
-
+        "FIREWORKS_EMITTER_PART_NAME": "Multicoloured Fireworks",
+        
         "SNOWMAN_MONUMENT_NAME": "Snowman Monument",
         "SNOWMAN_MONUMENT_DESC": "Do you wanna build a Snowman?",
         "SNOWMAN_MONUMENT_EXAMPLE_CATEGORY_NAME": "Example Snowman",

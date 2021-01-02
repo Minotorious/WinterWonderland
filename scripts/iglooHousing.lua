@@ -141,7 +141,7 @@ winterWonderland:override({
 
 winterWonderland:override({
     Id = "PARTICLE_SYSTEM_HOUSING_SMOKE",
-    StartColor = {.1, .1, .1, .25}
+    StartColor = {0.1, 0.1, 0.1, 0.25}
 })
 
 winterWonderland:registerPrefabComponent("models/igloos.fbx/Prefab/iglooLevel1Density1Part/SmokeEmitterL1D1", {

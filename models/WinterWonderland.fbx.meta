@@ -4,13 +4,13 @@
 		<meta id="e21a12d8-e37e-4752-890d-8ea84f698f18" name="Material.SnowWhite"/>
 		<meta id="bde2e2a8-35e0-4c88-b0a9-62d3d2c156cc" name="Material.Wood"/>
 		<meta id="e87188d4-dee6-48aa-82fb-fd6b64235f7a" name="Material.SnowflakePoleFlag"/>
-		<meta id="4b9e7155-a41c-4719-aafa-8081efeba915" name="Material"/>
+		<meta id="c4cc15e4-cad0-4f70-868c-2e11984c6189" name="Material.SnowflakePoleFlag.001"/>
 	</meta>
 	<meta id="0cca6384-f72d-4e94-b572-8f71447cbc07" type="group" folder="true" name="Meshes">
 		<meta id="23d76042-6426-406f-a021-64f2b376b752" name="SnowBase_Material.SnowWhite"/>
 		<meta id="c6fd5726-460e-4f5b-9890-7ffdf37f2306" name="Pole_Material.Wood"/>
 		<meta id="2c5bc1b6-16b3-48e3-bb0a-f9f7b0621627" name="SnowflakeFlag_Material.SnowflakePoleFlag"/>
-		<meta id="0fe7a9ed-4af0-4ce4-9ca8-206e5c202edc" name="Cube_Material"/>
+		<meta id="698b85cb-967e-411b-8f96-aac0b6ee321f" name="FireworksFlag_Material.SnowflakePoleFlag.001"/>
 	</meta>
 	<meta id="9e25b5f3-6f62-4ef0-8f40-cd7c7f9f2144" name="Prefab">
 		<meta id="7e62acec-d8e1-4255-ba57-f80d9e0b30ef" name="Light"/>
@@ -29,16 +29,18 @@
 			<meta id="996e70e7-4b93-4103-9d22-ff4f2f7c507d" name="SnowflakeEmitterMediumBlue"/>
 		</meta>
 		<meta id="a5866d89-f36f-4a80-8680-ff003f59a6d2" name="FireworksEmitterPart">
-			<meta id="b8085e86-7b3c-44ec-9711-d865809f90fd" name="Cube"/>
 			<meta id="21292d2b-a2a6-4697-a256-637532c7bb8a" name="FireworksEmitterBlue"/>
 			<meta id="a05ae254-8fcc-4379-a068-40d8f56a409f" name="FireworksEmitterPurple"/>
 			<meta id="b41fa538-2ab1-4a6d-9576-78fcee90811e" name="FireworksEmitterRed"/>
 			<meta id="1ce42d15-11c7-473c-963f-6801ed20bbab" name="FireworksEmitterYellow"/>
+			<meta id="7e2d9443-7914-46a2-809b-74f375530279" name="SnowBase.001"/>
+			<meta id="470e851a-7bfa-41d7-950d-38eedf6df5ef" name="Pole.001"/>
+			<meta id="85f62c39-fde9-48b6-abc4-92adfb0a60e5" name="FireworksFlag"/>
 		</meta>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="8318b0847c0b7af88612bd4ad8dd10a4"/>
+	<Md5Checksum value="4b335e187a136b2959e79099a061b8da"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -128,11 +130,6 @@
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Cube"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
 						<NodeName value="FireworksEmitterBlue"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
@@ -150,6 +147,21 @@
 						<ChildList/>
 						<NodeName value="FireworksEmitterYellow"/>
 					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="SnowBase.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Pole.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="FireworksFlag"/>
+					</Item>
 				</ChildList>
 				<NodeName value="FireworksEmitterPart"/>
 			</Item>
@@ -158,16 +170,16 @@
 	</NodeConfig>
 	<MaterialList>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="4b9e7155-a41c-4719-aafa-8081efeba915"/>
-			<MaterialName value="Material"/>
-		</Item>
-		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="e21a12d8-e37e-4752-890d-8ea84f698f18"/>
 			<MaterialName value="Material.SnowWhite"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="e87188d4-dee6-48aa-82fb-fd6b64235f7a"/>
 			<MaterialName value="Material.SnowflakePoleFlag"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="c4cc15e4-cad0-4f70-868c-2e11984c6189"/>
+			<MaterialName value="Material.SnowflakePoleFlag.001"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="bde2e2a8-35e0-4c88-b0a9-62d3d2c156cc"/>

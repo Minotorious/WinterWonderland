@@ -5,10 +5,9 @@
         "WINTER_WONDERLAND_MONUMENT_GIFTS_CATEGORY_NAME": "Cadeaux",
         "WINTER_WONDERLAND_MONUMENT_SLEIGH_CATEGORY_NAME": "Traineau de Noël",
         
-        "SNOWFLAKE_EMITTER_NAME": "Production de flocons",
-        "SNOWFLAKE_EMITTER_DESC": "Let It Snow! Let It Snow! Let It Snow!",
         "SNOWFLAKE_EMITTER_PART_NAME": "Let It Snow! Let It Snow! Let It Snow!",
-
+        "FIREWORKS_EMITTER_PART_NAME": "Feux d'Artifice Multicolore",
+        
         "SNOWMAN_MONUMENT_NAME": "Monument du bonhomme de neige",
         "SNOWMAN_MONUMENT_DESC": "Je voudrais un bonhomme de neige",
         "SNOWMAN_MONUMENT_EXAMPLE_CATEGORY_NAME": "Exemple de bonhomme de neige",

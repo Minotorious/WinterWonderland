@@ -15,17 +15,6 @@ winterWonderland:registerAssetId("models/sleigh.fbx/Prefab/elkPart", "PREFAB_ELK
 
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
---[[
-winterWonderland:register({
-	DataType = "BUILDING",
-	Id = "CHRISTMAS_SLEIGH",
-	Name = "CHRISTMAS_SLEIGH_NAME",
-	Description = "CHRISTMAS_SLEIGH_DESC",
-	BuildingType = "DECORATION",
-	AssetCoreBuildingPart = "CHRISTMAS_SLEIGH_PART"
-})
-]]--
-
 winterWonderland:register({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_SLEIGH_PART",
@@ -50,18 +39,6 @@ winterWonderland:register({
     IsVisibleWhenBuilt = true
 })
 
---[[
-winterWonderland:register({
-	DataType = "BUILDING",
-	Id = "ELK",
-	Name = "ELK_NAME",
-	Description = "ELK_DESC",
-	BuildingType = "DECORATION",
-	AssetCoreBuildingPart = "ELK_PART"
-
-})
-]]--
-
 winterWonderland:register({
 	DataType = "BUILDING_PART",
 	Id = "ELK_PART",
@@ -85,4 +62,3 @@ winterWonderland:register({
 	},
     IsVisibleWhenBuilt = true
 })
---[[----------------------------- PARTICLE SYSTEMS ----------------------------]]--

@@ -5,10 +5,9 @@
         "WINTER_WONDERLAND_MONUMENT_GIFTS_CATEGORY_NAME": "Geschenksets",
         "WINTER_WONDERLAND_MONUMENT_SLEIGH_CATEGORY_NAME": "Weihnachtsschlitten",
         
-        "SNOWFLAKE_EMITTER_NAME": "Schneeflocken-Emitter",
-        "SNOWFLAKE_EMITTER_DESC": "Let It Snow! Let It Snow! Let It Snow!",
         "SNOWFLAKE_EMITTER_PART_NAME": "Let It Snow! Let It Snow! Let It Snow!",
-
+        "FIREWORKS_EMITTER_PART_NAME": "Mehrfarbig Feuerwerk",
+        
         "SNOWMAN_MONUMENT_NAME": "Schneeman Monument",
         "SNOWMAN_MONUMENT_DESC": "Willst du einen Schneemann bauen?",
         "SNOWMAN_MONUMENT_EXAMPLE_CATEGORY_NAME": "Beispielschneemann",
