@@ -2,7 +2,7 @@
 | ||\\    //||       /|¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯\ |
 | || \\  // ||  (o_ / |                  SUPPLEMENTARY FILE                  | |
 | ||  \\//  ||  //\/  |                         ----                         | |
-| ||   \/   ||  V_/_  |                     IGLOO winterHousing                    | |
+| ||   \/   ||  V_/_  |                    WINTER HOUSING                    | |
 | ||        ||        |‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗‗/ |
 \---------------------------------------------------------------------------]]--
 
@@ -12,14 +12,22 @@ local winterWonderland = ...
 
 winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Prefab/iglooLevel1Density1Part", "IGLOO_LEVEL_1_DENSITY_1_PREFAB")
 winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Prefab/iglooLevel1Density2Part", "IGLOO_LEVEL_1_DENSITY_2_PREFAB")
+winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Prefab/mudHutLevel2Density1Part", "MUD_HUT_LEVEL_2_DENSITY_1_PREFAB")
+winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Prefab/mudHutLevel2Density2Part", "MUD_HUT_LEVEL_2_DENSITY_2_PREFAB")
 
 winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Materials/Material.StonebrickWhite", "MATERIAL_STONEBRICK_WHITE")
+winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Materials/Material.Mud", "MATERIAL_MUD")
 winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Materials/Material.SnowWhite", "MATERIAL_SNOW_WHITE")
 winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Materials/Material.Black", "MATERIAL_BLACK")
 winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Materials/Material.Transparent", "MATERIAL_TRANSPARENT")
 
 winterWonderland:override({
     Id = "MATERIAL_STONEBRICK_WHITE",
+    BackFaceVisible = true
+})
+
+winterWonderland:override({
+    Id = "MATERIAL_MUD",
     BackFaceVisible = true
 })
 
@@ -92,8 +100,58 @@ winterWonderland:register({
     IsVisibleWhenBuilt = true
 })
 
+winterWonderland:register({
+	DataType = "BUILDING_PART",
+	Id = "MUD_HUT_LEVEL_2_DENSITY_1_PART",
+	Name = "MUD_HUT_LEVEL_2_DENSITY_1_PART_NAME",
+	Description = "MUD_HUT_LEVEL_2_DENSITY_1_PART_DESC",
+	Category = "CORE",
+	BuildingZone = {
+        ZoneEntryList = {
+            {
+                Polygon = polygon.createCircle(3 , { 0, 0 } , 36 ),
+                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
+            }
+        },
+    ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+		CoreObjectPrefab = "MUD_HUT_LEVEL_2_DENSITY_1_PREFAB"
+	},
+    ConstructionVisual = nil,
+	Cost = {
+        RessourcesNeeded = {}
+    },
+    IsVisibleWhenBuilt = true
+})
+
+winterWonderland:register({
+	DataType = "BUILDING_PART",
+	Id = "MUD_HUT_LEVEL_2_DENSITY_2_PART",
+	Name = "MUD_HUT_LEVEL_2_DENSITY_2_PART_NAME",
+	Description = "MUD_HUT_LEVEL_2_DENSITY_2_PART_DESC",
+	Category = "CORE",
+	BuildingZone = {
+        ZoneEntryList = {
+            {
+                Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
+                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
+            }
+        },
+    ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+		CoreObjectPrefab = "MUD_HUT_LEVEL_2_DENSITY_2_PREFAB"
+	},
+    ConstructionVisual = nil,
+	Cost = {
+        RessourcesNeeded = {}
+    },
+    IsVisibleWhenBuilt = true
+})
+
 winterWonderland:registerPrefabComponent("models/winterHousing/winterHousing.fbx/Prefab/iglooLevel1Density1Part", { DataType = "COMP_GROUNDED" })
 winterWonderland:registerPrefabComponent("models/winterHousing/winterHousing.fbx/Prefab/iglooLevel1Density2Part", { DataType = "COMP_GROUNDED" })
+winterWonderland:registerPrefabComponent("models/winterHousing/winterHousing.fbx/Prefab/mudHutLevel2Density1Part", { DataType = "COMP_GROUNDED" })
+winterWonderland:registerPrefabComponent("models/winterHousing/winterHousing.fbx/Prefab/mudHutLevel2Density2Part", { DataType = "COMP_GROUNDED" })
 
 --[[---------------------------- winterHousing ESSENTIALS ---------------------------]]--
 
@@ -101,7 +159,7 @@ winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Prefab/
 
 winterWonderland:register({
 	DataType = "BUILDING_PART",
-	Id = "LEVEL_1_DENSITY_1_CUBE_PART",
+	Id = "IGLOO_LEVEL_1_DENSITY_1_CUBE_PART",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_ASSEMBLAGE",
         CoreRandomBuildingPartList = { "HOUSE_CUBE_PREFAB" },
@@ -111,19 +169,41 @@ winterWonderland:register({
 	}
 })
 
+winterWonderland:register({
+	DataType = "BUILDING_PART",
+	Id = "MUD_HUT_LEVEL_2_DENSITY_1_CUBE_PART",
+	ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_ASSEMBLAGE",
+        CoreRandomBuildingPartList = { "HOUSE_CUBE_PREFAB" },
+        MandatoryBuildingPartList = {
+            { BuildingPart = "MUD_HUT_LEVEL_2_DENSITY_1_PART" }
+        }
+	}
+})
+
 winterWonderland:override({
     Id = "BUILDING_PART_HOUSING_SERF_DENSITY_1",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_RANDOM_PART",
 		RandomPartList = {
-            "LEVEL_1_DENSITY_1_CUBE_PART"
+            "IGLOO_LEVEL_1_DENSITY_1_CUBE_PART"
+        }
+	}
+})
+
+winterWonderland:override({
+    Id = "BUILDING_PART_HOUSING_CITIZEN_DENSITY_1",
+	ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_RANDOM_PART",
+		RandomPartList = {
+            "MUD_HUT_LEVEL_2_DENSITY_1_CUBE_PART"
         }
 	}
 })
 
 winterWonderland:register({
 	DataType = "BUILDING_PART",
-	Id = "LEVEL_1_DENSITY_2_CUBE_PART",
+	Id = "IGLOO_LEVEL_1_DENSITY_2_CUBE_PART",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_ASSEMBLAGE",
         CoreRandomBuildingPartList = { "HOUSE_CUBE_PREFAB" },
@@ -133,12 +213,34 @@ winterWonderland:register({
 	}
 })
 
+winterWonderland:register({
+	DataType = "BUILDING_PART",
+	Id = "MUD_HUT_LEVEL_2_DENSITY_2_CUBE_PART",
+	ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_ASSEMBLAGE",
+        CoreRandomBuildingPartList = { "HOUSE_CUBE_PREFAB" },
+        MandatoryBuildingPartList = {
+            { BuildingPart = "MUD_HUT_LEVEL_2_DENSITY_2_PART" }
+        }
+	}
+})
+
 winterWonderland:override({
     Id = "BUILDING_PART_HOUSING_SERF_DENSITY_2",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_RANDOM_PART",
 		RandomPartList = {
-            "LEVEL_1_DENSITY_2_CUBE_PART"
+            "IGLOO_LEVEL_1_DENSITY_2_CUBE_PART"
+        }
+	}
+})
+
+winterWonderland:override({
+    Id = "BUILDING_PART_HOUSING_CITIZEN_DENSITY_2",
+	ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_RANDOM_PART",
+		RandomPartList = {
+            "MUD_HUT_LEVEL_2_DENSITY_2_CUBE_PART"
         }
 	}
 })

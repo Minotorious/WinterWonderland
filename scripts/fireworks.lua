@@ -208,8 +208,8 @@ winterWonderland:register({
 	},
 	LinearVelocity = {
 		DataType = "PARTICLE_FLOAT3_VALUE_CONSTANT_RANDOM",
-		ValueA = { 3, 3, 3 },
-		ValueB = { -3, -3, -3 }
+		ValueA = { 3, 0, 3 },
+		ValueB = { -3, 0, -3 }
 	},
 	ColorOverLifeTime = {
 		DataType = "GRADIENT",
@@ -313,8 +313,8 @@ winterWonderland:register({
 	},
 	LinearVelocity = {
 		DataType = "PARTICLE_FLOAT3_VALUE_CONSTANT_RANDOM",
-		ValueA = { 3, 3, 3 },
-		ValueB = { -3, -3, -3 }
+		ValueA = { 3, 0, 3 },
+		ValueB = { -3, 0, -3 }
 	},
 	ColorOverLifeTime = {
 		DataType = "GRADIENT",
@@ -418,8 +418,8 @@ winterWonderland:register({
 	},
 	LinearVelocity = {
 		DataType = "PARTICLE_FLOAT3_VALUE_CONSTANT_RANDOM",
-		ValueA = { 3, 3, 3 },
-		ValueB = { -3, -3, -3 }
+		ValueA = { 3, 0, 3 },
+		ValueB = { -3, 0, -3 }
 	},
 	ColorOverLifeTime = {
 		DataType = "GRADIENT",
@@ -523,8 +523,8 @@ winterWonderland:register({
 	},
 	LinearVelocity = {
 		DataType = "PARTICLE_FLOAT3_VALUE_CONSTANT_RANDOM",
-		ValueA = { 3, 3, 3 },
-		ValueB = { -3, -3, -3 }
+		ValueA = { 3, 0, 3 },
+		ValueB = { -3, 0, -3 }
 	},
 	ColorOverLifeTime = {
 		DataType = "GRADIENT",
