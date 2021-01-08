@@ -1,225 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
 <meta id="8bf2ee8f-c2c1-424c-9fd2-32415cc8d4d0">
-	<meta id="caa5e51a-67b5-4beb-8abd-80f000749e15" type="group" folder="true" name="Materials">
-		<meta id="35faa119-90db-4bb1-b8a8-9ff28929dae3" name="Material.SnowWhite"/>
-		<meta id="8a793058-2406-4476-a587-1b1e2972966f" name="Material.Black"/>
-		<meta id="648a974c-1a9b-47f4-a06e-83831fbe0a00" name="Material.StonebrickWhite"/>
-		<meta id="1dbcde66-f7be-419f-b739-aa542788d450" name="Material.Transparent"/>
-		<meta id="6ab408ae-b101-4b92-ba10-03b387bc0805" name="Material.StonebrickBlueIce"/>
-		<meta id="b8e2f455-ada3-4b5d-99bc-183a2e07dc5f" name="Material.BlueIce"/>
-		<meta id="86fe9719-80d7-42f4-85fc-5eb053be126a" name="Material.WoodPlanks"/>
-		<meta id="01b47167-5e4c-45a4-bcac-009b1e401540" name="Material.StrawRoof"/>
-		<meta id="18929fc7-7af8-4329-a28d-afcda8486997" name="Material.RoofUnder"/>
-		<meta id="88ddd2e5-8e95-45c1-84b3-e14ce3f6f4c4" name="Material.Mud"/>
-		<meta id="19d0144b-3076-49d8-ae2e-c9bbbfea38dd" name="Material.CrystalBlue"/>
-		<meta id="e0baa8e7-b0d6-424f-9524-7ca7959d3aaf" name="Material.WoodplanksFrosty"/>
+	<meta id="dbb387d3-8561-4798-a543-18ab4acb1e7b" type="group" folder="true" name="Materials">
+		<meta id="5234eb62-aa32-4296-b40e-6084774100de" name="Material.SnowWhite"/>
+		<meta id="b879b97c-a057-457f-89a3-25731a5c6ff8" name="Material.Black"/>
+		<meta id="33b08197-6ebe-4658-bceb-87e9e25de257" name="Material.StonebrickWhite"/>
+		<meta id="513e305a-fc2a-4963-8212-c79667f41f90" name="Material.Transparent"/>
+		<meta id="ed56dee5-8e9b-4020-8b8c-e2baa823a2e8" name="Material.Mud"/>
+		<meta id="5ff4983a-0b18-4b57-b832-4d1fd41b058d" name="Material.StrawRoof"/>
+		<meta id="eb6d6d05-5b62-4157-bb38-d590fbfb6c9f" name="Material.RoofUnder"/>
+		<meta id="1630f2e8-265b-4f7d-8f77-b2eb777681d4" name="Material.WoodPlanks"/>
 	</meta>
-	<meta id="6388cbe4-7059-40dd-b7fb-9da813ea841b" type="group" folder="true" name="Meshes">
-		<meta id="a61987e0-c266-42ab-a1c2-d9c528f99f65" name="iglooChimney_Material.SnowWhite"/>
-		<meta id="c571fdd8-55d7-4271-8091-f7d5d6f15b56" name="iglooChimney_Material.Black"/>
-		<meta id="5f5b0e81-ddb2-49ce-8d2e-1513e6806ca4" name="iglooDoor_Material.SnowWhite"/>
-		<meta id="4adb5a69-64e9-4d5b-9cee-93e0dae8098c" name="iglooDoor_Material.Black"/>
-		<meta id="d8524356-03bd-494e-8a08-fb4a3738d7ef" name="igloo_Material.StonebrickWhite"/>
-		<meta id="bd927fff-88ac-4201-afee-2289fb07982b" name="Cube_Material.Transparent"/>
-		<meta id="a831d13a-ce84-4490-a4c5-7c2e03e3e782" name="iglooDoor.001_Material.SnowWhite"/>
-		<meta id="1b3c7cd1-fa24-4aa3-a1ef-25efe4f034cc" name="iglooDoor.001_Material.Black"/>
-		<meta id="7cdf0b30-13a0-44d2-960e-1e499ecfdf5f" name="igloo.001_Material.StonebrickWhite"/>
-		<meta id="49130a0b-27d0-40ec-a6b7-c04986437397" name="Cube.001_Material.StonebrickBlueIce"/>
-		<meta id="1b8809a3-27db-4337-8e72-be3854f72dad" name="Cube.002_Material.SnowWhite"/>
-		<meta id="b54b6ce4-ee80-44a2-b6e0-b29bd938e90a" name="Cube.003_Material.StonebrickBlueIce"/>
-		<meta id="78c41e8f-92bb-4b5b-9eec-a391ebb376b1" name="Circle_Material.SnowWhite"/>
-		<meta id="3bacf9a0-6cb0-45db-993c-01dcf11b76da" name="Cube.011_Material.BlueIce"/>
-		<meta id="1e90c9b8-9c32-4e45-b6a8-854d8bbfd707" name="Circle.001"/>
-		<meta id="67d35e1c-e681-4b82-801c-f7c958485553" name="Circle.002"/>
-		<meta id="aa23c2eb-52d7-4e93-b389-2ce3d8ccadc9" name="Circle.003"/>
-		<meta id="b214b579-0c7d-4832-866c-b5dec96d54d7" name="Cylinder.002"/>
-		<meta id="680e8a6a-0ee5-4ad3-823c-7a9ea9b08aa4" name="Cube.009"/>
-		<meta id="c1bf93a6-7eb3-491e-b189-59c830094327" name="Cube.010"/>
-		<meta id="45993c62-b066-421d-bfb4-7f062338a3ea" name="Cube.012_Material.StonebrickBlueIce"/>
-		<meta id="e558c06c-c985-4223-b404-93872de50874" name="Cube.012_Material.WoodPlanks"/>
-		<meta id="053efb1b-553b-45da-ba4c-1dac18244700" name="Cylinder.001_Material.StrawRoof"/>
-		<meta id="6db2d09c-e5b1-417c-9cfa-63f29847e7a2" name="Cylinder.001_Material.RoofUnder"/>
-		<meta id="00c81b01-ab32-40a3-b4e3-ca69bcccce4d" name="mudHutDoor_Material.SnowWhite"/>
-		<meta id="a93825c2-e5dd-4a4a-a88b-7b6d66df0964" name="mudHutDoor_Material.Black"/>
-		<meta id="b6c8c77c-001f-489f-8471-cdbd573476c5" name="Cylinder.006_Material.WoodPlanks"/>
-		<meta id="9d16fc9f-98f4-4a8f-9b2d-df280384d60f" name="Cube.014_Material.BlueIce"/>
-		<meta id="b6402a5e-44a5-4aa6-9f35-9fe5a9726ca0" name="Cube.015_Material.BlueIce"/>
-		<meta id="7c46927a-6033-4402-bf1a-d7a35373e605" name="Cube.013_Material.BlueIce"/>
-		<meta id="cd385bf8-950a-438d-abfa-86255cfed936" name="Cube.017_Material.BlueIce"/>
-		<meta id="965f47c5-6586-4642-b1c4-43677bf534c2" name="Cube.018_Material.BlueIce"/>
-		<meta id="e763aa2e-fc9a-40e5-ae08-fc1cac9a36eb" name="Cube.019_Material.BlueIce"/>
-		<meta id="ae70b246-fd56-4162-bab0-435280a16023" name="Cube.020_Material.BlueIce"/>
-		<meta id="e2d8fb96-073b-40ff-91ad-e7588288ae68" name="Cube.021_Material.BlueIce"/>
-		<meta id="d312d650-a3f8-403a-aa0d-5bbfa87e9628" name="Cube.022_Material.BlueIce"/>
-		<meta id="4e4c3953-c52b-4714-94f9-08335eaf7f05" name="Cube.023_Material.BlueIce"/>
-		<meta id="da016624-2de9-4339-91fe-a1e9f190fb27" name="mudHutDoor.001_Material.SnowWhite"/>
-		<meta id="da4b4020-de39-443a-951b-65338c2afb27" name="mudHutDoor.001_Material.Black"/>
-		<meta id="f2b12937-3cca-478b-9a98-d7477c274750" name="Cylinder_Material.Mud"/>
-		<meta id="8bd944b8-3818-41e0-865e-0c3244118bfe" name="Cube.004_Material.StonebrickBlueIce"/>
-		<meta id="a1566f3a-1b92-4b3d-a6a0-e930e9646003" name="Cube.004_Material.WoodPlanks"/>
-		<meta id="c6e77960-be6b-49f6-8770-fbbf171cda83" name="Cube.005_Material.StonebrickBlueIce"/>
-		<meta id="8281c3be-4137-4edc-a8f9-e4040827145c" name="Cube.006_Material.StonebrickBlueIce"/>
-		<meta id="9b7bd2c6-4422-4aa5-860c-626d4b72f684" name="Cube.006_Material.WoodPlanks"/>
-		<meta id="e9136b53-aa5a-4ee3-8639-ee5637d32523" name="Cylinder.022_Material.WoodPlanks"/>
-		<meta id="8645562b-4a1b-4f9f-84fa-42c37fb08e67" name="Cylinder.029_Material.WoodPlanks"/>
-		<meta id="08f182d7-3008-4a8a-8673-9962e688eee9" name="Cylinder.031_Material.WoodPlanks"/>
-		<meta id="69e20aca-935d-41fd-9e49-fdbab9e53b8c" name="Cylinder.004_Material.Mud"/>
-		<meta id="c5058cd5-694a-43a1-94c6-3efe6a787023" name="Cylinder.034_Material.WoodPlanks"/>
-		<meta id="4f135371-8e75-4973-970b-ffe6ae8a84a0" name="SnowflakePart_Material.StonebrickBlueIce"/>
-		<meta id="7d6b5bb2-3014-433f-be12-a87f288829ac" name="SnowflakePart_Material.WoodPlanks"/>
-		<meta id="af1d1121-a4fe-4af9-96bd-be41f2830626" name="Cube.026_Material.CrystalBlue"/>
-		<meta id="efbc88af-26f1-4f2c-9aeb-8bfb31bfa7c2" name="Cube.005_Material.WoodplanksFrosty"/>
+	<meta id="9b0030c5-0a17-4ce7-90ba-1ec72c2caec0" type="group" folder="true" name="Meshes">
+		<meta id="9ea58423-ce1f-48b4-865e-97ab35c91445" name="iglooChimney_Material.SnowWhite"/>
+		<meta id="6ba51963-11eb-4fa7-a5ae-0924411d57fe" name="iglooChimney_Material.Black"/>
+		<meta id="a97bbb9c-f80a-4f77-823c-7e41eb0419d2" name="iglooDoor_Material.SnowWhite"/>
+		<meta id="f246e3df-caa5-4273-81c7-1fb1e6846a6b" name="iglooDoor_Material.Black"/>
+		<meta id="f294d8f1-530c-4843-8972-874f4088a914" name="igloo_Material.StonebrickWhite"/>
+		<meta id="68a3d9c3-6cd8-4e57-861f-54006ad4847c" name="Cube_Material.Transparent"/>
+		<meta id="01ea7d0f-47ad-495d-98b7-c86b2f0ae30a" name="iglooDoor.001_Material.SnowWhite"/>
+		<meta id="409c2705-6419-4363-b6e0-eef99c5142a5" name="iglooDoor.001_Material.Black"/>
+		<meta id="1ea214ad-7c78-4359-a136-bdd927c6b996" name="igloo.001_Material.StonebrickWhite"/>
+		<meta id="504e5d11-e856-4d95-a029-fe5840db0b41" name="Cylinder_Material.Mud"/>
+		<meta id="51fd2230-a92b-41b6-9f6f-04328563f119" name="Cylinder.001_Material.StrawRoof"/>
+		<meta id="ec32d376-ee24-4629-acae-1871fe6785b9" name="Cylinder.001_Material.RoofUnder"/>
+		<meta id="774b7630-47cf-4f4e-9533-4229221914ab" name="mudHutDoor_Material.SnowWhite"/>
+		<meta id="aba10ced-e530-4919-86f5-c7778f1c8965" name="mudHutDoor_Material.Black"/>
+		<meta id="ca0c402e-3592-4461-a64d-a4fdd8e21d84" name="Cylinder.006_Material.WoodPlanks"/>
+		<meta id="7f675845-d5d7-46b2-9a4d-4fe03e74a970" name="Cylinder.022_Material.WoodPlanks"/>
+		<meta id="5dd032af-e63c-4e6b-abc3-7c43838072fa" name="Cylinder.029_Material.WoodPlanks"/>
+		<meta id="d7241f0c-1e35-4fa4-ab9f-f886f103ad77" name="Cylinder.031_Material.WoodPlanks"/>
+		<meta id="7f9952ff-f1f7-4669-99c1-34e85fe1fc30" name="Cylinder.004_Material.Mud"/>
+		<meta id="7b363e02-e511-4718-97c5-ae9fa5ef4d61" name="mudHutDoor.001_Material.SnowWhite"/>
+		<meta id="eb70810f-a7cb-4492-9463-fe04d40801ee" name="mudHutDoor.001_Material.Black"/>
 	</meta>
-	<meta id="ee5eb3c7-ac33-41ac-8a7f-58f227de720b" name="Prefab">
-		<meta id="d63720d1-ee41-41c1-9819-3622e1e02992" name="Light"/>
-		<meta id="61a997c2-ff01-4f0b-96d3-85e0e65c2c7a" name="Camera"/>
-		<meta id="799f84d0-1d21-4a3a-b050-ef5289e1c45c" name="iglooLevel1Density2Part">
-			<meta id="7c736cdd-90a5-40e8-9e4b-7754a8cdfecf" name="SmokeEmitterL1D2"/>
-			<meta id="7f480105-d1f5-47a7-8e1b-b37a57cc85a8" name="PATH_A_0"/>
-			<meta id="6bcee173-3a7a-4961-9276-30b3c364b222" name="PATH_A_1"/>
-			<meta id="9380dba2-1dc1-4f1b-9e6e-df78c63a8661" name="iglooChimney">
-				<meta id="9db5c63b-854f-4e7a-a1d1-2d19c5d3c61f" name="iglooChimney_0"/>
-				<meta id="5512ec7b-a862-45c6-9ef4-f87652b13c58" name="iglooChimney_1"/>
+	<meta id="915311b3-1cb9-470f-b510-b03313160dde" name="Prefab">
+		<meta id="3fd69fcc-9ab6-4a8c-89ca-111da1fe272a" name="Light"/>
+		<meta id="c6000d7b-8d34-4ee8-906c-78a43ecb5b11" name="Camera"/>
+		<meta id="37edd907-e706-4469-9680-86cf73a05e9e" name="iglooLevel1Density2Part">
+			<meta id="d96b4006-6ec9-49c0-bc20-c11a6f039071" name="SmokeEmitterL1D2"/>
+			<meta id="670f6a3f-c49c-435d-8f55-ed46c47583f4" name="PATH_A_0"/>
+			<meta id="e2dd945c-5e55-4667-a34a-769b1bbf3b10" name="PATH_A_1"/>
+			<meta id="782a815f-941e-40bc-ab46-f819a254267c" name="iglooChimney">
+				<meta id="69f17ec1-ae8e-40fe-80fd-bf947bc970ce" name="iglooChimney_0"/>
+				<meta id="dcd0fccb-989f-44c4-8c2e-6fe2975a8816" name="iglooChimney_1"/>
 			</meta>
-			<meta id="fd4ecf12-30b5-4698-a0e6-5bde9d1786a9" name="iglooDoor">
-				<meta id="d0a66ed3-7611-4b8c-91f7-f437ac69a5ec" name="iglooDoor_0"/>
-				<meta id="7aba7760-f5a0-46e5-aafa-cf12f346af39" name="iglooDoor_1"/>
+			<meta id="e4dd750b-0adc-4f4d-b62c-a048395c1538" name="iglooDoor">
+				<meta id="2b63fdb7-0e2f-45ad-800a-d8eba0ef9ecf" name="iglooDoor_0"/>
+				<meta id="5bcf28b3-c4d1-4b53-af22-a794995b1687" name="iglooDoor_1"/>
 			</meta>
-			<meta id="af4dfd82-0dfd-4c51-aae6-753db1c1cc03" name="igloo"/>
+			<meta id="77f5c5c2-8f0a-4ddb-b8fd-f2ba1ad73baf" name="igloo"/>
 		</meta>
-		<meta id="b6caaae2-a6f2-4146-887e-695bdc311a4d" name="housePart">
-			<meta id="f2d1a3cb-9e48-4238-b2cd-900f44dfdc3a" name="Cube"/>
+		<meta id="a71ee30f-cbd9-4298-8ff8-8b97f807b0ad" name="housePart">
+			<meta id="f05f7628-e49a-4185-bfec-f2b557ecc2a4" name="Cube"/>
 		</meta>
-		<meta id="0a5be895-872c-4b79-af61-62653d27dd60" name="iglooLevel1Density1Part">
-			<meta id="0988e8d1-ab2a-4901-8993-4ec4f1049bf6" name="SmokeEmitterL1D1"/>
-			<meta id="dd708466-c111-48b7-b791-5356c1b5c589" name="PATH_A_0.001"/>
-			<meta id="0fb01ab5-828a-438c-a584-10fcfdcfeb31" name="PATH_A_1.001"/>
-			<meta id="d3b27adf-18f8-42d8-a75b-d7e94ab28990" name="iglooChimney.001">
-				<meta id="b17af2a1-be50-40b1-96f3-16bc22840f16" name="iglooChimney.001_0"/>
-				<meta id="88ed861b-fc27-4e7b-a735-bfea44707695" name="iglooChimney.001_1"/>
+		<meta id="a37261b8-3a55-43df-b9b7-120fe8bf3d00" name="iglooLevel1Density1Part">
+			<meta id="1d2d6e28-439b-4af8-9f8c-5ebf52cf4267" name="SmokeEmitterL1D1"/>
+			<meta id="83699ec0-0904-4ccd-92d1-c436249d0ca9" name="PATH_A_0.001"/>
+			<meta id="5825e4bd-5dac-4cc1-9cde-e7da4a44e3f8" name="PATH_A_1.001"/>
+			<meta id="9e016858-7b94-4da6-9795-37a465ae3684" name="iglooChimney.001">
+				<meta id="8ad3d3cf-81af-4179-8322-42af4e3cb437" name="iglooChimney.001_0"/>
+				<meta id="2d0a3a02-9f0f-49ed-9af2-a2c2248281f3" name="iglooChimney.001_1"/>
 			</meta>
-			<meta id="19319e60-b2a5-4788-ada9-dbb7a9d840cf" name="iglooDoor.001">
-				<meta id="5cae7a3d-69b0-4eae-9bd1-83c2259852e5" name="iglooDoor.001_0"/>
-				<meta id="63001cc7-b096-4ac5-81b8-424bc1a238ff" name="iglooDoor.001_1"/>
+			<meta id="06ccb934-97e4-433d-95a3-bda148fb6036" name="iglooDoor.001">
+				<meta id="ea439d2d-5b30-4811-8ca3-39c615b538f0" name="iglooDoor.001_0"/>
+				<meta id="4542f31e-2466-4a38-ac7b-66d66da16ea7" name="iglooDoor.001_1"/>
 			</meta>
-			<meta id="22672de4-4590-4d5c-8585-4fc869b39e7f" name="igloo.001"/>
+			<meta id="f74fc391-0a84-403b-8495-623d9d9c566d" name="igloo.001"/>
 		</meta>
-		<meta id="18304bbd-a0e5-4996-8683-1787d03b643b" name="Cube.004">
-			<meta id="e3ce8f7a-c472-4cf9-8660-e1fe58f616f2" name="Cube.004_0"/>
-			<meta id="044646da-4263-42b5-984d-36c22b63a2b3" name="Cube.004_1"/>
-		</meta>
-		<meta id="9bb5edd8-3a83-4607-8305-9d5ab469ba40" name="Circle.001"/>
-		<meta id="23c18579-881f-46eb-b5f4-ad2f8c6d88ad" name="Circle.002"/>
-		<meta id="e46ea485-b8f8-489a-a920-204392c5a9e6" name="Circle.003"/>
-		<meta id="33a4c582-8cf0-45f3-8092-bbd447f17374" name="Circle.004"/>
-		<meta id="83ce34d4-0281-434b-b7e6-c3778e0624ce" name="Circle.005"/>
-		<meta id="d0f1b8a1-fb83-489e-b004-719a2486522f" name="Circle.006"/>
-		<meta id="33621fa4-2dee-42b9-9f29-5327a101bcd7" name="Cube.006">
-			<meta id="a272009e-ae8d-40cf-a703-af796be3b369" name="Cube.006_0"/>
-			<meta id="c5faf20e-2fb8-466e-8bd2-969991938ba4" name="Cube.006_1"/>
-		</meta>
-		<meta id="89e1a7ca-9212-419a-9487-9d162a63c847" name="Cube.007"/>
-		<meta id="ac707393-556d-483f-aa23-f605b93b1580" name="Cube.008"/>
-		<meta id="e3bf86d7-d5b6-42e6-a85d-a7ab18fbafa4" name="Cylinder.002"/>
-		<meta id="d233662d-4a92-4093-9727-a62875bf209e" name="Cylinder.003"/>
-		<meta id="85b16901-a526-4a9d-9568-bad85fb86a29" name="Cube.009"/>
-		<meta id="5fb6a57c-72af-46e3-a4b7-a4e6422e155e" name="Cube.010"/>
-		<meta id="fe596b07-0fee-4850-817a-0d504489efab" name="Cube.012">
-			<meta id="b5ededeb-cd6a-4075-87b5-ef3d31f897f3" name="Cube.012_0"/>
-			<meta id="5b422944-774c-4695-9a70-d874aafc1552" name="Cube.012_1"/>
-		</meta>
-		<meta id="017fb1f3-c4db-4b0e-a5a5-ddd7f95fdc4b" name="HollowSquareWithTowerPart">
-			<meta id="97e093b1-8dca-4e20-91f6-fb1eec0e239a" name="Cube.001"/>
-			<meta id="b2590910-984c-4260-809d-d004353469a7" name="Cube.002"/>
-			<meta id="d5902c6c-f6dc-41f3-8455-bcb978adeb22" name="Cube.003"/>
-			<meta id="26d785ce-4601-43f7-83d1-d0ce9c567fad" name="Circle"/>
-		</meta>
-		<meta id="ed5e5c1b-6404-41d5-8252-d5f84af5bcfa" name="Cube.014"/>
-		<meta id="57850c17-25e9-4d5f-a611-5b816908eb11" name="Cube.015"/>
-		<meta id="5b971deb-a751-47a9-b34a-184af567dcc1" name="Cube.011"/>
-		<meta id="107318ef-8dab-4a12-83b8-0f9bbf449081" name="Cube.013"/>
-		<meta id="30dad424-6f6f-4de6-be58-688ad3feedb0" name="Cube.016"/>
-		<meta id="3dec5482-5f33-48f7-b997-d6b435a0af2d" name="Cube.017"/>
-		<meta id="4e4390e3-0ceb-498b-b366-f8ae64dee8bf" name="Cube.018"/>
-		<meta id="fa2f7639-21c3-4d90-903c-bd7970949c79" name="Cube.019"/>
-		<meta id="95fdb306-9622-4059-9f36-9b778f28bdf7" name="Cube.020"/>
-		<meta id="c6b592c4-ce92-42fa-94a7-069b3205fe56" name="Cube.021"/>
-		<meta id="41d0ab75-752d-48a3-a6a5-cf11af73d6e6" name="Cube.022"/>
-		<meta id="8b60d4df-448f-474d-ac6d-a6bb92aace49" name="Cube.023"/>
-		<meta id="303766b1-cfa9-41cf-b672-2502e60c82f2" name="Cube.024"/>
-		<meta id="68abccfd-938c-431c-b1e4-000758abfaaf" name="Cube.025"/>
-		<meta id="aaefc058-4661-4b82-9af9-7b39b89366fe" name="BezierCircle"/>
-		<meta id="60f38c0b-7ace-4588-82f8-f4fcfc6ca479" name="SnowflakePart">
-			<meta id="2fdf0405-a5db-46c7-8ae2-ffa1962f4e54" name="SnowflakePart_0"/>
-			<meta id="fbcb804a-4585-4009-9326-eaf031852895" name="SnowflakePart_1"/>
-		</meta>
-		<meta id="e0d7b24d-dd4d-4cb0-9954-7343f4e14147" name="mudHutLevel2Density2Part">
-			<meta id="9c9d23c6-c69f-42a2-aab3-26181551837f" name="Cylinder"/>
-			<meta id="1b5ae3fd-0a2f-4682-bb87-009b141d9dea" name="Cylinder.001">
-				<meta id="8c40f16b-91af-4797-a261-49bd373f2957" name="Cylinder.001_0"/>
-				<meta id="9a6710a3-08a7-4493-9f3c-d4b8fae5319c" name="Cylinder.001_1"/>
+		<meta id="1e00d5f1-ab7a-42d7-bd05-4ec4695ecc2d" name="mudHutLevel2Density2Part">
+			<meta id="b88074c0-a46e-43a2-9e92-a142e03307fd" name="Cylinder"/>
+			<meta id="83c9913b-e974-4976-b36c-8295ed56183c" name="Cylinder.001">
+				<meta id="3be99b6b-876f-4ee0-bf5d-a27f1a4a5dab" name="Cylinder.001_0"/>
+				<meta id="21cd7fd2-91f4-4890-8d11-25082cf9362b" name="Cylinder.001_1"/>
 			</meta>
-			<meta id="3f7d03b0-508d-496c-a901-e1b2489202db" name="mudHutDoor">
-				<meta id="b9f6bf17-a69f-4d38-8127-c008fa88561c" name="mudHutDoor_0"/>
-				<meta id="f0b8a22e-e654-460e-ae4d-0382e1149e11" name="mudHutDoor_1"/>
+			<meta id="074bbe82-6f77-47de-8c6c-db743c4393fc" name="mudHutDoor">
+				<meta id="d8922cf5-d62a-4142-beae-12d02aea19c4" name="mudHutDoor_0"/>
+				<meta id="13ffa39b-2a5e-44c3-a6e1-ddfba4e92ead" name="mudHutDoor_1"/>
 			</meta>
-			<meta id="b2310d9b-ec47-401d-b42a-1cc4dc7efa5a" name="Cylinder.006"/>
-			<meta id="925210c3-e4f4-4034-9fa1-e07f7829816a" name="Cylinder.007"/>
-			<meta id="b81040ec-addd-47a2-8693-9e31548a3d1a" name="Cylinder.008"/>
-			<meta id="2941c887-7b6f-4384-9b1e-ff8c098e55a8" name="Cylinder.009"/>
-			<meta id="56d7cbfb-ba8d-4e1f-90cd-f7a81a6ccfc0" name="Cylinder.010"/>
-			<meta id="acc86aca-64a8-4cee-ad1f-eddc28779f0d" name="Cylinder.011"/>
-			<meta id="ef3959cd-7653-4261-a705-8687599e06d3" name="Cylinder.012"/>
-			<meta id="0883f9e7-20d8-4dad-af18-1b4f66f7d0eb" name="Cylinder.013"/>
-			<meta id="030dfd62-73ff-4ef8-a996-a9ad58e0fb84" name="PATH_A_0.003"/>
-			<meta id="9d5b5914-0b10-408d-9d04-f552f24dd4ff" name="PATH_A_1.003"/>
-			<meta id="bd938d6c-46f6-4b5b-ac78-e7ce9c54884a" name="Cylinder.022"/>
-			<meta id="a9f3cf26-00bd-4218-b7e1-5773ff073300" name="Cylinder.023"/>
-			<meta id="ce8f60bf-6fc1-436a-8d36-a4415808cd51" name="Cylinder.024"/>
-			<meta id="a596f8e3-02dd-47e1-ba6f-d6ea273275b1" name="Cylinder.025"/>
-			<meta id="158caa83-f589-48f2-9043-7b907fd5c962" name="Cylinder.026"/>
-			<meta id="8c725af5-0867-4581-b097-235a6a0a422c" name="Cylinder.027"/>
-			<meta id="23b21f47-e6a7-4951-8d0c-678b5ae109a0" name="Cylinder.028"/>
-			<meta id="eb19827c-451f-466f-82c4-2c56df718d97" name="Cylinder.029"/>
-			<meta id="8740183e-6f63-4f27-98aa-666c49622c88" name="Cylinder.030"/>
-			<meta id="5fbc9828-45da-45a7-8a85-8b1567115f68" name="Cylinder.031"/>
-			<meta id="f54ee241-6040-4b9d-8b0e-9395343a6843" name="Cylinder.032"/>
-			<meta id="0e92b2b8-b093-4a56-895e-f3226a7a1faa" name="Cylinder.033"/>
-			<meta id="23dac868-921e-4af7-af95-554d02b655a8" name="Cylinder.034"/>
+			<meta id="76f4773d-92db-4497-b17b-2627f7c4c82e" name="Cylinder.006"/>
+			<meta id="e6b7309d-fec1-42c2-82cf-31037b76e006" name="Cylinder.007"/>
+			<meta id="7ac92374-e974-44d9-9a97-c183b388c6e4" name="Cylinder.008"/>
+			<meta id="318623cc-c5c1-4371-aad3-2299143dba86" name="Cylinder.009"/>
+			<meta id="9b492615-4cad-4554-b53e-3188f0ec195a" name="Cylinder.010"/>
+			<meta id="ea58042d-4672-41dc-8f06-946c477ef13f" name="Cylinder.011"/>
+			<meta id="07f1e95b-f79b-4ace-b5f8-f74c4401e246" name="Cylinder.012"/>
+			<meta id="4d6967a1-b42a-4d55-bcc3-0ff64711fff7" name="Cylinder.013"/>
+			<meta id="210965c0-a1f9-4baa-b1cc-59e3bbce9af0" name="PATH_A_0.003"/>
+			<meta id="71a870db-aa65-45f5-b7bd-0c4d749147bc" name="PATH_A_1.003"/>
+			<meta id="f2d99850-7514-4aba-a3b4-171beb68b700" name="Cylinder.022"/>
+			<meta id="e129373a-17f9-427b-bdaf-a468ab0cec26" name="Cylinder.023"/>
+			<meta id="1d2fdaf7-fd48-47e5-b1c3-2b2a3e2212fd" name="Cylinder.024"/>
+			<meta id="a87b31e2-04df-413c-93a2-e8b52da7bdb9" name="Cylinder.025"/>
+			<meta id="2f284c12-3232-4e05-a175-2f71217708de" name="Cylinder.026"/>
+			<meta id="4b3e2fbf-e10b-4d87-abb5-39eb44aec0e7" name="Cylinder.027"/>
+			<meta id="fa26440c-ea87-4cd5-8088-79a5007828fe" name="Cylinder.028"/>
+			<meta id="512cd847-14fa-47c6-8395-178303bf5e40" name="Cylinder.029"/>
+			<meta id="55af1469-2f47-4ff4-8744-2bb29bf9e0fb" name="Cylinder.030"/>
+			<meta id="34719cac-5a8f-4893-9189-d0580e66275c" name="Cylinder.031"/>
 		</meta>
-		<meta id="82e010a8-ee6c-463e-b08c-71e48237038a" name="mudHutLevel2Density1Part">
-			<meta id="6d62f1ff-d091-4a71-8293-fb9b7966d1d3" name="Cylinder.004"/>
-			<meta id="d574989c-fa7a-41ae-82d9-e35a9a79e379" name="mudHutDoor.001">
-				<meta id="fe4d574f-7d0b-4647-a243-6b97e598b9d9" name="mudHutDoor.001_0"/>
-				<meta id="5bf2db97-54d9-4f60-849d-ea704d7745f8" name="mudHutDoor.001_1"/>
+		<meta id="6c73f59d-4643-4ce1-a127-2efdd9019a37" name="mudHutLevel2Density1Part">
+			<meta id="fa3c1520-091d-40db-a506-7b17731ed030" name="Cylinder.004"/>
+			<meta id="64315859-6c48-4a3b-825a-b936eaf660aa" name="mudHutDoor.001">
+				<meta id="bd75b093-d5f3-4ec9-bb1a-d10074bea925" name="mudHutDoor.001_0"/>
+				<meta id="bdcd6d70-cb9e-4fbe-b428-35d0003b81c4" name="mudHutDoor.001_1"/>
 			</meta>
-			<meta id="74a9757d-2d8c-4f5b-b7f4-07a494016a92" name="Cylinder.005">
-				<meta id="c8af007f-8605-41a3-806d-6c2ce9d7d714" name="Cylinder.005_0"/>
-				<meta id="18d37179-526d-421c-b17f-d3e60009e1b6" name="Cylinder.005_1"/>
+			<meta id="4bc12cfe-adea-4fb8-b146-fe074c9db2be" name="Cylinder.005">
+				<meta id="f1b40268-93f3-47dd-aa7f-b3a549d788e0" name="Cylinder.005_0"/>
+				<meta id="aa00128b-29c3-445d-80a3-9dfe104e2ada" name="Cylinder.005_1"/>
 			</meta>
-			<meta id="a074cbde-7e10-4329-8f47-7cb461969cf8" name="Cylinder.014"/>
-			<meta id="12b94bd4-f42d-4277-ab51-a2ccec1ebd4e" name="Cylinder.015"/>
-			<meta id="72bca3e3-5f93-4b94-a07c-2584bf21eccb" name="Cylinder.016"/>
-			<meta id="83f224c1-77b4-4534-95f5-7cbf1ce93893" name="Cylinder.017"/>
-			<meta id="1c66bc8f-62b3-4637-973f-537234d40a71" name="Cylinder.018"/>
-			<meta id="be3c5727-6f38-407f-bf7d-b17fc8434296" name="Cylinder.019"/>
-			<meta id="f1cc8123-6f9e-4417-b494-cdc406ae381c" name="Cylinder.020"/>
-			<meta id="262601e2-f53c-4eec-a5a0-eb337ad79855" name="Cylinder.021"/>
-			<meta id="191b5668-7d28-48cf-95fd-0e1ce00973fb" name="PATH_A_0.002"/>
-			<meta id="ec08e493-ab4f-457d-b87a-f19ffc25fdbe" name="PATH_A_1.002"/>
+			<meta id="3225fbc9-97a5-46de-8fd7-9e58c7980e9e" name="Cylinder.014"/>
+			<meta id="5308f37f-942e-4ae8-8e58-555de819b831" name="Cylinder.015"/>
+			<meta id="b009ce34-2223-4e0f-97f0-641ac761aa37" name="Cylinder.016"/>
+			<meta id="3c32f826-a822-40a2-b1d5-b6293862363a" name="Cylinder.017"/>
+			<meta id="bccb6a7f-3ff6-437f-bac3-b3fce3817361" name="Cylinder.018"/>
+			<meta id="7b61ee20-bfc4-4c2b-8052-055d93d8e01e" name="Cylinder.019"/>
+			<meta id="e28f76ee-cf44-428e-a05b-ce7e45b31f64" name="Cylinder.020"/>
+			<meta id="1b493991-4b2a-4ffa-ab48-a1158a4072ec" name="Cylinder.021"/>
+			<meta id="d0fedc84-128a-4737-bad4-791ff363ca61" name="PATH_A_0.002"/>
+			<meta id="abac8d09-e196-466a-9142-4c17dab3eaa1" name="PATH_A_1.002"/>
+			<meta id="cf68277f-b72b-4afc-8221-44e0d8bea579" name="Cylinder.002"/>
+			<meta id="72588c78-143e-4099-942c-23b5c697796b" name="Cylinder.003"/>
+			<meta id="08259391-87a0-46a7-806a-424cef6cf7dd" name="Cylinder.032"/>
+			<meta id="8078fe1a-4781-4677-8f39-9cac346280ec" name="Cylinder.033"/>
+			<meta id="d9d3195d-201b-41b7-bc09-18a340569a21" name="Cylinder.034"/>
+			<meta id="1c3b1d98-4b2c-4a09-8ad2-ac3312c46615" name="Cylinder.035"/>
+			<meta id="24ccba71-5755-465b-9a63-9efa12f39f6d" name="Cylinder.036"/>
+			<meta id="57b3f9b6-7174-43c9-8b84-272e6720b8d8" name="Cylinder.037"/>
+			<meta id="159eebe6-bc23-4b04-bf8b-ddbd893db7e2" name="Cylinder.038"/>
+			<meta id="fa2373ae-ab8c-480e-b1bb-a12b58719f2d" name="Cylinder.039"/>
+			<meta id="23ba70e2-8cf5-4a13-b55a-b1e869ca5afb" name="Cylinder.040"/>
+			<meta id="5b090c9c-0f73-4880-91d7-56a51fdd2679" name="Cylinder.041"/>
+			<meta id="50aca4f0-a797-4034-8097-dc1985aa1b9c" name="Cylinder.042"/>
 		</meta>
-		<meta id="6e134daf-e142-4f1c-8327-ee703cb43316" name="RampartPathPart">
-			<meta id="8bf14997-59b8-4d40-b7b1-b53b97d41d8f" name="Cube.005">
-				<meta id="31b038e9-f56f-42c1-8977-ba2b1977ce07" name="Cube.005_0"/>
-				<meta id="30b04400-e2d7-4be4-8f83-ea8b0a1d532d" name="Cube.005_1"/>
-			</meta>
-			<meta id="a5fa7f77-895b-4496-a1ee-ff8f4246167a" name="Cube.026"/>
-			<meta id="3e29e3ed-5ccc-45c9-a290-570b387465cd" name="Cube.027"/>
-		</meta>
+		<meta id="b6770717-01a0-4a1b-9f6f-e5c9650fcc9a" name="BezierCircle"/>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="0a58f9056c1f31978fd3fb1c659e5a05"/>
+	<Md5Checksum value="9713697ce5018e809888ed45e8d5ca8b"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -375,231 +292,6 @@
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Cube.004_0"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.004_1"/>
-					</Item>
-				</ChildList>
-				<NodeName value="Cube.004"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Circle.001"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Circle.002"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Circle.003"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Circle.004"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Circle.005"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Circle.006"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.006_0"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.006_1"/>
-					</Item>
-				</ChildList>
-				<NodeName value="Cube.006"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.007"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.008"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cylinder.002"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cylinder.003"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.009"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.010"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.012_0"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.012_1"/>
-					</Item>
-				</ChildList>
-				<NodeName value="Cube.012"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.001"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.002"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.003"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Circle"/>
-					</Item>
-				</ChildList>
-				<NodeName value="HollowSquareWithTowerPart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.014"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.015"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.011"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.013"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.016"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.017"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.018"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.019"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.020"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.021"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.022"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.023"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.024"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="Cube.025"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList/>
-				<NodeName value="BezierCircle"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="SnowflakePart_0"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="SnowflakePart_1"/>
-					</Item>
-				</ChildList>
-				<NodeName value="SnowflakePart"/>
-			</Item>
-			<Item type="GenCFbxNodeConfig">
-				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
 						<NodeName value="Cylinder"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
@@ -734,21 +426,6 @@
 						<ChildList/>
 						<NodeName value="Cylinder.031"/>
 					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cylinder.032"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cylinder.033"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cylinder.034"/>
-					</Item>
 				</ChildList>
 				<NodeName value="mudHutLevel2Density2Part"/>
 			</Item>
@@ -842,92 +519,114 @@
 						<ChildList/>
 						<NodeName value="PATH_A_1.002"/>
 					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.002"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.032"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.033"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.034"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.035"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.036"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.037"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.038"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.039"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.040"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.041"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cylinder.042"/>
+					</Item>
 				</ChildList>
 				<NodeName value="mudHutLevel2Density1Part"/>
 			</Item>
 			<Item type="GenCFbxNodeConfig">
 				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-				<ChildList>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList>
-							<Item type="GenCFbxNodeConfig">
-								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-								<ChildList/>
-								<NodeName value="Cube.005_0"/>
-							</Item>
-							<Item type="GenCFbxNodeConfig">
-								<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-								<ChildList/>
-								<NodeName value="Cube.005_1"/>
-							</Item>
-						</ChildList>
-						<NodeName value="Cube.005"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.026"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.027"/>
-					</Item>
-				</ChildList>
-				<NodeName value="RampartPathPart"/>
+				<ChildList/>
+				<NodeName value="BezierCircle"/>
 			</Item>
 		</ChildList>
 		<NodeName value="Prefab"/>
 	</NodeConfig>
 	<MaterialList>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="8a793058-2406-4476-a587-1b1e2972966f"/>
+			<MaterialGuid value="b879b97c-a057-457f-89a3-25731a5c6ff8"/>
 			<MaterialName value="Material.Black"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="b8e2f455-ada3-4b5d-99bc-183a2e07dc5f"/>
-			<MaterialName value="Material.BlueIce"/>
-		</Item>
-		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="19d0144b-3076-49d8-ae2e-c9bbbfea38dd"/>
-			<MaterialName value="Material.CrystalBlue"/>
-		</Item>
-		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="88ddd2e5-8e95-45c1-84b3-e14ce3f6f4c4"/>
+			<MaterialGuid value="ed56dee5-8e9b-4020-8b8c-e2baa823a2e8"/>
 			<MaterialName value="Material.Mud"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="18929fc7-7af8-4329-a28d-afcda8486997"/>
+			<MaterialGuid value="eb6d6d05-5b62-4157-bb38-d590fbfb6c9f"/>
 			<MaterialName value="Material.RoofUnder"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="35faa119-90db-4bb1-b8a8-9ff28929dae3"/>
+			<MaterialGuid value="5234eb62-aa32-4296-b40e-6084774100de"/>
 			<MaterialName value="Material.SnowWhite"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="6ab408ae-b101-4b92-ba10-03b387bc0805"/>
-			<MaterialName value="Material.StonebrickBlueIce"/>
-		</Item>
-		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="648a974c-1a9b-47f4-a06e-83831fbe0a00"/>
+			<MaterialGuid value="33b08197-6ebe-4658-bceb-87e9e25de257"/>
 			<MaterialName value="Material.StonebrickWhite"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="01b47167-5e4c-45a4-bcac-009b1e401540"/>
+			<MaterialGuid value="5ff4983a-0b18-4b57-b832-4d1fd41b058d"/>
 			<MaterialName value="Material.StrawRoof"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="1dbcde66-f7be-419f-b739-aa542788d450"/>
+			<MaterialGuid value="513e305a-fc2a-4963-8212-c79667f41f90"/>
 			<MaterialName value="Material.Transparent"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="86fe9719-80d7-42f4-85fc-5eb053be126a"/>
+			<MaterialGuid value="1630f2e8-265b-4f7d-8f77-b2eb777681d4"/>
 			<MaterialName value="Material.WoodPlanks"/>
-		</Item>
-		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="e0baa8e7-b0d6-424f-9524-7ca7959d3aaf"/>
-			<MaterialName value="Material.WoodplanksFrosty"/>
 		</Item>
 	</MaterialList>
 </importer>

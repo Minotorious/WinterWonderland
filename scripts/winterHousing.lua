@@ -153,7 +153,7 @@ winterWonderland:registerPrefabComponent("models/winterHousing/winterHousing.fbx
 winterWonderland:registerPrefabComponent("models/winterHousing/winterHousing.fbx/Prefab/mudHutLevel2Density1Part", { DataType = "COMP_GROUNDED" })
 winterWonderland:registerPrefabComponent("models/winterHousing/winterHousing.fbx/Prefab/mudHutLevel2Density2Part", { DataType = "COMP_GROUNDED" })
 
---[[---------------------------- winterHousing ESSENTIALS ---------------------------]]--
+--[[---------------------------- HOUSING ESSENTIALS ---------------------------]]--
 
 winterWonderland:registerAssetId("models/winterHousing/winterHousing.fbx/Prefab/housePart", "HOUSE_CUBE_PREFAB")
 
