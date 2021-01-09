@@ -33,19 +33,22 @@
 		<meta id="bbc57351-92d6-4cde-9d80-a866f1695dfb" name="Cube.003_Material.StonebrickBlueIce"/>
 		<meta id="27a0b5fe-687d-44d6-9bc9-6175a0253edc" name="Cube.005_Material.StonebrickBlueIce"/>
 		<meta id="2561efef-636d-4b9e-9393-283828d31be7" name="Cube.005_Material.WoodplanksFrosty"/>
-		<meta id="272b796e-ffe1-4abe-80c4-5e8ffd30853b" name="Cube.026_Material.CrystalBlue"/>
-		<meta id="a32b0b2c-9071-41a9-a439-2837edfea164" name="Cube.028_Material.SnowWhite"/>
 		<meta id="3ff6beef-b518-472c-82de-5561099d180c" name="SnowflakePart_Material.StonebrickBlueIce"/>
 		<meta id="cf2fa327-4a90-40f9-8983-2b5d457a3050" name="SnowflakePart_Material.WoodplanksFrosty"/>
 		<meta id="a99cfa82-16cb-449c-a97b-75d939d61182" name="Cube.006_Material.StonebrickBlueIce"/>
 		<meta id="d7e05817-4f21-4379-bf87-764f43813c36" name="Cube.006_Material.WoodplanksFrosty"/>
-		<meta id="987647f2-ed5f-44a2-bca5-1a62d61effbe" name="Cube.037_Material.SnowWhite"/>
 		<meta id="621da23c-63d1-4ddd-a104-4b06de5f7b58" name="Cube.041_Material.CrystalBlue"/>
 		<meta id="e64356c2-f01a-42cd-8b65-064f2fc0c3a8" name="Cube.044_Material.SnowWhite"/>
 		<meta id="d19103d2-01d8-4af8-87d4-e3f887c1bd02" name="Cube.004_Material.StonebrickBlueIce"/>
 		<meta id="5fd239c4-3bc5-4b2e-a576-13b0127355ca" name="Cube.004_Material.WoodplanksFrosty"/>
 		<meta id="32f3d03e-0766-4a89-a0e9-2755fdeae8cf" name="Cube.012_Material.StonebrickBlueIce"/>
 		<meta id="ddd14850-1ea9-4aca-bd67-a3006ee9c343" name="Cube.012_Material.WoodplanksFrosty"/>
+		<meta id="868d219e-1cc3-4b1a-9c4f-6012ffec84d6" name="Cube_Material.CrystalBlue"/>
+		<meta id="5a0c56e9-20c0-4824-a1eb-22e4ef20d58f" name="Cube.027_Material.SnowWhite"/>
+		<meta id="ca2f0eab-22f5-4ec8-9649-c35a74f90d7c" name="Cube.032_Material.SnowWhite"/>
+		<meta id="46b08dce-82e4-473b-867f-d3ab83f8b52b" name="Cube.031_Material.SnowWhite"/>
+		<meta id="f0e763ee-3a4f-4af8-837d-daac7afb50f6" name="Cube.049_Material.SnowWhite"/>
+		<meta id="d2c7622f-1813-4213-b87f-80b688ae9de8" name="Cube.037_Material.SnowWhite"/>
 	</meta>
 	<meta id="3f117e65-688e-47e6-a506-0acd8f06b215" name="Prefab">
 		<meta id="58e670ba-ba95-4505-89e6-f7d472a1cb9e" name="Light"/>
@@ -100,6 +103,30 @@
 			<meta id="200cf744-053b-49bb-855c-020335ba0571" name="Cube.035"/>
 			<meta id="ae12ddbe-86fb-4a6e-8087-a864d4f07ea7" name="Cube.036"/>
 			<meta id="5650413d-5946-4908-8077-829767c63d1c" name="Cube.039"/>
+			<meta id="42baba93-28a0-4bc4-8a79-779330097deb" name="Cube"/>
+			<meta id="ab13e053-295d-42a0-b5b0-584eab545797" name="Cube.048"/>
+			<meta id="ae5ca004-2c9f-4cc1-bd7d-834d34b4c4dc" name="Cube.049"/>
+			<meta id="3db00dc6-12a8-45e4-9191-7bd66f723b1a" name="Cube.050"/>
+			<meta id="5999a868-aa51-416a-acba-7fcccaa5a892" name="Cube.051"/>
+			<meta id="181f39bf-c1fb-409d-ab23-b414ffa07e39" name="Cube.052"/>
+			<meta id="345c7c1d-3e51-4516-b437-a39d6ec06402" name="Cube.053"/>
+			<meta id="6162d25b-f7ae-4881-b483-ea374e4c87c8" name="Cube.054"/>
+			<meta id="7d8c0755-7708-4fe9-a037-2015f30def57" name="Cube.055"/>
+			<meta id="9b815656-0475-4900-b1aa-bb9714ab6dcf" name="Cube.056"/>
+			<meta id="4be3c12d-8105-4852-a610-53feb3d8da29" name="Cube.057"/>
+			<meta id="da05204e-ea61-416a-93f5-c8d44e456b39" name="Cube.058"/>
+			<meta id="3de596e9-9c3a-42fb-9849-ecb529c7ebe4" name="Cube.059"/>
+			<meta id="b24a82b8-2ef1-4b98-8a8e-f965c695a717" name="Cube.060"/>
+			<meta id="f8a624c8-85e4-42cf-8476-1da735872c39" name="Cube.061"/>
+			<meta id="041d187f-9de9-4cc6-92bf-6acd87c6f664" name="Cube.062"/>
+			<meta id="d6c1e7bb-6726-4ee2-806f-e2e92271333b" name="Cube.063"/>
+			<meta id="697d1380-19ac-4d75-9f26-744875bb6b9b" name="Cube.064"/>
+			<meta id="a7fd490f-24b2-4aaf-8403-4198093ad179" name="Cube.065"/>
+			<meta id="ca458d22-97a4-4057-aaf0-9e69f0e2775d" name="Cube.066"/>
+			<meta id="5a36ae69-1610-4877-b97b-dec9dc44989a" name="Cube.067"/>
+			<meta id="6f6f9e5a-7183-4aa9-aaad-ea9b351bf497" name="Cube.068"/>
+			<meta id="babec119-18fa-4dc3-a4c9-f33ff1ab2ba9" name="AttachMajor.001"/>
+			<meta id="0ec4c452-7fa1-4d9a-972c-32bdd52a6907" name="AttachMajor.002"/>
 		</meta>
 		<meta id="dd3fa4c2-7956-4fc7-bb85-98ac10183c4c" name="SnowflakePart">
 			<meta id="29386f45-85ea-4d1e-8db6-866c313a9a9b" name="SnowflakePart_0"/>
@@ -119,6 +146,10 @@
 			<meta id="cc3f2860-7bf2-477c-b767-395079fbd154" name="Cube.045"/>
 			<meta id="dae5a3cc-7d89-43c1-b2dc-4afc137caa81" name="Cube.046"/>
 			<meta id="57b81b25-c09d-4cca-b90d-612d5f67770c" name="Cube.047"/>
+			<meta id="1c5a6535-fd1c-40f9-bb66-d9d984a89f1f" name="AttachMajor.003"/>
+			<meta id="10e4cfa9-b04a-484f-bfe7-d952284c8920" name="AttachMajor.004"/>
+			<meta id="46a57752-dcf6-499c-ab02-cfcff1f7c798" name="AttachMajor.005"/>
+			<meta id="e4c01ef7-4485-42bb-8e0d-472148d2dccb" name="AttachMajor"/>
 		</meta>
 		<meta id="bd82e073-b4a3-457e-b7de-38cd727a4ce0" name="rampartPathCornerSharpPart">
 			<meta id="0cac5344-f119-44b5-8c94-e270877ffb5b" name="Cube.004">
@@ -135,7 +166,7 @@
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="956be0a69b1c6b7ded96f5f891256311"/>
+	<Md5Checksum value="f132d9dc1491034711e317c4f758e33b"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -398,6 +429,126 @@
 						<ChildList/>
 						<NodeName value="Cube.039"/>
 					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.048"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.049"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.050"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.051"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.052"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.053"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.054"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.055"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.056"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.057"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.058"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.059"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.060"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.061"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.062"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.063"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.064"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.065"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.066"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.067"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.068"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMajor.001"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMajor.002"/>
+					</Item>
 				</ChildList>
 				<NodeName value="rampartPathStraightPart"/>
 			</Item>
@@ -480,6 +631,26 @@
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
 						<NodeName value="Cube.047"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMajor.003"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMajor.004"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMajor.005"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="AttachMajor"/>
 					</Item>
 				</ChildList>
 				<NodeName value="rampartTowerSquareMediumPart"/>
