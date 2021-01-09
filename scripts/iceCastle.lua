@@ -17,8 +17,12 @@ winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx
 
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/hollowSquareWithTowerPart", "HOLLOW_SQUARE_WITH_TOWER_PART_PREFAB")
 
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/crenellationSpikesPart", "CRENELLATION_SPIKES_PART_PREFAB")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/wallSpikesPart", "WALL_SPIKES_PART_PREFAB")
+
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Materials/Material.StonebrickBlueIce", "MATERIAL_STONEBRICK_BLUE_ICE")
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Materials/Material.CrystalBlue", "MATERIAL_CRYSTAL_BLUE")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Materials/Material.BlueIceTransparent", "MATERIAL_BLUE_ICE_TRANSPARENT")
 
 winterWonderland:override({
     Id = "MATERIAL_STONEBRICK_BLUE_ICE",
@@ -30,9 +34,17 @@ winterWonderland:override({
     IsLighted = false
 })
 
+winterWonderland:override({
+    Id = "MATERIAL_BLUE_ICE_TRANSPARENT",
+    IsLighted = false
+})
+
 --[[--------------------- ASSET PROCESSOR & NODE HANDLING ---------------------]]--
 
 winterWonderland:registerAssetProcessor("models/iceCastleMonument/iceCastleMonument.fbx", { DataType = "BUILDING_ASSET_PROCESSOR" })
+
+winterWonderland:registerPrefabComponent("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/crenellationSpikesPart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "MINOR" })
+winterWonderland:registerPrefabComponent("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/wallSpikesPart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "MINOR" })
 
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
@@ -54,6 +66,12 @@ winterWonderland:register({
             Name = "ICE_CASTLE_TOWERS_CATEGORY",
             BuildingPartList = {
                 "HOLLOW_SQUARE_WITH_TOWER_PART", "RAMPART_TOWER_SQUARE_MEDIUM_PART"
+            }
+		},
+        {
+            Name = "ICE_CASTLE_DECORATIVES_CATEGORY",
+            BuildingPartList = {
+                "CRENELLATION_SPIKES_PART", "WALL_SPIKES_PART"
             }
 		}
     }
@@ -171,6 +189,46 @@ winterWonderland:register({
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "HOLLOW_SQUARE_WITH_TOWER_PART_PREFAB"
+	},
+    ConstructionVisual = nil,
+	Cost = {
+        RessourcesNeeded = {}
+    },
+    IsVisibleWhenBuilt = true
+})
+
+winterWonderland:register({
+	DataType = "BUILDING_PART",
+	Id = "CRENELLATION_SPIKES_PART",
+	Name = "CRENELLATION_SPIKES_PART_NAME",
+	Description = "CRENELLATION_SPIKES_PART_DESC",
+	Category = "CORE",
+	BuildingZone = {
+        ZoneEntryList = {},
+    },
+    ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+		CoreObjectPrefab = "CRENELLATION_SPIKES_PART_PREFAB"
+	},
+    ConstructionVisual = nil,
+	Cost = {
+        RessourcesNeeded = {}
+    },
+    IsVisibleWhenBuilt = true
+})
+
+winterWonderland:register({
+	DataType = "BUILDING_PART",
+	Id = "WALL_SPIKES_PART",
+	Name = "WALL_SPIKES_PART_NAME",
+	Description = "WALL_SPIKES_PART_DESC",
+	Category = "CORE",
+	BuildingZone = {
+        ZoneEntryList = {},
+    },
+    ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
+		CoreObjectPrefab = "WALL_SPIKES_PART_PREFAB"
 	},
     ConstructionVisual = nil,
 	Cost = {
