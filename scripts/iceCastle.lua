@@ -11,7 +11,7 @@ local winterWonderland = ...
 --[[--------------------------- PREFABS & MATERIALS ---------------------------]]--
 
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathStraightPart", "RAMPART_PATH_STRAIGHT_PART_PREFAB")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCornerSharpPart", "RAMPART_PATH_CORNER_SHARP_PART_PREFAB")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner90SharpPart", "RAMPART_PATH_CORNER_90_SHARP_PART_PREFAB")
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCornerCurvedPart", "RAMPART_PATH_CORNER_CURVED_PART_PREFAB")
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartTowerSquareMediumPart", "RAMPART_TOWER_SQUARE_MEDIUM_PART_PREFAB")
 
@@ -59,7 +59,7 @@ winterWonderland:register({
         {
             Name = "ICE_CASTLE_RAMPART_PATHS_CATEGORY",
             BuildingPartList = {
-                "RAMPART_PATH_STRAIGHT_PART", "RAMPART_PATH_CORNER_SHARP_PART", "RAMPART_PATH_CORNER_CURVED_PART"
+                "RAMPART_PATH_STRAIGHT_PART", "RAMPART_PATH_CORNER_90_SHARP_PART", "RAMPART_PATH_CORNER_CURVED_PART"
             }
 		},
         {
@@ -103,9 +103,9 @@ winterWonderland:register({
 
 winterWonderland:register({
 	DataType = "BUILDING_PART",
-	Id = "RAMPART_PATH_CORNER_SHARP_PART",
-	Name = "RAMPART_PATH_CORNER_SHARP_PART_NAME",
-	Description = "RAMPART_PATH_CORNER_SHARP_PART_DESC",
+	Id = "RAMPART_PATH_CORNER_90_SHARP_PART",
+	Name = "RAMPART_PATH_CORNER_90_SHARP_PART_NAME",
+	Description = "RAMPART_PATH_CORNER_90_SHARP_PART_DESC",
 	Category = "CORE",
 	BuildingZone = {
         ZoneEntryList = {
@@ -116,7 +116,7 @@ winterWonderland:register({
         },
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "RAMPART_PATH_CORNER_SHARP_PART_PREFAB"
+		CoreObjectPrefab = "RAMPART_PATH_CORNER_90_SHARP_PART_PREFAB"
 	},
     ConstructionVisual = nil,
 	Cost = {
