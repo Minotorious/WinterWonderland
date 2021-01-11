@@ -51,13 +51,40 @@ winterWonderland:override({
     BackFaceVisible = true
 })
 
+--[[---------------------------- CUSTOM COMPONENTS ----------------------------]]--
+
+local COMP_TOPPER = {
+	TypeName = "COMP_TOPPER",
+	ParentType = "COMPONENT",
+	Properties = {
+		{ Name = "RotationSpeedY", Type = "float", Default = 1.5 }
+	}
+}
+
+function COMP_TOPPER:init()
+	self._rotationY = math.random() * math.pi
+    self:getOwner():rotateY(self._rotationY)
+end
+
+function COMP_TOPPER:update()
+    local dt = self:getLevel():getDeltaTime()
+    local udt = self:getLevel():getUnscaledDeltaTime()
+    
+    if dt ~= 0 then
+        self:getOwner():rotateY(self.RotationSpeedY * udt)
+    end
+end
+
+winterWonderland:registerClass(COMP_TOPPER)
+
 --[[--------------------- ASSET PROCESSOR & NODE HANDLING ---------------------]]--
+--[[--------------------------- COMPONENT ASSIGNMENT --------------------------]]--
 
 winterWonderland:registerAssetProcessor("models/christmasTreeMonument/christmasTreeMonument.fbx", {	DataType = "BUILDING_ASSET_PROCESSOR" })
 
-winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/TopperSnowflakePart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "INNER_TOP" })
+winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/TopperSnowflakePart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "INNER_TOP", FeedbackComponentListToActivate = { { "PREFAB_TOPPER_SNOWFLAKE_PART", "COMP_TOPPER" } } })
 winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/TopperSpikePart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "INNER_TOP" })
-winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/TopperStarPart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "INNER_TOP" })
+winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/TopperStarPart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "INNER_TOP", FeedbackComponentListToActivate = { { "PREFAB_TOPPER_STAR_PART", "COMP_TOPPER" } } })
 
 winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/SphereOrnamentBluePart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "MINOR" })
 winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/SphereOrnamentBurgundyPart", { DataType = "COMP_BUILDING_PART", BuildingPartType = "MINOR" })
@@ -78,6 +105,9 @@ winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmas
 
 winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/ChristmasTreeGreenPart/AttachTop.001", { DataType = "COMP_BUILDING_ATTACH_NODE", AttachNodeTypeList = { "INNER_TOP" }, AllowedAngles = {-180, 180} })
 winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/ChristmasTreeWhitePart/AttachTop.004", { DataType = "COMP_BUILDING_ATTACH_NODE", AttachNodeTypeList = { "INNER_TOP" }, AllowedAngles = {-180, 180} })
+
+winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/TopperSnowflakePart/Snowflake", { DataType = "COMP_TOPPER",	Enabled = true })
+winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmasTreeMonument.fbx/Prefab/TopperStarPart/Star", { DataType = "COMP_TOPPER",	Enabled = true })
 
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 

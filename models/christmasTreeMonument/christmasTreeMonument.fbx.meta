@@ -39,10 +39,7 @@
 		<meta id="ffbc1541-b4ac-421e-9182-0ac5f156fe74" name="SnowflakePart.001_Material.Snowflake"/>
 		<meta id="37033f57-ad8d-4d53-aabf-85ad20dfa977" name="SnowflakePart.002_Material.Snowflake"/>
 		<meta id="f3d1ae36-d437-4159-9f62-f6cf35f2f5e4" name="SnowflakePart.003_Material.Snowflake"/>
-		<meta id="b065e302-8df5-4684-b185-8f390f8b8b24" name="SnowflakePart.004_Material.Snowflake"/>
-		<meta id="622cd8ed-1115-4e54-b025-52b56d482e81" name="Cube.012_Material.Snowflake"/>
 		<meta id="d5b433c7-9a88-4456-ac36-15b0ba7d8dd0" name="Cone.001_Material.Gold"/>
-		<meta id="86977ce3-d853-4d13-8118-ee69539df3e1" name="Circle_Material.Gold"/>
 		<meta id="0c1a4763-5a1d-42f1-a0df-a39bef9dc01d" name="Cone.002_Material.Burgundy"/>
 		<meta id="5f243258-122e-4f6b-8833-d00238f5b0be" name="Cube.014_Material.Burgundy"/>
 		<meta id="1ee48f26-fe79-4eae-818b-5fae1319c295" name="Cube.016_Material.Burgundy"/>
@@ -53,6 +50,9 @@
 		<meta id="7d9d45ce-94a8-49e8-a92b-fec69961f6d4" name="Circle.003_Material.Silver"/>
 		<meta id="27ac166a-bdd3-4c0c-84ca-136cc23e8a22" name="Circle.005_Material.Burgundy"/>
 		<meta id="6bae15fb-169d-48a2-af58-06ca0a04fda5" name="ChristmasTreeMonumentPolePart_Material.ChristmasTreeMonumentPole"/>
+		<meta id="986649d6-378a-41ed-8498-7135013807cf" name="Snowflake_Material.Snowflake"/>
+		<meta id="4d8cb254-1788-45de-bbf8-3b4948eb6cf2" name="SnowflakePart.004_Material.Snowflake"/>
+		<meta id="9cad435a-ae97-4489-9cc2-488aeb84bb9b" name="Star_Material.Gold"/>
 	</meta>
 	<meta id="2fa8a0ee-d38b-44a0-9ce2-6081979165df" name="Prefab">
 		<meta id="3c4aee0f-4418-4a5c-b592-9f77e48e8543" name="Camera"/>
@@ -229,17 +229,12 @@
 		<meta id="dbbfb29c-1d3a-417f-bc99-2d21732eda84" name="TopperSnowflakePart">
 			<meta id="b48c04cb-6be7-4f3d-81a3-0e52ab8ab2d3" name="Cone"/>
 			<meta id="e5d0ce4d-13c3-4e96-8e15-3180706304d7" name="AttachTop.002"/>
-			<meta id="baebceb0-1482-4c34-9a95-b8549ba0d3d3" name="SnowflakePart.001"/>
-			<meta id="a6eebd4a-6741-4e53-9f5c-490d3164c8a5" name="SnowflakePart.002"/>
-			<meta id="19571312-883b-48cf-81ca-359a7ccc09cf" name="SnowflakePart.003"/>
-			<meta id="403b8099-f2d0-4d26-b315-e871461884d9" name="SnowflakePart.004"/>
-			<meta id="34f10182-8824-4b95-94a5-545aafb259ec" name="SnowflakePart"/>
-			<meta id="e7176681-d55a-4e48-aee8-0b58a9fa5d88" name="Cube.012"/>
+			<meta id="d4edf22a-3466-47ae-8879-d2d68698ede7" name="Snowflake"/>
 		</meta>
 		<meta id="43e4dce4-12d6-4c2e-84bf-222bc7d42d9f" name="TopperStarPart">
 			<meta id="0f599bb5-5656-49fc-81ba-b2e3b66e83e0" name="Cone.001"/>
 			<meta id="0983f744-0afd-4f7f-b019-5bbe4e811860" name="AttachTop"/>
-			<meta id="ac7c5993-d89e-43fd-b1da-3afeff8af9ff" name="Circle"/>
+			<meta id="a152cd49-3e0d-4e71-a8fa-12d07a5ba8fe" name="Star"/>
 		</meta>
 		<meta id="4325b351-d336-4452-a033-9a89f37935f5" name="TopperSpikePart">
 			<meta id="e4b7d042-69a4-40e4-bdbd-5ebb798dec7a" name="Cone.002"/>
@@ -372,10 +367,14 @@
 			<meta id="0c8c60ee-279c-464e-b473-e48cf111fd7d" name="AttachMinor.218"/>
 		</meta>
 		<meta id="da3a5a7a-8462-4d4b-98f3-f5b25aae9f72" name="ChristmasTreeMonumentPolePart"/>
+		<meta id="bb95e0db-8f27-4e86-a6eb-a51b3837bfdd" name="SnowflakePart.001"/>
+		<meta id="3cd03029-8daa-4499-9bb6-517a2402b401" name="SnowflakePart.002"/>
+		<meta id="9e44e765-0f5c-4da0-acc7-214ea967c382" name="SnowflakePart.003"/>
+		<meta id="d0fccf92-618f-4978-b150-d6f1926a79ee" name="SnowflakePart.004"/>
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="929a26232c6dd2ac034a343d7f67251f"/>
+	<Md5Checksum value="2be20f0bd4cdb80b579dda7a9c19c6cf"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -1203,32 +1202,7 @@
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="SnowflakePart.001"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="SnowflakePart.002"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="SnowflakePart.003"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="SnowflakePart.004"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="SnowflakePart"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.012"/>
+						<NodeName value="Snowflake"/>
 					</Item>
 				</ChildList>
 				<NodeName value="TopperSnowflakePart"/>
@@ -1249,7 +1223,7 @@
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Circle"/>
+						<NodeName value="Star"/>
 					</Item>
 				</ChildList>
 				<NodeName value="TopperStarPart"/>
@@ -1884,6 +1858,26 @@
 				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 				<ChildList/>
 				<NodeName value="ChristmasTreeMonumentPolePart"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="SnowflakePart.001"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="SnowflakePart.002"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="SnowflakePart.003"/>
+			</Item>
+			<Item type="GenCFbxNodeConfig">
+				<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+				<ChildList/>
+				<NodeName value="SnowflakePart.004"/>
 			</Item>
 		</ChildList>
 		<NodeName value="Prefab"/>
