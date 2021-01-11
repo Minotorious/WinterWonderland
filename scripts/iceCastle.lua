@@ -10,24 +10,24 @@ local winterWonderland = ...
 
 --[[--------------------------- PREFABS & MATERIALS ---------------------------]]--
 
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathStraightPart", "RAMPART_PATH_STRAIGHT_PART_PREFAB")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathStraightHalfPart", "RAMPART_PATH_STRAIGHT_HALF_PART_PREFAB")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner45SharpPart", "RAMPART_PATH_CORNER_45_SHARP_PART_PREFAB")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner60SharpPart", "RAMPART_PATH_CORNER_60_SHARP_PART_PREFAB")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner90SharpPart", "RAMPART_PATH_CORNER_90_SHARP_PART_PREFAB")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner90SharpHalfPart", "RAMPART_PATH_CORNER_90_SHARP_HALF_PART_PREFAB")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner120SharpPart", "RAMPART_PATH_CORNER_120_SHARP_PART_PREFAB")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner135SharpPart", "RAMPART_PATH_CORNER_135_SHARP_PART_PREFAB")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathStraightPart", "PREFAB_RAMPART_PATH_STRAIGHT_PART")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathStraightHalfPart", "PREFAB_RAMPART_PATH_STRAIGHT_HALF_PART")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner45SharpPart", "PREFAB_RAMPART_PATH_CORNER_45_SHARP_PART")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner60SharpPart", "PREFAB_RAMPART_PATH_CORNER_60_SHARP_PART")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner90SharpPart", "PREFAB_RAMPART_PATH_CORNER_90_SHARP_PART")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner90SharpHalfPart", "PREFAB_RAMPART_PATH_CORNER_90_SHARP_HALF_PART")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner120SharpPart", "PREFAB_RAMPART_PATH_CORNER_120_SHARP_PART")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner135SharpPart", "PREFAB_RAMPART_PATH_CORNER_135_SHARP_PART")
 
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCrossJunctionSharpPart", "RAMPART_PATH_CROSS_JUNCTION_SHARP_PART_PREFAB")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathTJunctionSharpPart", "RAMPART_PATH_T_JUNCTION_SHARP_PART_PREFAB")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCrossJunctionSharpPart", "PREFAB_RAMPART_PATH_CROSS_JUNCTION_SHARP_PART")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathTJunctionSharpPart", "PREFAB_RAMPART_PATH_T_JUNCTION_SHARP_PART")
 
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCornerCurvedPart", "RAMPART_PATH_CORNER_CURVED_PART_PREFAB")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartTowerSquareMediumPart", "RAMPART_TOWER_SQUARE_MEDIUM_PART_PREFAB")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/hollowSquareWithTowerPart", "HOLLOW_SQUARE_WITH_TOWER_PART_PREFAB")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCornerCurvedPart", "PREFAB_RAMPART_PATH_CORNER_CURVED_PART")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartTowerSquareMediumPart", "PREFAB_RAMPART_TOWER_SQUARE_MEDIUM_PART")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/hollowSquareWithTowerPart", "PREFAB_HOLLOW_SQUARE_WITH_TOWER_PART")
 
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/crenellationSpikesPart", "CRENELLATION_SPIKES_PART_PREFAB")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/wallSpikesPart", "WALL_SPIKES_PART_PREFAB")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/crenellationSpikesPart", "PREFAB_CRENELLATION_SPIKES_PART")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/wallSpikesPart", "PREFAB_WALL_SPIKES_PART")
 
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Materials/Material.StonebrickBlueIce", "MATERIAL_STONEBRICK_BLUE_ICE")
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Materials/Material.CrystalBlue", "MATERIAL_CRYSTAL_BLUE")
@@ -35,7 +35,8 @@ winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx
 
 winterWonderland:override({
     Id = "MATERIAL_STONEBRICK_BLUE_ICE",
-    IsLighted = false
+    IsLighted = false,
+    --BackFaceVisible = true
 })
 
 winterWonderland:override({
@@ -104,7 +105,7 @@ winterWonderland:register({
         },
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "RAMPART_PATH_STRAIGHT_PART_PREFAB"
+		CoreObjectPrefab = "PREFAB_RAMPART_PATH_STRAIGHT_PART"
 	},
     ConstructionVisual = nil,
 	Cost = {
@@ -128,7 +129,7 @@ winterWonderland:register({
         },
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "RAMPART_PATH_STRAIGHT_HALF_PART_PREFAB"
+		CoreObjectPrefab = "PREFAB_RAMPART_PATH_STRAIGHT_HALF_PART"
 	},
     ConstructionVisual = nil,
 	Cost = {
@@ -152,7 +153,7 @@ winterWonderland:register({
         },
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "RAMPART_PATH_CORNER_45_SHARP_PART_PREFAB"
+		CoreObjectPrefab = "PREFAB_RAMPART_PATH_CORNER_45_SHARP_PART"
 	},
     ConstructionVisual = nil,
 	Cost = {
@@ -176,7 +177,7 @@ winterWonderland:register({
         },
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "RAMPART_PATH_CORNER_60_SHARP_PART_PREFAB"
+		CoreObjectPrefab = "PREFAB_RAMPART_PATH_CORNER_60_SHARP_PART"
 	},
     ConstructionVisual = nil,
 	Cost = {
@@ -200,7 +201,7 @@ winterWonderland:register({
         },
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "RAMPART_PATH_CORNER_90_SHARP_PART_PREFAB"
+		CoreObjectPrefab = "PREFAB_RAMPART_PATH_CORNER_90_SHARP_PART"
 	},
     ConstructionVisual = nil,
 	Cost = {
@@ -224,7 +225,7 @@ winterWonderland:register({
         },
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "RAMPART_PATH_CORNER_90_SHARP_HALF_PART_PREFAB"
+		CoreObjectPrefab = "PREFAB_RAMPART_PATH_CORNER_90_SHARP_HALF_PART"
 	},
     ConstructionVisual = nil,
 	Cost = {
@@ -248,7 +249,7 @@ winterWonderland:register({
         },
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "RAMPART_PATH_CORNER_120_SHARP_PART_PREFAB"
+		CoreObjectPrefab = "PREFAB_RAMPART_PATH_CORNER_120_SHARP_PART"
 	},
     ConstructionVisual = nil,
 	Cost = {
@@ -272,7 +273,7 @@ winterWonderland:register({
         },
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "RAMPART_PATH_CORNER_135_SHARP_PART_PREFAB"
+		CoreObjectPrefab = "PREFAB_RAMPART_PATH_CORNER_135_SHARP_PART"
 	},
     ConstructionVisual = nil,
 	Cost = {
@@ -296,7 +297,7 @@ winterWonderland:register({
         },
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "RAMPART_PATH_CROSS_JUNCTION_SHARP_PART_PREFAB"
+		CoreObjectPrefab = "PREFAB_RAMPART_PATH_CROSS_JUNCTION_SHARP_PART"
 	},
     ConstructionVisual = nil,
 	Cost = {
@@ -320,7 +321,7 @@ winterWonderland:register({
         },
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "RAMPART_PATH_T_JUNCTION_SHARP_PART_PREFAB"
+		CoreObjectPrefab = "PREFAB_RAMPART_PATH_T_JUNCTION_SHARP_PART"
 	},
     ConstructionVisual = nil,
 	Cost = {
@@ -344,7 +345,7 @@ winterWonderland:register({
         },
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "RAMPART_PATH_CORNER_CURVED_PART_PREFAB"
+		CoreObjectPrefab = "PREFAB_RAMPART_PATH_CORNER_CURVED_PART"
 	},
     ConstructionVisual = nil,
 	Cost = {
@@ -368,7 +369,7 @@ winterWonderland:register({
         },
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "RAMPART_TOWER_SQUARE_MEDIUM_PART_PREFAB"
+		CoreObjectPrefab = "PREFAB_RAMPART_TOWER_SQUARE_MEDIUM_PART"
 	},
     ConstructionVisual = nil,
 	Cost = {
@@ -392,7 +393,7 @@ winterWonderland:register({
         },
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "HOLLOW_SQUARE_WITH_TOWER_PART_PREFAB"
+		CoreObjectPrefab = "PREFAB_HOLLOW_SQUARE_WITH_TOWER_PART"
 	},
     ConstructionVisual = nil,
 	Cost = {
@@ -412,7 +413,7 @@ winterWonderland:register({
     },
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "CRENELLATION_SPIKES_PART_PREFAB"
+		CoreObjectPrefab = "PREFAB_CRENELLATION_SPIKES_PART"
 	},
     ConstructionVisual = nil,
 	Cost = {
@@ -432,7 +433,7 @@ winterWonderland:register({
     },
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "WALL_SPIKES_PART_PREFAB"
+		CoreObjectPrefab = "PREFAB_WALL_SPIKES_PART"
 	},
     ConstructionVisual = nil,
 	Cost = {
