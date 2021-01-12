@@ -10,6 +10,14 @@ local winterWonderland = ...
 
 --[[--------------------------- PREFABS & MATERIALS ---------------------------]]--
 
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathStraightPart.Root", "PREFAB_RAMPART_PATH_STRAIGHT_ROOT_PART")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathStraightPart.Filler1", "PREFAB_RAMPART_PATH_STRAIGHT_FILLER1_PART")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathStraightPart.Filler2", "PREFAB_RAMPART_PATH_STRAIGHT_FILLER2_PART")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathStraightPart.Filler3", "PREFAB_RAMPART_PATH_STRAIGHT_FILLER3_PART")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathStraightPart.Filler4", "PREFAB_RAMPART_PATH_STRAIGHT_FILLER4_PART")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathStraightPart.End", "PREFAB_RAMPART_PATH_STRAIGHT_END_PART")
+
+
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathStraightPart", "PREFAB_RAMPART_PATH_STRAIGHT_PART")
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathStraightHalfPart", "PREFAB_RAMPART_PATH_STRAIGHT_HALF_PART")
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner45SharpPart", "PREFAB_RAMPART_PATH_CORNER_45_SHARP_PART")
@@ -72,7 +80,7 @@ winterWonderland:register({
                 "RAMPART_PATH_STRAIGHT_PART", "RAMPART_PATH_STRAIGHT_HALF_PART", "RAMPART_PATH_CORNER_45_SHARP_PART",
                 "RAMPART_PATH_CORNER_60_SHARP_PART", "RAMPART_PATH_CORNER_90_SHARP_PART", "RAMPART_PATH_CORNER_90_SHARP_HALF_PART",
                 "RAMPART_PATH_CORNER_120_SHARP_PART", "RAMPART_PATH_CORNER_135_SHARP_PART", "RAMPART_PATH_CORNER_CURVED_PART",
-                "RAMPART_PATH_CROSS_JUNCTION_SHARP_PART", "RAMPART_PATH_T_JUNCTION_SHARP_PART"
+                "RAMPART_PATH_CROSS_JUNCTION_SHARP_PART", "RAMPART_PATH_T_JUNCTION_SHARP_PART", "RAMPART_PATH_STRAIGHT_SCALABLE_PART"
             }
 		},
         {
@@ -87,6 +95,61 @@ winterWonderland:register({
                 "CRENELLATION_SPIKES_PART", "WALL_SPIKES_PART"
             }
 		}
+    }
+})
+
+-- Create default building part registering function 
+function registerDefaultBuildingPart(_nodePrefix)
+	winterWonderland:register({
+		DataType = "BUILDING_PART",
+		Id = _nodePrefix .. "_PART",
+		ConstructorData = { DataType = "BUILDING_CONSTRUCTOR_DEFAULT", CoreObjectPrefab = "PREFAB_" .. _nodePrefix .. "_PART" }
+	})
+end
+
+local defaultNodePrefixList = {
+	"RAMPART_PATH_STRAIGHT_FILLER1",
+	"RAMPART_PATH_STRAIGHT_FILLER2",
+	"RAMPART_PATH_STRAIGHT_FILLER3",
+	"RAMPART_PATH_STRAIGHT_FILLER4",
+	"RAMPART_PATH_STRAIGHT_END"
+}
+
+-- Register simple building part assets
+for i, nodePrefix in ipairs(defaultNodePrefixList) do
+	registerDefaultBuildingPart(nodePrefix)
+end
+
+winterWonderland:register({
+	DataType = "BUILDING_PART",
+	Id = "RAMPART_PATH_STRAIGHT_SCALABLE_PART",
+	Name = "RAMPART_PATH_STRAIGHT_SCALABLE_PART_NAME",
+	Description = "RAMPART_PATH_STRAIGHT_SCALABLE_PART_DESC",
+	Category = "CORE",
+    ConstructorData = {
+		DataType = "BUILDING_CONSTRUCTOR_SCALER",
+		CoreObjectPrefab = "PREFAB_RAMPART_PATH_STRAIGHT_ROOT_PART",
+		EndPart = "RAMPART_PATH_STRAIGHT_END_PART",
+		FillerList = {
+			"RAMPART_PATH_STRAIGHT_FILLER1_PART",
+			"RAMPART_PATH_STRAIGHT_FILLER2_PART",
+			"RAMPART_PATH_STRAIGHT_FILLER3_PART",
+			"RAMPART_PATH_STRAIGHT_FILLER4_PART"
+		},
+		BasementFillerList = {
+		},
+		MinimumScale = 8,
+		IsVertical = true
+	},
+    BuildingZone = {
+        ZoneEntryList = {
+            {
+                Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
+                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
+            }
+        },
+	Cost = {
+        RessourcesNeeded = {}
     }
 })
 
