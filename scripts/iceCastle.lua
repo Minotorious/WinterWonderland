@@ -138,7 +138,7 @@ winterWonderland:register({
 		},
 		BasementFillerList = {
 		},
-		MinimumScale = 8,
+		MinimumScale = 4,
 		IsVertical = true
 	},
     BuildingZone = {

@@ -614,7 +614,6 @@
 			<meta id="ad53ae9a-dbca-42d8-a76b-bbdd59ef9068" name="AttachMajor.031"/>
 			<meta id="307dd680-1d9f-413d-b593-65beb9a961ba" name="AttachMajor.032"/>
 			<meta id="eb16d346-f971-44e6-9c73-28a975d6a6e4" name="AttachTop.001"/>
-			<meta id="41b8173b-314d-4b28-8481-70e2552a583d" name="AttachBottom.005"/>
 			<meta id="64c19a2a-df8d-423a-8ad6-f9dbb4356db7" name="Cube.175"/>
 		</meta>
 		<meta id="06cd3a4a-5ab3-4b60-b454-e498c31f61e5" name="rampartPathStraightPart.Filler4">
@@ -694,7 +693,7 @@
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="3afde049b3c9c95f55eda2ada48dd2d1"/>
+	<Md5Checksum value="52599b02504b4ef3229828bb2fb4f7af"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -3192,11 +3191,6 @@
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
 						<NodeName value="AttachTop.001"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="AttachBottom.005"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
