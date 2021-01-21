@@ -49,6 +49,7 @@ end
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Materials/Material.StonebrickBlueIce", "MATERIAL_STONEBRICK_BLUE_ICE")
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Materials/Material.CrystalBlue", "MATERIAL_CRYSTAL_BLUE")
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Materials/Material.BlueIceTransparent", "MATERIAL_BLUE_ICE_TRANSPARENT")
+winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Materials/Material.MetalIceTransparent", "MATERIAL_METAL_ICE_TRANSPARENT")
 
 winterWonderland:override({
     Id = "MATERIAL_STONEBRICK_BLUE_ICE",
@@ -63,6 +64,11 @@ winterWonderland:override({
 
 winterWonderland:override({
     Id = "MATERIAL_BLUE_ICE_TRANSPARENT",
+    IsLighted = false
+})
+
+winterWonderland:override({
+    Id = "MATERIAL_METAL_ICE_TRANSPARENT",
     IsLighted = false
 })
 

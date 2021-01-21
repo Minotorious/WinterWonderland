@@ -8,6 +8,7 @@
 		<meta id="ce994eb9-39e8-4557-9fa5-17db694f92b1" name="Material.BlueIceTransparent"/>
 		<meta id="ac982275-b456-4bc9-9bd8-d0222c7e3553" name="Material.MetalIce"/>
 		<meta id="677487b3-85d3-450a-88aa-dc785ddf401d" name="Material.BlueIce"/>
+		<meta id="6f0698bd-305d-4826-b8aa-54734cf2c3e8" name="Material.MetalIceTransparent"/>
 	</meta>
 	<meta id="b0382ac7-e8d3-47f3-bae2-a1098b3ff4f6" type="group" folder="true" name="Meshes">
 		<meta id="5ddb89f4-1c08-4cd7-b848-9e4f2c148ced" name="Circle.001"/>
@@ -94,11 +95,11 @@
 		<meta id="c4effa8b-a644-45ac-8aa8-27ad82f95fd5" name="Cube.168_Material.CrystalBlue"/>
 		<meta id="05be8241-9bf8-456c-be8f-6a1e791f416d" name="Cube.171_Material.CrystalBlue"/>
 		<meta id="2223afc5-8aa7-4bb9-a8e1-9fe23e428278" name="Cube.172_Material.CrystalBlue"/>
-		<meta id="cccd082d-ab20-490c-9c60-e3cd8b27cc8a" name="Cube.227_Material.MetalIce"/>
-		<meta id="ec9d0610-01c6-4c20-8077-08a4d22311f1" name="Cube.228_Material.MetalIce"/>
-		<meta id="5aeb4ae1-20ab-4b0c-bd9f-a28641c7086b" name="Cube.230_Material.MetalIce"/>
-		<meta id="3b42407f-1e80-48d8-9bbc-9ca17c5455db" name="Cube.226_Material.MetalIce"/>
-		<meta id="9c11eb7c-6553-4ab7-b1ed-81dfee9b5e10" name="Cube.225_Material.MetalIce"/>
+		<meta id="e4e367c2-4877-45f3-b5ea-697939085fa0" name="Cube.227_Material.MetalIceTransparent"/>
+		<meta id="f686d8c6-418f-4bea-94c1-cefb0eec908a" name="Cube.228_Material.MetalIceTransparent"/>
+		<meta id="081920e1-3353-4d32-8028-61936a2e4985" name="Cube.230_Material.MetalIceTransparent"/>
+		<meta id="6ea98739-bbad-4e02-a19e-9b90724df248" name="Cube.226_Material.MetalIceTransparent"/>
+		<meta id="359aaaa7-701c-41b8-929f-f493858a249c" name="Cube.225_Material.MetalIceTransparent"/>
 	</meta>
 	<meta id="8fa8cff8-67e9-47d6-b0e6-3474dd9a12a9" name="Prefab">
 		<meta id="c6732e71-8520-44e6-a4b3-0504059f2383" name="Light"/>
@@ -753,7 +754,7 @@
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="655daf349de5238ce35704b49be47244"/>
+	<Md5Checksum value="65ab110df700ebaee13c7ba53d265800"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -3886,6 +3887,10 @@
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="ac982275-b456-4bc9-9bd8-d0222c7e3553"/>
 			<MaterialName value="Material.MetalIce"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="6f0698bd-305d-4826-b8aa-54734cf2c3e8"/>
+			<MaterialName value="Material.MetalIceTransparent"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="5824d84d-ff6a-4fdb-8cf5-6cda420ed02d"/>
