@@ -29,7 +29,7 @@ winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/crenellationSpikesPart", "PREFAB_CRENELLATION_SPIKES_PART")
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/wallSpikesPart", "PREFAB_WALL_SPIKES_PART")
 
-function registerScalablePrefabBuildingPart(_nodePrefix)
+function registerScalablePrefabBuildingParts(_nodePrefix)
 	winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/" .. _nodePrefix[1] .. ".Root", "PREFAB_" ..  _nodePrefix[2] .. "_ROOT_PART")
 	winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/" .. _nodePrefix[1] .. ".Filler1", "PREFAB_" ..  _nodePrefix[2] .. "_FILLER1_PART")
 	winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/" .. _nodePrefix[1] .. ".Filler2", "PREFAB_" ..  _nodePrefix[2] .. "_FILLER2_PART")
@@ -39,11 +39,12 @@ function registerScalablePrefabBuildingPart(_nodePrefix)
 end
 
 local defaultPrefabNodePrefixList = {
-	{ "rampartPathStraightPart", "RAMPART_PATH_STRAIGHT" }
+	{ "rampartPathStraightPart", "RAMPART_PATH_STRAIGHT" },
+	{ "rampartPathTJunctionSharpPart", "RAMPART_PATH_T_JUNCTION_SHARP" }
 }
 
 for i, nodePrefix in ipairs(defaultPrefabNodePrefixList) do
-	registerScalablePrefabBuildingPart(nodePrefix)
+	registerScalablePrefabBuildingParts(nodePrefix)
 end
 
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Materials/Material.StonebrickBlueIce", "MATERIAL_STONEBRICK_BLUE_ICE")
@@ -95,7 +96,9 @@ winterWonderland:register({
                 "RAMPART_PATH_STRAIGHT_PART", "RAMPART_PATH_STRAIGHT_HALF_PART", "RAMPART_PATH_CORNER_45_SHARP_PART",
                 "RAMPART_PATH_CORNER_60_SHARP_PART", "RAMPART_PATH_CORNER_90_SHARP_PART", "RAMPART_PATH_CORNER_90_SHARP_HALF_PART",
                 "RAMPART_PATH_CORNER_120_SHARP_PART", "RAMPART_PATH_CORNER_135_SHARP_PART", "RAMPART_PATH_CORNER_CURVED_PART",
-                "RAMPART_PATH_CROSS_JUNCTION_SHARP_PART", "RAMPART_PATH_T_JUNCTION_SHARP_PART", "RAMPART_PATH_STRAIGHT_SCALABLE_PART"
+                "RAMPART_PATH_CROSS_JUNCTION_SHARP_PART", "RAMPART_PATH_T_JUNCTION_SHARP_PART", 
+                
+                "RAMPART_PATH_STRAIGHT_SCALABLE_PART", "RAMPART_PATH_T_JUNCTION_SHARP_SCALABLE_PART"
             }
 		},
         {
@@ -126,14 +129,19 @@ local defaultNodePrefixList = {
 	"RAMPART_PATH_STRAIGHT_FILLER2",
 	"RAMPART_PATH_STRAIGHT_FILLER3",
 	"RAMPART_PATH_STRAIGHT_FILLER4",
-	"RAMPART_PATH_STRAIGHT_END"
+	"RAMPART_PATH_STRAIGHT_END",
+    "RAMPART_PATH_T_JUNCTION_SHARP_FILLER1",
+	"RAMPART_PATH_T_JUNCTION_SHARP_FILLER2",
+	"RAMPART_PATH_T_JUNCTION_SHARP_FILLER3",
+	"RAMPART_PATH_T_JUNCTION_SHARP_FILLER4",
+	"RAMPART_PATH_T_JUNCTION_SHARP_END"
 }
 
 for i, nodePrefix in ipairs(defaultNodePrefixList) do
 	registerDefaultBuildingPart(nodePrefix)
 end
 
-function registerScalableBuildingPart(_nodePrefix)
+function registerDefaultScalableBuildingPart(_nodePrefix)
     winterWonderland:register({
         DataType = "BUILDING_PART",
         Id = _nodePrefix[1] .. "_SCALABLE_PART",
@@ -164,19 +172,31 @@ function registerScalableBuildingPart(_nodePrefix)
     })
 end
 
-local scalableNodePrefixList = {
+local defaultScalableNodePrefixList = {
 	{ "RAMPART_PATH_STRAIGHT", 
         {
             {
-            Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
+            Polygon = polygon.createRectangle( { 5, 20 }, { 0, 0 } ),
             Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
             }
+        }
+    },
+    { "RAMPART_PATH_T_JUNCTION_SHARP",
+        {
+            {
+            Polygon = polygon.createRectangle( { 5, 20 }, { 0, 0 } ),
+            Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
+            },
+            {
+            Polygon = polygon.createRectangle( { 12.5, 5 }, { -3.75, 0 } ),
+            Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
+            },
         }
     }
 }
 
-for i, nodePrefix in ipairs(scalableNodePrefixList) do
-	registerScalableBuildingPart(nodePrefix)
+for i, nodePrefix in ipairs(defaultScalableNodePrefixList) do
+	registerDefaultScalableBuildingPart(nodePrefix)
 end
 
 winterWonderland:register({
