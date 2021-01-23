@@ -133,38 +133,51 @@ for i, nodePrefix in ipairs(defaultNodePrefixList) do
 	registerDefaultBuildingPart(nodePrefix)
 end
 
-winterWonderland:register({
-	DataType = "BUILDING_PART",
-	Id = "RAMPART_PATH_STRAIGHT_SCALABLE_PART",
-	Name = "RAMPART_PATH_STRAIGHT_SCALABLE_PART_NAME",
-	Description = "RAMPART_PATH_STRAIGHT_SCALABLE_PART_DESC",
-	Category = "CORE",
-    ConstructorData = {
-		DataType = "BUILDING_CONSTRUCTOR_SCALER",
-		CoreObjectPrefab = "PREFAB_RAMPART_PATH_STRAIGHT_ROOT_PART",
-		EndPart = "RAMPART_PATH_STRAIGHT_END_PART",
-		FillerList = {
-			"RAMPART_PATH_STRAIGHT_FILLER1_PART",
-			"RAMPART_PATH_STRAIGHT_FILLER2_PART",
-			"RAMPART_PATH_STRAIGHT_FILLER3_PART",
-			"RAMPART_PATH_STRAIGHT_FILLER4_PART"
-		},
-		BasementFillerList = {
-		},
-		MinimumScale = 4,
-		IsVertical = true
-	},
-    BuildingZone = {
-        ZoneEntryList = {
-            {
-                Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
-                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
-            }
+function registerScalableBuildingPart(_nodePrefix)
+    winterWonderland:register({
+        DataType = "BUILDING_PART",
+        Id = _nodePrefix[1] .. "_SCALABLE_PART",
+        Name = _nodePrefix[1] .. "_SCALABLE_PART_NAME",
+        Description = _nodePrefix[1] .. "_SCALABLE_PART_DESC",
+        Category = "CORE",
+        ConstructorData = {
+            DataType = "BUILDING_CONSTRUCTOR_SCALER",
+            CoreObjectPrefab = "PREFAB_" .. _nodePrefix[1] .. "_ROOT_PART",
+            EndPart = _nodePrefix[1] .. "_END_PART",
+            FillerList = {
+                _nodePrefix[1] .. "_FILLER1_PART",
+                _nodePrefix[1] .. "_FILLER2_PART",
+                _nodePrefix[1] .. "_FILLER3_PART",
+                _nodePrefix[1] .. "_FILLER4_PART"
+            },
+            BasementFillerList = {
+            },
+            MinimumScale = 4,
+            IsVertical = true
         },
-	Cost = {
-        RessourcesNeeded = {}
+        BuildingZone = {
+            ZoneEntryList = _nodePrefix[2],
+        },
+        Cost = {
+            RessourcesNeeded = {}
+        }
+    })
+end
+
+local scalableNodePrefixList = {
+	{ "RAMPART_PATH_STRAIGHT", 
+        {
+            {
+            Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
+            Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
+            }
+        }
     }
-})
+}
+
+for i, nodePrefix in ipairs(scalableNodePrefixList) do
+	registerScalableBuildingPart(nodePrefix)
+end
 
 winterWonderland:register({
 	DataType = "BUILDING_PART",
