@@ -10,19 +10,6 @@ local winterWonderland = ...
 
 --[[--------------------------- PREFABS & MATERIALS ---------------------------]]--
 
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathStraightPart", "PREFAB_RAMPART_PATH_STRAIGHT_PART")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathStraightHalfPart", "PREFAB_RAMPART_PATH_STRAIGHT_HALF_PART")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner45SharpPart", "PREFAB_RAMPART_PATH_CORNER_45_SHARP_PART")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner60SharpPart", "PREFAB_RAMPART_PATH_CORNER_60_SHARP_PART")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner90SharpPart", "PREFAB_RAMPART_PATH_CORNER_90_SHARP_PART")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner90SharpHalfPart", "PREFAB_RAMPART_PATH_CORNER_90_SHARP_HALF_PART")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner120SharpPart", "PREFAB_RAMPART_PATH_CORNER_120_SHARP_PART")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCorner135SharpPart", "PREFAB_RAMPART_PATH_CORNER_135_SHARP_PART")
-
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCrossJunctionSharpPart", "PREFAB_RAMPART_PATH_CROSS_JUNCTION_SHARP_PART")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathTJunctionSharpPart", "PREFAB_RAMPART_PATH_T_JUNCTION_SHARP_PART")
-
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartPathCornerCurvedPart", "PREFAB_RAMPART_PATH_CORNER_CURVED_PART")
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartTowerSquareMediumPart", "PREFAB_RAMPART_TOWER_SQUARE_MEDIUM_PART")
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/hollowSquareWithTowerPart", "PREFAB_HOLLOW_SQUARE_WITH_TOWER_PART")
 
@@ -40,7 +27,17 @@ end
 
 local scalablePrefabNodePrefixList = {
 	{ "rampartPathStraightPart", "RAMPART_PATH_STRAIGHT" },
-	{ "rampartPathTJunctionSharpPart", "RAMPART_PATH_T_JUNCTION_SHARP" }
+	{ "rampartPathStraightHalfPart", "RAMPART_PATH_STRAIGHT_HALF" },
+	{ "rampartPathCorner45SharpPart", "RAMPART_PATH_CORNER_45_SHARP" },
+	{ "rampartPathCorner60SharpPart", "RAMPART_PATH_CORNER_60_SHARP" },
+	{ "rampartPathCorner90SharpPart", "RAMPART_PATH_CORNER_90_SHARP" },
+	{ "rampartPathCorner90SharpHalfPart", "RAMPART_PATH_CORNER_90_SHARP_HALF" },
+    { "rampartPathCorner120SharpPart", "RAMPART_PATH_CORNER_120_SHARP" },
+	{ "rampartPathCorner135SharpPart", "RAMPART_PATH_CORNER_135_SHARP" },
+	{ "rampartPathTJunctionSharpPart", "RAMPART_PATH_T_JUNCTION_SHARP" },
+    { "rampartPathCrossJunctionSharpPart", "RAMPART_PATH_CROSS_JUNCTION_SHARP" },
+    
+    {"rampartTowerSquareMediumPart", "RAMPART_TOWER_SQUARE_MEDIUM"}
 }
 
 for i, nodePrefix in ipairs(scalablePrefabNodePrefixList) do
@@ -93,18 +90,16 @@ winterWonderland:register({
         {
             Name = "ICE_CASTLE_RAMPART_PATHS_CATEGORY",
             BuildingPartList = {
-                "RAMPART_PATH_STRAIGHT_PART", "RAMPART_PATH_STRAIGHT_HALF_PART", "RAMPART_PATH_CORNER_45_SHARP_PART",
-                "RAMPART_PATH_CORNER_60_SHARP_PART", "RAMPART_PATH_CORNER_90_SHARP_PART", "RAMPART_PATH_CORNER_90_SHARP_HALF_PART",
-                "RAMPART_PATH_CORNER_120_SHARP_PART", "RAMPART_PATH_CORNER_135_SHARP_PART", "RAMPART_PATH_CORNER_CURVED_PART",
-                "RAMPART_PATH_CROSS_JUNCTION_SHARP_PART", "RAMPART_PATH_T_JUNCTION_SHARP_PART", 
-                
-                "RAMPART_PATH_STRAIGHT_SCALABLE_PART", "RAMPART_PATH_T_JUNCTION_SHARP_SCALABLE_PART"
+                "RAMPART_PATH_STRAIGHT_SCALABLE_PART", "RAMPART_PATH_STRAIGHT_HALF_SCALABLE_PART", "RAMPART_PATH_CORNER_45_SHARP_SCALABLE_PART",
+                "RAMPART_PATH_CORNER_60_SHARP_SCALABLE_PART", "RAMPART_PATH_CORNER_90_SHARP_SCALABLE_PART", "RAMPART_PATH_CORNER_90_SHARP_HALF_SCALABLE_PART",
+                "RAMPART_PATH_CORNER_120_SHARP_SCALABLE_PART", "RAMPART_PATH_CORNER_135_SHARP_SCALABLE_PART", "RAMPART_PATH_CROSS_JUNCTION_SHARP_SCALABLE_PART",
+                "RAMPART_PATH_T_JUNCTION_SHARP_SCALABLE_PART"
             }
 		},
         {
             Name = "ICE_CASTLE_TOWERS_CATEGORY",
             BuildingPartList = {
-                "HOLLOW_SQUARE_WITH_TOWER_PART", "RAMPART_TOWER_SQUARE_MEDIUM_PART"
+                "HOLLOW_SQUARE_WITH_TOWER_PART", "RAMPART_TOWER_SQUARE_MEDIUM_SCALABLE_PART"
             }
 		},
         {
@@ -130,11 +125,57 @@ local defaultNodePrefixList = {
 	"RAMPART_PATH_STRAIGHT_FILLER3",
 	"RAMPART_PATH_STRAIGHT_FILLER4",
 	"RAMPART_PATH_STRAIGHT_END",
+    "RAMPART_PATH_STRAIGHT_HALF_FILLER1",
+	"RAMPART_PATH_STRAIGHT_HALF_FILLER2",
+	"RAMPART_PATH_STRAIGHT_HALF_FILLER3",
+	"RAMPART_PATH_STRAIGHT_HALF_FILLER4",
+	"RAMPART_PATH_STRAIGHT_HALF_END",
+    "RAMPART_PATH_CORNER_45_SHARP_FILLER1",
+    "RAMPART_PATH_CORNER_45_SHARP_FILLER2",
+    "RAMPART_PATH_CORNER_45_SHARP_FILLER3",
+    "RAMPART_PATH_CORNER_45_SHARP_FILLER4",
+    "RAMPART_PATH_CORNER_45_SHARP_END",
+    "RAMPART_PATH_CORNER_60_SHARP_FILLER1",
+    "RAMPART_PATH_CORNER_60_SHARP_FILLER2",
+    "RAMPART_PATH_CORNER_60_SHARP_FILLER3",
+    "RAMPART_PATH_CORNER_60_SHARP_FILLER4",
+    "RAMPART_PATH_CORNER_60_SHARP_END",
+    "RAMPART_PATH_CORNER_90_SHARP_FILLER1",
+    "RAMPART_PATH_CORNER_90_SHARP_FILLER2",
+    "RAMPART_PATH_CORNER_90_SHARP_FILLER3",
+    "RAMPART_PATH_CORNER_90_SHARP_FILLER4",
+    "RAMPART_PATH_CORNER_90_SHARP_END",
+    "RAMPART_PATH_CORNER_90_SHARP_HALF_FILLER1",
+    "RAMPART_PATH_CORNER_90_SHARP_HALF_FILLER2",
+    "RAMPART_PATH_CORNER_90_SHARP_HALF_FILLER3",
+    "RAMPART_PATH_CORNER_90_SHARP_HALF_FILLER4",
+    "RAMPART_PATH_CORNER_90_SHARP_HALF_END",
+    "RAMPART_PATH_CORNER_120_SHARP_FILLER1",
+    "RAMPART_PATH_CORNER_120_SHARP_FILLER2",
+    "RAMPART_PATH_CORNER_120_SHARP_FILLER3",
+    "RAMPART_PATH_CORNER_120_SHARP_FILLER4",
+    "RAMPART_PATH_CORNER_120_SHARP_END",
+    "RAMPART_PATH_CORNER_135_SHARP_FILLER1",
+    "RAMPART_PATH_CORNER_135_SHARP_FILLER2",
+    "RAMPART_PATH_CORNER_135_SHARP_FILLER3",
+    "RAMPART_PATH_CORNER_135_SHARP_FILLER4",
+    "RAMPART_PATH_CORNER_135_SHARP_END",
     "RAMPART_PATH_T_JUNCTION_SHARP_FILLER1",
 	"RAMPART_PATH_T_JUNCTION_SHARP_FILLER2",
 	"RAMPART_PATH_T_JUNCTION_SHARP_FILLER3",
 	"RAMPART_PATH_T_JUNCTION_SHARP_FILLER4",
-	"RAMPART_PATH_T_JUNCTION_SHARP_END"
+	"RAMPART_PATH_T_JUNCTION_SHARP_END",
+    "RAMPART_PATH_CROSS_JUNCTION_SHARP_FILLER1",
+	"RAMPART_PATH_CROSS_JUNCTION_SHARP_FILLER2",
+	"RAMPART_PATH_CROSS_JUNCTION_SHARP_FILLER3",
+	"RAMPART_PATH_CROSS_JUNCTION_SHARP_FILLER4",
+	"RAMPART_PATH_CROSS_JUNCTION_SHARP_END",
+    
+    "RAMPART_TOWER_SQUARE_MEDIUM_FILLER1",
+    "RAMPART_TOWER_SQUARE_MEDIUM_FILLER2",
+    "RAMPART_TOWER_SQUARE_MEDIUM_FILLER3",
+    "RAMPART_TOWER_SQUARE_MEDIUM_FILLER4",
+    "RAMPART_TOWER_SQUARE_MEDIUM_END"
 }
 
 for i, nodePrefix in ipairs(defaultNodePrefixList) do
@@ -173,10 +214,66 @@ function registerDefaultScalableBuildingPart(_nodePrefix)
 end
 
 local defaultScalableNodePrefixList = {
-	{ "RAMPART_PATH_STRAIGHT", 
+	{ "RAMPART_PATH_STRAIGHT",
         {
             {
             Polygon = polygon.createRectangle( { 5, 20 }, { 0, 0 } ),
+            Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
+            }
+        }
+    },
+    { "RAMPART_PATH_STRAIGHT_HALF",
+        {
+            {
+            Polygon = polygon.createRectangle( { 5, 10 }, { 0, 0 } ),
+            Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
+            }
+        }
+    },
+    { "RAMPART_PATH_CORNER_45_SHARP",
+        {
+            {
+            Polygon = polygon.createRectangle( { 5, 10 }, { 0, 0 } ),
+            Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
+            }
+        }
+    },
+    { "RAMPART_PATH_CORNER_60_SHARP",
+        {
+            {
+            Polygon = polygon.createRectangle( { 5, 10 }, { 0, 0 } ),
+            Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
+            }
+        }
+    },
+    { "RAMPART_PATH_CORNER_90_SHARP",
+        {
+            {
+            Polygon = polygon.createRectangle( { 5, 10 }, { 0, 0 } ),
+            Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
+            }
+        }
+    },
+    { "RAMPART_PATH_CORNER_90_SHARP_HALF",
+        {
+            {
+            Polygon = polygon.createRectangle( { 5, 10 }, { 0, 0 } ),
+            Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
+            }
+        }
+    },
+    { "RAMPART_PATH_CORNER_120_SHARP",
+        {
+            {
+            Polygon = polygon.createRectangle( { 5, 10 }, { 0, 0 } ),
+            Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
+            }
+        }
+    },
+    { "RAMPART_PATH_CORNER_135_SHARP",
+        {
+            {
+            Polygon = polygon.createRectangle( { 5, 10 }, { 0, 0 } ),
             Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
             }
         }
@@ -192,300 +289,32 @@ local defaultScalableNodePrefixList = {
             Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
             },
         }
+    },
+    { "RAMPART_PATH_CROSS_JUNCTION_SHARP",
+        {
+            {
+            Polygon = polygon.createRectangle( { 5, 20 }, { 0, 0 } ),
+            Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
+            },
+            {
+            Polygon = polygon.createRectangle( { 20, 5 }, { 0, 0 } ),
+            Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
+            },
+        }
+    },
+    { "RAMPART_TOWER_SQUARE_MEDIUM",
+        {
+            {
+            Polygon = polygon.createRectangle( { 10, 10 }, { 0, 0 } ),
+            Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
+            }
+        }
     }
 }
 
 for i, nodePrefix in ipairs(defaultScalableNodePrefixList) do
 	registerDefaultScalableBuildingPart(nodePrefix)
 end
-
-winterWonderland:register({
-	DataType = "BUILDING_PART",
-	Id = "RAMPART_PATH_STRAIGHT_PART",
-	Name = "RAMPART_PATH_STRAIGHT_PART_NAME",
-	Description = "RAMPART_PATH_STRAIGHT_PART_DESC",
-	Category = "CORE",
-	BuildingZone = {
-        ZoneEntryList = {
-            {
-                Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
-                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
-            }
-        },
-    ConstructorData = {
-		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_RAMPART_PATH_STRAIGHT_PART"
-	},
-    ConstructionVisual = nil,
-	Cost = {
-        RessourcesNeeded = {}
-    },
-    IsVisibleWhenBuilt = true
-})
-
-winterWonderland:register({
-	DataType = "BUILDING_PART",
-	Id = "RAMPART_PATH_STRAIGHT_HALF_PART",
-	Name = "RAMPART_PATH_STRAIGHT_HALF_PART_NAME",
-	Description = "RAMPART_PATH_STRAIGHT_HALF_PART_DESC",
-	Category = "CORE",
-	BuildingZone = {
-        ZoneEntryList = {
-            {
-                Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
-                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
-            }
-        },
-    ConstructorData = {
-		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_RAMPART_PATH_STRAIGHT_HALF_PART"
-	},
-    ConstructionVisual = nil,
-	Cost = {
-        RessourcesNeeded = {}
-    },
-    IsVisibleWhenBuilt = true
-})
-
-winterWonderland:register({
-	DataType = "BUILDING_PART",
-	Id = "RAMPART_PATH_CORNER_45_SHARP_PART",
-	Name = "RAMPART_PATH_CORNER_45_SHARP_PART_NAME",
-	Description = "RAMPART_PATH_CORNER_45_SHARP_PART_DESC",
-	Category = "CORE",
-	BuildingZone = {
-        ZoneEntryList = {
-            {
-                Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
-                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
-            }
-        },
-    ConstructorData = {
-		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_RAMPART_PATH_CORNER_45_SHARP_PART"
-	},
-    ConstructionVisual = nil,
-	Cost = {
-        RessourcesNeeded = {}
-    },
-    IsVisibleWhenBuilt = true
-})
-
-winterWonderland:register({
-	DataType = "BUILDING_PART",
-	Id = "RAMPART_PATH_CORNER_60_SHARP_PART",
-	Name = "RAMPART_PATH_CORNER_60_SHARP_PART_NAME",
-	Description = "RAMPART_PATH_CORNER_60_SHARP_PART_DESC",
-	Category = "CORE",
-	BuildingZone = {
-        ZoneEntryList = {
-            {
-                Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
-                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
-            }
-        },
-    ConstructorData = {
-		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_RAMPART_PATH_CORNER_60_SHARP_PART"
-	},
-    ConstructionVisual = nil,
-	Cost = {
-        RessourcesNeeded = {}
-    },
-    IsVisibleWhenBuilt = true
-})
-
-winterWonderland:register({
-	DataType = "BUILDING_PART",
-	Id = "RAMPART_PATH_CORNER_90_SHARP_PART",
-	Name = "RAMPART_PATH_CORNER_90_SHARP_PART_NAME",
-	Description = "RAMPART_PATH_CORNER_90_SHARP_PART_DESC",
-	Category = "CORE",
-	BuildingZone = {
-        ZoneEntryList = {
-            {
-                Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
-                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
-            }
-        },
-    ConstructorData = {
-		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_RAMPART_PATH_CORNER_90_SHARP_PART"
-	},
-    ConstructionVisual = nil,
-	Cost = {
-        RessourcesNeeded = {}
-    },
-    IsVisibleWhenBuilt = true
-})
-
-winterWonderland:register({
-	DataType = "BUILDING_PART",
-	Id = "RAMPART_PATH_CORNER_90_SHARP_HALF_PART",
-	Name = "RAMPART_PATH_CORNER_90_SHARP_HALF_PART_NAME",
-	Description = "RAMPART_PATH_CORNER_90_SHARP_HALF_PART_DESC",
-	Category = "CORE",
-	BuildingZone = {
-        ZoneEntryList = {
-            {
-                Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
-                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
-            }
-        },
-    ConstructorData = {
-		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_RAMPART_PATH_CORNER_90_SHARP_HALF_PART"
-	},
-    ConstructionVisual = nil,
-	Cost = {
-        RessourcesNeeded = {}
-    },
-    IsVisibleWhenBuilt = true
-})
-
-winterWonderland:register({
-	DataType = "BUILDING_PART",
-	Id = "RAMPART_PATH_CORNER_120_SHARP_PART",
-	Name = "RAMPART_PATH_CORNER_120_SHARP_PART_NAME",
-	Description = "RAMPART_PATH_CORNER_120_SHARP_PART_DESC",
-	Category = "CORE",
-	BuildingZone = {
-        ZoneEntryList = {
-            {
-                Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
-                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
-            }
-        },
-    ConstructorData = {
-		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_RAMPART_PATH_CORNER_120_SHARP_PART"
-	},
-    ConstructionVisual = nil,
-	Cost = {
-        RessourcesNeeded = {}
-    },
-    IsVisibleWhenBuilt = true
-})
-
-winterWonderland:register({
-	DataType = "BUILDING_PART",
-	Id = "RAMPART_PATH_CORNER_135_SHARP_PART",
-	Name = "RAMPART_PATH_CORNER_135_SHARP_PART_NAME",
-	Description = "RAMPART_PATH_CORNER_135_SHARP_PART_DESC",
-	Category = "CORE",
-	BuildingZone = {
-        ZoneEntryList = {
-            {
-                Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
-                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
-            }
-        },
-    ConstructorData = {
-		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_RAMPART_PATH_CORNER_135_SHARP_PART"
-	},
-    ConstructionVisual = nil,
-	Cost = {
-        RessourcesNeeded = {}
-    },
-    IsVisibleWhenBuilt = true
-})
-
-winterWonderland:register({
-	DataType = "BUILDING_PART",
-	Id = "RAMPART_PATH_CROSS_JUNCTION_SHARP_PART",
-	Name = "RAMPART_PATH_CROSS_JUNCTION_SHARP_PART_NAME",
-	Description = "RAMPART_PATH_CROSS_JUNCTION_SHARP_PART_DESC",
-	Category = "CORE",
-	BuildingZone = {
-        ZoneEntryList = {
-            {
-                Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
-                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
-            }
-        },
-    ConstructorData = {
-		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_RAMPART_PATH_CROSS_JUNCTION_SHARP_PART"
-	},
-    ConstructionVisual = nil,
-	Cost = {
-        RessourcesNeeded = {}
-    },
-    IsVisibleWhenBuilt = true
-})
-
-winterWonderland:register({
-	DataType = "BUILDING_PART",
-	Id = "RAMPART_PATH_T_JUNCTION_SHARP_PART",
-	Name = "RAMPART_PATH_T_JUNCTION_SHARP_PART_NAME",
-	Description = "RAMPART_PATH_T_JUNCTION_SHARP_PART_DESC",
-	Category = "CORE",
-	BuildingZone = {
-        ZoneEntryList = {
-            {
-                Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
-                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
-            }
-        },
-    ConstructorData = {
-		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_RAMPART_PATH_T_JUNCTION_SHARP_PART"
-	},
-    ConstructionVisual = nil,
-	Cost = {
-        RessourcesNeeded = {}
-    },
-    IsVisibleWhenBuilt = true
-})
-
-winterWonderland:register({
-	DataType = "BUILDING_PART",
-	Id = "RAMPART_PATH_CORNER_CURVED_PART",
-	Name = "RAMPART_PATH_CORNER_CURVED_PART_NAME",
-	Description = "RAMPART_PATH_CORNER_CURVED_PART_DESC",
-	Category = "CORE",
-	BuildingZone = {
-        ZoneEntryList = {
-            {
-                Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
-                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
-            }
-        },
-    ConstructorData = {
-		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_RAMPART_PATH_CORNER_CURVED_PART"
-	},
-    ConstructionVisual = nil,
-	Cost = {
-        RessourcesNeeded = {}
-    },
-    IsVisibleWhenBuilt = true
-})
-
-winterWonderland:register({
-	DataType = "BUILDING_PART",
-	Id = "RAMPART_TOWER_SQUARE_MEDIUM_PART",
-	Name = "RAMPART_TOWER_SQUARE_MEDIUM_PART_NAME",
-	Description = "RAMPART_TOWER_SQUARE_MEDIUM_PART_DESC",
-	Category = "CORE",
-	BuildingZone = {
-        ZoneEntryList = {
-            {
-                Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
-                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
-            }
-        },
-    ConstructorData = {
-		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_RAMPART_TOWER_SQUARE_MEDIUM_PART"
-	},
-    ConstructionVisual = nil,
-	Cost = {
-        RessourcesNeeded = {}
-    },
-    IsVisibleWhenBuilt = true
-})
 
 winterWonderland:register({
 	DataType = "BUILDING_PART",
