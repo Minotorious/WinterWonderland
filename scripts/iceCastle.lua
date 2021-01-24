@@ -38,12 +38,12 @@ function registerScalablePrefabBuildingParts(_nodePrefix)
 	winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/" .. _nodePrefix[1] .. ".End", "PREFAB_" ..  _nodePrefix[2] .. "_END_PART")
 end
 
-local defaultPrefabNodePrefixList = {
+local scalablePrefabNodePrefixList = {
 	{ "rampartPathStraightPart", "RAMPART_PATH_STRAIGHT" },
 	{ "rampartPathTJunctionSharpPart", "RAMPART_PATH_T_JUNCTION_SHARP" }
 }
 
-for i, nodePrefix in ipairs(defaultPrefabNodePrefixList) do
+for i, nodePrefix in ipairs(scalablePrefabNodePrefixList) do
 	registerScalablePrefabBuildingParts(nodePrefix)
 end
 

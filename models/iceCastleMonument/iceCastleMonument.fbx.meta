@@ -86,28 +86,17 @@
 		<meta id="6ea98739-bbad-4e02-a19e-9b90724df248" name="Cube.226_Material.MetalIceTransparent"/>
 		<meta id="359aaaa7-701c-41b8-929f-f493858a249c" name="Cube.225_Material.MetalIceTransparent"/>
 		<meta id="877ac518-7c7f-490e-bdf8-40ed689320d1" name="Cube.545_Material.MetalIceTransparent"/>
-		<meta id="e3aec168-9f94-4d99-ab55-17fa2602d281" name="Cube.534_Material.SnowWhite"/>
-		<meta id="b4c54ac3-783c-472b-866b-1ae56a1c80a9" name="Cube.535_Material.SnowWhite"/>
-		<meta id="ca2ba974-c422-47b5-8d73-55e0b5054078" name="Cube.563_Material.MetalIceTransparent"/>
-		<meta id="d763efd5-1cf4-4b52-a11f-e09dd48cb434" name="Cube.533_Material.SnowWhite"/>
-		<meta id="6333b869-eff2-4f0a-b4b3-4f513deff5f7" name="Cube.536_Material.SnowWhite"/>
 		<meta id="bc45f187-90a9-4a12-a7cc-87f12e7c4dc4" name="Cube.567_Material.MetalIceTransparent"/>
 		<meta id="cba1dd5d-5e9a-4ffa-bfaf-c53ecc3e6087" name="Cube.162_Material.CrystalBlue"/>
 		<meta id="4c70c2c9-a489-4c4a-b204-a0eeceb8cd64" name="Cube.161_Material.CrystalBlue"/>
-		<meta id="4611fe1c-29c6-4db2-83e6-4893c3021b5c" name="Cube.537_Material.SnowWhite"/>
-		<meta id="f1b952c5-b7c1-4b95-b098-1093b0f6d9f3" name="Cube.538_Material.SnowWhite"/>
 		<meta id="c033d66d-8fcf-41a4-9253-619da1dfc729" name="Cube.570_Material.MetalIceTransparent"/>
 		<meta id="e1dcb16e-bbc4-47dc-aae4-19fcd5776538" name="Cube.575_Material.MetalIceTransparent"/>
-		<meta id="fac1cdea-a196-4c14-9e60-21327dc1b647" name="Cube.576_Material.MetalIceTransparent"/>
 		<meta id="bbb7d0cd-fda9-4f72-9dbd-8977a670663d" name="Cube.164_Material.CrystalBlue"/>
 		<meta id="c8c82504-f56e-4f1a-8729-d61e4a3bed40" name="Cube.165_Material.CrystalBlue"/>
-		<meta id="caa6472c-13c9-4ac2-8ca7-47e4292f2fb3" name="Cube.539_Material.SnowWhite"/>
-		<meta id="6deead1c-9a0b-4917-8528-ad64504063c9" name="Cube.540_Material.SnowWhite"/>
 		<meta id="b2e6754c-6df1-4140-bfc7-f38b13d9b2b1" name="Cube.571_Material.MetalIceTransparent"/>
 		<meta id="983588ba-dd43-4826-ab14-9697f03b37bf" name="Cube.577_Material.MetalIceTransparent"/>
 		<meta id="f988076e-1f91-4d67-89c0-2a4739a4f736" name="Cube.578_Material.MetalIceTransparent"/>
 		<meta id="9476d128-b46a-4190-b4f1-586ca0d2e0b5" name="Cube.527_Material.SnowWhite"/>
-		<meta id="c6911037-392a-4039-95f4-bb88441ab3a6" name="Cube.555_Material.MetalIceTransparent"/>
 		<meta id="1405577e-24c3-4a4e-808c-67920b15fabb" name="Cube.559_Material.MetalIceTransparent"/>
 		<meta id="7b58470a-f020-49d9-8f00-12f7ec178d31" name="Cube.560_Material.MetalIceTransparent"/>
 		<meta id="fd68be46-4870-44fd-b2c9-d0c4b02d618f" name="Cube.174_Material.CrystalBlue"/>
@@ -134,6 +123,12 @@
 		<meta id="33fd0e40-c1ff-4a09-8a8d-07d7ec77c19a" name="Cube.920_Material.StonebrickBlueIce"/>
 		<meta id="38027ef4-2dbd-4302-8ad7-4d59dd36cb7a" name="Cube.026_Material.CrystalBlue"/>
 		<meta id="1d7aeba5-1037-456a-b5af-881d751df920" name="Cube.175_Material.CrystalBlue"/>
+		<meta id="a9aee56f-9f4a-4231-8ae6-e6e5e238eb27" name="Cube.177_Material.SnowWhite"/>
+		<meta id="14764b91-c5d0-4e59-9088-a3226bb9616f" name="Cube.641_Material.SnowWhite"/>
+		<meta id="e60a7b58-d7de-4d1d-a11a-10ad6f0da472" name="Cube.178_Material.SnowWhite"/>
+		<meta id="6ef8b674-9498-4920-b682-56323198afb5" name="Cube.576_Material.MetalIceTransparent"/>
+		<meta id="8ac7cb0d-2d4f-4891-8384-31dd58b3159a" name="Cube.563_Material.MetalIceTransparent"/>
+		<meta id="414f601c-5a32-4e95-9369-d6cfdee6de21" name="Cube.555_Material.MetalIceTransparent"/>
 	</meta>
 	<meta id="8fa8cff8-67e9-47d6-b0e6-3474dd9a12a9" name="Prefab">
 		<meta id="c6732e71-8520-44e6-a4b3-0504059f2383" name="Light"/>
@@ -514,12 +509,12 @@
 			<meta id="a7838f6e-1630-4145-9250-0a3f227b79fe" name="Cube.260"/>
 			<meta id="1ea67c55-22ac-482a-b024-09074d7a0d6f" name="Cube.261"/>
 			<meta id="05fe9895-baa8-48e0-b0f5-a9b824975c92" name="Cube.262"/>
-			<meta id="9245d59d-7349-46ce-b25c-6bce8ccae8ba" name="Cube.534"/>
-			<meta id="cdf8eca4-fe36-4d61-9d36-f1f1dc725f3d" name="Cube.535"/>
 			<meta id="f0fadf9a-3710-46cc-b365-da35a4ad3c0b" name="Cube.563"/>
 			<meta id="f9170fe3-cd99-44e2-90fc-19560e2cfc2b" name="Cube.564"/>
 			<meta id="4a59ac82-03c6-496c-ad11-d62452929bd4" name="Cube.565"/>
 			<meta id="72c1305f-91a1-4f8b-8f69-11d30da755dc" name="Cube.566"/>
+			<meta id="1e0cc9d9-95b7-4a4b-b5fd-2ad78320dc6d" name="Cube.177"/>
+			<meta id="000e4ecc-86f3-4b5c-b283-728924c0c95c" name="Cube.178"/>
 		</meta>
 		<meta id="6da095ce-b707-4252-8bbd-1555b20a8962" name="rampartPathCorner60SharpPart">
 			<meta id="6c4d72d9-a9fe-4600-9104-b615c5654394" name="Cube.154">
@@ -610,8 +605,6 @@
 			<meta id="ec9952d4-78e4-48e4-8fe1-6e37648d68a1" name="Cube.410"/>
 			<meta id="2d3fa817-0dd8-4777-b8d7-0670094f4a9b" name="Cube.411"/>
 			<meta id="91f0c6a7-73fd-416c-a031-2afafb606b64" name="Cube.412"/>
-			<meta id="b9bcd095-dfb0-422a-8f61-05d4049df9ad" name="Cube.533"/>
-			<meta id="edbd8458-d73d-4d72-90e8-2df83e5812d3" name="Cube.536"/>
 			<meta id="05ebaed9-24e6-4248-9c37-32b13eab00ac" name="Cube.567"/>
 			<meta id="9713ac91-c9b8-4f32-932c-3f7d638e9d53" name="Cube.568"/>
 			<meta id="417c23e6-2c7f-4acc-b49b-39799fc8b319" name="Cube.573"/>
@@ -716,8 +709,6 @@
 			<meta id="d948ef08-9967-496d-8bf4-f74016b24318" name="Cube.437"/>
 			<meta id="655a1d1e-d5b3-4bae-af6b-48385d6b5238" name="Cube.438"/>
 			<meta id="5377f0c5-45ff-424f-84e3-f4895545cba9" name="Cube.439"/>
-			<meta id="2663defa-38af-4fde-8963-a5a6b2d7b3f0" name="Cube.537"/>
-			<meta id="cddb98a9-776f-409a-82c6-e0d3cd86e396" name="Cube.538"/>
 			<meta id="e3895124-e026-4bdf-b54e-082a8eb70de9" name="Cube.569"/>
 			<meta id="7624133a-7188-46c5-9387-9393d9cf4046" name="Cube.570"/>
 			<meta id="a377bb66-d16e-462b-b5d8-158ed73e48bf" name="Cube.575"/>
@@ -822,8 +813,6 @@
 			<meta id="25021574-f7bf-4344-913f-da6de6b987d2" name="Cube.464"/>
 			<meta id="7ade33b7-a5e0-4091-8b02-290339e57b46" name="Cube.465"/>
 			<meta id="5fa9a121-6126-486f-aa34-dae00db326e3" name="Cube.466"/>
-			<meta id="bf50b12b-4602-4b9a-886f-6188dd925d38" name="Cube.539"/>
-			<meta id="f0e2304c-847a-45f4-bc9d-416013ef060b" name="Cube.540"/>
 			<meta id="4ab24d11-d318-44e4-909c-79adcfda29f0" name="Cube.571"/>
 			<meta id="e16f742c-de71-4153-af3d-295fbb36e9b7" name="Cube.572"/>
 			<meta id="0410f368-70f6-4d48-9573-92fed9931f27" name="Cube.577"/>
@@ -1380,7 +1369,7 @@
 	</meta>
 </meta>
 <importer type="GamCFbxImporterConfiguration">
-	<Md5Checksum value="8ecd3d12c4eed9d01976496ff05d87c6"/>
+	<Md5Checksum value="95ccd224e927452d28c4e762c29b1245"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -3228,16 +3217,6 @@
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Cube.534"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.535"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
 						<NodeName value="Cube.563"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
@@ -3254,6 +3233,16 @@
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
 						<NodeName value="Cube.566"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.177"/>
+					</Item>
+					<Item type="GenCFbxNodeConfig">
+						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
+						<ChildList/>
+						<NodeName value="Cube.178"/>
 					</Item>
 				</ChildList>
 				<NodeName value="rampartPathCorner45SharpPart"/>
@@ -3696,16 +3685,6 @@
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
 						<NodeName value="Cube.412"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.533"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.536"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
@@ -4222,16 +4201,6 @@
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
-						<NodeName value="Cube.537"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.538"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
 						<NodeName value="Cube.569"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
@@ -4740,16 +4709,6 @@
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
 						<ChildList/>
 						<NodeName value="Cube.466"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.539"/>
-					</Item>
-					<Item type="GenCFbxNodeConfig">
-						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
-						<ChildList/>
-						<NodeName value="Cube.540"/>
 					</Item>
 					<Item type="GenCFbxNodeConfig">
 						<LodConfig value="00000000-0000-0000-0000-000000000000"/>
