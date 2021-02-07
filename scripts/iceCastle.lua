@@ -233,7 +233,7 @@ local defaultScalableNodePrefixList = {
     { "RAMPART_PATH_CORNER_45_SHARP",
         {
             {
-            Polygon = polygon.createRectangle( { 5, 10 }, { 0, 0 } ),
+            Polygon = { { -2.5, -6 }, { -2.5, 17 }, { 2.5, 17 }, { 2.5, 6 }, { 10, 14 }, { 14, 10 } },
             Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
             }
         }
@@ -241,7 +241,7 @@ local defaultScalableNodePrefixList = {
     { "RAMPART_PATH_CORNER_60_SHARP",
         {
             {
-            Polygon = polygon.createRectangle( { 5, 10 }, { 0, 0 } ),
+            Polygon = { {-2.5, -4.5}, { -2.5, 18 }, { 2.5, 18 }, { 2.5, 4 }, { 14.5, 11.5}, { 17, 7 } },
             Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
             }
         }
@@ -249,7 +249,11 @@ local defaultScalableNodePrefixList = {
     { "RAMPART_PATH_CORNER_90_SHARP",
         {
             {
-            Polygon = polygon.createRectangle( { 5, 10 }, { 0, 0 } ),
+            Polygon = polygon.createRectangle( { 5, 21 }, { 0, 8 } ),
+            Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
+            },
+            {
+            Polygon = polygon.createRectangle( { 21, 5 }, { 8, 0 } ),
             Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
             }
         }
@@ -257,7 +261,11 @@ local defaultScalableNodePrefixList = {
     { "RAMPART_PATH_CORNER_90_SHARP_HALF",
         {
             {
-            Polygon = polygon.createRectangle( { 5, 10 }, { 0, 0 } ),
+            Polygon = polygon.createRectangle( { 5, 11 }, { 0, 3 } ),
+            Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
+            },
+            {
+            Polygon = polygon.createRectangle( { 11, 5 }, { 3, 0 } ),
             Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
             }
         }
@@ -265,7 +273,7 @@ local defaultScalableNodePrefixList = {
     { "RAMPART_PATH_CORNER_120_SHARP",
         {
             {
-            Polygon = polygon.createRectangle( { 5, 10 }, { 0, 0 } ),
+            Polygon = { { -2.5, -1.5 }, { -2.5, 20 }, { 2.5, 20 }, { 2.5, 1.5 }, { 18.5, -8 }, { 16, -12 } },
             Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
             }
         }
@@ -273,7 +281,7 @@ local defaultScalableNodePrefixList = {
     { "RAMPART_PATH_CORNER_135_SHARP",
         {
             {
-            Polygon = polygon.createRectangle( { 5, 10 }, { 0, 0 } ),
+            Polygon = { { -2.5, -1 }, { -2.5, 20 }, { 2.5, 20 }, { 2.5, 1 }, { 16, -12.5}, { 12.5,-16 } },
             Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
             }
         }
