@@ -18,7 +18,7 @@ And a very special thanks to Ash for his constant help and support and Léo, and
 
 Check out my [Official Website](https://minotorious.github.io/)
 
-For updates on my projects follow Minotorious on [Twitter](https://twitter.com/theOneTrueMino), [Instagram](https://www.instagram.com/minotorious), & [Facebook](https://www.facebook.com/Minotorious.Official) and der_seBi on [Twitter](https://twitter.com/dersebi1)
+Follow Minotorious on [Twitter](https://twitter.com/theOneTrueMino), [Instagram](https://www.instagram.com/minotorious), & [Facebook](https://www.facebook.com/Minotorious.Official) and der_seBi on [Twitter](https://twitter.com/dersebi1)
 
 Join me at [The Penguin Grounds (Discord Server)](https://discord.com/invite/AMMcH5a)
 
