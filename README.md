@@ -16,11 +16,13 @@ And a very special thanks to Ash for his constant help and support and Léo, and
 
 # To stay updated with our upcoming projects:
 
-Follow Minotorious on Instagram (https://www.instagram.com/minotorious/) & Twitter (https://twitter.com/theOneTrueMino) and der_seBi on Twitter (https://twitter.com/dersebi1)
+Check out my [Official Website](https://minotorious.github.io/)
 
-Join me at The Penguin Grounds: https://discord.com/invite/AMMcH5a
+For updates on my projects follow Minotorious on [Twitter](https://twitter.com/theOneTrueMino), [Instagram](https://www.instagram.com/minotorious), & [Facebook](https://www.facebook.com/Minotorious.Official) and der_seBi on [Twitter](https://twitter.com/dersebi1)
 
-Support me on Patreon: https://www.patreon.com/minotorious
+Join me at [The Penguin Grounds (Discord Server)](https://discord.com/invite/AMMcH5a)
+
+Support me on [Patreon](https://www.patreon.com/minotorious)
 
 # Note to other modders
 
