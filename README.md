@@ -14,6 +14,8 @@ Special thanks to co-author and original ideas man der_seBi!
 
 And a very special thanks to Ash for his constant help and support and Léo, and Maxime for making this mod possible through the modding API :)
 
+# To stay updated with our upcoming projects:
+
 Follow Minotorious on Instagram (https://www.instagram.com/minotorious/) & Twitter (https://twitter.com/theOneTrueMino) and der_seBi on Twitter (https://twitter.com/dersebi1)
 
 Join me at The Penguin Grounds: https://discord.com/invite/AMMcH5a
