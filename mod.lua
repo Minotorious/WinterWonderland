@@ -8,7 +8,9 @@
 
 local winterWonderland = foundation.createMod();
 
-winterWonderland:log("Winter Wonderland Mod Loading")
+if foundation.isModLoaded("f0cf2d1c-f179-44f6-88a9-33aefc6e2819") then -- Ice Castle ID
+    return
+end
 
 --[[---------------------------- GENERAL MATERIALS ----------------------------]]--
 
