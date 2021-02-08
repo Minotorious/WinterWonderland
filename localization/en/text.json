@@ -92,6 +92,29 @@
         "CHRISTMAS_SLEIGH_PART_NAME": "Reindeer sleigh with gifts",
 		"ELK_PART_NAME": "Reindeer",
         
+        "ICE_CASTLE_MONUMENT_NAME": "Ice Castle",
+        "ICE_CASTLE_MONUMENT_DESC": "A Snowy Ice Castle",
+        "ICE_CASTLE_RAMPART_PATHS_CATEGORY": "Ramparts",
+        "ICE_CASTLE_TOWERS_CATEGORY": "Towers",
+        "ICE_CASTLE_DECORATIVES_CATEGORY": "Decoratives",
+        
+        "RAMPART_PATH_STRAIGHT_SCALABLE_PART_NAME": "Straight Rampart",
+        "RAMPART_PATH_STRAIGHT_HALF_SCALABLE_PART_NAME": "Straight Rampart Half",
+        "RAMPART_PATH_CORNER_45_SHARP_SCALABLE_PART_NAME": "45° Angle Rampart",
+        "RAMPART_PATH_CORNER_60_SHARP_SCALABLE_PART_NAME": "60° Angle Rampart",
+        "RAMPART_PATH_CORNER_90_SHARP_SCALABLE_PART_NAME": "90° Angle Rampart",
+        "RAMPART_PATH_CORNER_90_SHARP_HALF_SCALABLE_PART_NAME": "90° Angle Rampart Half",
+        "RAMPART_PATH_CORNER_120_SHARP_SCALABLE_PART_NAME": "120° Angle Rampart",
+        "RAMPART_PATH_CORNER_135_SHARP_SCALABLE_PART_NAME": "135° Angle Rampart",
+        "RAMPART_PATH_CROSS_JUNCTION_SHARP_SCALABLE_PART_NAME": "Cross Junction Rampart",
+        "RAMPART_PATH_T_JUNCTION_SHARP_SCALABLE_PART_NAME": "T Junction Rampart",
+        
+        "HOLLOW_SQUARE_WITH_TOWER_PART_NAME": "Hollow Square Tower with Subtower", 
+        "RAMPART_TOWER_SQUARE_MEDIUM_SCALABLE_PART_NAME": "Square Tower Rampart",
+        
+        "CRENELLATION_SPIKES_PART_NAME": "Crenellation Spikes", 
+        "WALL_SPIKES_PART_NAME": "Wall Spikes",
+        
         "WINTER_WONDERLAND_EVENT_PANEL_TITLE": "Winter Wonderland",
         "WINTER_WONDERLAND_EVENT_PANEL_DESC": "Welcome to Winter Wonderland!\nHope you are already enjoying the scenery!\n\nYou will now find in your Buildings Menu under Decoration the following:\n- A Customisable Snowman!\n- A Customisable Christmas Tree for you to decorate!\n- A Winter Wonderland container with Decoratives and the Snowflake Emitter!\n\nPlace the Snowflake Emitter anywhere in your village for it to start snowing!\n\nNote: You should only place one emitter as more can have a big impact on performance and lower your fps, if the default emitter is causing your game to struggle lower the Particle Quality under Graphics in the Settings Menu!\n\nWe, Minotorious & der_sebi, truly hope you enjoy this mod!\nFor any suggestions or requests talk to us on discord!\n\nFor future updates and other mod news from us follow:\nTwitter: @theOneTrueMino & @dersebi1\nInstagram: @minotorious\n\nHappy Holidays!",
         "WINTER_WONDERLAND_EVENT_PANEL_ACCEPT": "All I want for Christmas is you..."

@@ -10,9 +10,6 @@ local winterWonderland = ...
 
 --[[--------------------------- PREFABS & MATERIALS ---------------------------]]--
 
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/rampartTowerSquareMediumPart", "PREFAB_RAMPART_TOWER_SQUARE_MEDIUM_PART")
-winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/hollowSquareWithTowerPart", "PREFAB_HOLLOW_SQUARE_WITH_TOWER_PART")
-
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/crenellationSpikesPart", "PREFAB_CRENELLATION_SPIKES_PART")
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/wallSpikesPart", "PREFAB_WALL_SPIKES_PART")
 
@@ -187,7 +184,7 @@ function registerDefaultScalableBuildingPart(_nodePrefix)
         DataType = "BUILDING_PART",
         Id = _nodePrefix[1] .. "_SCALABLE_PART",
         Name = _nodePrefix[1] .. "_SCALABLE_PART_NAME",
-        Description = _nodePrefix[1] .. "_SCALABLE_PART_DESC",
+        --Description = _nodePrefix[1] .. "_SCALABLE_PART_DESC",
         Category = "CORE",
         ConstructorData = {
             DataType = "BUILDING_CONSTRUCTOR_SCALER",
@@ -326,33 +323,9 @@ end
 
 winterWonderland:register({
 	DataType = "BUILDING_PART",
-	Id = "HOLLOW_SQUARE_WITH_TOWER_PART",
-	Name = "HOLLOW_SQUARE_WITH_TOWER_PART_NAME",
-	Description = "HOLLOW_SQUARE_WITH_TOWER_PART_DESC",
-	Category = "CORE",
-	BuildingZone = {
-        ZoneEntryList = {
-            {
-                Polygon = polygon.createCircle(6 , { 0, 0 } , 36 ),
-                Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true } }
-            }
-        },
-    ConstructorData = {
-		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_HOLLOW_SQUARE_WITH_TOWER_PART"
-	},
-    ConstructionVisual = nil,
-	Cost = {
-        RessourcesNeeded = {}
-    },
-    IsVisibleWhenBuilt = true
-})
-
-winterWonderland:register({
-	DataType = "BUILDING_PART",
 	Id = "CRENELLATION_SPIKES_PART",
 	Name = "CRENELLATION_SPIKES_PART_NAME",
-	Description = "CRENELLATION_SPIKES_PART_DESC",
+	--Description = "CRENELLATION_SPIKES_PART_DESC",
 	Category = "CORE",
 	BuildingZone = {
         ZoneEntryList = {},
@@ -372,7 +345,7 @@ winterWonderland:register({
 	DataType = "BUILDING_PART",
 	Id = "WALL_SPIKES_PART",
 	Name = "WALL_SPIKES_PART_NAME",
-	Description = "WALL_SPIKES_PART_DESC",
+	--Description = "WALL_SPIKES_PART_DESC",
 	Category = "CORE",
 	BuildingZone = {
         ZoneEntryList = {},
