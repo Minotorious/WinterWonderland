@@ -283,7 +283,10 @@ winterWonderland:register({
 	--Description = "SPHERE_ORNAMENT_BLUE_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_BLUE_PART"
+		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_BLUE_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -302,7 +305,10 @@ winterWonderland:register({
 	--Description = "SPHERE_ORNAMENT_BURGUNDY_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_BURGUNDY_PART"
+		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_BURGUNDY_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -321,7 +327,10 @@ winterWonderland:register({
 	--Description = "SPHERE_ORNAMENT_CYAN_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_CYAN_PART"
+		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_CYAN_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -340,7 +349,10 @@ winterWonderland:register({
 	--Description = "SPHERE_ORNAMENT_GOLD_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_GOLD_PART"
+		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_GOLD_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -359,7 +371,10 @@ winterWonderland:register({
 	--Description = "SPHERE_ORNAMENT_GREEN_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_GREEN_PART"
+		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_GREEN_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -378,7 +393,10 @@ winterWonderland:register({
 	--Description = "SPHERE_ORNAMENT_GREY_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_GREY_PART"
+		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_GREY_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -397,7 +415,10 @@ winterWonderland:register({
 	--Description = "SPHERE_ORNAMENT_ORANGE_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_ORANGE_PART"
+		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_ORANGE_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -416,7 +437,10 @@ winterWonderland:register({
 	--Description = "SPHERE_ORNAMENT_PINK_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_PINK_PART"
+		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_PINK_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -435,7 +459,10 @@ winterWonderland:register({
 	--Description = "SPHERE_ORNAMENT_PURPLE_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_PURPLE_PART"
+		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_PURPLE_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -454,7 +481,10 @@ winterWonderland:register({
 	--Description = "SPHERE_ORNAMENT_RED_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_RED_PART"
+		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_RED_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -473,7 +503,10 @@ winterWonderland:register({
 	--Description = "SPHERE_ORNAMENT_SILVER_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_SILVER_PART"
+		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_SILVER_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -492,7 +525,10 @@ winterWonderland:register({
 	--Description = "SPHERE_ORNAMENT_YELLOW_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_YELLOW_PART"
+		CoreObjectPrefab = "PREFAB_SPHERE_ORNAMENT_YELLOW_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -511,7 +547,10 @@ winterWonderland:register({
 	--Description = "STAR_ORNAMENT_BURGUNDY_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_STAR_ORNAMENT_BURGUNDY_PART"
+		CoreObjectPrefab = "PREFAB_STAR_ORNAMENT_BURGUNDY_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -530,7 +569,10 @@ winterWonderland:register({
 	--Description = "STAR_ORNAMENT_GOLD_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_STAR_ORNAMENT_GOLD_PART"
+		CoreObjectPrefab = "PREFAB_STAR_ORNAMENT_GOLD_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -549,7 +591,10 @@ winterWonderland:register({
 	--Description = "STAR_ORNAMENT_SILVER_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_STAR_ORNAMENT_SILVER_PART"
+		CoreObjectPrefab = "PREFAB_STAR_ORNAMENT_SILVER_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}

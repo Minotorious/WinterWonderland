@@ -274,7 +274,10 @@ winterWonderland:register({
 	--Description = "SNOWMAN_BASE_BLUE_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_SNOWMAN_BASE_BLUE_PART"
+		CoreObjectPrefab = "PREFAB_SNOWMAN_BASE_BLUE_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -293,7 +296,10 @@ winterWonderland:register({
 	--Description = "SNOWMAN_BASE_ORANGE_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_SNOWMAN_BASE_ORANGE_PART"
+		CoreObjectPrefab = "PREFAB_SNOWMAN_BASE_ORANGE_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -312,7 +318,10 @@ winterWonderland:register({
 	--Description = "SNOWMAN_BASE_WHITE_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_SNOWMAN_BASE_WHITE_PART"
+		CoreObjectPrefab = "PREFAB_SNOWMAN_BASE_WHITE_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -445,7 +454,14 @@ winterWonderland:register({
 	--Description = "BUTTON_BLACK_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_BUTTON_BLACK_PART"
+		CoreObjectPrefab = "PREFAB_BUTTON_BLACK_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false,
+            GroupHeight = 0.0,
+            CameraPosition = { 0, 0, -1.1 },
+            OrientationOffset = -15.0,
+            CameraPitchOffset = 0.0
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -464,7 +480,14 @@ winterWonderland:register({
 	--Description = "BUTTON_BLUE_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_BUTTON_BLUE_PART"
+		CoreObjectPrefab = "PREFAB_BUTTON_BLUE_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false,
+            GroupHeight = 0.0,
+            CameraPosition = { 0, 0, -1.1 },
+            OrientationOffset = -15.0,
+            CameraPitchOffset = 0.0
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -483,7 +506,14 @@ winterWonderland:register({
 	--Description = "BUTTON_BROWN_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_BUTTON_BROWN_PART"
+		CoreObjectPrefab = "PREFAB_BUTTON_BROWN_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false,
+            GroupHeight = 0.0,
+            CameraPosition = { 0, 0, -1.1 },
+            OrientationOffset = -15.0,
+            CameraPitchOffset = 0.0
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -502,7 +532,14 @@ winterWonderland:register({
 	--Description = "BUTTON_CYAN_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_BUTTON_CYAN_PART"
+		CoreObjectPrefab = "PREFAB_BUTTON_CYAN_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false,
+            GroupHeight = 0.0,
+            CameraPosition = { 0, 0, -1.1 },
+            OrientationOffset = -15.0,
+            CameraPitchOffset = 0.0
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -521,7 +558,14 @@ winterWonderland:register({
 	--Description = "BUTTON_GREEN_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_BUTTON_GREEN_PART"
+		CoreObjectPrefab = "PREFAB_BUTTON_GREEN_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false,
+            GroupHeight = 0.0,
+            CameraPosition = { 0, 0, -1.1 },
+            OrientationOffset = -15.0,
+            CameraPitchOffset = 0.0
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -540,7 +584,14 @@ winterWonderland:register({
 	--Description = "BUTTON_GREY_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_BUTTON_GREY_PART"
+		CoreObjectPrefab = "PREFAB_BUTTON_GREY_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false,
+            GroupHeight = 0.0,
+            CameraPosition = { 0, 0, -1.1 },
+            OrientationOffset = -15.0,
+            CameraPitchOffset = 0.0
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -559,7 +610,14 @@ winterWonderland:register({
 	--Description = "BUTTON_ORANGE_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_BUTTON_ORANGE_PART"
+		CoreObjectPrefab = "PREFAB_BUTTON_ORANGE_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false,
+            GroupHeight = 0.0,
+            CameraPosition = { 0, 0, -1.1 },
+            OrientationOffset = -15.0,
+            CameraPitchOffset = 0.0
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -578,7 +636,14 @@ winterWonderland:register({
 	--Description = "BUTTON_PURPLE_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_BUTTON_PURPLE_PART"
+		CoreObjectPrefab = "PREFAB_BUTTON_PURPLE_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false,
+            GroupHeight = 0.0,
+            CameraPosition = { 0, 0, -1.1 },
+            OrientationOffset = -15.0,
+            CameraPitchOffset = 0.0
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -597,7 +662,14 @@ winterWonderland:register({
 	--Description = "BUTTON_RED_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_BUTTON_RED_PART"
+		CoreObjectPrefab = "PREFAB_BUTTON_RED_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false,
+            GroupHeight = 0.0,
+            CameraPosition = { 0, 0, -1.1 },
+            OrientationOffset = -15.0,
+            CameraPitchOffset = 0.0
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -616,7 +688,10 @@ winterWonderland:register({
 	--Description = "BRANCH_LEFT_1_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_BRANCH_LEFT_1_PART"
+		CoreObjectPrefab = "PREFAB_BRANCH_LEFT_1_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -635,7 +710,10 @@ winterWonderland:register({
 	--Description = "BRANCH_LEFT_2_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_BRANCH_LEFT_2_PART"
+		CoreObjectPrefab = "PREFAB_BRANCH_LEFT_2_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -654,7 +732,10 @@ winterWonderland:register({
 	--Description = "BRANCH_LEFT_3_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_BRANCH_LEFT_3_PART"
+		CoreObjectPrefab = "PREFAB_BRANCH_LEFT_3_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -673,7 +754,10 @@ winterWonderland:register({
 	--Description = "BRANCH_RIGHT_1_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_BRANCH_RIGHT_1_PART"
+		CoreObjectPrefab = "PREFAB_BRANCH_RIGHT_1_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -692,7 +776,10 @@ winterWonderland:register({
 	--Description = "BRANCH_RIGHT_2_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_BRANCH_RIGHT_2_PART"
+		CoreObjectPrefab = "PREFAB_BRANCH_RIGHT_2_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
@@ -711,7 +798,14 @@ winterWonderland:register({
 	--Description = "BRANCH_RIGHT_3_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
-		CoreObjectPrefab = "PREFAB_BRANCH_RIGHT_3_PART"
+		CoreObjectPrefab = "PREFAB_BRANCH_RIGHT_3_PART",
+        MiniatureConfig = {
+            ClipUnderGround = false,
+            --GroupHeight = 0.0,
+            CameraPosition = { 0, 0, -3.5 },
+            OrientationOffset = -15.0,
+            --CameraPitchOffset = 0.0
+        }
 	},
 	BuildingZone = {
 		ZoneEntryList = {}
