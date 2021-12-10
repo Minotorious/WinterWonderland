@@ -16,7 +16,7 @@ winterWonderland:registerAssetId("models/gifts1.fbx/Prefab/christmas_gift2Part",
 
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_GIFTS_PART",
     Name = "CHRISTMAS_GIFTS_PART_NAME",
@@ -32,15 +32,10 @@ winterWonderland:register({
 			Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
 			}
         }
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_GIFT1_PART",
     Name = "CHRISTMAS_GIFT1_PART_NAME",
@@ -56,15 +51,10 @@ winterWonderland:register({
 			Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
 			}
         }
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_GIFT2_PART",
     Name = "CHRISTMAS_GIFT2_PART_NAME",
@@ -80,10 +70,5 @@ winterWonderland:register({
 			Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
 			}
         }
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })

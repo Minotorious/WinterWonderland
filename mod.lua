@@ -16,7 +16,7 @@ end
 
 --[[------------------------------ MAIN MONUMENT ------------------------------]]--
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING",
 	Id = "WINTER_WONDERLAND_MONUMENT",
 	Name = "WINTER_WONDERLAND_MONUMENT_NAME",
@@ -47,7 +47,7 @@ winterWonderland:register({
 
 --[[------------------------------- MAIN EVENT --------------------------------]]--
 
-winterWonderland:override({
+winterWonderland:overrideAsset({
     Id = "DEFAULT_BALANCING",
     EventList = {
         Action = "APPEND",
@@ -55,7 +55,7 @@ winterWonderland:override({
     },
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
     DataType = "EVENT",
 	Id = "WINTER_WONDERLAND_EVENT",
 	--Title = "WINTER_WONDERLAND_EVENT_TITLE",

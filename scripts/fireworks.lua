@@ -21,81 +21,65 @@ winterWonderland:registerAssetId("models/fireworksBurstPurple.png", "FIREWORKS_B
 winterWonderland:registerAssetId("models/fireworksTrailRed.png", "FIREWORKS_TRAIL_RED_TEXTURE")
 winterWonderland:registerAssetId("models/fireworksBurstRed.png", "FIREWORKS_BURST_RED_TEXTURE")
 
-winterWonderland:register({
+winterWonderland:registerAsset({
     DataType = "MATERIAL",
     Id = "MATERIAL_FIREWORKS_TRAIL_PARTICLE_YELLOW",
     AlbedoTexture = "FIREWORKS_TRAIL_YELLOW_TEXTURE",
-    HasTransparency = true,
-    IsLighted = false,
 	HasShadow = false
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
     DataType = "MATERIAL",
     Id = "MATERIAL_FIREWORKS_BURST_PARTICLE_YELLOW",
     AlbedoTexture = "FIREWORKS_BURST_YELLOW_TEXTURE",
-    HasTransparency = true,
-    IsLighted = false,
 	HasShadow = false
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
     DataType = "MATERIAL",
     Id = "MATERIAL_FIREWORKS_TRAIL_PARTICLE_BLUE",
     AlbedoTexture = "FIREWORKS_TRAIL_BLUE_TEXTURE",
-    HasTransparency = true,
-    IsLighted = false,
 	HasShadow = false
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
     DataType = "MATERIAL",
     Id = "MATERIAL_FIREWORKS_BURST_PARTICLE_BLUE",
     AlbedoTexture = "FIREWORKS_BURST_BLUE_TEXTURE",
-    HasTransparency = true,
-    IsLighted = false,
 	HasShadow = false
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
     DataType = "MATERIAL",
     Id = "MATERIAL_FIREWORKS_TRAIL_PARTICLE_PURPLE",
     AlbedoTexture = "FIREWORKS_TRAIL_PURPLE_TEXTURE",
-    HasTransparency = true,
-    IsLighted = false,
 	HasShadow = false
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
     DataType = "MATERIAL",
     Id = "MATERIAL_FIREWORKS_BURST_PARTICLE_PURPLE",
     AlbedoTexture = "FIREWORKS_BURST_PURPLE_TEXTURE",
-    HasTransparency = true,
-    IsLighted = false,
 	HasShadow = false
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
     DataType = "MATERIAL",
     Id = "MATERIAL_FIREWORKS_TRAIL_PARTICLE_RED",
     AlbedoTexture = "FIREWORKS_TRAIL_RED_TEXTURE",
-    HasTransparency = true,
-    IsLighted = false,
 	HasShadow = false
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
     DataType = "MATERIAL",
     Id = "MATERIAL_FIREWORKS_BURST_PARTICLE_RED",
     AlbedoTexture = "FIREWORKS_BURST_RED_TEXTURE",
-    HasTransparency = true,
-    IsLighted = false,
 	HasShadow = false
 })
 
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "FIREWORKS_EMITTER_PART",
     Name = "FIREWORKS_EMITTER_PART_NAME",
@@ -111,12 +95,7 @@ winterWonderland:register({
 			Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
 			}
         }
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
 --[[----------------------------- PARTICLE SYSTEMS ----------------------------]]--
@@ -129,7 +108,7 @@ winterWonderland:registerPrefabComponent("models/WinterWonderland.fbx/Prefab/Fir
 	IsEmitting = true
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "FIREWORKS_TRAIL_PARTICLE_SYSTEM_YELLOW",
 	Visual= {
@@ -183,7 +162,7 @@ winterWonderland:register({
 	RotationOverLifetime = { 0, 0 }
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "FIREWORKS_BURST_PARTICLE_SYSTEM_YELLOW",
 	Visual= {
@@ -204,7 +183,8 @@ winterWonderland:register({
 	RateOverTime = 100,
 	Shape = {
         DataType = "PARTICLE_EMITTER_SHAPE_SPHERE",
-        Radius = 5
+        RadiusRange = { 5, 5 },
+        ConeAngle = 360
 	},
 	LinearVelocity = {
 		DataType = "PARTICLE_FLOAT3_VALUE_CONSTANT_RANDOM",
@@ -234,7 +214,7 @@ winterWonderland:registerPrefabComponent("models/WinterWonderland.fbx/Prefab/Fir
 	IsEmitting = true
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "FIREWORKS_TRAIL_PARTICLE_SYSTEM_BLUE",
 	Visual= {
@@ -288,7 +268,7 @@ winterWonderland:register({
 	RotationOverLifetime = { 0, 0 }
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "FIREWORKS_BURST_PARTICLE_SYSTEM_BLUE",
 	Visual= {
@@ -309,7 +289,8 @@ winterWonderland:register({
 	RateOverTime = 100,
 	Shape = {
         DataType = "PARTICLE_EMITTER_SHAPE_SPHERE",
-        Radius = 5
+        RadiusRange = { 5, 5 },
+        ConeAngle = 360
 	},
 	LinearVelocity = {
 		DataType = "PARTICLE_FLOAT3_VALUE_CONSTANT_RANDOM",
@@ -339,7 +320,7 @@ winterWonderland:registerPrefabComponent("models/WinterWonderland.fbx/Prefab/Fir
 	IsEmitting = true
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "FIREWORKS_TRAIL_PARTICLE_SYSTEM_PURPLE",
 	Visual= {
@@ -393,7 +374,7 @@ winterWonderland:register({
 	RotationOverLifetime = { 0, 0 }
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "FIREWORKS_BURST_PARTICLE_SYSTEM_PURPLE",
 	Visual= {
@@ -414,7 +395,8 @@ winterWonderland:register({
 	RateOverTime = 100,
 	Shape = {
         DataType = "PARTICLE_EMITTER_SHAPE_SPHERE",
-        Radius = 5
+        RadiusRange = { 5, 5 },
+        ConeAngle = 360
 	},
 	LinearVelocity = {
 		DataType = "PARTICLE_FLOAT3_VALUE_CONSTANT_RANDOM",
@@ -444,7 +426,7 @@ winterWonderland:registerPrefabComponent("models/WinterWonderland.fbx/Prefab/Fir
 	IsEmitting = true
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "FIREWORKS_TRAIL_PARTICLE_SYSTEM_RED",
 	Visual= {
@@ -498,7 +480,7 @@ winterWonderland:register({
 	RotationOverLifetime = { 0, 0 }
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "FIREWORKS_BURST_PARTICLE_SYSTEM_RED",
 	Visual= {
@@ -519,7 +501,8 @@ winterWonderland:register({
 	RateOverTime = 100,
 	Shape = {
         DataType = "PARTICLE_EMITTER_SHAPE_SPHERE",
-        Radius = 5
+        RadiusRange = { 5, 5 },
+        ConeAngle = 360
 	},
 	LinearVelocity = {
 		DataType = "PARTICLE_FLOAT3_VALUE_CONSTANT_RANDOM",

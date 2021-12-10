@@ -15,27 +15,23 @@ winterWonderland:registerAssetId("models/WinterWonderland.fbx/Prefab/SnowflakeEm
 winterWonderland:registerAssetId("models/snowflakeBlue.png", "SNOWFLAKE_BLUE_TEXTURE")
 winterWonderland:registerAssetId("models/snowflakeWhite.png", "SNOWFLAKE_WHITE_TEXTURE")
 
-winterWonderland:register({
+winterWonderland:registerAsset({
     DataType = "MATERIAL",
     Id = "MATERIAL_SNOWFLAKE_PARTICLE_BLUE",
     AlbedoTexture = "SNOWFLAKE_BLUE_TEXTURE",
-    HasTransparency = true,
-    IsLighted = false,
 	HasShadow = false
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
     DataType = "MATERIAL",
     Id = "MATERIAL_SNOWFLAKE_PARTICLE_WHITE",
     AlbedoTexture = "SNOWFLAKE_WHITE_TEXTURE",
-    HasTransparency = true,
-    IsLighted = false,
 	HasShadow = false
 })
 
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SNOWFLAKE_EMITTER_PART",
     Name = "SNOWFLAKE_EMITTER_PART_NAME",
@@ -51,12 +47,7 @@ winterWonderland:register({
 			Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
 			}
         }
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
 --[[----------------------------- PARTICLE SYSTEMS ----------------------------]]--
@@ -75,7 +66,7 @@ winterWonderland:registerPrefabComponent("models/WinterWonderland.fbx/Prefab/Sno
 	IsEmitting = true
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "SNOWFLAKE_PARTICLE_SYSTEM_LOW_BLUE",
 	Visual= {
@@ -119,7 +110,7 @@ winterWonderland:register({
 	RotationOverLifetime = { -90, 90 }
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "SNOWFLAKE_PARTICLE_SYSTEM_LOW_WHITE",
 	Visual= {
@@ -177,7 +168,7 @@ winterWonderland:registerPrefabComponent("models/WinterWonderland.fbx/Prefab/Sno
 	IsEmitting = true
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "SNOWFLAKE_PARTICLE_SYSTEM_MEDIUM_BLUE",
 	Visual= {
@@ -221,7 +212,7 @@ winterWonderland:register({
 	RotationOverLifetime = { -90, 90 }
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "SNOWFLAKE_PARTICLE_SYSTEM_MEDIUM_WHITE",
 	Visual= {
@@ -279,7 +270,7 @@ winterWonderland:registerPrefabComponent("models/WinterWonderland.fbx/Prefab/Sno
 	IsEmitting = true
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "SNOWFLAKE_PARTICLE_SYSTEM_HIGH_BLUE",
 	Visual= {
@@ -323,7 +314,7 @@ winterWonderland:register({
 	RotationOverLifetime = { -90, 90 }
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "SNOWFLAKE_PARTICLE_SYSTEM_HIGH_WHITE",
 	Visual= {
@@ -381,7 +372,7 @@ winterWonderland:registerPrefabComponent("models/WinterWonderland.fbx/Prefab/Sno
 	IsEmitting = true
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "SNOWFLAKE_PARTICLE_SYSTEM_FULL_BLUE",
 	Visual= {
@@ -425,7 +416,7 @@ winterWonderland:register({
 	RotationOverLifetime = { -90, 90 }
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "SNOWFLAKE_PARTICLE_SYSTEM_FULL_WHITE",
 	Visual= {

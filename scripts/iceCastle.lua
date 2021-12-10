@@ -46,25 +46,24 @@ winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Materials/Material.BlueIceTransparent", "MATERIAL_BLUE_ICE_TRANSPARENT")
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Materials/Material.MetalIceTransparent", "MATERIAL_METAL_ICE_TRANSPARENT")
 
-winterWonderland:override({
+winterWonderland:overrideAsset({
     Id = "MATERIAL_STONEBRICK_BLUE_ICE",
-    IsLighted = false,
-    --BackFaceVisible = true
+    RenderMode = "UNLIT"
 })
 
-winterWonderland:override({
+winterWonderland:overrideAsset({
     Id = "MATERIAL_CRYSTAL_BLUE",
-    IsLighted = false
+    RenderMode = "UNLIT"
 })
 
-winterWonderland:override({
+winterWonderland:overrideAsset({
     Id = "MATERIAL_BLUE_ICE_TRANSPARENT",
-    IsLighted = false
+    RenderMode = "UNLIT"
 })
 
-winterWonderland:override({
+winterWonderland:overrideAsset({
     Id = "MATERIAL_METAL_ICE_TRANSPARENT",
-    IsLighted = false
+    RenderMode = "UNLIT"
 })
 
 --[[--------------------- ASSET PROCESSOR & NODE HANDLING ---------------------]]--
@@ -76,7 +75,7 @@ winterWonderland:registerPrefabComponent("models/iceCastleMonument/iceCastleMonu
 
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING",
     Id = "ICE_CASTLE_MONUMENT",
     Name = "ICE_CASTLE_MONUMENT_NAME",
@@ -109,7 +108,7 @@ winterWonderland:register({
 })
 
 function registerDefaultBuildingPart(_nodePrefix)
-	winterWonderland:register({
+	winterWonderland:registerAsset({
 		DataType = "BUILDING_PART",
 		Id = _nodePrefix .. "_PART",
 		ConstructorData = { DataType = "BUILDING_CONSTRUCTOR_DEFAULT", CoreObjectPrefab = "PREFAB_" .. _nodePrefix .. "_PART" }
@@ -180,7 +179,7 @@ for i, nodePrefix in ipairs(defaultNodePrefixList) do
 end
 
 function registerDefaultScalableBuildingPart(_nodePrefix)
-    winterWonderland:register({
+    winterWonderland:registerAsset({
         DataType = "BUILDING_PART",
         Id = _nodePrefix[1] .. "_SCALABLE_PART",
         Name = _nodePrefix[1] .. "_SCALABLE_PART_NAME",
@@ -203,9 +202,6 @@ function registerDefaultScalableBuildingPart(_nodePrefix)
         },
         BuildingZone = {
             ZoneEntryList = _nodePrefix[2],
-        },
-        Cost = {
-            RessourcesNeeded = {}
         }
     })
 end
@@ -321,7 +317,7 @@ for i, nodePrefix in ipairs(defaultScalableNodePrefixList) do
 	registerDefaultScalableBuildingPart(nodePrefix)
 end
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "CRENELLATION_SPIKES_PART",
 	Name = "CRENELLATION_SPIKES_PART_NAME",
@@ -333,15 +329,10 @@ winterWonderland:register({
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_CRENELLATION_SPIKES_PART"
-	},
-    ConstructionVisual = nil,
-	Cost = {
-        RessourcesNeeded = {}
-    },
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "WALL_SPIKES_PART",
 	Name = "WALL_SPIKES_PART_NAME",
@@ -353,12 +344,7 @@ winterWonderland:register({
     ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_WALL_SPIKES_PART"
-	},
-    ConstructionVisual = nil,
-	Cost = {
-        RessourcesNeeded = {}
-    },
-    IsVisibleWhenBuilt = true
+	}
 })
 
 --[[----------------------------- PARTICLE SYSTEMS ----------------------------]]--

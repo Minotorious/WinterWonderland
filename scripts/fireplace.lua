@@ -15,13 +15,13 @@ winterWonderland:registerAssetId("models/fireplace.fbx/Prefab/fire_place_Part", 
 winterWonderland:registerAssetId("models/smoke.png", "SMOKE_TEXTURE")
 winterWonderland:registerAssetId("models/sparkle.png", "SPARKLE_TEXTURE")
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "MATERIAL",
 	Id = "SMOKE_MATERIAL",
 	AlbedoTexture = "SMOKE_TEXTURE"
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "MATERIAL",
 	Id = "SPARKLE_MATERIAL",
 	AlbedoTexture = "SPARKLE_TEXTURE"
@@ -29,7 +29,7 @@ winterWonderland:register({
 
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "FIREPLACE_PART",
 	Name = "FIREPLACE_PART_NAME",
@@ -45,12 +45,7 @@ winterWonderland:register({
 			Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
 			}
         }
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
 --[[----------------------------- PARTICLE SYSTEMS ----------------------------]]--
@@ -80,7 +75,7 @@ winterWonderland:registerPrefabComponent("models/fireplace.fbx/Prefab/fire_place
 })
 
 -- register fire sparkles effect
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "FIRESPARKLES_PARTICLE_SYSTEM",
 	Material = "SPARKLE_MATERIAL",

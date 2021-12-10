@@ -71,6 +71,7 @@ IdMap = {
 	{ "models/housing/snowWhite.png", "", "630c14f5-b1c6-47a6-b6b5-c07e9ff53d41" },
 	{ "SNOWFLAKE_PARTICLE_SYSTEM_HIGH_WHITE", "PARTICLE_SYSTEM", "0a394d52-a26c-4ba2-ae28-2503ee3e9508" },
 	{ "models/winterHousing/blueIce.png", "", "4992ffd2-9935-4a7d-b06c-472c0bf7b188" },
+	{ "ModPreviewImage_WinterWonderland.png", "", "15a3d734-7cf8-40c7-a30a-d9b126dc4c0a" },
 	{ "SNOWMAN_EXAMPLE_PART", "BUILDING_PART", "cb751719-6921-4821-b5b5-3534aa026914" },
 	{ "SNOWMAN_BASE_BLUE_PART", "BUILDING_PART", "7b926d16-6655-410e-aca1-d00331c7498e" },
 	{ "textures/SandV2.png", "", "eb4daafb-b691-4c64-ba61-1eeb0fb37f53" },

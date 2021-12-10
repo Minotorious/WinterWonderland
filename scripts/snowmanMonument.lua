@@ -49,12 +49,10 @@ winterWonderland:registerAssetId("models/snowmanMonument/snowmanMonument.fbx/Pre
 
 winterWonderland:registerAssetId("models/snowmanMonument/pipeSmoke.png", "PIPE_SMOKE_TEXTURE")
 
-winterWonderland:register({
+winterWonderland:registerAsset({
     DataType = "MATERIAL",
     Id = "MATERIAL_PIPE_SMOKE_PARTICLE",
     AlbedoTexture = "PIPE_SMOKE_TEXTURE",
-    HasTransparency = true,
-    IsLighted = false,
 	HasShadow = false
 })
 
@@ -93,7 +91,7 @@ winterWonderland:registerPrefabComponent("models/snowmanMonument/snowmanMonument
 
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING",
 	Id = "SNOWMAN_MONUMENT",
 	Name = "SNOWMAN_MONUMENT_NAME",
@@ -149,7 +147,7 @@ winterWonderland:register({
 	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SNOWMAN_MONUMENT_POLE_PART",
     Name = "SNOWMAN_MONUMENT_POLE_PART_NAME",
@@ -158,20 +156,13 @@ winterWonderland:register({
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_SNOWMAN_MONUMENT_POLE_PART"
 	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
     IsMonumentCore = true,
     IsMoveBuildingInsteadOfPart = true,
     IsVisibleWhenBuilt = false,
     IsShowInUi = false
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SNOWMAN_EXAMPLE_PART",
     Name = "SNOWMAN_EXAMPLE_PART_NAME",
@@ -187,15 +178,10 @@ winterWonderland:register({
 			Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
 			}
         }
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SNOW_BASE_BLUE_PART",
     Name = "SNOW_BASE_BLUE_PART_NAME",
@@ -211,15 +197,10 @@ winterWonderland:register({
 			Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
 			}
         }
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SNOW_BASE_ORANGE_PART",
     Name = "SNOW_BASE_ORANGE_PART_NAME",
@@ -235,15 +216,10 @@ winterWonderland:register({
 			Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
 			}
         }
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SNOW_BASE_WHITE_PART",
     Name = "SNOW_BASE_WHITE_PART_NAME",
@@ -259,15 +235,10 @@ winterWonderland:register({
 			Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
 			}
         }
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SNOWMAN_BASE_BLUE_PART",
     Name = "SNOWMAN_BASE_BLUE_PART_NAME",
@@ -278,18 +249,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SNOWMAN_BASE_ORANGE_PART",
     Name = "SNOWMAN_BASE_ORANGE_PART_NAME",
@@ -300,18 +263,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SNOWMAN_BASE_WHITE_PART",
     Name = "SNOWMAN_BASE_WHITE_PART_NAME",
@@ -322,18 +277,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "HAT_RIBBON_BLUE_PART",
     Name = "HAT_RIBBON_BLUE_PART_NAME",
@@ -341,18 +288,10 @@ winterWonderland:register({
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_HAT_RIBBON_BLUE_PART"
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "HAT_RIBBON_GREEN_PART",
     Name = "HAT_RIBBON_GREEN_PART_NAME",
@@ -360,18 +299,10 @@ winterWonderland:register({
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_HAT_RIBBON_GREEN_PART"
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "HAT_RIBBON_GREY_PART",
     Name = "HAT_RIBBON_GREY_PART_NAME",
@@ -379,18 +310,10 @@ winterWonderland:register({
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_HAT_RIBBON_GREY_PART"
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "HAT_RIBBON_PURPLE_PART",
 	Name = "HAT_RIBBON_PURPLE_PART_NAME",
@@ -398,18 +321,10 @@ winterWonderland:register({
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_HAT_RIBBON_PURPLE_PART"
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "HAT_RIBBON_RED_PART",
 	Name = "HAT_RIBBON_RED_PART_NAME",
@@ -417,18 +332,10 @@ winterWonderland:register({
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_HAT_RIBBON_RED_PART"
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "HAT_RIBBON_YELLOW_PART",
 	Name = "HAT_RIBBON_YELLOW_PART_NAME",
@@ -436,18 +343,10 @@ winterWonderland:register({
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_HAT_RIBBON_YELLOW_PART"
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "BUTTON_BLACK_PART",
 	Name = "BUTTON_BLACK_PART_NAME",
@@ -462,18 +361,10 @@ winterWonderland:register({
             OrientationOffset = -15.0,
             CameraPitchOffset = 0.0
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "BUTTON_BLUE_PART",
 	Name = "BUTTON_BLUE_PART_NAME",
@@ -488,18 +379,10 @@ winterWonderland:register({
             OrientationOffset = -15.0,
             CameraPitchOffset = 0.0
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "BUTTON_BROWN_PART",
 	Name = "BUTTON_BROWN_PART_NAME",
@@ -514,18 +397,10 @@ winterWonderland:register({
             OrientationOffset = -15.0,
             CameraPitchOffset = 0.0
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "BUTTON_CYAN_PART",
 	Name = "BUTTON_CYAN_PART_NAME",
@@ -540,18 +415,10 @@ winterWonderland:register({
             OrientationOffset = -15.0,
             CameraPitchOffset = 0.0
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "BUTTON_GREEN_PART",
 	Name = "BUTTON_GREEN_PART_NAME",
@@ -566,18 +433,10 @@ winterWonderland:register({
             OrientationOffset = -15.0,
             CameraPitchOffset = 0.0
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "BUTTON_GREY_PART",
 	Name = "BUTTON_GREY_PART_NAME",
@@ -592,18 +451,10 @@ winterWonderland:register({
             OrientationOffset = -15.0,
             CameraPitchOffset = 0.0
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "BUTTON_ORANGE_PART",
 	Name = "BUTTON_ORANGE_PART_NAME",
@@ -618,18 +469,10 @@ winterWonderland:register({
             OrientationOffset = -15.0,
             CameraPitchOffset = 0.0
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "BUTTON_PURPLE_PART",
 	Name = "BUTTON_PURPLE_PART_NAME",
@@ -644,18 +487,10 @@ winterWonderland:register({
             OrientationOffset = -15.0,
             CameraPitchOffset = 0.0
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "BUTTON_RED_PART",
 	Name = "BUTTON_RED_PART_NAME",
@@ -670,18 +505,10 @@ winterWonderland:register({
             OrientationOffset = -15.0,
             CameraPitchOffset = 0.0
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "BRANCH_LEFT_1_PART",
 	Name = "BRANCH_LEFT_1_PART_NAME",
@@ -692,18 +519,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "BRANCH_LEFT_2_PART",
 	Name = "BRANCH_LEFT_2_PART_NAME",
@@ -714,18 +533,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "BRANCH_LEFT_3_PART",
 	Name = "BRANCH_LEFT_3_PART_NAME",
@@ -736,18 +547,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "BRANCH_RIGHT_1_PART",
 	Name = "BRANCH_RIGHT_1_PART_NAME",
@@ -758,18 +561,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "BRANCH_RIGHT_2_PART",
 	Name = "BRANCH_RIGHT_2_PART_NAME",
@@ -780,18 +575,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "BRANCH_RIGHT_3_PART",
 	Name = "BRANCH_RIGHT_3_PART_NAME",
@@ -806,15 +593,7 @@ winterWonderland:register({
             OrientationOffset = -15.0,
             --CameraPitchOffset = 0.0
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
 --[[----------------------------- PARTICLE SYSTEMS ----------------------------]]--
@@ -847,7 +626,7 @@ winterWonderland:registerPrefabComponent("models/snowmanMonument/snowmanMonument
 	IsEmitting = true
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "PARTICLE_SYSTEM",
 	Id = "SNOWMAN_PIPE_PARTICLE_SYSTEM",
 	Visual= {

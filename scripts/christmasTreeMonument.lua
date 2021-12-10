@@ -39,13 +39,13 @@ winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonu
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Materials/Material.BranchesGreen", "MATERIAL_BRANCHES_GREEN")
 winterWonderland:registerAssetId("models/christmasTreeMonument/christmasTreeMonument.fbx/Materials/Material.BranchesWhite", "MATERIAL_BRANCHES_WHITE")
 
-winterWonderland:override({
+winterWonderland:overrideAsset({
     Id = "MATERIAL_BRANCHES_GREEN",
     HasAlphaTest = true,
     BackFaceVisible = true
 })
 
-winterWonderland:override({
+winterWonderland:overrideAsset({
     Id = "MATERIAL_BRANCHES_WHITE",
     HasAlphaTest = true,
     BackFaceVisible = true
@@ -111,7 +111,7 @@ winterWonderland:registerPrefabComponent("models/christmasTreeMonument/christmas
 
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING",
 	Id = "CHRISTMAS_TREE_MONUMENT",
 	Name = "CHRISTMAS_TREE_MONUMENT_NAME",
@@ -149,7 +149,7 @@ winterWonderland:register({
     }
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_TREE_MONUMENT_POLE_PART",
     Name = "CHRISTMAS_TREE_MONUMENT_POLE_PART_NAME",
@@ -158,20 +158,13 @@ winterWonderland:register({
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_CHRISTMAS_TREE_MONUMENT_POLE_PART"
 	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
     IsMonumentCore = true,
     IsMoveBuildingInsteadOfPart = true,
     IsVisibleWhenBuilt = false,
     IsShowInUi = false
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_TREE_GREEN_PART",
     Name = "CHRISTMAS_TREE_GREEN_PART_NAME",
@@ -187,15 +180,10 @@ winterWonderland:register({
 			Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
 			}
         }
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_TREE_WHITE_PART",
     Name = "CHRISTMAS_TREE_WHITE_PART_NAME",
@@ -211,15 +199,10 @@ winterWonderland:register({
 			Type = { DEFAULT = true, NAVIGABLE = false, GRASS_CLEAR = true }
 			}
         }
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "TOPPER_SNOWFLAKE_PART",
     Name = "TOPPER_SNOWFLAKE_PART_NAME",
@@ -227,18 +210,10 @@ winterWonderland:register({
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_TOPPER_SNOWFLAKE_PART"
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "TOPPER_SPIKE_PART",
     Name = "TOPPER_SPIKE_PART_NAME",
@@ -246,18 +221,10 @@ winterWonderland:register({
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_TOPPER_SPIKE_PART"
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "TOPPER_STAR_PART",
     Name = "TOPPER_STAR_PART_NAME",
@@ -265,18 +232,10 @@ winterWonderland:register({
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_TOPPER_STAR_PART"
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SPHERE_ORNAMENT_BLUE_PART",
     Name = "SPHERE_ORNAMENT_BLUE_PART_NAME",
@@ -287,18 +246,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SPHERE_ORNAMENT_BURGUNDY_PART",
     Name = "SPHERE_ORNAMENT_BURGUNDY_PART_NAME",
@@ -309,18 +260,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SPHERE_ORNAMENT_CYAN_PART",
     Name = "SPHERE_ORNAMENT_CYAN_PART_NAME",
@@ -331,18 +274,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SPHERE_ORNAMENT_GOLD_PART",
     Name = "SPHERE_ORNAMENT_GOLD_PART_NAME",
@@ -353,18 +288,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SPHERE_ORNAMENT_GREEN_PART",
     Name = "SPHERE_ORNAMENT_GREEN_PART_NAME",
@@ -375,18 +302,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SPHERE_ORNAMENT_GREY_PART",
     Name = "SPHERE_ORNAMENT_GREY_PART_NAME",
@@ -397,18 +316,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SPHERE_ORNAMENT_ORANGE_PART",
     Name = "SPHERE_ORNAMENT_ORANGE_PART_NAME",
@@ -419,18 +330,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SPHERE_ORNAMENT_PINK_PART",
     Name = "SPHERE_ORNAMENT_PINK_PART_NAME",
@@ -441,18 +344,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SPHERE_ORNAMENT_PURPLE_PART",
     Name = "SPHERE_ORNAMENT_PURPLE_PART_NAME",
@@ -463,18 +358,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SPHERE_ORNAMENT_RED_PART",
     Name = "SPHERE_ORNAMENT_RED_PART_NAME",
@@ -485,18 +372,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SPHERE_ORNAMENT_SILVER_PART",
     Name = "SPHERE_ORNAMENT_SILVER_PART_NAME",
@@ -507,18 +386,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SPHERE_ORNAMENT_YELLOW_PART",
     Name = "SPHERE_ORNAMENT_YELLOW_PART_NAME",
@@ -529,18 +400,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "STAR_ORNAMENT_BURGUNDY_PART",
     Name = "STAR_ORNAMENT_BURGUNDY_PART_NAME",
@@ -551,18 +414,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "STAR_ORNAMENT_GOLD_PART",
     Name = "STAR_ORNAMENT_GOLD_PART_NAME",
@@ -573,18 +428,10 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
 
-winterWonderland:register({
+winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "STAR_ORNAMENT_SILVER_PART",
     Name = "STAR_ORNAMENT_SILVER_PART_NAME",
@@ -595,13 +442,5 @@ winterWonderland:register({
         MiniatureConfig = {
             ClipUnderGround = false
         }
-	},
-	BuildingZone = {
-		ZoneEntryList = {}
-	},
-	ConstructionVisual = nil,
-	Cost = {
-		RessourcesNeeded = {}
-	},
-    IsVisibleWhenBuilt = true
+	}
 })
