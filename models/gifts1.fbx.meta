@@ -95,6 +95,7 @@
 </meta>
 <importer type="GamCFbxImporterConfiguration">
 	<Md5Checksum value="dbeedc7d4be86ac210bf13fae575fe3c"/>
+	<ModelVersion value="30"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>

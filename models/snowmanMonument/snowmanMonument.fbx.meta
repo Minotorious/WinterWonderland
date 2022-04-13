@@ -275,6 +275,7 @@
 </meta>
 <importer type="GamCFbxImporterConfiguration">
 	<Md5Checksum value="ad5f7573319bd30ad11760554fab6365"/>
+	<ModelVersion value="30"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
@@ -1182,16 +1183,16 @@
 			<MaterialName value="Material.SnowBlue"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
+			<MaterialGuid value="67a3f8f9-5cbe-4dc5-b4ff-8970d4e0e8ad"/>
+			<MaterialName value="Material.SnowmanMonumentPole"/>
+		</Item>
+		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="7c90a950-db67-4e22-a6cc-11b49f3d9f07"/>
 			<MaterialName value="Material.SnowOrange"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="d57ef725-bcb0-4982-9adb-7281be1477ef"/>
 			<MaterialName value="Material.SnowWhite"/>
-		</Item>
-		<Item type="GamCDataMaterialPair">
-			<MaterialGuid value="67a3f8f9-5cbe-4dc5-b4ff-8970d4e0e8ad"/>
-			<MaterialName value="Material.SnowmanMonumentPole"/>
 		</Item>
 		<Item type="GamCDataMaterialPair">
 			<MaterialGuid value="81593bd4-7e80-49ef-bfe9-999c20c533d4"/>

@@ -13,7 +13,7 @@ local winterWonderland = ...
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/crenellationSpikesPart", "PREFAB_CRENELLATION_SPIKES_PART")
 winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/wallSpikesPart", "PREFAB_WALL_SPIKES_PART")
 
-function registerScalablePrefabBuildingParts(_nodePrefix)
+local function registerScalablePrefabBuildingParts(_nodePrefix)
 	winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/" .. _nodePrefix[1] .. ".Root", "PREFAB_" ..  _nodePrefix[2] .. "_ROOT_PART")
 	winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/" .. _nodePrefix[1] .. ".Filler1", "PREFAB_" ..  _nodePrefix[2] .. "_FILLER1_PART")
 	winterWonderland:registerAssetId("models/iceCastleMonument/iceCastleMonument.fbx/Prefab/" .. _nodePrefix[1] .. ".Filler2", "PREFAB_" ..  _nodePrefix[2] .. "_FILLER2_PART")
@@ -33,7 +33,7 @@ local scalablePrefabNodePrefixList = {
 	{ "rampartPathCorner135SharpPart", "RAMPART_PATH_CORNER_135_SHARP" },
 	{ "rampartPathTJunctionSharpPart", "RAMPART_PATH_T_JUNCTION_SHARP" },
     { "rampartPathCrossJunctionSharpPart", "RAMPART_PATH_CROSS_JUNCTION_SHARP" },
-    
+
     {"rampartTowerSquareMediumPart", "RAMPART_TOWER_SQUARE_MEDIUM"}
 }
 
@@ -107,7 +107,7 @@ winterWonderland:registerAsset({
     }
 })
 
-function registerDefaultBuildingPart(_nodePrefix)
+local function registerDefaultBuildingPart(_nodePrefix)
 	winterWonderland:registerAsset({
 		DataType = "BUILDING_PART",
 		Id = _nodePrefix .. "_PART",
@@ -178,7 +178,7 @@ for i, nodePrefix in ipairs(defaultNodePrefixList) do
 	registerDefaultBuildingPart(nodePrefix)
 end
 
-function registerDefaultScalableBuildingPart(_nodePrefix)
+local function registerDefaultScalableBuildingPart(_nodePrefix)
     winterWonderland:registerAsset({
         DataType = "BUILDING_PART",
         Id = _nodePrefix[1] .. "_SCALABLE_PART",
