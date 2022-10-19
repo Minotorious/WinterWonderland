@@ -12,30 +12,14 @@ local winterWonderland = ...
 
 winterWonderland:registerAssetId("models/WinterWonderland.fbx/Prefab/SnowflakeEmitterPart", "PREFAB_SNOWFLAKE_EMITTER_PART")
 
-winterWonderland:registerAssetId("models/snowflakeBlue.png", "SNOWFLAKE_BLUE_TEXTURE")
-winterWonderland:registerAssetId("models/snowflakeWhite.png", "SNOWFLAKE_WHITE_TEXTURE")
-
-winterWonderland:registerAsset({
-    DataType = "MATERIAL",
-    Id = "MATERIAL_SNOWFLAKE_PARTICLE_BLUE",
-    AlbedoTexture = "SNOWFLAKE_BLUE_TEXTURE",
-	HasShadow = false
-})
-
-winterWonderland:registerAsset({
-    DataType = "MATERIAL",
-    Id = "MATERIAL_SNOWFLAKE_PARTICLE_WHITE",
-    AlbedoTexture = "SNOWFLAKE_WHITE_TEXTURE",
-	HasShadow = false
-})
-
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
 winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "SNOWFLAKE_EMITTER_PART",
     Name = "SNOWFLAKE_EMITTER_PART_NAME",
-	--Description = "SNOWFLAKE_EMITTER_PART_DESC",
+	Description = "SNOWFLAKE_EMITTER_PART_DESC",
+    Category = BUILDING_PART_TYPE.EMITTER,
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_SNOWFLAKE_EMITTER_PART"
@@ -72,7 +56,7 @@ winterWonderland:registerAsset({
 	Visual= {
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
-	Material = "MATERIAL_SNOWFLAKE_PARTICLE_BLUE",
+	Material = "MATERIAL_PARTICLE_SNOWFLAKE_BLUE",
 	BillboardBehavior = "FACE_CAMERA",
 	MinimumQuality = "LOW",
     Duration = 1,
@@ -116,7 +100,7 @@ winterWonderland:registerAsset({
 	Visual= {
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
-	Material = "MATERIAL_SNOWFLAKE_PARTICLE_WHITE",
+	Material = "MATERIAL_PARTICLE_SNOWFLAKE_WHITE",
 	BillboardBehavior = "FACE_CAMERA",
 	MinimumQuality = "LOW",
     Duration = 1,
@@ -174,7 +158,7 @@ winterWonderland:registerAsset({
 	Visual= {
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
-	Material = "MATERIAL_SNOWFLAKE_PARTICLE_BLUE",
+	Material = "MATERIAL_PARTICLE_SNOWFLAKE_BLUE",
 	BillboardBehavior = "FACE_CAMERA",
 	MinimumQuality = "MEDIUM",
     Duration = 1,
@@ -218,7 +202,7 @@ winterWonderland:registerAsset({
 	Visual= {
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
-	Material = "MATERIAL_SNOWFLAKE_PARTICLE_WHITE",
+	Material = "MATERIAL_PARTICLE_SNOWFLAKE_WHITE",
 	BillboardBehavior = "FACE_CAMERA",
 	MinimumQuality = "MEDIUM",
     Duration = 1,
@@ -276,7 +260,7 @@ winterWonderland:registerAsset({
 	Visual= {
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
-	Material = "MATERIAL_SNOWFLAKE_PARTICLE_BLUE",
+	Material = "MATERIAL_PARTICLE_SNOWFLAKE_BLUE",
 	BillboardBehavior = "FACE_CAMERA",
 	MinimumQuality = "HIGH",
     Duration = 1,
@@ -320,7 +304,7 @@ winterWonderland:registerAsset({
 	Visual= {
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
-	Material = "MATERIAL_SNOWFLAKE_PARTICLE_WHITE",
+	Material = "MATERIAL_PARTICLE_SNOWFLAKE_WHITE",
 	BillboardBehavior = "FACE_CAMERA",
 	MinimumQuality = "HIGH",
     Duration = 1,
@@ -378,7 +362,7 @@ winterWonderland:registerAsset({
 	Visual= {
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
-	Material = "MATERIAL_SNOWFLAKE_PARTICLE_BLUE",
+	Material = "MATERIAL_PARTICLE_SNOWFLAKE_BLUE",
 	BillboardBehavior = "FACE_CAMERA",
 	MinimumQuality = "FULL",
     Duration = 1,
@@ -422,7 +406,7 @@ winterWonderland:registerAsset({
 	Visual= {
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
-	Material = "MATERIAL_SNOWFLAKE_PARTICLE_WHITE",
+	Material = "MATERIAL_PARTICLE_SNOWFLAKE_WHITE",
 	BillboardBehavior = "FACE_CAMERA",
 	MinimumQuality = "FULL",
     Duration = 1,

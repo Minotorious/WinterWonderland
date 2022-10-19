@@ -20,7 +20,7 @@ winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_GIFTS_PART",
     Name = "CHRISTMAS_GIFTS_PART_NAME",
-	--Description = "CHRISTMAS_GIFTS_PART_DESC",
+	Description = "CHRISTMAS_GIFTS_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_CHRISTMAS_GIFTS_PART"
@@ -39,7 +39,7 @@ winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_GIFT1_PART",
     Name = "CHRISTMAS_GIFT1_PART_NAME",
-	--Description = "CHRISTMAS_GIFT1_PART_DESC",
+	Description = "CHRISTMAS_GIFT1_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_CHRISTMAS_GIFT1_PART"
@@ -58,7 +58,7 @@ winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_GIFT2_PART",
     Name = "CHRISTMAS_GIFT2_PART_NAME",
-	--Description = "CHRISTMAS_GIFT2_PART_DESC",
+	Description = "CHRISTMAS_GIFT2_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_CHRISTMAS_GIFT2_PART"

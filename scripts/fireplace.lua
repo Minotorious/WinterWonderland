@@ -12,14 +12,7 @@ local winterWonderland = ...
 
 winterWonderland:registerAssetId("models/fireplace.fbx/Prefab/fire_place_Part", "PREFAB_FIREPLACE_PART")
 
-winterWonderland:registerAssetId("models/smoke.png", "SMOKE_TEXTURE")
 winterWonderland:registerAssetId("models/sparkle.png", "SPARKLE_TEXTURE")
-
-winterWonderland:registerAsset({
-	DataType = "MATERIAL",
-	Id = "SMOKE_MATERIAL",
-	AlbedoTexture = "SMOKE_TEXTURE"
-})
 
 winterWonderland:registerAsset({
 	DataType = "MATERIAL",

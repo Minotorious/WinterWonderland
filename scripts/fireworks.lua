@@ -12,78 +12,14 @@ local winterWonderland = ...
 
 winterWonderland:registerAssetId("models/WinterWonderland.fbx/Prefab/FireworksEmitterPart", "PREFAB_FIREWORKS_EMITTER_PART")
 
-winterWonderland:registerAssetId("models/fireworksTrailYellow.png", "FIREWORKS_TRAIL_YELLOW_TEXTURE")
-winterWonderland:registerAssetId("models/fireworksBurstYellow.png", "FIREWORKS_BURST_YELLOW_TEXTURE")
-winterWonderland:registerAssetId("models/fireworksTrailBlue.png", "FIREWORKS_TRAIL_BLUE_TEXTURE")
-winterWonderland:registerAssetId("models/fireworksBurstBlue.png", "FIREWORKS_BURST_BLUE_TEXTURE")
-winterWonderland:registerAssetId("models/fireworksTrailPurple.png", "FIREWORKS_TRAIL_PURPLE_TEXTURE")
-winterWonderland:registerAssetId("models/fireworksBurstPurple.png", "FIREWORKS_BURST_PURPLE_TEXTURE")
-winterWonderland:registerAssetId("models/fireworksTrailRed.png", "FIREWORKS_TRAIL_RED_TEXTURE")
-winterWonderland:registerAssetId("models/fireworksBurstRed.png", "FIREWORKS_BURST_RED_TEXTURE")
-
-winterWonderland:registerAsset({
-    DataType = "MATERIAL",
-    Id = "MATERIAL_FIREWORKS_TRAIL_PARTICLE_YELLOW",
-    AlbedoTexture = "FIREWORKS_TRAIL_YELLOW_TEXTURE",
-	HasShadow = false
-})
-
-winterWonderland:registerAsset({
-    DataType = "MATERIAL",
-    Id = "MATERIAL_FIREWORKS_BURST_PARTICLE_YELLOW",
-    AlbedoTexture = "FIREWORKS_BURST_YELLOW_TEXTURE",
-	HasShadow = false
-})
-
-winterWonderland:registerAsset({
-    DataType = "MATERIAL",
-    Id = "MATERIAL_FIREWORKS_TRAIL_PARTICLE_BLUE",
-    AlbedoTexture = "FIREWORKS_TRAIL_BLUE_TEXTURE",
-	HasShadow = false
-})
-
-winterWonderland:registerAsset({
-    DataType = "MATERIAL",
-    Id = "MATERIAL_FIREWORKS_BURST_PARTICLE_BLUE",
-    AlbedoTexture = "FIREWORKS_BURST_BLUE_TEXTURE",
-	HasShadow = false
-})
-
-winterWonderland:registerAsset({
-    DataType = "MATERIAL",
-    Id = "MATERIAL_FIREWORKS_TRAIL_PARTICLE_PURPLE",
-    AlbedoTexture = "FIREWORKS_TRAIL_PURPLE_TEXTURE",
-	HasShadow = false
-})
-
-winterWonderland:registerAsset({
-    DataType = "MATERIAL",
-    Id = "MATERIAL_FIREWORKS_BURST_PARTICLE_PURPLE",
-    AlbedoTexture = "FIREWORKS_BURST_PURPLE_TEXTURE",
-	HasShadow = false
-})
-
-winterWonderland:registerAsset({
-    DataType = "MATERIAL",
-    Id = "MATERIAL_FIREWORKS_TRAIL_PARTICLE_RED",
-    AlbedoTexture = "FIREWORKS_TRAIL_RED_TEXTURE",
-	HasShadow = false
-})
-
-winterWonderland:registerAsset({
-    DataType = "MATERIAL",
-    Id = "MATERIAL_FIREWORKS_BURST_PARTICLE_RED",
-    AlbedoTexture = "FIREWORKS_BURST_RED_TEXTURE",
-	HasShadow = false
-})
-
 --[[------------------------ BUILDINGS & BUILDING PARTS -----------------------]]--
 
 winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "FIREWORKS_EMITTER_PART",
     Name = "FIREWORKS_EMITTER_PART_NAME",
-	--Description = "FIREWORKS_EMITTER_PART_DESC",
+	Description = "FIREWORKS_EMITTER_PART_DESC",
+    Category = BUILDING_PART_TYPE.EMITTER,
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_FIREWORKS_EMITTER_PART"
@@ -114,7 +50,7 @@ winterWonderland:registerAsset({
 	Visual= {
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
-	Material = "MATERIAL_FIREWORKS_TRAIL_PARTICLE_YELLOW",
+	Material = "MATERIAL_PARTICLE_RAY_YELLOW",
 	BillboardBehavior = "FACE_CAMERA_Y_ALIGN",
 	MinimumQuality = "LOW",
     Duration = 3,
@@ -168,7 +104,7 @@ winterWonderland:registerAsset({
 	Visual= {
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
-	Material = "MATERIAL_FIREWORKS_BURST_PARTICLE_YELLOW",
+	Material = "MATERIAL_PARTICLE_STAR4_YELLOW",
 	BillboardBehavior = "FACE_CAMERA",
 	MinimumQuality = "LOW",
     Duration = 1,
@@ -220,7 +156,7 @@ winterWonderland:registerAsset({
 	Visual= {
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
-	Material = "MATERIAL_FIREWORKS_TRAIL_PARTICLE_BLUE",
+	Material = "MATERIAL_PARTICLE_RAY_BLUE",
 	BillboardBehavior = "FACE_CAMERA_Y_ALIGN",
 	MinimumQuality = "LOW",
     Duration = 3,
@@ -274,7 +210,7 @@ winterWonderland:registerAsset({
 	Visual= {
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
-	Material = "MATERIAL_FIREWORKS_BURST_PARTICLE_BLUE",
+	Material = "MATERIAL_PARTICLE_STAR4_BLUE",
 	BillboardBehavior = "FACE_CAMERA",
 	MinimumQuality = "LOW",
     Duration = 1,
@@ -326,7 +262,7 @@ winterWonderland:registerAsset({
 	Visual= {
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
-	Material = "MATERIAL_FIREWORKS_TRAIL_PARTICLE_PURPLE",
+	Material = "MATERIAL_PARTICLE_RAY_PURPLE",
 	BillboardBehavior = "FACE_CAMERA_Y_ALIGN",
 	MinimumQuality = "LOW",
     Duration = 3,
@@ -380,7 +316,7 @@ winterWonderland:registerAsset({
 	Visual= {
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
-	Material = "MATERIAL_FIREWORKS_BURST_PARTICLE_PURPLE",
+	Material = "MATERIAL_PARTICLE_STAR4_PURPLE",
 	BillboardBehavior = "FACE_CAMERA",
 	MinimumQuality = "LOW",
     Duration = 1,
@@ -432,7 +368,7 @@ winterWonderland:registerAsset({
 	Visual= {
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
-	Material = "MATERIAL_FIREWORKS_TRAIL_PARTICLE_RED",
+	Material = "MATERIAL_PARTICLE_RAY_RED",
 	BillboardBehavior = "FACE_CAMERA_Y_ALIGN",
 	MinimumQuality = "LOW",
     Duration = 3,
@@ -486,7 +422,7 @@ winterWonderland:registerAsset({
 	Visual= {
 		DataType = "PARTICLE_DEFAULT_VISUAL"
 	},
-	Material = "MATERIAL_FIREWORKS_BURST_PARTICLE_RED",
+	Material = "MATERIAL_PARTICLE_STAR4_RED",
 	BillboardBehavior = "FACE_CAMERA",
 	MinimumQuality = "LOW",
     Duration = 1,

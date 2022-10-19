@@ -27,7 +27,7 @@ winterWonderland:overrideTexture("RoofBlue.tif", "textures/roofs/whiteRoofBlue.p
 winterWonderland:overrideTexture("roofgreen.tif", "textures/roofs/whiteroofgreen.png", "REPLACE")
 winterWonderland:overrideTexture("roofgreen2.tif", "textures/roofs/whiteroofgreen2.png", "REPLACE")
 winterWonderland:overrideTexture("RoofRed.tif", "textures/roofs/whiteRoofRed.png", "REPLACE")
-winterWonderland:overrideTexture("RoofRed_Corner.tif", "textures/roofs/whiteRoofRed_Corner.png", "REPLACE")
+--winterWonderland:overrideTexture("RoofRed_Corner.tif", "textures/roofs/whiteRoofRed_Corner.png", "REPLACE")
 winterWonderland:overrideTexture("RoofRedWine.tif", "textures/roofs/whiteRoofRedWine.png", "REPLACE")
 winterWonderland:overrideTexture("RoofRedWine2.tif", "textures/roofs/whiteRoofRedWine2.png", "REPLACE")
 winterWonderland:overrideTexture("RoofTextureRed.tif", "textures/roofs/whiteRoofTextureRed.png", "REPLACE")

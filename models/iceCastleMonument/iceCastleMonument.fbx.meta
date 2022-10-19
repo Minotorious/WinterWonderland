@@ -57,7 +57,6 @@
 		<meta id="302b48a5-826d-4526-aaf6-c2e6c8649f8d" name="Cube.153_Material.WoodplanksFrosty"/>
 		<meta id="734e4913-49b5-4f0f-a8b6-6776358c1d91" name="Cube.159_Material.CrystalBlue"/>
 		<meta id="0ddd7599-94d0-48c4-b08b-9caeb205e680" name="Cube.160_Material.CrystalBlue"/>
-		<meta id="399ee9ad-c80e-4cc5-bf58-bedb9d284787" name="Cube.563_Material.MetalIceTransparent"/>
 		<meta id="9f2c60ce-f590-41e3-a8f3-98c9603876dd" name="Cube.177_Material.SnowWhite"/>
 		<meta id="4c38851b-154c-4d45-a1bd-83ba4420c68d" name="Cube.178_Material.SnowWhite"/>
 		<meta id="6ab98b65-d3f4-49d1-9419-65c775a155f0" name="Cube.154_Material.StonebrickBlueIce"/>
@@ -71,7 +70,6 @@
 		<meta id="55b4161a-45e1-4617-a7f2-b91a2beb13bb" name="Cube.158_Material.WoodplanksFrosty"/>
 		<meta id="0bea2c47-da71-404a-8710-7b0a518fd186" name="Cube.162_Material.CrystalBlue"/>
 		<meta id="864fa291-4aa9-411d-99d0-10eac2f7ce12" name="Cube.161_Material.CrystalBlue"/>
-		<meta id="92a4a034-ceb6-4b23-8420-82210b28ce47" name="Cube.570_Material.MetalIceTransparent"/>
 		<meta id="d8c15b20-2cba-44bf-b601-aaa3633d002f" name="Cube.575_Material.MetalIceTransparent"/>
 		<meta id="c8cb5752-c1ff-4cec-9ea4-78996f4f2374" name="Cube.576_Material.MetalIceTransparent"/>
 		<meta id="582e4cc8-7154-44f0-b560-3ad730e19369" name="Cube.181_Material.SnowWhite"/>
@@ -188,8 +186,10 @@
 		<meta id="1f57102c-1efc-44bb-9f01-1111a69e5580" name="Cube.597_Material.StonebrickBlueIce"/>
 		<meta id="424eb7a2-d9af-4416-8fef-eab0aa066ddd" name="Cube.547_Material.MetalIceTransparent"/>
 		<meta id="0bd5a126-eb7d-4aa7-8002-4e3578b864e8" name="Cube.754_Material.MetalIceTransparent"/>
-		<meta id="0691082c-c16c-4893-83e7-0b5e15791ba9" name="Cube.1302_Material.MetalIceTransparent"/>
 		<meta id="b9dbf3c0-73c8-4e79-bc60-870eba7822ce" name="Cube.839_Material.MetalIceTransparent"/>
+		<meta id="dbc21625-d3ed-441b-b8ca-dbe8b60d015b" name="Cube.568_Material.MetalIceTransparent"/>
+		<meta id="64740173-8e3b-4198-8142-7eaed2cd242a" name="Cube.559_Material.MetalIceTransparent"/>
+		<meta id="1aba0291-1d0e-446e-959c-d95ab791f1b2" name="Cube.1154_Material.MetalIceTransparent"/>
 	</meta>
 	<meta id="6dc324de-536c-4fb3-869f-1539272fae0a" name="Prefab">
 		<meta id="57bbfe47-db3f-46d0-97de-7f606591e302" name="Light"/>
@@ -2293,13 +2293,14 @@
 </meta>
 <importer type="GamCFbxImporterConfiguration">
 	<Md5Checksum value="5b0a43afb013d56d3266d60eee0ce27f"/>
-	<ModelVersion value="30"/>
+	<ModelVersion value="31"/>
 	<Scale value="0.01"/>
 	<PatchMeshOffset value="true"/>
 	<UniqueNodeName value="false"/>
 	<ImportAnimation value="false"/>
 	<IgnoreRootAnimation value="false"/>
 	<FlipXAxis value="true"/>
+	<ZUpSource value="false"/>
 	<MergeDuplicateMeshes value="true"/>
 	<GenerateLod value="false"/>
 	<OverrideExistingLod value="false"/>

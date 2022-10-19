@@ -19,7 +19,7 @@ winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "CHRISTMAS_SLEIGH_PART",
 	Name = "CHRISTMAS_SLEIGH_PART_NAME",
-	--Description = "CHRISTMAS_SLEIGH_PART_DESC",
+	Description = "CHRISTMAS_SLEIGH_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_CHRISTMAS_SLEIGH_PART"
@@ -38,7 +38,7 @@ winterWonderland:registerAsset({
 	DataType = "BUILDING_PART",
 	Id = "ELK_PART",
 	Name = "ELK_PART_NAME",
-	--Description = "ELK_PART_DESC",
+	Description = "ELK_PART_DESC",
 	ConstructorData = {
 		DataType = "BUILDING_CONSTRUCTOR_DEFAULT",
 		CoreObjectPrefab = "PREFAB_ELK_PART"
